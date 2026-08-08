@@ -16,7 +16,7 @@ work with the systems exposed by `lad_framework_base`.
 
     [Get started](guides/getting-started.md)
 
--   :material-robot-outline: **Create a LADBot**
+-   **Create a LADBot**
 
     ---
 
@@ -24,7 +24,7 @@ work with the systems exposed by `lad_framework_base`.
 
     [Create a LADBot](guides/creating-a-ladbot.md)
 
--   :material-code-braces: **Framework reference**
+-   **Framework reference**
 
     ---
 
@@ -32,7 +32,7 @@ work with the systems exposed by `lad_framework_base`.
 
     [Browse the API](reference/index.md)
 
--   :material-file-document-edit-outline: **Document the API**
+-   **Document the API**
 
     ---
 
