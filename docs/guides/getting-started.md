@@ -2,8 +2,9 @@
 
 ## Requirements
 
-Before developing a LADBot, install and enable:
+Before developing a LADBot, make sure you have:
 
+- A brain (recommended)
 - Garry's Mod
 - LADSource
 - DrGBase
