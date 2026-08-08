@@ -5,7 +5,7 @@ title: "ENT:CreateAfterImage"
 [Back to VFX](index.md)
 
 <a id="ent-createafterimage"></a>
-# `ENT:CreateAfterImage`
+# `ENT:CreateAfterImage` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

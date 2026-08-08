@@ -5,7 +5,7 @@ title: "ENT:LAD_DoScreenShake"
 [Back to Fighter Command](index.md)
 
 <a id="ent-lad-doscreenshake"></a>
-# `ENT:LAD_DoScreenShake`
+# `ENT:LAD_DoScreenShake` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

@@ -5,7 +5,7 @@ title: "ENT:OnUpdateAnimation"
 [Back to Overrides](index.md)
 
 <a id="ent-onupdateanimation"></a>
-# `ENT:OnUpdateAnimation`
+# `ENT:OnUpdateAnimation` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

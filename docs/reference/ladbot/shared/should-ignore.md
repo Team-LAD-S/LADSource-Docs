@@ -5,7 +5,7 @@ title: "ENT:ShouldIgnore"
 [Back to Shared](index.md)
 
 <a id="ent-shouldignore"></a>
-# `ENT:ShouldIgnore`
+# `ENT:ShouldIgnore` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

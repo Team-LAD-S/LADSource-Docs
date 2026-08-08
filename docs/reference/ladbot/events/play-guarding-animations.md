@@ -5,7 +5,7 @@ title: "ENT:PlayGuardingAnimations"
 [Back to Events](index.md)
 
 <a id="ent-playguardinganimations"></a>
-# `ENT:PlayGuardingAnimations`
+# `ENT:PlayGuardingAnimations` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

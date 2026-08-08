@@ -5,7 +5,7 @@ title: "ENT:CreatePibTrail"
 [Back to VFX](index.md)
 
 <a id="ent-createpibtrail"></a>
-# `ENT:CreatePibTrail`
+# `ENT:CreatePibTrail` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

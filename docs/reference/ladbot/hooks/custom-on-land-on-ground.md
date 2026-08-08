@@ -5,7 +5,7 @@ title: "ENT:CustomOnLandOnGround"
 [Back to Hooks](index.md)
 
 <a id="ent-customonlandonground"></a>
-# `ENT:CustomOnLandOnGround`
+# `ENT:CustomOnLandOnGround` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

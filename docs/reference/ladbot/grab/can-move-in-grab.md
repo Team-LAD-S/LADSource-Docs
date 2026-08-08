@@ -5,7 +5,7 @@ title: "ENT:CanMoveInGrab"
 [Back to Grab](index.md)
 
 <a id="ent-canmoveingrab"></a>
-# `ENT:CanMoveInGrab`
+# `ENT:CanMoveInGrab` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

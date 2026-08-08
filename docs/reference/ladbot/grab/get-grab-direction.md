@@ -5,7 +5,7 @@ title: "ENT:GetGrabDirection"
 [Back to Grab](index.md)
 
 <a id="ent-getgrabdirection"></a>
-# `ENT:GetGrabDirection`
+# `ENT:GetGrabDirection` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

@@ -5,7 +5,7 @@ title: "ENT:DrawMinimap"
 [Back to HUD](index.md)
 
 <a id="ent-drawminimap"></a>
-# `ENT:DrawMinimap`
+# `ENT:DrawMinimap` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

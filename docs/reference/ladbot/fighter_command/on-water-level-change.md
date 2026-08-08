@@ -5,7 +5,7 @@ title: "ENT:OnWaterLevelChange"
 [Back to Fighter Command](index.md)
 
 <a id="ent-onwaterlevelchange"></a>
-# `ENT:OnWaterLevelChange`
+# `ENT:OnWaterLevelChange` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

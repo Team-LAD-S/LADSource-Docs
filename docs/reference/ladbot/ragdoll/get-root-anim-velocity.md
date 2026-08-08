@@ -5,7 +5,7 @@ title: "ENT:_GetRootAnimVelocity"
 [Back to Ragdoll](index.md)
 
 <a id="ent-getrootanimvelocity"></a>
-# `ENT:_GetRootAnimVelocity`
+# `ENT:_GetRootAnimVelocity` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 

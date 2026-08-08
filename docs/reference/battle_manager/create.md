@@ -5,7 +5,7 @@ title: "BattleManager:Create"
 [Back to Battle Manager](index.md)
 
 <a id="battlemanager-create"></a>
-# `BattleManager:Create`
+# `BattleManager:Create` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--server">server</span></div>
 

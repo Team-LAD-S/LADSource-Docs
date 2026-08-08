@@ -5,7 +5,7 @@ title: "ENT:VoicebankExists"
 [Back to Voicebanks](index.md)
 
 <a id="ent-voicebankexists"></a>
-# `ENT:VoicebankExists`
+# `ENT:VoicebankExists` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

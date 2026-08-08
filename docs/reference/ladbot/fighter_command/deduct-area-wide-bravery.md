@@ -5,7 +5,7 @@ title: "ENT:DeductAreaWideBravery"
 [Back to Fighter Command](index.md)
 
 <a id="ent-deductareawidebravery"></a>
-# `ENT:DeductAreaWideBravery`
+# `ENT:DeductAreaWideBravery` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

@@ -5,7 +5,7 @@ title: "ENT:CleanStaleInputs"
 [Back to Inputs](index.md)
 
 <a id="ent-cleanstaleinputs"></a>
-# `ENT:CleanStaleInputs`
+# `ENT:CleanStaleInputs` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

@@ -5,7 +5,7 @@ title: "ENT:SetNextMoveNode"
 [Back to Moveset](index.md)
 
 <a id="ent-setnextmovenode"></a>
-# `ENT:SetNextMoveNode`
+# `ENT:SetNextMoveNode` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

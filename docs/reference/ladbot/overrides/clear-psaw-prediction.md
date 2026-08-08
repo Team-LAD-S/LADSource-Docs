@@ -5,7 +5,7 @@ title: "ENT:ClearPSAWPrediction"
 [Back to Overrides](index.md)
 
 <a id="ent-clearpsawprediction"></a>
-# `ENT:ClearPSAWPrediction`
+# `ENT:ClearPSAWPrediction` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

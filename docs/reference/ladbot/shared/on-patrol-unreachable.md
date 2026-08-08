@@ -5,7 +5,7 @@ title: "ENT:OnPatrolUnreachable"
 [Back to Shared](index.md)
 
 <a id="ent-onpatrolunreachable"></a>
-# `ENT:OnPatrolUnreachable`
+# `ENT:OnPatrolUnreachable` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

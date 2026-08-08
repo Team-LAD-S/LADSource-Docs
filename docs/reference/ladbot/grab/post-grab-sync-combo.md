@@ -5,7 +5,7 @@ title: "ENT:_PostGrabSyncCombo"
 [Back to Grab](index.md)
 
 <a id="ent-postgrabsynccombo"></a>
-# `ENT:_PostGrabSyncCombo`
+# `ENT:_PostGrabSyncCombo` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 

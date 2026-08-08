@@ -5,7 +5,7 @@ title: "Entity:LADS_IsInRange"
 [Back to Entity extensions](index.md)
 
 <a id="entity-lads-isinrange"></a>
-# `Entity:LADS_IsInRange`
+# `Entity:LADS_IsInRange` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--shared">shared</span></div>
 

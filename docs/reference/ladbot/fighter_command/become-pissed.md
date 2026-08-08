@@ -5,7 +5,7 @@ title: "ENT:BecomePissed"
 [Back to Fighter Command](index.md)
 
 <a id="ent-becomepissed"></a>
-# `ENT:BecomePissed`
+# `ENT:BecomePissed` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

@@ -5,7 +5,7 @@ title: "ENT:_ProcessAutoFollowUps"
 [Back to Inputs](index.md)
 
 <a id="ent-processautofollowups"></a>
-# `ENT:_ProcessAutoFollowUps`
+# `ENT:_ProcessAutoFollowUps` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 

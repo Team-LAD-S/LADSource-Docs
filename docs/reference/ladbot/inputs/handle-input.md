@@ -5,7 +5,7 @@ title: "ENT:HandleInput"
 [Back to Inputs](index.md)
 
 <a id="ent-handleinput"></a>
-# `ENT:HandleInput`
+# `ENT:HandleInput` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

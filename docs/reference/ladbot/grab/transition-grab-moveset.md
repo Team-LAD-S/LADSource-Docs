@@ -5,7 +5,7 @@ title: "ENT:TransitionGrabMoveset"
 [Back to Grab](index.md)
 
 <a id="ent-transitiongrabmoveset"></a>
-# `ENT:TransitionGrabMoveset`
+# `ENT:TransitionGrabMoveset` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

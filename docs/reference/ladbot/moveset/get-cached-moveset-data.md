@@ -5,7 +5,7 @@ title: "ENT:_GetCachedMovesetData"
 [Back to Moveset](index.md)
 
 <a id="ent-getcachedmovesetdata"></a>
-# `ENT:_GetCachedMovesetData`
+# `ENT:_GetCachedMovesetData` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 

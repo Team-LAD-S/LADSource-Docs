@@ -5,7 +5,7 @@ title: "ENT:CustomThink (line 1495)"
 [Back to Shared](index.md)
 
 <a id="ent-customthink-1495"></a>
-# `ENT:CustomThink`
+# `ENT:CustomThink` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

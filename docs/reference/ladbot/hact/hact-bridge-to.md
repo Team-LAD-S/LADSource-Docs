@@ -5,7 +5,7 @@ title: "ENT:HactBridgeTo"
 [Back to HACT](index.md)
 
 <a id="ent-hactbridgeto"></a>
-# `ENT:HactBridgeTo`
+# `ENT:HactBridgeTo` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

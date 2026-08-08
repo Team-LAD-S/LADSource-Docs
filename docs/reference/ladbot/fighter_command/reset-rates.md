@@ -5,7 +5,7 @@ title: "ENT:ResetRates"
 [Back to Fighter Command](index.md)
 
 <a id="ent-resetrates"></a>
-# `ENT:ResetRates`
+# `ENT:ResetRates` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

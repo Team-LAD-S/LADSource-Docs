@@ -5,7 +5,7 @@ title: "ENT:PossessorView"
 [Back to Overrides](index.md)
 
 <a id="ent-possessorview"></a>
-# `ENT:PossessorView`
+# `ENT:PossessorView` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

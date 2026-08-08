@@ -5,7 +5,7 @@ title: "ENT:DisplayItemNotification"
 [Back to HUD](index.md)
 
 <a id="ent-displayitemnotification"></a>
-# `ENT:DisplayItemNotification`
+# `ENT:DisplayItemNotification` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

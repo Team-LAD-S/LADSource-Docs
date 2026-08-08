@@ -5,7 +5,7 @@ title: "ENT:Draw"
 [Back to Overrides](index.md)
 
 <a id="ent-draw"></a>
-# `ENT:Draw`
+# `ENT:Draw` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

@@ -5,7 +5,7 @@ title: "ENT:SwitchStyleUntilReady"
 [Back to Fighter Command](index.md)
 
 <a id="ent-switchstyleuntilready"></a>
-# `ENT:SwitchStyleUntilReady`
+# `ENT:SwitchStyleUntilReady` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

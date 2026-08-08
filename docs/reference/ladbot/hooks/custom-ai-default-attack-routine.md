@@ -5,7 +5,7 @@ title: "ENT:CustomAIDefaultAttackRoutine"
 [Back to Hooks](index.md)
 
 <a id="ent-customaidefaultattackroutine"></a>
-# `ENT:CustomAIDefaultAttackRoutine`
+# `ENT:CustomAIDefaultAttackRoutine` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

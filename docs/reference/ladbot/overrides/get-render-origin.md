@@ -5,7 +5,7 @@ title: "ENT:GetRenderOrigin"
 [Back to Overrides](index.md)
 
 <a id="ent-getrenderorigin"></a>
-# `ENT:GetRenderOrigin`
+# `ENT:GetRenderOrigin` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

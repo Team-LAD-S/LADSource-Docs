@@ -5,7 +5,7 @@ title: "ENT:CheckIFrameState"
 [Back to Moveset](index.md)
 
 <a id="ent-checkiframestate"></a>
-# `ENT:CheckIFrameState`
+# `ENT:CheckIFrameState` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

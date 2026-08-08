@@ -5,7 +5,7 @@ title: "ENT:MoveRight"
 [Back to Overrides](index.md)
 
 <a id="ent-moveright"></a>
-# `ENT:MoveRight`
+# `ENT:MoveRight` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

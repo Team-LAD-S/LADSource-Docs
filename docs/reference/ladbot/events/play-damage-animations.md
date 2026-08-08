@@ -5,7 +5,7 @@ title: "ENT:PlayDamageAnimations"
 [Back to Events](index.md)
 
 <a id="ent-playdamageanimations"></a>
-# `ENT:PlayDamageAnimations`
+# `ENT:PlayDamageAnimations` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

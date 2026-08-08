@@ -5,7 +5,7 @@ title: "ENT:SwitchStyle"
 [Back to Fighter Command](index.md)
 
 <a id="ent-switchstyle"></a>
-# `ENT:SwitchStyle`
+# `ENT:SwitchStyle` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

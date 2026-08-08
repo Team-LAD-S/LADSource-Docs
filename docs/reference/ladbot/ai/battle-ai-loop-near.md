@@ -5,7 +5,7 @@ title: "ENT:BattleAILoopNear"
 [Back to AI](index.md)
 
 <a id="ent-battleailoopnear"></a>
-# `ENT:BattleAILoopNear`
+# `ENT:BattleAILoopNear` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

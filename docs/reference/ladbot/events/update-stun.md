@@ -5,7 +5,7 @@ title: "ENT:UpdateStun"
 [Back to Events](index.md)
 
 <a id="ent-updatestun"></a>
-# `ENT:UpdateStun`
+# `ENT:UpdateStun` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

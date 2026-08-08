@@ -5,7 +5,7 @@ title: "ENT:GetEncirclementStrafeBias"
 [Back to AI](index.md)
 
 <a id="ent-getencirclementstrafebias"></a>
-# `ENT:GetEncirclementStrafeBias`
+# `ENT:GetEncirclementStrafeBias` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

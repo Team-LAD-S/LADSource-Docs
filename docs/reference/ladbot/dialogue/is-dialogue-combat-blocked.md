@@ -5,7 +5,7 @@ title: "ENT:IsDialogueCombatBlocked"
 [Back to Dialogue](index.md)
 
 <a id="ent-isdialoguecombatblocked"></a>
-# `ENT:IsDialogueCombatBlocked`
+# `ENT:IsDialogueCombatBlocked` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

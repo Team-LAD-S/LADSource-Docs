@@ -5,7 +5,7 @@ title: "ENT:GetHitReactionData"
 [Back to Events Anim](index.md)
 
 <a id="ent-gethitreactiondata"></a>
-# `ENT:GetHitReactionData`
+# `ENT:GetHitReactionData` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

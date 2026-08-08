@@ -5,7 +5,7 @@ title: "ENT:VFX_Shock"
 [Back to VFX](index.md)
 
 <a id="ent-vfx-shock"></a>
-# `ENT:VFX_Shock`
+# `ENT:VFX_Shock` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

@@ -5,7 +5,7 @@ title: "ENT:CustomFighterInitialize"
 [Back to Hooks](index.md)
 
 <a id="ent-customfighterinitialize"></a>
-# `ENT:CustomFighterInitialize`
+# `ENT:CustomFighterInitialize` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

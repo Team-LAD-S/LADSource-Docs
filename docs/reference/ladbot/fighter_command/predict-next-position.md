@@ -5,7 +5,7 @@ title: "ENT:PredictNextPosition"
 [Back to Fighter Command](index.md)
 
 <a id="ent-predictnextposition"></a>
-# `ENT:PredictNextPosition`
+# `ENT:PredictNextPosition` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

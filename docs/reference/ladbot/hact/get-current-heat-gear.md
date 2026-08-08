@@ -5,7 +5,7 @@ title: "ENT:GetCurrentHeatGear"
 [Back to HACT](index.md)
 
 <a id="ent-getcurrentheatgear"></a>
-# `ENT:GetCurrentHeatGear`
+# `ENT:GetCurrentHeatGear` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

@@ -5,7 +5,7 @@ title: "ENT:GrabTarget"
 [Back to Grab](index.md)
 
 <a id="ent-grabtarget"></a>
-# `ENT:GrabTarget`
+# `ENT:GrabTarget` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

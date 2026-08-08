@@ -5,7 +5,7 @@ title: "ENT:OnDeath"
 [Back to Events](index.md)
 
 <a id="ent-ondeath"></a>
-# `ENT:OnDeath`
+# `ENT:OnDeath` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

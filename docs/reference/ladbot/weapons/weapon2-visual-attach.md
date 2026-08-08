@@ -5,7 +5,7 @@ title: "ENT:Weapon2VisualAttach"
 [Back to Weapons](index.md)
 
 <a id="ent-weapon2visualattach"></a>
-# `ENT:Weapon2VisualAttach`
+# `ENT:Weapon2VisualAttach` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

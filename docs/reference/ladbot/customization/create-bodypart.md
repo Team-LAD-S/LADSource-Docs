@@ -5,7 +5,7 @@ title: "ENT:CreateBodypart"
 [Back to Customization](index.md)
 
 <a id="ent-createbodypart"></a>
-# `ENT:CreateBodypart`
+# `ENT:CreateBodypart` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

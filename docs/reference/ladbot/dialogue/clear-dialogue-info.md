@@ -5,7 +5,7 @@ title: "ENT:ClearDialogueInfo"
 [Back to Dialogue](index.md)
 
 <a id="ent-cleardialogueinfo"></a>
-# `ENT:ClearDialogueInfo`
+# `ENT:ClearDialogueInfo` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

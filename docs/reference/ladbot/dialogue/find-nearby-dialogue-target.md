@@ -5,7 +5,7 @@ title: "ENT:FindNearbyDialogueTarget"
 [Back to Dialogue](index.md)
 
 <a id="ent-findnearbydialoguetarget"></a>
-# `ENT:FindNearbyDialogueTarget`
+# `ENT:FindNearbyDialogueTarget` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

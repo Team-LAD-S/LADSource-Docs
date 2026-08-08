@@ -5,7 +5,7 @@ title: "ENT:_TrackBoneVelocities"
 [Back to Ragdoll](index.md)
 
 <a id="ent-trackbonevelocities"></a>
-# `ENT:_TrackBoneVelocities`
+# `ENT:_TrackBoneVelocities` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 

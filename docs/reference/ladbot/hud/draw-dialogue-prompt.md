@@ -5,7 +5,7 @@ title: "ENT:DrawDialoguePrompt"
 [Back to HUD](index.md)
 
 <a id="ent-drawdialogueprompt"></a>
-# `ENT:DrawDialoguePrompt`
+# `ENT:DrawDialoguePrompt` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

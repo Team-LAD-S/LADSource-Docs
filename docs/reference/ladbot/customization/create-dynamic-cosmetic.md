@@ -5,7 +5,7 @@ title: "ENT:CreateDynamicCosmetic"
 [Back to Customization](index.md)
 
 <a id="ent-createdynamiccosmetic"></a>
-# `ENT:CreateDynamicCosmetic`
+# `ENT:CreateDynamicCosmetic` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

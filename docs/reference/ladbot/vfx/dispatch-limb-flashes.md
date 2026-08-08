@@ -5,7 +5,7 @@ title: "ENT:DispatchLimbFlashes"
 [Back to VFX](index.md)
 
 <a id="ent-dispatchlimbflashes"></a>
-# `ENT:DispatchLimbFlashes`
+# `ENT:DispatchLimbFlashes` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

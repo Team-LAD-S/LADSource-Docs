@@ -5,7 +5,7 @@ title: "ENT:CacheAvailableHacts"
 [Back to HACT](index.md)
 
 <a id="ent-cacheavailablehacts"></a>
-# `ENT:CacheAvailableHacts`
+# `ENT:CacheAvailableHacts` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

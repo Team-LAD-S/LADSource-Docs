@@ -5,7 +5,7 @@ title: "ENT:OnKilled"
 [Back to Overrides](index.md)
 
 <a id="ent-onkilled"></a>
-# `ENT:OnKilled`
+# `ENT:OnKilled` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

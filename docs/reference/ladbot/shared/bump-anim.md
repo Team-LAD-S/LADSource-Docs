@@ -5,7 +5,7 @@ title: "ENT:BumpAnim"
 [Back to Shared](index.md)
 
 <a id="ent-bumpanim"></a>
-# `ENT:BumpAnim`
+# `ENT:BumpAnim` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

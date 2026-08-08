@@ -5,7 +5,7 @@ title: "Entity:LADS_IsEnemyInFront"
 [Back to Entity extensions](index.md)
 
 <a id="entity-lads-isenemyinfront"></a>
-# `Entity:LADS_IsEnemyInFront`
+# `Entity:LADS_IsEnemyInFront` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--shared">shared</span></div>
 

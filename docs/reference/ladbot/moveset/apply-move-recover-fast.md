@@ -5,7 +5,7 @@ title: "ENT:_ApplyMoveRecoverFast"
 [Back to Moveset](index.md)
 
 <a id="ent-applymoverecoverfast"></a>
-# `ENT:_ApplyMoveRecoverFast`
+# `ENT:_ApplyMoveRecoverFast` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 

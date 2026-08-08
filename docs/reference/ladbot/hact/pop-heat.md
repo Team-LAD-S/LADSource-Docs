@@ -5,7 +5,7 @@ title: "ENT:PopHeat"
 [Back to HACT](index.md)
 
 <a id="ent-popheat"></a>
-# `ENT:PopHeat`
+# `ENT:PopHeat` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

@@ -43,6 +43,10 @@
   margin: 0.5rem 0 1rem;
 }
 
+.md-typeset .api-method-title {
+  margin-bottom: 0.6rem;
+}
+
 .api-badges {
   display: flex;
   flex-wrap: wrap;

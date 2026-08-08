@@ -5,7 +5,7 @@ title: "ENT:SetCustomCommonFighterName"
 [Back to Names](index.md)
 
 <a id="ent-setcustomcommonfightername"></a>
-# `ENT:SetCustomCommonFighterName`
+# `ENT:SetCustomCommonFighterName` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

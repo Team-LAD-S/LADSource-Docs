@@ -5,7 +5,7 @@ title: "ENT:PlaySequence"
 [Back to Overrides](index.md)
 
 <a id="ent-playsequence"></a>
-# `ENT:PlaySequence`
+# `ENT:PlaySequence` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

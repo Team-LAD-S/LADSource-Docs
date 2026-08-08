@@ -5,7 +5,7 @@ title: "ENT:PossessionHUD"
 [Back to HUD](index.md)
 
 <a id="ent-possessionhud"></a>
-# `ENT:PossessionHUD`
+# `ENT:PossessionHUD` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

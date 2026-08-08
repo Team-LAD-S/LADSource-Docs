@@ -5,7 +5,7 @@ title: "ENT:CustomBeforeStandingUp"
 [Back to Hooks](index.md)
 
 <a id="ent-custombeforestandingup"></a>
-# `ENT:CustomBeforeStandingUp`
+# `ENT:CustomBeforeStandingUp` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

@@ -5,7 +5,7 @@ title: "ENT:_RagdollApplyHitImpulse"
 [Back to Ragdoll](index.md)
 
 <a id="ent-ragdollapplyhitimpulse"></a>
-# `ENT:_RagdollApplyHitImpulse`
+# `ENT:_RagdollApplyHitImpulse` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 

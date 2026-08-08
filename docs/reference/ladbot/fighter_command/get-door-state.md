@@ -5,7 +5,7 @@ title: "ENT:GetDoorState"
 [Back to Fighter Command](index.md)
 
 <a id="ent-getdoorstate"></a>
-# `ENT:GetDoorState`
+# `ENT:GetDoorState` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

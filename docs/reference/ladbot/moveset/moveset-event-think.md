@@ -5,7 +5,7 @@ title: "ENT:MovesetEventThink"
 [Back to Moveset](index.md)
 
 <a id="ent-moveseteventthink"></a>
-# `ENT:MovesetEventThink`
+# `ENT:MovesetEventThink` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

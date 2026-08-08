@@ -5,7 +5,7 @@ title: "ENT:_SoundtrackOnPossessed"
 [Back to Soundtrack](index.md)
 
 <a id="ent-soundtrackonpossessed"></a>
-# `ENT:_SoundtrackOnPossessed`
+# `ENT:_SoundtrackOnPossessed` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 

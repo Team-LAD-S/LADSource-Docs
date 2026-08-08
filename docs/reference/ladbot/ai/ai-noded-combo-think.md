@@ -5,7 +5,7 @@ title: "ENT:AINodedComboThink"
 [Back to AI](index.md)
 
 <a id="ent-ainodedcombothink"></a>
-# `ENT:AINodedComboThink`
+# `ENT:AINodedComboThink` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

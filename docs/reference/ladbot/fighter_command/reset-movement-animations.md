@@ -5,7 +5,7 @@ title: "ENT:ResetMovementAnimations"
 [Back to Fighter Command](index.md)
 
 <a id="ent-resetmovementanimations"></a>
-# `ENT:ResetMovementAnimations`
+# `ENT:ResetMovementAnimations` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

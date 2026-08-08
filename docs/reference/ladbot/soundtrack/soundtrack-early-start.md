@@ -5,7 +5,7 @@ title: "ENT:SoundtrackEarlyStart"
 [Back to Soundtrack](index.md)
 
 <a id="ent-soundtrackearlystart"></a>
-# `ENT:SoundtrackEarlyStart`
+# `ENT:SoundtrackEarlyStart` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

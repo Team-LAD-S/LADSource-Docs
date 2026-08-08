@@ -5,7 +5,7 @@ title: "ENT:GetHactFrameProgressionEntry"
 [Back to HACT](index.md)
 
 <a id="ent-gethactframeprogressionentry"></a>
-# `ENT:GetHactFrameProgressionEntry`
+# `ENT:GetHactFrameProgressionEntry` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

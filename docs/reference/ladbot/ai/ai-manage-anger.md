@@ -5,7 +5,7 @@ title: "ENT:AIManageAnger"
 [Back to AI](index.md)
 
 <a id="ent-aimanageanger"></a>
-# `ENT:AIManageAnger`
+# `ENT:AIManageAnger` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

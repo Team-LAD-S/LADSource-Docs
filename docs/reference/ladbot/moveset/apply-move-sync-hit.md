@@ -5,7 +5,7 @@ title: "ENT:_ApplyMoveSyncHit"
 [Back to Moveset](index.md)
 
 <a id="ent-applymovesynchit"></a>
-# `ENT:_ApplyMoveSyncHit`
+# `ENT:_ApplyMoveSyncHit` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 

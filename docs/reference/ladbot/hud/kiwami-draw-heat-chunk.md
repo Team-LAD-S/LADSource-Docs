@@ -5,7 +5,7 @@ title: "ENT:Kiwami_DrawHeatChunk"
 [Back to HUD](index.md)
 
 <a id="ent-kiwami-drawheatchunk"></a>
-# `ENT:Kiwami_DrawHeatChunk`
+# `ENT:Kiwami_DrawHeatChunk` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

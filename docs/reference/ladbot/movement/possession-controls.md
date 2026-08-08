@@ -5,7 +5,7 @@ title: "ENT:PossessionControls"
 [Back to Movement](index.md)
 
 <a id="ent-possessioncontrols"></a>
-# `ENT:PossessionControls`
+# `ENT:PossessionControls` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

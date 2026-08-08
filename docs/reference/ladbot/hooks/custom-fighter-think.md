@@ -5,7 +5,7 @@ title: "ENT:CustomFighterThink"
 [Back to Hooks](index.md)
 
 <a id="ent-customfighterthink"></a>
-# `ENT:CustomFighterThink`
+# `ENT:CustomFighterThink` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

@@ -5,7 +5,7 @@ title: "ENT:VFX_EjectShell"
 [Back to VFX](index.md)
 
 <a id="ent-vfx-ejectshell"></a>
-# `ENT:VFX_EjectShell`
+# `ENT:VFX_EjectShell` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

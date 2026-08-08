@@ -5,7 +5,7 @@ title: "ENT:GetWeaponClass"
 [Back to Weapons](index.md)
 
 <a id="ent-getweaponclass"></a>
-# `ENT:GetWeaponClass`
+# `ENT:GetWeaponClass` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

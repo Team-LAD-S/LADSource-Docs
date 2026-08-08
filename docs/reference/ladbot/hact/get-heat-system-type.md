@@ -5,7 +5,7 @@ title: "ENT:GetHeatSystemType"
 [Back to HACT](index.md)
 
 <a id="ent-getheatsystemtype"></a>
-# `ENT:GetHeatSystemType`
+# `ENT:GetHeatSystemType` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

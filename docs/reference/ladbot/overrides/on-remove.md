@@ -5,7 +5,7 @@ title: "ENT:OnRemove"
 [Back to Overrides](index.md)
 
 <a id="ent-onremove"></a>
-# `ENT:OnRemove`
+# `ENT:OnRemove` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

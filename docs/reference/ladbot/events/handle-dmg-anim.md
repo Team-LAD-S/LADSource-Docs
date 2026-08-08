@@ -5,7 +5,7 @@ title: "ENT:_HandleDMGAnim"
 [Back to Events](index.md)
 
 <a id="ent-handledmganim"></a>
-# `ENT:_HandleDMGAnim`
+# `ENT:_HandleDMGAnim` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 

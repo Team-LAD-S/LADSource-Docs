@@ -5,7 +5,7 @@ title: "ENT:AIDefaultStrafingRoutine"
 [Back to AI](index.md)
 
 <a id="ent-aidefaultstrafingroutine"></a>
-# `ENT:AIDefaultStrafingRoutine`
+# `ENT:AIDefaultStrafingRoutine` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

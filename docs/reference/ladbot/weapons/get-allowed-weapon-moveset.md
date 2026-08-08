@@ -5,7 +5,7 @@ title: "ENT:GetAllowedWeaponMoveset"
 [Back to Weapons](index.md)
 
 <a id="ent-getallowedweaponmoveset"></a>
-# `ENT:GetAllowedWeaponMoveset`
+# `ENT:GetAllowedWeaponMoveset` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

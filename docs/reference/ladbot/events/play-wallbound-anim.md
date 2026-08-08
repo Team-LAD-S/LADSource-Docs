@@ -5,7 +5,7 @@ title: "ENT:PlayWallboundAnim"
 [Back to Events](index.md)
 
 <a id="ent-playwallboundanim"></a>
-# `ENT:PlayWallboundAnim`
+# `ENT:PlayWallboundAnim` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

@@ -5,7 +5,7 @@ title: "ENT:GetCurrentMoveNode"
 [Back to Moveset](index.md)
 
 <a id="ent-getcurrentmovenode"></a>
-# `ENT:GetCurrentMoveNode`
+# `ENT:GetCurrentMoveNode` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

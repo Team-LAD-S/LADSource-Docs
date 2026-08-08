@@ -5,7 +5,7 @@ title: "ENT:LAD_ShouldSuppressHactModelEvent"
 [Back to HACT](index.md)
 
 <a id="ent-lad-shouldsuppresshactmodelevent"></a>
-# `ENT:LAD_ShouldSuppressHactModelEvent`
+# `ENT:LAD_ShouldSuppressHactModelEvent` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

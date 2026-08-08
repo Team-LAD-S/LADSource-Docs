@@ -5,7 +5,7 @@ title: "ENT:Y0_DrawHeatBarSegment"
 [Back to HUD](index.md)
 
 <a id="ent-y0-drawheatbarsegment"></a>
-# `ENT:Y0_DrawHeatBarSegment`
+# `ENT:Y0_DrawHeatBarSegment` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

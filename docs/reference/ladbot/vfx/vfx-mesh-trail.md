@@ -5,7 +5,7 @@ title: "ENT:VFX_MeshTrail"
 [Back to VFX](index.md)
 
 <a id="ent-vfx-meshtrail"></a>
-# `ENT:VFX_MeshTrail`
+# `ENT:VFX_MeshTrail` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

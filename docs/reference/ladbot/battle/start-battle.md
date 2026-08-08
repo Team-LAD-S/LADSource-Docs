@@ -5,7 +5,7 @@ title: "ENT:StartBattle"
 [Back to Battle](index.md)
 
 <a id="ent-startbattle"></a>
-# `ENT:StartBattle`
+# `ENT:StartBattle` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

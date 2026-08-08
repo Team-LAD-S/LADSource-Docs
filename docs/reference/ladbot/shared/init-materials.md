@@ -5,7 +5,7 @@ title: "ENT:_InitMaterials"
 [Back to Shared](index.md)
 
 <a id="ent-initmaterials"></a>
-# `ENT:_InitMaterials`
+# `ENT:_InitMaterials` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 

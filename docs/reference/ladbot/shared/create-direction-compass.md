@@ -5,7 +5,7 @@ title: "ENT:CreateDirectionCompass"
 [Back to Shared](index.md)
 
 <a id="ent-createdirectioncompass"></a>
-# `ENT:CreateDirectionCompass`
+# `ENT:CreateDirectionCompass` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

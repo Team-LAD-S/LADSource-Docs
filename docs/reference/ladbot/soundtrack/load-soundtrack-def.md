@@ -5,7 +5,7 @@ title: "ENT:_LoadSoundtrackDef"
 [Back to Soundtrack](index.md)
 
 <a id="ent-loadsoundtrackdef"></a>
-# `ENT:_LoadSoundtrackDef`
+# `ENT:_LoadSoundtrackDef` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 

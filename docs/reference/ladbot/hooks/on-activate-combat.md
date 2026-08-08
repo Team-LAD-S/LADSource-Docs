@@ -5,7 +5,7 @@ title: "ENT:OnActivateCombat"
 [Back to Hooks](index.md)
 
 <a id="ent-onactivatecombat"></a>
-# `ENT:OnActivateCombat`
+# `ENT:OnActivateCombat` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

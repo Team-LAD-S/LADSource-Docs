@@ -5,7 +5,7 @@ title: "ENT:TriggerDialogue"
 [Back to Dialogue](index.md)
 
 <a id="ent-triggerdialogue"></a>
-# `ENT:TriggerDialogue`
+# `ENT:TriggerDialogue` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

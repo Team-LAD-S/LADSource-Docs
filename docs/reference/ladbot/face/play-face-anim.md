@@ -5,7 +5,7 @@ title: "ENT:PlayFaceAnim"
 [Back to Face](index.md)
 
 <a id="ent-playfaceanim"></a>
-# `ENT:PlayFaceAnim`
+# `ENT:PlayFaceAnim` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

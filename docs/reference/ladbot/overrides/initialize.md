@@ -5,7 +5,7 @@ title: "ENT:Initialize"
 [Back to Overrides](index.md)
 
 <a id="ent-initialize"></a>
-# `ENT:Initialize`
+# `ENT:Initialize` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

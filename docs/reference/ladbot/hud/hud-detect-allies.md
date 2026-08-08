@@ -5,7 +5,7 @@ title: "ENT:HUDDetectAllies"
 [Back to HUD](index.md)
 
 <a id="ent-huddetectallies"></a>
-# `ENT:HUDDetectAllies`
+# `ENT:HUDDetectAllies` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

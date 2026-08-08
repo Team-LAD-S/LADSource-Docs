@@ -5,7 +5,7 @@ title: "ENT:CICO (line 591)"
 [Back to Shared](index.md)
 
 <a id="ent-cico"></a>
-# `ENT:CICO`
+# `ENT:CICO` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

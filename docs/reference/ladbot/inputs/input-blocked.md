@@ -5,7 +5,7 @@ title: "ENT:_InputBlocked"
 [Back to Inputs](index.md)
 
 <a id="ent-inputblocked"></a>
-# `ENT:_InputBlocked`
+# `ENT:_InputBlocked` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 

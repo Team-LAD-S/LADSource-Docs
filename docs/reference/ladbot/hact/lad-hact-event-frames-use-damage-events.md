@@ -5,7 +5,7 @@ title: "ENT:LAD_HactEventFramesUseDamageEvents"
 [Back to HACT](index.md)
 
 <a id="ent-lad-hacteventframesusedamageevents"></a>
-# `ENT:LAD_HactEventFramesUseDamageEvents`
+# `ENT:LAD_HactEventFramesUseDamageEvents` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

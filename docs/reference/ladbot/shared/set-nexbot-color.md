@@ -5,7 +5,7 @@ title: "ENT:SetNexbotColor"
 [Back to Shared](index.md)
 
 <a id="ent-setnexbotcolor"></a>
-# `ENT:SetNexbotColor`
+# `ENT:SetNexbotColor` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

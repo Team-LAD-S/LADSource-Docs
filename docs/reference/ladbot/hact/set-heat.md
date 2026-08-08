@@ -5,7 +5,7 @@ title: "ENT:SetHeat"
 [Back to HACT](index.md)
 
 <a id="ent-setheat"></a>
-# `ENT:SetHeat`
+# `ENT:SetHeat` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

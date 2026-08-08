@@ -5,7 +5,7 @@ title: "ENT:PlaySequenceAndWait"
 [Back to Overrides](index.md)
 
 <a id="ent-playsequenceandwait"></a>
-# `ENT:PlaySequenceAndWait`
+# `ENT:PlaySequenceAndWait` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

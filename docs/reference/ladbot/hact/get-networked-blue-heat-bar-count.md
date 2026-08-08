@@ -5,7 +5,7 @@ title: "ENT:GetNetworkedBlueHeatBarCount"
 [Back to HACT](index.md)
 
 <a id="ent-getnetworkedblueheatbarcount"></a>
-# `ENT:GetNetworkedBlueHeatBarCount`
+# `ENT:GetNetworkedBlueHeatBarCount` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

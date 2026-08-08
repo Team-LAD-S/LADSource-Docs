@@ -5,7 +5,7 @@ title: "ENT:CheckGuardBreakBeforeDamage"
 [Back to Events](index.md)
 
 <a id="ent-checkguardbreakbeforedamage"></a>
-# `ENT:CheckGuardBreakBeforeDamage`
+# `ENT:CheckGuardBreakBeforeDamage` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

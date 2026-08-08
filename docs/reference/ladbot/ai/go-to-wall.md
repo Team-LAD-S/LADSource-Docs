@@ -5,7 +5,7 @@ title: "ENT:GoToWall"
 [Back to AI](index.md)
 
 <a id="ent-gotowall"></a>
-# `ENT:GoToWall`
+# `ENT:GoToWall` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

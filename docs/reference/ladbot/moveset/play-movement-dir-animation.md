@@ -5,7 +5,7 @@ title: "ENT:PlayMovementDirAnimation"
 [Back to Moveset](index.md)
 
 <a id="ent-playmovementdiranimation"></a>
-# `ENT:PlayMovementDirAnimation`
+# `ENT:PlayMovementDirAnimation` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

@@ -5,7 +5,7 @@ title: "ENT:DrawHeatPrompt"
 [Back to HUD](index.md)
 
 <a id="ent-drawheatprompt"></a>
-# `ENT:DrawHeatPrompt`
+# `ENT:DrawHeatPrompt` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

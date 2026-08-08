@@ -5,7 +5,7 @@ title: "ENT:AIScanAndExecuteHacts"
 [Back to AI](index.md)
 
 <a id="ent-aiscanandexecutehacts"></a>
-# `ENT:AIScanAndExecuteHacts`
+# `ENT:AIScanAndExecuteHacts` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

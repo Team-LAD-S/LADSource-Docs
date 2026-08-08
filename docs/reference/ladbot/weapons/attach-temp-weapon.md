@@ -5,7 +5,7 @@ title: "ENT:AttachTempWeapon"
 [Back to Weapons](index.md)
 
 <a id="ent-attachtempweapon"></a>
-# `ENT:AttachTempWeapon`
+# `ENT:AttachTempWeapon` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

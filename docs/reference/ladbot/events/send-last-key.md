@@ -5,7 +5,7 @@ title: "ENT:SendLastKey"
 [Back to Events](index.md)
 
 <a id="ent-sendlastkey"></a>
-# `ENT:SendLastKey`
+# `ENT:SendLastKey` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

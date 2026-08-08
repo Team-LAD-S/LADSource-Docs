@@ -5,7 +5,7 @@ title: "ENT:IsOverworldStationary"
 [Back to Dialogue](index.md)
 
 <a id="ent-isoverworldstationary"></a>
-# `ENT:IsOverworldStationary`
+# `ENT:IsOverworldStationary` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

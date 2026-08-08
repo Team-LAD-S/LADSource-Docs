@@ -5,7 +5,7 @@ title: "BattleManager:Join"
 [Back to Battle Manager](index.md)
 
 <a id="battlemanager-join"></a>
-# `BattleManager:Join`
+# `BattleManager:Join` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--server">server</span></div>
 

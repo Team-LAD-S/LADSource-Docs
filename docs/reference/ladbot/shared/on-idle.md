@@ -5,7 +5,7 @@ title: "ENT:OnIdle"
 [Back to Shared](index.md)
 
 <a id="ent-onidle"></a>
-# `ENT:OnIdle`
+# `ENT:OnIdle` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

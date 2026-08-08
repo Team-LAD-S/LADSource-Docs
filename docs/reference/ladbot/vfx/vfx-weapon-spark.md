@@ -5,7 +5,7 @@ title: "ENT:VFX_WeaponSpark"
 [Back to VFX](index.md)
 
 <a id="ent-vfx-weaponspark"></a>
-# `ENT:VFX_WeaponSpark`
+# `ENT:VFX_WeaponSpark` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

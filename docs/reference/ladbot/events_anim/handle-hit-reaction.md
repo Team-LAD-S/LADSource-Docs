@@ -5,7 +5,7 @@ title: "ENT:HandleHitReaction"
 [Back to Events Anim](index.md)
 
 <a id="ent-handlehitreaction"></a>
-# `ENT:HandleHitReaction`
+# `ENT:HandleHitReaction` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

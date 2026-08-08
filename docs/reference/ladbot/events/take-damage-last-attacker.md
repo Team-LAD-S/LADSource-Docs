@@ -5,7 +5,7 @@ title: "ENT:TakeDamageLastAttacker"
 [Back to Events](index.md)
 
 <a id="ent-takedamagelastattacker"></a>
-# `ENT:TakeDamageLastAttacker`
+# `ENT:TakeDamageLastAttacker` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

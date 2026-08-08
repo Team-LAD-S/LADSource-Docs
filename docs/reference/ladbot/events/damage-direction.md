@@ -5,7 +5,7 @@ title: "ENT:DamageDirection"
 [Back to Events](index.md)
 
 <a id="ent-damagedirection"></a>
-# `ENT:DamageDirection`
+# `ENT:DamageDirection` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

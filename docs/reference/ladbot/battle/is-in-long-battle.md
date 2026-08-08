@@ -5,7 +5,7 @@ title: "ENT:IsInLongBattle"
 [Back to Battle](index.md)
 
 <a id="ent-isinlongbattle"></a>
-# `ENT:IsInLongBattle`
+# `ENT:IsInLongBattle` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

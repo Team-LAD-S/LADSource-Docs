@@ -5,7 +5,7 @@ title: "BattleManager:Leave"
 [Back to Battle Manager](index.md)
 
 <a id="battlemanager-leave"></a>
-# `BattleManager:Leave`
+# `BattleManager:Leave` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--server">server</span></div>
 

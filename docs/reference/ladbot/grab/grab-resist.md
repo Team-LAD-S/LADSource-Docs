@@ -5,7 +5,7 @@ title: "ENT:GrabResist"
 [Back to Grab](index.md)
 
 <a id="ent-grabresist"></a>
-# `ENT:GrabResist`
+# `ENT:GrabResist` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

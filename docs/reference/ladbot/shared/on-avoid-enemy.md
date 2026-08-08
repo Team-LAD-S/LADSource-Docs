@@ -5,7 +5,7 @@ title: "ENT:OnAvoidEnemy"
 [Back to Shared](index.md)
 
 <a id="ent-onavoidenemy"></a>
-# `ENT:OnAvoidEnemy`
+# `ENT:OnAvoidEnemy` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

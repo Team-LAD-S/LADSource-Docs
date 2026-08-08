@@ -5,7 +5,7 @@ title: "ENT:DispatchParticleTrails"
 [Back to VFX](index.md)
 
 <a id="ent-dispatchparticletrails"></a>
-# `ENT:DispatchParticleTrails`
+# `ENT:DispatchParticleTrails` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

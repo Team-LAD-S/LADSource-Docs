@@ -5,7 +5,7 @@ title: "ENT:CycleToNextStyle"
 [Back to Fighter Command](index.md)
 
 <a id="ent-cycletonextstyle"></a>
-# `ENT:CycleToNextStyle`
+# `ENT:CycleToNextStyle` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

@@ -5,7 +5,7 @@ title: "ENT:AlignToSlope"
 [Back to Events](index.md)
 
 <a id="ent-aligntoslope"></a>
-# `ENT:AlignToSlope`
+# `ENT:AlignToSlope` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

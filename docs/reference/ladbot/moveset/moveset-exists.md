@@ -5,7 +5,7 @@ title: "ENT:MovesetExists"
 [Back to Moveset](index.md)
 
 <a id="ent-movesetexists"></a>
-# `ENT:MovesetExists`
+# `ENT:MovesetExists` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

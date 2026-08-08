@@ -5,7 +5,7 @@ title: "ENT:FaceTowards"
 [Back to Overrides](index.md)
 
 <a id="ent-facetowards"></a>
-# `ENT:FaceTowards`
+# `ENT:FaceTowards` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

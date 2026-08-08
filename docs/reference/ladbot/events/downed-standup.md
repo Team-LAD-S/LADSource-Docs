@@ -5,7 +5,7 @@ title: "ENT:_DownedStandup"
 [Back to Events](index.md)
 
 <a id="ent-downedstandup"></a>
-# `ENT:_DownedStandup`
+# `ENT:_DownedStandup` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 

@@ -5,7 +5,7 @@ title: "ENT:SetCommonFighterMoveset"
 [Back to Fighter Command](index.md)
 
 <a id="ent-setcommonfightermoveset"></a>
-# `ENT:SetCommonFighterMoveset`
+# `ENT:SetCommonFighterMoveset` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

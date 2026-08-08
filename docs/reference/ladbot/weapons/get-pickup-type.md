@@ -5,7 +5,7 @@ title: "ENT:GetPickupType"
 [Back to Weapons](index.md)
 
 <a id="ent-getpickuptype"></a>
-# `ENT:GetPickupType`
+# `ENT:GetPickupType` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

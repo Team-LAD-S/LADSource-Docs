@@ -5,7 +5,7 @@ title: "ENT:StartHeatDecayTimer"
 [Back to HACT](index.md)
 
 <a id="ent-startheatdecaytimer"></a>
-# `ENT:StartHeatDecayTimer`
+# `ENT:StartHeatDecayTimer` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

@@ -5,7 +5,7 @@ title: "ENT:SendHactQTEPrompt"
 [Back to Prompts](index.md)
 
 <a id="ent-sendhactqteprompt"></a>
-# `ENT:SendHactQTEPrompt`
+# `ENT:SendHactQTEPrompt` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

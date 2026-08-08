@@ -5,7 +5,7 @@ title: "ENT:_SoundtrackOnRemove"
 [Back to Soundtrack](index.md)
 
 <a id="ent-soundtrackonremove"></a>
-# `ENT:_SoundtrackOnRemove`
+# `ENT:_SoundtrackOnRemove` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 

@@ -5,7 +5,7 @@ title: "ENT:TriggerStationaryDialogue"
 [Back to Dialogue](index.md)
 
 <a id="ent-triggerstationarydialogue"></a>
-# `ENT:TriggerStationaryDialogue`
+# `ENT:TriggerStationaryDialogue` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

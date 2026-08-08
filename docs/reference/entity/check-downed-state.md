@@ -5,7 +5,7 @@ title: "Entity:CheckDownedState"
 [Back to Entity extensions](index.md)
 
 <a id="entity-checkdownedstate"></a>
-# `Entity:CheckDownedState`
+# `Entity:CheckDownedState` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--shared">shared</span></div>
 

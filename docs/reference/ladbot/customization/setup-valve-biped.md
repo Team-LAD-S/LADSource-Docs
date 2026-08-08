@@ -5,7 +5,7 @@ title: "ENT:SetupValveBiped"
 [Back to Customization](index.md)
 
 <a id="ent-setupvalvebiped"></a>
-# `ENT:SetupValveBiped`
+# `ENT:SetupValveBiped` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

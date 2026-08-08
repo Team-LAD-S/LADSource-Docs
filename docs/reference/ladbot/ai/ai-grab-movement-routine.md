@@ -5,7 +5,7 @@ title: "ENT:AIGrabMovementRoutine"
 [Back to AI](index.md)
 
 <a id="ent-aigrabmovementroutine"></a>
-# `ENT:AIGrabMovementRoutine`
+# `ENT:AIGrabMovementRoutine` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

@@ -5,7 +5,7 @@ title: "ENT:GetSyncVictim"
 [Back to Events](index.md)
 
 <a id="ent-getsyncvictim"></a>
-# `ENT:GetSyncVictim`
+# `ENT:GetSyncVictim` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

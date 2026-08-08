@@ -5,7 +5,7 @@ title: "ENT:OnDispossessed"
 [Back to Shared](index.md)
 
 <a id="ent-ondispossessed"></a>
-# `ENT:OnDispossessed`
+# `ENT:OnDispossessed` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

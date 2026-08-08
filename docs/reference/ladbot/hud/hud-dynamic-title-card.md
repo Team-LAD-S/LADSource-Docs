@@ -5,7 +5,7 @@ title: "ENT:HUDDynamicTitleCard"
 [Back to HUD](index.md)
 
 <a id="ent-huddynamictitlecard"></a>
-# `ENT:HUDDynamicTitleCard`
+# `ENT:HUDDynamicTitleCard` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

@@ -5,7 +5,7 @@ title: "ENT:GetRedHeatStart"
 [Back to HACT](index.md)
 
 <a id="ent-getredheatstart"></a>
-# `ENT:GetRedHeatStart`
+# `ENT:GetRedHeatStart` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

@@ -5,7 +5,7 @@ title: "ENT:ResetNodeParams"
 [Back to Moveset](index.md)
 
 <a id="ent-resetnodeparams"></a>
-# `ENT:ResetNodeParams`
+# `ENT:ResetNodeParams` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

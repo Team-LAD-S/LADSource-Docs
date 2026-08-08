@@ -5,7 +5,7 @@ title: "ENT:_SendSoundtrackStart"
 [Back to Soundtrack](index.md)
 
 <a id="ent-sendsoundtrackstart"></a>
-# `ENT:_SendSoundtrackStart`
+# `ENT:_SendSoundtrackStart` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 

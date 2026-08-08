@@ -5,7 +5,7 @@ title: "ENT:AntiJuggleEscape"
 [Back to Events](index.md)
 
 <a id="ent-antijuggleescape"></a>
-# `ENT:AntiJuggleEscape`
+# `ENT:AntiJuggleEscape` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

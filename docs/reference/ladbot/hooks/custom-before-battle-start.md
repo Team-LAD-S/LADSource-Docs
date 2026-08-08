@@ -5,7 +5,7 @@ title: "ENT:CustomBeforeBattleStart"
 [Back to Hooks](index.md)
 
 <a id="ent-custombeforebattlestart"></a>
-# `ENT:CustomBeforeBattleStart`
+# `ENT:CustomBeforeBattleStart` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

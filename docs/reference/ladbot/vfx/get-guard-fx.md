@@ -5,7 +5,7 @@ title: "ENT:GetGuardFX"
 [Back to VFX](index.md)
 
 <a id="ent-getguardfx"></a>
-# `ENT:GetGuardFX`
+# `ENT:GetGuardFX` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

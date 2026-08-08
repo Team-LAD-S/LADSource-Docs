@@ -5,7 +5,7 @@ title: "ENT:DrawActionButton"
 [Back to HUD](index.md)
 
 <a id="ent-drawactionbutton"></a>
-# `ENT:DrawActionButton`
+# `ENT:DrawActionButton` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

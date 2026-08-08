@@ -5,7 +5,7 @@ title: "Entity:GetIsLADFighter"
 [Back to Entity extensions](index.md)
 
 <a id="entity-getisladfighter"></a>
-# `Entity:GetIsLADFighter`
+# `Entity:GetIsLADFighter` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--server">server</span></div>
 

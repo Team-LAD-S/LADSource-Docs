@@ -5,7 +5,7 @@ title: "ENT:PlayHactSound"
 [Back to Voicebanks](index.md)
 
 <a id="ent-playhactsound"></a>
-# `ENT:PlayHactSound`
+# `ENT:PlayHactSound` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

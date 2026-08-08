@@ -5,7 +5,7 @@ title: "ENT:ActivateCombat"
 [Back to Fighter Command](index.md)
 
 <a id="ent-activatecombat"></a>
-# `ENT:ActivateCombat`
+# `ENT:ActivateCombat` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--server">server</span></div>
 

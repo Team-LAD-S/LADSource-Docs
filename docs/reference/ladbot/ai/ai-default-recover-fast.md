@@ -5,7 +5,7 @@ title: "ENT:AIDefaultRecoverFast"
 [Back to AI](index.md)
 
 <a id="ent-aidefaultrecoverfast"></a>
-# `ENT:AIDefaultRecoverFast`
+# `ENT:AIDefaultRecoverFast` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

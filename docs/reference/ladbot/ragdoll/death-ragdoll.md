@@ -5,7 +5,7 @@ title: "ENT:DeathRagdoll"
 [Back to Ragdoll](index.md)
 
 <a id="ent-deathragdoll"></a>
-# `ENT:DeathRagdoll`
+# `ENT:DeathRagdoll` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

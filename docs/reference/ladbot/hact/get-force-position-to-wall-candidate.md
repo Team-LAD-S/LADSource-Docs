@@ -5,7 +5,7 @@ title: "ENT:GetForcePositionToWallCandidate"
 [Back to HACT](index.md)
 
 <a id="ent-getforcepositiontowallcandidate"></a>
-# `ENT:GetForcePositionToWallCandidate`
+# `ENT:GetForcePositionToWallCandidate` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

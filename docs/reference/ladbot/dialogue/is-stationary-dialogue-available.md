@@ -5,7 +5,7 @@ title: "ENT:IsStationaryDialogueAvailable"
 [Back to Dialogue](index.md)
 
 <a id="ent-isstationarydialogueavailable"></a>
-# `ENT:IsStationaryDialogueAvailable`
+# `ENT:IsStationaryDialogueAvailable` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

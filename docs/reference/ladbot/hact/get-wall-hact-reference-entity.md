@@ -5,7 +5,7 @@ title: "ENT:GetWallHactReferenceEntity"
 [Back to HACT](index.md)
 
 <a id="ent-getwallhactreferenceentity"></a>
-# `ENT:GetWallHactReferenceEntity`
+# `ENT:GetWallHactReferenceEntity` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

@@ -5,7 +5,7 @@ title: "ENT:Interact"
 [Back to Fighter Command](index.md)
 
 <a id="ent-interact"></a>
-# `ENT:Interact`
+# `ENT:Interact` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

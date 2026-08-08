@@ -5,7 +5,7 @@ title: "ENT:_BaseInitialize (line 1910)"
 [Back to Overrides](index.md)
 
 <a id="ent-baseinitialize-1910"></a>
-# `ENT:_BaseInitialize`
+# `ENT:_BaseInitialize` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 

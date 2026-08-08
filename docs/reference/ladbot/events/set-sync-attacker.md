@@ -5,7 +5,7 @@ title: "ENT:SetSyncAttacker"
 [Back to Events](index.md)
 
 <a id="ent-setsyncattacker"></a>
-# `ENT:SetSyncAttacker`
+# `ENT:SetSyncAttacker` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

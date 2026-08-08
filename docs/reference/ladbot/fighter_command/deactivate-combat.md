@@ -5,7 +5,7 @@ title: "ENT:DeactivateCombat"
 [Back to Fighter Command](index.md)
 
 <a id="ent-deactivatecombat"></a>
-# `ENT:DeactivateCombat`
+# `ENT:DeactivateCombat` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

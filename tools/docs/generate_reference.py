@@ -281,7 +281,7 @@ def assign_method_pages(methods: list[Method]) -> None:
 def render_method(method: Method, repository_url: str, branch: str) -> list[str]:
     output = [
         f'<a id="{method.anchor}"></a>',
-        f"# `{method.display_name}`",
+        f"# `{method.display_name}` {{ .api-method-title }}",
         "",
         render_badges(method),
         "",

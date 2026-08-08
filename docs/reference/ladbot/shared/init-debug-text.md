@@ -5,7 +5,7 @@ title: "ENT:_InitDebugText"
 [Back to Shared](index.md)
 
 <a id="ent-initdebugtext"></a>
-# `ENT:_InitDebugText`
+# `ENT:_InitDebugText` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 

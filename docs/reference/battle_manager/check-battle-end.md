@@ -5,7 +5,7 @@ title: "BattleManager:CheckBattleEnd"
 [Back to Battle Manager](index.md)
 
 <a id="battlemanager-checkbattleend"></a>
-# `BattleManager:CheckBattleEnd`
+# `BattleManager:CheckBattleEnd` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--server">server</span></div>
 

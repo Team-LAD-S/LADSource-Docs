@@ -5,7 +5,7 @@ title: "ENT:SetLightingOrigin"
 [Back to Customization](index.md)
 
 <a id="ent-setlightingorigin"></a>
-# `ENT:SetLightingOrigin`
+# `ENT:SetLightingOrigin` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

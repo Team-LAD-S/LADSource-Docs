@@ -5,7 +5,7 @@ title: "ENT:_ApplyMoveLure"
 [Back to Moveset](index.md)
 
 <a id="ent-applymovelure"></a>
-# `ENT:_ApplyMoveLure`
+# `ENT:_ApplyMoveLure` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 

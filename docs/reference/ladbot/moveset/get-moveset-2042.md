@@ -5,7 +5,7 @@ title: "ENT:GetMoveset (line 2042)"
 [Back to Moveset](index.md)
 
 <a id="ent-getmoveset"></a>
-# `ENT:GetMoveset`
+# `ENT:GetMoveset` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

@@ -5,7 +5,7 @@ title: "ENT:SetupExclusiveMoveset"
 [Back to Hooks](index.md)
 
 <a id="ent-setupexclusivemoveset"></a>
-# `ENT:SetupExclusiveMoveset`
+# `ENT:SetupExclusiveMoveset` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

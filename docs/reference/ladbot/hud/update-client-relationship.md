@@ -5,7 +5,7 @@ title: "ENT:UpdateClientRelationship"
 [Back to HUD](index.md)
 
 <a id="ent-updateclientrelationship"></a>
-# `ENT:UpdateClientRelationship`
+# `ENT:UpdateClientRelationship` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

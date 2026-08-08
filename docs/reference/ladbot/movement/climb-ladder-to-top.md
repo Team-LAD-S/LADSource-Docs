@@ -5,7 +5,7 @@ title: "ENT:ClimbLadderToTop"
 [Back to Movement](index.md)
 
 <a id="ent-climbladdertotop"></a>
-# `ENT:ClimbLadderToTop`
+# `ENT:ClimbLadderToTop` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

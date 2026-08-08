@@ -5,7 +5,7 @@ title: "ENT:AIRunAttackRoutine"
 [Back to AI](index.md)
 
 <a id="ent-airunattackroutine"></a>
-# `ENT:AIRunAttackRoutine`
+# `ENT:AIRunAttackRoutine` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

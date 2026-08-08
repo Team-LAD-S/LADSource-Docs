@@ -5,7 +5,7 @@ title: "ENT:_ProcessQueuedInputs"
 [Back to Inputs](index.md)
 
 <a id="ent-processqueuedinputs"></a>
-# `ENT:_ProcessQueuedInputs`
+# `ENT:_ProcessQueuedInputs` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 

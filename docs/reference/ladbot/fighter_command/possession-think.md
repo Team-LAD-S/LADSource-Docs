@@ -5,7 +5,7 @@ title: "ENT:PossessionThink"
 [Back to Fighter Command](index.md)
 
 <a id="ent-possessionthink"></a>
-# `ENT:PossessionThink`
+# `ENT:PossessionThink` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

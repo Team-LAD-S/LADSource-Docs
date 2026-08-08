@@ -5,7 +5,7 @@ title: "ENT:UpdateHeatAura"
 [Back to HACT](index.md)
 
 <a id="ent-updateheataura"></a>
-# `ENT:UpdateHeatAura`
+# `ENT:UpdateHeatAura` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

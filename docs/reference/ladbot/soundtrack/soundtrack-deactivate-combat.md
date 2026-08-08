@@ -5,7 +5,7 @@ title: "ENT:_SoundtrackDeactivateCombat"
 [Back to Soundtrack](index.md)
 
 <a id="ent-soundtrackdeactivatecombat"></a>
-# `ENT:_SoundtrackDeactivateCombat`
+# `ENT:_SoundtrackDeactivateCombat` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 

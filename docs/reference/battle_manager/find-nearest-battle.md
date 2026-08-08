@@ -5,7 +5,7 @@ title: "BattleManager:FindNearestBattle"
 [Back to Battle Manager](index.md)
 
 <a id="battlemanager-findnearestbattle"></a>
-# `BattleManager:FindNearestBattle`
+# `BattleManager:FindNearestBattle` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--server">server</span></div>
 

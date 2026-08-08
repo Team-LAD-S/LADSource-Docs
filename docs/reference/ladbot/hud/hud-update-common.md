@@ -5,7 +5,7 @@ title: "ENT:HUDUpdateCommon"
 [Back to HUD](index.md)
 
 <a id="ent-hudupdatecommon"></a>
-# `ENT:HUDUpdateCommon`
+# `ENT:HUDUpdateCommon` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

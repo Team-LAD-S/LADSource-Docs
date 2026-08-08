@@ -5,7 +5,7 @@ title: "ENT:UpdateWeaponAttachment"
 [Back to Weapons](index.md)
 
 <a id="ent-updateweaponattachment"></a>
-# `ENT:UpdateWeaponAttachment`
+# `ENT:UpdateWeaponAttachment` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

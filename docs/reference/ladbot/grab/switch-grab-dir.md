@@ -5,7 +5,7 @@ title: "ENT:SwitchGrabDir"
 [Back to Grab](index.md)
 
 <a id="ent-switchgrabdir"></a>
-# `ENT:SwitchGrabDir`
+# `ENT:SwitchGrabDir` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

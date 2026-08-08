@@ -5,7 +5,7 @@ title: "ENT:DoAttack"
 [Back to Events Anim](index.md)
 
 <a id="ent-doattack"></a>
-# `ENT:DoAttack`
+# `ENT:DoAttack` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

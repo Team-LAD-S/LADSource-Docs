@@ -5,7 +5,7 @@ title: "ENT:_HandleLeaveGround"
 [Back to Overrides](index.md)
 
 <a id="ent-handleleaveground"></a>
-# `ENT:_HandleLeaveGround`
+# `ENT:_HandleLeaveGround` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 

@@ -5,7 +5,7 @@ title: "ENT:OnLandOnGround"
 [Back to Events](index.md)
 
 <a id="ent-onlandonground"></a>
-# `ENT:OnLandOnGround`
+# `ENT:OnLandOnGround` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

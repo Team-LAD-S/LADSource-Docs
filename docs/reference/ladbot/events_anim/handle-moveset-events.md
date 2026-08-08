@@ -5,7 +5,7 @@ title: "ENT:HandleMovesetEvents"
 [Back to Events Anim](index.md)
 
 <a id="ent-handlemovesetevents"></a>
-# `ENT:HandleMovesetEvents`
+# `ENT:HandleMovesetEvents` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

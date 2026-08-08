@@ -5,7 +5,7 @@ title: "ENT:_CleanupDynamicSlowDown"
 [Back to Moveset](index.md)
 
 <a id="ent-cleanupdynamicslowdown"></a>
-# `ENT:_CleanupDynamicSlowDown`
+# `ENT:_CleanupDynamicSlowDown` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 

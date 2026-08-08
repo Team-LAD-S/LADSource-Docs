@@ -5,7 +5,7 @@ title: "ENT:GetCurrentAnimCycle"
 [Back to Moveset](index.md)
 
 <a id="ent-getcurrentanimcycle"></a>
-# `ENT:GetCurrentAnimCycle`
+# `ENT:GetCurrentAnimCycle` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

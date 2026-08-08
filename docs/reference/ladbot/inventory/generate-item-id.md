@@ -5,7 +5,7 @@ title: "ENT:GenerateItemID"
 [Back to Inventory](index.md)
 
 <a id="ent-generateitemid"></a>
-# `ENT:GenerateItemID`
+# `ENT:GenerateItemID` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

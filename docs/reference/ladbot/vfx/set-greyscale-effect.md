@@ -5,7 +5,7 @@ title: "ENT:SetGreyscaleEffect"
 [Back to VFX](index.md)
 
 <a id="ent-setgreyscaleeffect"></a>
-# `ENT:SetGreyscaleEffect`
+# `ENT:SetGreyscaleEffect` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

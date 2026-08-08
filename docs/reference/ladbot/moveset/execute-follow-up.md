@@ -5,7 +5,7 @@ title: "ENT:ExecuteFollowUp"
 [Back to Moveset](index.md)
 
 <a id="ent-executefollowup"></a>
-# `ENT:ExecuteFollowUp`
+# `ENT:ExecuteFollowUp` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

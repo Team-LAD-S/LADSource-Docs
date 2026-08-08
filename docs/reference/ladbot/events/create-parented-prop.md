@@ -5,7 +5,7 @@ title: "ENT:CreateParentedProp"
 [Back to Events](index.md)
 
 <a id="ent-createparentedprop"></a>
-# `ENT:CreateParentedProp`
+# `ENT:CreateParentedProp` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

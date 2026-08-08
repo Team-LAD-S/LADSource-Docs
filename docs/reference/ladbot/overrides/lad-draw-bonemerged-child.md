@@ -5,7 +5,7 @@ title: "ENT:_LADDrawBonemergedChild"
 [Back to Overrides](index.md)
 
 <a id="ent-laddrawbonemergedchild"></a>
-# `ENT:_LADDrawBonemergedChild`
+# `ENT:_LADDrawBonemergedChild` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 

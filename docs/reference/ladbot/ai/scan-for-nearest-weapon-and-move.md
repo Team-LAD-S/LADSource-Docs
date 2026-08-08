@@ -5,7 +5,7 @@ title: "ENT:ScanForNearestWeaponAndMove"
 [Back to AI](index.md)
 
 <a id="ent-scanfornearestweaponandmove"></a>
-# `ENT:ScanForNearestWeaponAndMove`
+# `ENT:ScanForNearestWeaponAndMove` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

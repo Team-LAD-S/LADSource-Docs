@@ -5,7 +5,7 @@ title: "ENT:DrawMovesetWeapon"
 [Back to Weapons](index.md)
 
 <a id="ent-drawmovesetweapon"></a>
-# `ENT:DrawMovesetWeapon`
+# `ENT:DrawMovesetWeapon` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

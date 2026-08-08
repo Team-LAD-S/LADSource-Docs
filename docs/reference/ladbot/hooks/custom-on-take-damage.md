@@ -5,7 +5,7 @@ title: "ENT:CustomOnTakeDamage"
 [Back to Hooks](index.md)
 
 <a id="ent-customontakedamage"></a>
-# `ENT:CustomOnTakeDamage`
+# `ENT:CustomOnTakeDamage` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

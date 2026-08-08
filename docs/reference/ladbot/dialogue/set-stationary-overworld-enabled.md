@@ -5,7 +5,7 @@ title: "ENT:SetStationaryOverworldEnabled"
 [Back to Dialogue](index.md)
 
 <a id="ent-setstationaryoverworldenabled"></a>
-# `ENT:SetStationaryOverworldEnabled`
+# `ENT:SetStationaryOverworldEnabled` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

@@ -5,7 +5,7 @@ title: "ENT:GetUpgrade"
 [Back to Moveset](index.md)
 
 <a id="ent-getupgrade"></a>
-# `ENT:GetUpgrade`
+# `ENT:GetUpgrade` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

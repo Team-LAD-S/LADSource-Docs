@@ -5,7 +5,7 @@ title: "ENT:RefreshHactBridgeViewers"
 [Back to HACT](index.md)
 
 <a id="ent-refreshhactbridgeviewers"></a>
-# `ENT:RefreshHactBridgeViewers`
+# `ENT:RefreshHactBridgeViewers` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

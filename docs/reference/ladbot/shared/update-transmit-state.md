@@ -5,7 +5,7 @@ title: "ENT:UpdateTransmitState"
 [Back to Shared](index.md)
 
 <a id="ent-updatetransmitstate"></a>
-# `ENT:UpdateTransmitState`
+# `ENT:UpdateTransmitState` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

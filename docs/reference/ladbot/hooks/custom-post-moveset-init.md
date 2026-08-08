@@ -5,7 +5,7 @@ title: "ENT:CustomPostMovesetInit"
 [Back to Hooks](index.md)
 
 <a id="ent-custompostmovesetinit"></a>
-# `ENT:CustomPostMovesetInit`
+# `ENT:CustomPostMovesetInit` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

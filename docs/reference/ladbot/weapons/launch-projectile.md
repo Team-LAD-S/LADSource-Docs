@@ -5,7 +5,7 @@ title: "ENT:LaunchProjectile"
 [Back to Weapons](index.md)
 
 <a id="ent-launchprojectile"></a>
-# `ENT:LaunchProjectile`
+# `ENT:LaunchProjectile` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

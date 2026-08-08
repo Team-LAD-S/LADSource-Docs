@@ -5,7 +5,7 @@ title: "ENT:CustomDraw"
 [Back to Shared](index.md)
 
 <a id="ent-customdraw"></a>
-# `ENT:CustomDraw`
+# `ENT:CustomDraw` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

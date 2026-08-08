@@ -5,7 +5,7 @@ title: "ENT:GetHactCameraDataEntry"
 [Back to HACT](index.md)
 
 <a id="ent-gethactcameradataentry"></a>
-# `ENT:GetHactCameraDataEntry`
+# `ENT:GetHactCameraDataEntry` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

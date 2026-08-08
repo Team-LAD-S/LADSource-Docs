@@ -5,7 +5,7 @@ title: "ENT:CheckCustomConditions"
 [Back to Hooks](index.md)
 
 <a id="ent-checkcustomconditions"></a>
-# `ENT:CheckCustomConditions`
+# `ENT:CheckCustomConditions` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

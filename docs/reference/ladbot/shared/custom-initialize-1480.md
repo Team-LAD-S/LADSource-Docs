@@ -5,7 +5,7 @@ title: "ENT:CustomInitialize (line 1480)"
 [Back to Shared](index.md)
 
 <a id="ent-custominitialize-1480"></a>
-# `ENT:CustomInitialize`
+# `ENT:CustomInitialize` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

@@ -5,7 +5,7 @@ title: "ENT:GetPlayerDir"
 [Back to Moveset](index.md)
 
 <a id="ent-getplayerdir"></a>
-# `ENT:GetPlayerDir`
+# `ENT:GetPlayerDir` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

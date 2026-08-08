@@ -5,7 +5,7 @@ title: "ENT:IsInLockOnCone"
 [Back to Fighter Command](index.md)
 
 <a id="ent-isinlockoncone"></a>
-# `ENT:IsInLockOnCone`
+# `ENT:IsInLockOnCone` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

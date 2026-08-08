@@ -5,7 +5,7 @@ title: "ENT:CustomBeforeTakeDamage"
 [Back to Hooks](index.md)
 
 <a id="ent-custombeforetakedamage"></a>
-# `ENT:CustomBeforeTakeDamage`
+# `ENT:CustomBeforeTakeDamage` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

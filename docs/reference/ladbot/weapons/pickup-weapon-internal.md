@@ -5,7 +5,7 @@ title: "ENT:PickupWeaponInternal"
 [Back to Weapons](index.md)
 
 <a id="ent-pickupweaponinternal"></a>
-# `ENT:PickupWeaponInternal`
+# `ENT:PickupWeaponInternal` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

@@ -5,7 +5,7 @@ title: "ENT:HeatPopBehavior"
 [Back to HACT](index.md)
 
 <a id="ent-heatpopbehavior"></a>
-# `ENT:HeatPopBehavior`
+# `ENT:HeatPopBehavior` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

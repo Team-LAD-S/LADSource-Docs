@@ -5,7 +5,7 @@ title: "ENT:_BattleManagerDeathThink"
 [Back to Battle](index.md)
 
 <a id="ent-battlemanagerdeaththink"></a>
-# `ENT:_BattleManagerDeathThink`
+# `ENT:_BattleManagerDeathThink` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 

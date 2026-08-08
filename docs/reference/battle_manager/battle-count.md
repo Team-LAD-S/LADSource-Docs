@@ -5,7 +5,7 @@ title: "BattleManager:BattleCount"
 [Back to Battle Manager](index.md)
 
 <a id="battlemanager-battlecount"></a>
-# `BattleManager:BattleCount`
+# `BattleManager:BattleCount` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--server">server</span></div>
 

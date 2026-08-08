@@ -5,7 +5,7 @@ title: "ENT:GetWallHactFaceAwayFromWall"
 [Back to HACT](index.md)
 
 <a id="ent-getwallhactfaceawayfromwall"></a>
-# `ENT:GetWallHactFaceAwayFromWall`
+# `ENT:GetWallHactFaceAwayFromWall` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

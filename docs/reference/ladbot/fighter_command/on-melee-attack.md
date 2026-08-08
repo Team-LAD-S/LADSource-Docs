@@ -5,7 +5,7 @@ title: "ENT:OnMeleeAttack"
 [Back to Fighter Command](index.md)
 
 <a id="ent-onmeleeattack"></a>
-# `ENT:OnMeleeAttack`
+# `ENT:OnMeleeAttack` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

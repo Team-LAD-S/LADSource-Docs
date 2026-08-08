@@ -5,7 +5,7 @@ title: "Entity:LADS_GetHullRangeTo"
 [Back to Entity extensions](index.md)
 
 <a id="entity-lads-gethullrangeto"></a>
-# `Entity:LADS_GetHullRangeTo`
+# `Entity:LADS_GetHullRangeTo` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--shared">shared</span></div>
 

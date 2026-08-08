@@ -5,7 +5,7 @@ title: "ENT:StashWeapon"
 [Back to Weapons](index.md)
 
 <a id="ent-stashweapon"></a>
-# `ENT:StashWeapon`
+# `ENT:StashWeapon` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

@@ -5,7 +5,7 @@ title: "BattleManager:Merge"
 [Back to Battle Manager](index.md)
 
 <a id="battlemanager-merge"></a>
-# `BattleManager:Merge`
+# `BattleManager:Merge` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--server">server</span></div>
 

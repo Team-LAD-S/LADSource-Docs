@@ -5,7 +5,7 @@ title: "ENT:GetPlayerColor"
 [Back to Shared](index.md)
 
 <a id="ent-getplayercolor"></a>
-# `ENT:GetPlayerColor`
+# `ENT:GetPlayerColor` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

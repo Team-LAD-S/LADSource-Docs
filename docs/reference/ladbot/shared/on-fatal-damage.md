@@ -5,7 +5,7 @@ title: "ENT:OnFatalDamage"
 [Back to Shared](index.md)
 
 <a id="ent-onfataldamage"></a>
-# `ENT:OnFatalDamage`
+# `ENT:OnFatalDamage` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

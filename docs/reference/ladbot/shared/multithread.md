@@ -5,7 +5,7 @@ title: "ENT:Multithread"
 [Back to Shared](index.md)
 
 <a id="ent-multithread"></a>
-# `ENT:Multithread`
+# `ENT:Multithread` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

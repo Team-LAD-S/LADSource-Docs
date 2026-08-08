@@ -5,7 +5,7 @@ title: "ENT:_SpawnVelocityRagdoll"
 [Back to Ragdoll](index.md)
 
 <a id="ent-spawnvelocityragdoll"></a>
-# `ENT:_SpawnVelocityRagdoll`
+# `ENT:_SpawnVelocityRagdoll` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 

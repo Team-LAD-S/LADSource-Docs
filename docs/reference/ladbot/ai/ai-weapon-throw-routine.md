@@ -5,7 +5,7 @@ title: "ENT:AIWeaponThrowRoutine"
 [Back to AI](index.md)
 
 <a id="ent-aiweaponthrowroutine"></a>
-# `ENT:AIWeaponThrowRoutine`
+# `ENT:AIWeaponThrowRoutine` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

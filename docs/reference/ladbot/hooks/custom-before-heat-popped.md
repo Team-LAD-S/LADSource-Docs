@@ -5,7 +5,7 @@ title: "ENT:CustomBeforeHeatPopped"
 [Back to Hooks](index.md)
 
 <a id="ent-custombeforeheatpopped"></a>
-# `ENT:CustomBeforeHeatPopped`
+# `ENT:CustomBeforeHeatPopped` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

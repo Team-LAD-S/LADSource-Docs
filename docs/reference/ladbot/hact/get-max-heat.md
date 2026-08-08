@@ -5,7 +5,7 @@ title: "ENT:GetMaxHeat"
 [Back to HACT](index.md)
 
 <a id="ent-getmaxheat"></a>
-# `ENT:GetMaxHeat`
+# `ENT:GetMaxHeat` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

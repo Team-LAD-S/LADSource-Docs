@@ -5,7 +5,7 @@ title: "Entity:LADS_IsInCone"
 [Back to Entity extensions](index.md)
 
 <a id="entity-lads-isincone"></a>
-# `Entity:LADS_IsInCone`
+# `Entity:LADS_IsInCone` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--shared">shared</span></div>
 

@@ -5,7 +5,7 @@ title: "ENT:CheckJuggleState"
 [Back to Events](index.md)
 
 <a id="ent-checkjugglestate"></a>
-# `ENT:CheckJuggleState`
+# `ENT:CheckJuggleState` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

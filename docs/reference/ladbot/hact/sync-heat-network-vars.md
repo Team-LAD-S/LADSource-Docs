@@ -5,7 +5,7 @@ title: "ENT:SyncHeatNetworkVars"
 [Back to HACT](index.md)
 
 <a id="ent-syncheatnetworkvars"></a>
-# `ENT:SyncHeatNetworkVars`
+# `ENT:SyncHeatNetworkVars` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

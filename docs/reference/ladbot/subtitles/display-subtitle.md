@@ -5,7 +5,7 @@ title: "ENT:DisplaySubtitle"
 [Back to Subtitles](index.md)
 
 <a id="ent-displaysubtitle"></a>
-# `ENT:DisplaySubtitle`
+# `ENT:DisplaySubtitle` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

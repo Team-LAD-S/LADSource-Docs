@@ -5,7 +5,7 @@ title: "ENT:HeatAura"
 [Back to VFX](index.md)
 
 <a id="ent-heataura"></a>
-# `ENT:HeatAura`
+# `ENT:HeatAura` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

@@ -5,7 +5,7 @@ title: "ENT:LoadData"
 [Back to Shared](index.md)
 
 <a id="ent-loaddata"></a>
-# `ENT:LoadData`
+# `ENT:LoadData` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

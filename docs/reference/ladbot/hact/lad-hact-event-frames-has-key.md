@@ -5,7 +5,7 @@ title: "ENT:LAD_HactEventFramesHasKey"
 [Back to HACT](index.md)
 
 <a id="ent-lad-hacteventframeshaskey"></a>
-# `ENT:LAD_HactEventFramesHasKey`
+# `ENT:LAD_HactEventFramesHasKey` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

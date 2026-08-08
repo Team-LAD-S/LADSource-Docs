@@ -5,7 +5,7 @@ title: "ENT:KnockOffCosmetics"
 [Back to Customization](index.md)
 
 <a id="ent-knockoffcosmetics"></a>
-# `ENT:KnockOffCosmetics`
+# `ENT:KnockOffCosmetics` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

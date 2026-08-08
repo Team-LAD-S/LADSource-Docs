@@ -5,7 +5,7 @@ title: "ENT:SoundtrackMovesetUpdate"
 [Back to Soundtrack](index.md)
 
 <a id="ent-soundtrackmovesetupdate"></a>
-# `ENT:SoundtrackMovesetUpdate`
+# `ENT:SoundtrackMovesetUpdate` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

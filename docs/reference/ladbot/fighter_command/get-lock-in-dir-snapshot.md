@@ -5,7 +5,7 @@ title: "ENT:GetLockInDirSnapshot"
 [Back to Fighter Command](index.md)
 
 <a id="ent-getlockindirsnapshot"></a>
-# `ENT:GetLockInDirSnapshot`
+# `ENT:GetLockInDirSnapshot` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

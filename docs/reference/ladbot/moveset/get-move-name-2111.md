@@ -5,7 +5,7 @@ title: "ENT:GetMoveName (line 2111)"
 [Back to Moveset](index.md)
 
 <a id="ent-getmovename-2111"></a>
-# `ENT:GetMoveName`
+# `ENT:GetMoveName` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

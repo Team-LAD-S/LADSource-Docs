@@ -5,7 +5,7 @@ title: "ENT:BecomeConfused"
 [Back to Fighter Command](index.md)
 
 <a id="ent-becomeconfused"></a>
-# `ENT:BecomeConfused`
+# `ENT:BecomeConfused` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

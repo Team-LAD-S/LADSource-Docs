@@ -5,7 +5,7 @@ title: "ENT:DrawEnemyHUDNew"
 [Back to HUD](index.md)
 
 <a id="ent-drawenemyhudnew"></a>
-# `ENT:DrawEnemyHUDNew`
+# `ENT:DrawEnemyHUDNew` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

@@ -5,7 +5,7 @@ title: "ENT:PlayDuoSync"
 [Back to Events](index.md)
 
 <a id="ent-playduosync"></a>
-# `ENT:PlayDuoSync`
+# `ENT:PlayDuoSync` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

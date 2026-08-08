@@ -5,7 +5,7 @@ title: "ENT:SetFighterVoicebank"
 [Back to Voicebanks](index.md)
 
 <a id="ent-setfightervoicebank"></a>
-# `ENT:SetFighterVoicebank`
+# `ENT:SetFighterVoicebank` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

@@ -5,7 +5,7 @@ title: "ENT:GrabSync"
 [Back to Grab](index.md)
 
 <a id="ent-grabsync"></a>
-# `ENT:GrabSync`
+# `ENT:GrabSync` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

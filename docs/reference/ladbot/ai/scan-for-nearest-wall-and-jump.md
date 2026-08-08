@@ -5,7 +5,7 @@ title: "ENT:ScanForNearestWallAndJump"
 [Back to AI](index.md)
 
 <a id="ent-scanfornearestwallandjump"></a>
-# `ENT:ScanForNearestWallAndJump`
+# `ENT:ScanForNearestWallAndJump` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

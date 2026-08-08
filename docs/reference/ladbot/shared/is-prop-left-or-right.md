@@ -5,7 +5,7 @@ title: "ENT:IsPropLeftOrRight"
 [Back to Shared](index.md)
 
 <a id="ent-ispropleftorright"></a>
-# `ENT:IsPropLeftOrRight`
+# `ENT:IsPropLeftOrRight` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

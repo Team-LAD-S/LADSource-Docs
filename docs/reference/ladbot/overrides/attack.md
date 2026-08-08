@@ -5,7 +5,7 @@ title: "ENT:Attack"
 [Back to Overrides](index.md)
 
 <a id="ent-attack"></a>
-# `ENT:Attack`
+# `ENT:Attack` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

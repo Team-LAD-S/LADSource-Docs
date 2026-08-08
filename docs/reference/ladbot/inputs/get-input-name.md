@@ -5,7 +5,7 @@ title: "ENT:GetInputName"
 [Back to Inputs](index.md)
 
 <a id="ent-getinputname"></a>
-# `ENT:GetInputName`
+# `ENT:GetInputName` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

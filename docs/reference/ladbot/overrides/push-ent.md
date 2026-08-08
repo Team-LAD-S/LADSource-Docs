@@ -5,7 +5,7 @@ title: "ENT:PushEnt"
 [Back to Overrides](index.md)
 
 <a id="ent-pushent"></a>
-# `ENT:PushEnt`
+# `ENT:PushEnt` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 

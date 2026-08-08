@@ -5,7 +5,7 @@ title: "ENT:_FindVoidRecoveryPos"
 [Back to Shared](index.md)
 
 <a id="ent-findvoidrecoverypos"></a>
-# `ENT:_FindVoidRecoveryPos`
+# `ENT:_FindVoidRecoveryPos` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 

@@ -5,7 +5,7 @@ title: "ENT:_ApplyMoveSway"
 [Back to Moveset](index.md)
 
 <a id="ent-applymovesway"></a>
-# `ENT:_ApplyMoveSway`
+# `ENT:_ApplyMoveSway` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 
