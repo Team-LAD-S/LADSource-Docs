@@ -12,7 +12,7 @@ Methods defined in `lua/entities/lad_framework_base/overrides.lua`.
 | Method | Summary |
 | --- | --- |
 | [`ENT:_BaseInitialize`](#ent-baseinitialize) | Documentation pending. |
-| [`ENT:_BaseInitialize`](#ent-baseinitialize-1910) | Documentation pending. |
+| [`ENT:_BaseInitialize`](#ent-baseinitialize-1910) | _BaseInitialize is an empty stub in DRGBase called after _InitModules() completes, so all internal fields (_DrGBaseSequenceEvents etc.) are already set up by the time this runs.  Overriding Initialize() directly would skip _InitModules() entirely. |
 | [`ENT:_HandleLandOnGround`](#ent-handlelandonground) | Documentation pending. |
 | [`ENT:_HandleLeaveGround`](#ent-handleleaveground) | Documentation pending. |
 | [`ENT:_InitModules`](#ent-initmodules) | Documentation pending. |
@@ -31,7 +31,7 @@ Methods defined in `lua/entities/lad_framework_base/overrides.lua`.
 | [`ENT:FaceTowards`](#ent-facetowards) | Documentation pending. |
 | [`ENT:FixCollisions`](#ent-fixcollisions) | Documentation pending. |
 | [`ENT:GetRenderAngles`](#ent-getrenderangles) | Documentation pending. |
-| [`ENT:GetRenderOrigin`](#ent-getrenderorigin) | Documentation pending. |
+| [`ENT:GetRenderOrigin`](#ent-getrenderorigin) | Return our client-predicted position for rendering instead of the network-interpolated origin.  GetPos() (hitboxes/physics) is never touched — only the visual draw position is overridden.  During non-PSAW states _LAD_predictedPos is nil so it falls back to the normal GetPos() path. |
 | [`ENT:HandleEnemy`](#ent-handleenemy) | Documentation pending. |
 | [`ENT:Initialize`](#ent-initialize) | Documentation pending. |
 | [`ENT:MoveBackward`](#ent-movebackward) | Documentation pending. |
@@ -41,7 +41,7 @@ Methods defined in `lua/entities/lad_framework_base/overrides.lua`.
 | [`ENT:OnFallDamage`](#ent-onfalldamage) | Documentation pending. |
 | [`ENT:OnInjured`](#ent-oninjured) | Documentation pending. |
 | [`ENT:OnKilled`](#ent-onkilled) | Documentation pending. |
-| [`ENT:OnRemove`](#ent-onremove) | Documentation pending. |
+| [`ENT:OnRemove`](#ent-onremove) | Weak keys handle GC cleanup, but CallOnRemove fires before GC so explicit nil is cleaner. |
 | [`ENT:OnUpdateAnimation`](#ent-onupdateanimation) | Documentation pending. |
 | [`ENT:Patrol`](#ent-patrol) | Documentation pending. |
 | [`ENT:PlaySequence`](#ent-playsequence) | Documentation pending. |
@@ -50,7 +50,7 @@ Methods defined in `lua/entities/lad_framework_base/overrides.lua`.
 | [`ENT:PossessorView`](#ent-possessorview) | Documentation pending. |
 | [`ENT:PushEnt`](#ent-pushent) | Documentation pending. |
 | [`ENT:SetupDataTables`](#ent-setupdatatables) | Documentation pending. |
-| [`ENT:Think`](#ent-think) | Documentation pending. |
+| [`ENT:Think`](#ent-think) | ENT:Think() override (source: drgbase_nextbot/shared.lua) Eliminates 10-12 redundant CurTime() C calls per tick by caching one value at the top. In the medium-delay block, reuses self._DrGBaseWaterLevel (already maintained at 20Hz by the short-delay block) instead of calling WaterLevel() a second time per 0.1s interval. |
 | [`ENT:UpdateAnimation`](#ent-updateanimation) | Documentation pending. |
 | [`ENT:UpdateEnemy`](#ent-updateenemy) | Documentation pending. |
 
@@ -92,7 +92,9 @@ function ENT:_BaseInitialize()
 
 </div>
 
-*Documentation pending. The signature and source location were generated automatically.*
+_BaseInitialize is an empty stub in DRGBase called after _InitModules() completes,
+so all internal fields (_DrGBaseSequenceEvents etc.) are already set up by the time
+this runs.  Overriding Initialize() directly would skip _InitModules() entirely.
 
 ### Parameters
 
@@ -597,7 +599,10 @@ function ENT:GetRenderOrigin()
 
 </div>
 
-*Documentation pending. The signature and source location were generated automatically.*
+Return our client-predicted position for rendering instead of the network-interpolated
+origin.  GetPos() (hitboxes/physics) is never touched — only the visual draw position
+is overridden.  During non-PSAW states _LAD_predictedPos is nil so it falls back to
+the normal GetPos() path.
 
 ### Parameters
 
@@ -865,7 +870,7 @@ function ENT:OnRemove()
 
 </div>
 
-*Documentation pending. The signature and source location were generated automatically.*
+Weak keys handle GC cleanup, but CallOnRemove fires before GC so explicit nil is cleaner.
 
 ### Parameters
 
@@ -1105,7 +1110,10 @@ function ENT:Think()
 
 </div>
 
-*Documentation pending. The signature and source location were generated automatically.*
+ENT:Think() override (source: drgbase_nextbot/shared.lua)
+Eliminates 10-12 redundant CurTime() C calls per tick by caching one value at the top.
+In the medium-delay block, reuses self._DrGBaseWaterLevel (already maintained at 20Hz by
+the short-delay block) instead of calling WaterLevel() a second time per 0.1s interval.
 
 ### Parameters
 

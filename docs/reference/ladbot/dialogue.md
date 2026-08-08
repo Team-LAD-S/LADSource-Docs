@@ -19,7 +19,7 @@ Methods defined in `lua/entities/lad_framework_base/dialogue.lua`.
 | [`ENT:IsStationaryDialogueAvailable`](#ent-isstationarydialogueavailable) | Documentation pending. |
 | [`ENT:SetStationaryOverworldEnabled`](#ent-setstationaryoverworldenabled) | Documentation pending. |
 | [`ENT:TriggerDialogue`](#ent-triggerdialogue) | Documentation pending. |
-| [`ENT:TriggerDialogueData`](#ent-triggerdialoguedata) | Documentation pending. |
+| [`ENT:TriggerDialogueData`](#ent-triggerdialoguedata) | Starts a dialogue from an in-memory table instead of a JSON file. |
 | [`ENT:TriggerStationaryDialogue`](#ent-triggerstationarydialogue) | Documentation pending. |
 
 <a id="ent-cleardialogueinfo"></a>
@@ -244,7 +244,7 @@ function ENT:TriggerDialogueData(ply, dialogueName, dialogueData, id, subjects)
 
 </div>
 
-*Documentation pending. The signature and source location were generated automatically.*
+Starts a dialogue from an in-memory table instead of a JSON file.
 
 ### Parameters
 

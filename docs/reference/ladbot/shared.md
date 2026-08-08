@@ -38,11 +38,11 @@ Methods defined in `lua/entities/lad_framework_base/shared.lua`.
 | [`ENT:OnIdle`](#ent-onidle) | Documentation pending. |
 | [`ENT:OnPatrolling`](#ent-onpatrolling) | Documentation pending. |
 | [`ENT:OnPatrolUnreachable`](#ent-onpatrolunreachable) | Documentation pending. |
-| [`ENT:OnReachedPatrol`](#ent-onreachedpatrol) | Documentation pending. |
+| [`ENT:OnReachedPatrol`](#ent-onreachedpatrol) | These hooks are called while the nextbot is patrolling (inside the coroutine) |
 | [`ENT:OnRemove`](#ent-onremove) | Documentation pending. |
 | [`ENT:OnRemove`](#ent-onremove-1500) | Documentation pending. |
-| [`ENT:OnSpawn`](#ent-onspawn) | Documentation pending. |
-| [`ENT:OnTookDamage`](#ent-ontookdamage) | Documentation pending. |
+| [`ENT:OnSpawn`](#ent-onspawn) | Those hooks are called inside the coroutine |
+| [`ENT:OnTookDamage`](#ent-ontookdamage) | Called inside the coroutine |
 | [`ENT:PlayBumpAnimation`](#ent-playbumpanimation) | Documentation pending. |
 | [`ENT:RecoverFromVoid`](#ent-recoverfromvoid) | Documentation pending. |
 | [`ENT:SetNexbotColor`](#ent-setnexbotcolor) | Documentation pending. |
@@ -778,7 +778,7 @@ function ENT:OnReachedPatrol(pos)
 
 </div>
 
-*Documentation pending. The signature and source location were generated automatically.*
+These hooks are called while the nextbot is patrolling (inside the coroutine)
 
 ### Parameters
 
@@ -855,7 +855,7 @@ function ENT:OnSpawn()
 
 </div>
 
-*Documentation pending. The signature and source location were generated automatically.*
+Those hooks are called inside the coroutine
 
 ### Parameters
 
@@ -880,7 +880,7 @@ function ENT:OnTookDamage(dmg, hitgroup)
 
 </div>
 
-*Documentation pending. The signature and source location were generated automatically.*
+Called inside the coroutine
 
 ### Parameters
 

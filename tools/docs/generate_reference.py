@@ -1,4 +1,4 @@
-"""Generate the LADBot API reference from lad_framework_base."""
+"""Generate LADSource API references from the private framework source."""
 
 from __future__ import annotations
 
@@ -11,16 +11,9 @@ from pathlib import Path
 from urllib.parse import quote
 
 
-METHOD_RE = re.compile(
-    r"^\s*function\s+ENT(?P<separator>[:.])(?P<name>[A-Za-z_]\w*)"
-    r"\s*\((?P<arguments>[^)]*)\)"
-)
-ASSIGNED_METHOD_RE = re.compile(
-    r"^\s*ENT\.(?P<name>[A-Za-z_]\w*)\s*=\s*function\s*"
-    r"\((?P<arguments>[^)]*)\)"
-)
 INCLUDE_RE = re.compile(r'DrGBase\.IncludeFile\(["\']([^"\']+\.lua)["\']\)')
 DOC_LINE_RE = re.compile(r"^\s*---(?!-)(.*)$")
+COMMENT_LINE_RE = re.compile(r"^\s*--(?!-|\[\[)(.*)$")
 TAG_RE = re.compile(r"^@(?P<name>[A-Za-z_]\w*)(?:\s+(?P<value>.*))?$")
 PARAM_RE = re.compile(r"^(?P<name>[A-Za-z_]\w*|\.\.\.)\s+(?P<type>\S+)(?:\s+(?P<description>.*))?$")
 RETURN_RE = re.compile(r"^(?P<type>\S+)(?:\s+(?P<description>.*))?$")
@@ -71,11 +64,19 @@ def split_arguments(value: str) -> list[str]:
     return [item.strip() for item in value.split(",") if item.strip()]
 
 
+def read_lua_source(path: Path) -> str:
+    data = path.read_bytes()
+    try:
+        return data.decode("utf-8-sig")
+    except UnicodeDecodeError:
+        return data.decode("cp1252")
+
+
 def extract_doc_block(lines: list[str], method_index: int) -> list[str]:
     block: list[str] = []
     index = method_index - 1
     while index >= 0:
-        match = DOC_LINE_RE.match(lines[index])
+        match = DOC_LINE_RE.match(lines[index]) or COMMENT_LINE_RE.match(lines[index])
         if not match:
             break
         block.append(match.group(1).lstrip())
@@ -122,8 +123,29 @@ def parse_documentation(method: Method, doc_lines: list[str]) -> None:
     ]
 
 
-def parse_methods(path: Path, repository_root: Path) -> list[Method]:
-    lines = path.read_text(encoding="utf-8-sig", errors="replace").splitlines()
+def method_patterns(receiver: str) -> tuple[re.Pattern[str], re.Pattern[str]]:
+    escaped = re.escape(receiver)
+    direct = re.compile(
+        rf"^\s*function\s+{escaped}(?P<separator>[:.])"
+        rf"(?P<name>[A-Za-z_]\w*)\s*\((?P<arguments>[^)]*)\)"
+    )
+    assigned = re.compile(
+        rf"^\s*{escaped}\.(?P<name>[A-Za-z_]\w*)\s*=\s*function\s*"
+        rf"\((?P<arguments>[^)]*)\)"
+    )
+    return direct, assigned
+
+
+def parse_methods(
+    path: Path,
+    repository_root: Path,
+    receiver: str = "ENT",
+    display_receiver: str | None = None,
+    default_realm: str = "not documented",
+) -> list[Method]:
+    lines = read_lua_source(path).splitlines()
+    direct_pattern, assigned_pattern = method_patterns(receiver)
+    display_receiver = display_receiver or receiver
     methods: list[Method] = []
     used_anchors: set[str] = set()
     in_c_block_comment = False
@@ -145,16 +167,16 @@ def parse_methods(path: Path, repository_root: Path) -> list[Method]:
             in_lua_block_comment = "]]" not in stripped[4:]
             continue
 
-        match = METHOD_RE.match(line)
+        match = direct_pattern.match(line)
         separator = match.group("separator") if match else "."
         if not match:
-            match = ASSIGNED_METHOD_RE.match(line)
+            match = assigned_pattern.match(line)
         if not match:
             continue
 
         name = match.group("name")
         raw_arguments = match.group("arguments").strip()
-        display_name = f"ENT{separator}{name}"
+        display_name = f"{display_receiver}{separator}{name}"
         method = Method(
             name=name,
             display_name=display_name,
@@ -162,6 +184,7 @@ def parse_methods(path: Path, repository_root: Path) -> list[Method]:
             arguments=split_arguments(raw_arguments),
             source_file=path.relative_to(repository_root).as_posix(),
             source_line=index + 1,
+            realm=default_realm,
             internal=name.startswith("_"),
         )
         parse_documentation(method, extract_doc_block(lines, index))
@@ -256,7 +279,12 @@ def render_method(method: Method, repository_url: str, branch: str) -> list[str]
 
 
 def render_module(
-    path: Path, methods: list[Method], repository_url: str, branch: str
+    path: Path,
+    methods: list[Method],
+    repository_url: str,
+    branch: str,
+    title: str | None = None,
+    introduction: str | None = None,
 ) -> str:
     relative_path = (
         methods[0].source_file
@@ -264,11 +292,17 @@ def render_module(
         else f"lua/entities/lad_framework_base/{path.name}"
     )
     output = [
-        f"# {module_title(path)}",
-        "",
-        f"Methods defined in `{relative_path}`.",
+        f"# {title or module_title(path)}",
         "",
     ]
+    if introduction:
+        output.extend([introduction, ""])
+    output.extend(
+        [
+        f"Methods defined in `{relative_path}`.",
+        "",
+        ]
+    )
     if repository_url:
         encoded_path = quote(relative_path, safe="/")
         encoded_branch = quote(branch, safe="")
@@ -292,7 +326,7 @@ def render_module(
         ]
     )
     if not methods:
-        return "\n".join(output + ["No `ENT` methods were detected in this file.", ""])
+        return "\n".join(output + ["No matching API methods were detected in this file.", ""])
 
     output.extend(["## Methods", "", "| Method | Summary |", "| --- | --- |"])
     for method in methods:
@@ -308,7 +342,7 @@ def ordered_source_files(source_directory: Path) -> list[Path]:
     shared = source_directory / "shared.lua"
     ordered_names = ["shared.lua"]
     if shared.exists():
-        text = shared.read_text(encoding="utf-8-sig", errors="replace")
+        text = read_lua_source(shared)
         ordered_names.extend(INCLUDE_RE.findall(text))
 
     files: list[Path] = []
@@ -331,48 +365,143 @@ def generate(
     repository_url: str,
     branch: str,
 ) -> tuple[int, int]:
-    source_directory = source_root / "lua" / "entities" / "lad_framework_base"
+    ladbot_source_directory = source_root / "lua" / "entities" / "lad_framework_base"
+    entity_source = source_root / "lua" / "lad_framework" / "meta.lua"
+    battle_manager_source = (
+        source_root / "lua" / "lad_framework" / "battle_manager.lua"
+    )
     docs_directory = (docs_root / "docs").resolve()
     output_directory = (docs_directory / "reference").resolve()
     if output_directory.parent != docs_directory:
         raise RuntimeError(f"Refusing to replace unexpected directory: {output_directory}")
-    if not source_directory.is_dir():
-        raise FileNotFoundError(f"Framework source not found: {source_directory}")
+    required_sources = [
+        ladbot_source_directory,
+        entity_source,
+        battle_manager_source,
+    ]
+    for required_source in required_sources:
+        if not required_source.exists():
+            raise FileNotFoundError(f"Framework source not found: {required_source}")
     if output_directory.exists():
         shutil.rmtree(output_directory)
     output_directory.mkdir(parents=True)
+    ladbot_output_directory = output_directory / "ladbot"
+    ladbot_output_directory.mkdir()
 
     manifest: list[dict[str, object]] = []
-    modules: list[tuple[Path, list[Method]]] = []
-    for path in ordered_source_files(source_directory):
+    ladbot_modules: list[tuple[Path, list[Method]]] = []
+    for path in ordered_source_files(ladbot_source_directory):
         methods = parse_methods(path, source_root)
         methods.sort(key=lambda method: (method.name.casefold(), method.source_line))
-        modules.append((path, methods))
-        manifest.extend(asdict(method) for method in methods)
-        (output_directory / f"{path.stem}.md").write_text(
+        ladbot_modules.append((path, methods))
+        for method in methods:
+            record = asdict(method)
+            record["api_group"] = "ladbot"
+            manifest.append(record)
+        (ladbot_output_directory / f"{path.stem}.md").write_text(
             render_module(path, methods, repository_url, branch),
             encoding="utf-8",
             newline="\n",
         )
 
-    documented_count = sum(bool(item["description"]) for item in manifest)
-    index = [
-        "# Framework reference",
+    entity_methods = parse_methods(
+        entity_source,
+        source_root,
+        receiver="ladMeta",
+        display_receiver="Entity",
+        default_realm="shared",
+    )
+    entity_methods.sort(key=lambda method: (method.name.casefold(), method.source_line))
+    for method in entity_methods:
+        record = asdict(method)
+        record["api_group"] = "entity"
+        manifest.append(record)
+    (output_directory / "entity.md").write_text(
+        render_module(
+            entity_source,
+            entity_methods,
+            repository_url,
+            branch,
+            title="Entity extensions",
+            introduction=(
+                "These methods extend Garry's Mod's `Entity` metatable, so they can be "
+                "called on any entity and are not limited to LADBots."
+            ),
+        ),
+        encoding="utf-8",
+        newline="\n",
+    )
+
+    battle_manager_methods = parse_methods(
+        battle_manager_source,
+        source_root,
+        receiver="BM",
+        display_receiver="BattleManager",
+        default_realm="server",
+    )
+    battle_manager_methods.sort(
+        key=lambda method: (method.name.casefold(), method.source_line)
+    )
+    for method in battle_manager_methods:
+        record = asdict(method)
+        record["api_group"] = "battle_manager"
+        manifest.append(record)
+    (output_directory / "battle_manager.md").write_text(
+        render_module(
+            battle_manager_source,
+            battle_manager_methods,
+            repository_url,
+            branch,
+            title="Battle Manager",
+            introduction=(
+                "Server-side battle lifecycle methods exposed through "
+                "`LADSource.BattleManager`."
+            ),
+        ),
+        encoding="utf-8",
+        newline="\n",
+    )
+
+    ladbot_count = sum(len(methods) for _, methods in ladbot_modules)
+    ladbot_index = [
+        "# LADBot modules",
         "",
-        "This reference is generated from `lua/entities/lad_framework_base` and",
-        "grouped by the Lua file that defines each method.",
+        "Methods inherited from `lad_framework_base`, grouped by the Lua module",
+        "that defines them.",
         "",
-        f"**{len(manifest)} methods** were detected across **{len(modules)} files**.",
-        f"**{documented_count} methods** currently have descriptions.",
+        f"**{ladbot_count} methods** were detected across "
+        f"**{len(ladbot_modules)} modules**.",
         "",
         "| Module | Methods | Source file |",
         "| --- | ---: | --- |",
     ]
-    for path, methods in modules:
+    for path, methods in ladbot_modules:
         relative = path.relative_to(source_root).as_posix()
-        index.append(
+        ladbot_index.append(
             f"| [{module_title(path)}]({path.stem}.md) | {len(methods)} | `{relative}` |"
         )
+    ladbot_index.append("")
+    (ladbot_output_directory / "index.md").write_text(
+        "\n".join(ladbot_index), encoding="utf-8", newline="\n"
+    )
+
+    documented_count = sum(bool(item["description"]) for item in manifest)
+    source_file_count = len(ladbot_modules) + 2
+    index = [
+        "# API reference",
+        "",
+        "The reference covers LADBot methods, shared Entity extensions, and the",
+        "server-side Battle Manager API.",
+        "",
+        f"**{len(manifest)} methods** were detected across **{source_file_count} files**.",
+        f"**{documented_count} methods** currently have descriptions.",
+        "",
+        "| API group | Methods | Description |",
+        "| --- | ---: | --- |",
+        f"| [LADBot modules](ladbot/index.md) | {ladbot_count} | Methods inherited from `lad_framework_base`. |",
+        f"| [Entity extensions](entity.md) | {len(entity_methods)} | Shared helpers available on all entities. |",
+        f"| [Battle Manager](battle_manager.md) | {len(battle_manager_methods)} | Server-side battle lifecycle management. |",
+    ]
     index.extend(
         [
             "",
@@ -391,7 +520,7 @@ def generate(
         encoding="utf-8",
         newline="\n",
     )
-    return len(modules), len(manifest)
+    return source_file_count, len(manifest)
 
 
 def main() -> None:
@@ -417,7 +546,7 @@ def main() -> None:
         arguments.source_repository_url.rstrip("/"),
         arguments.branch,
     )
-    print(f"Generated {methods} methods from {modules} framework files.")
+    print(f"Generated {methods} methods from {modules} source files.")
 
 
 if __name__ == "__main__":

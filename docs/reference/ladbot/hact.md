@@ -11,7 +11,7 @@ Methods defined in `lua/entities/lad_framework_base/hact.lua`.
 
 | Method | Summary |
 | --- | --- |
-| [`ENT:AbortHact`](#ent-aborthact) | Documentation pending. |
+| [`ENT:AbortHact`](#ent-aborthact) | Cleans up a mid-hact state when the activator dies before the hact finishes normally. Without this, subjects remain stuck in IsInHact = true indefinitely. |
 | [`ENT:AddHeat`](#ent-addheat) | Documentation pending. |
 | [`ENT:CacheAvailableHacts`](#ent-cacheavailablehacts) | Documentation pending. |
 | [`ENT:CanForcePositionToNearestWall`](#ent-canforcepositiontonearestwall) | Documentation pending. |
@@ -102,7 +102,8 @@ function ENT:AbortHact()
 
 </div>
 
-*Documentation pending. The signature and source location were generated automatically.*
+Cleans up a mid-hact state when the activator dies before the hact finishes normally.
+Without this, subjects remain stuck in IsInHact = true indefinitely.
 
 ### Parameters
 

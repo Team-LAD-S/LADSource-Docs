@@ -11,7 +11,7 @@ Methods defined in `lua/entities/lad_framework_base/fighter_command.lua`.
 
 | Method | Summary |
 | --- | --- |
-| [`ENT:ActivateCombat`](#ent-activatecombat) | Documentation pending. |
+| [`ENT:ActivateCombat`](#ent-activatecombat) | Activates combat of a LADBot that this function is ran on. |
 | [`ENT:ActivatePerk`](#ent-activateperk) | Documentation pending. |
 | [`ENT:BecomeConfused`](#ent-becomeconfused) | Documentation pending. |
 | [`ENT:BecomePissed`](#ent-becomepissed) | Documentation pending. |
@@ -22,14 +22,14 @@ Methods defined in `lua/entities/lad_framework_base/fighter_command.lua`.
 | [`ENT:DeactivateCombat`](#ent-deactivatecombat) | Documentation pending. |
 | [`ENT:DeductAreaWideBravery`](#ent-deductareawidebravery) | Documentation pending. |
 | [`ENT:GetDoorState`](#ent-getdoorstate) | Documentation pending. |
-| [`ENT:GetLockedInDirectionalTarget`](#ent-getlockedindirectionaltarget) | Documentation pending. |
-| [`ENT:GetLockInDirSnapshot`](#ent-getlockindirsnapshot) | Documentation pending. |
+| [`ENT:GetLockedInDirectionalTarget`](#ent-getlockedindirectionaltarget) | Returns the best enemy candidate in the direction the possessor is pressing (WASD, 8-way), or nil if no suitable candidate passes all three filters: 1. Edge-triggered: caller only invokes this on a direction change (see PossessionThink). 2. Angular separation: candidate must be >20 degrees away from current target (avoids switching between enemies that are essentially overlapping from our POV). 3. Hysteresis: candidate must outscore the current target by a margin of 0.15 (avoids switching to a marginally better-aligned enemy in a tight cluster). |
+| [`ENT:GetLockInDirSnapshot`](#ent-getlockindirsnapshot) | Used for edge-detection: a switch is only evaluated when this string changes. |
 | [`ENT:GetMovementDirection`](#ent-getmovementdirection) | Documentation pending. |
 | [`ENT:GetNearestEnemy`](#ent-getnearestenemy) | Documentation pending. |
 | [`ENT:Guard`](#ent-guard) | Documentation pending. |
 | [`ENT:Interact`](#ent-interact) | Documentation pending. |
 | [`ENT:IsDoorLocked`](#ent-isdoorlocked) | Documentation pending. |
-| [`ENT:IsInLockOnCone`](#ent-isinlockoncone) | Documentation pending. |
+| [`ENT:IsInLockOnCone`](#ent-isinlockoncone) | Returns true if ent is within the lock-on cone (default ±65° from the nextbot's own forward vector). |
 | [`ENT:LAD_DoScreenShake`](#ent-lad-doscreenshake) | Documentation pending. |
 | [`ENT:OnIdleEnemy`](#ent-onidleenemy) | Documentation pending. |
 | [`ENT:OnMeleeAttack`](#ent-onmeleeattack) | Documentation pending. |
@@ -58,7 +58,7 @@ Methods defined in `lua/entities/lad_framework_base/fighter_command.lua`.
 <a id="ent-activatecombat"></a>
 ## `ENT:ActivateCombat`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge ">server</span></div>
 
 <div class="api-signature" markdown>
 
@@ -68,20 +68,20 @@ function ENT:ActivateCombat(target, skipanim)
 
 </div>
 
-*Documentation pending. The signature and source location were generated automatically.*
+Activates combat of a LADBot that this function is ran on.
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| `target` | `any` | Not documented. |
-| `skipanim` | `any` | Not documented. |
+| `target` | `Target` | snaps to whoever activates combat |
+| `skipanim` | `boolean` | Whether to skip the battle-start animation. |
 
 ### Returns
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:774</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:778</code>.</p>
 
 <a id="ent-activateperk"></a>
 ## `ENT:ActivatePerk`
@@ -109,7 +109,7 @@ function ENT:ActivatePerk(time, pwr)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:1288</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:1294</code>.</p>
 
 <a id="ent-becomeconfused"></a>
 ## `ENT:BecomeConfused`
@@ -134,7 +134,7 @@ This method takes no explicit arguments.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:914</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:920</code>.</p>
 
 <a id="ent-becomepissed"></a>
 ## `ENT:BecomePissed`
@@ -159,7 +159,7 @@ This method takes no explicit arguments.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:958</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:964</code>.</p>
 
 <a id="ent-becomescared"></a>
 ## `ENT:BecomeScared`
@@ -184,7 +184,7 @@ This method takes no explicit arguments.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:941</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:947</code>.</p>
 
 <a id="ent-cancelguard"></a>
 ## `ENT:CancelGuard`
@@ -209,7 +209,7 @@ This method takes no explicit arguments.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:1057</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:1063</code>.</p>
 
 <a id="ent-ceasemovementrates"></a>
 ## `ENT:CeaseMovementRates`
@@ -234,7 +234,7 @@ This method takes no explicit arguments.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:1255</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:1261</code>.</p>
 
 <a id="ent-cycletonextstyle"></a>
 ## `ENT:CycleToNextStyle`
@@ -284,7 +284,7 @@ This method takes no explicit arguments.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:858</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:864</code>.</p>
 
 <a id="ent-deductareawidebravery"></a>
 ## `ENT:DeductAreaWideBravery`
@@ -312,7 +312,7 @@ function ENT:DeductAreaWideBravery(deduct, radius)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:927</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:933</code>.</p>
 
 <a id="ent-getdoorstate"></a>
 ## `ENT:GetDoorState`
@@ -354,7 +354,13 @@ function ENT:GetLockedInDirectionalTarget(dirSnapshot)
 
 </div>
 
-*Documentation pending. The signature and source location were generated automatically.*
+Returns the best enemy candidate in the direction the possessor is pressing (WASD, 8-way),
+or nil if no suitable candidate passes all three filters:
+1. Edge-triggered: caller only invokes this on a direction change (see PossessionThink).
+2. Angular separation: candidate must be >20 degrees away from current target
+(avoids switching between enemies that are essentially overlapping from our POV).
+3. Hysteresis: candidate must outscore the current target by a margin of 0.15
+(avoids switching to a marginally better-aligned enemy in a tight cluster).
 
 ### Parameters
 
@@ -381,7 +387,7 @@ function ENT:GetLockInDirSnapshot()
 
 </div>
 
-*Documentation pending. The signature and source location were generated automatically.*
+Used for edge-detection: a switch is only evaluated when this string changes.
 
 ### Parameters
 
@@ -416,7 +422,7 @@ This method takes no explicit arguments.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:1357</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:1363</code>.</p>
 
 <a id="ent-getnearestenemy"></a>
 ## `ENT:GetNearestEnemy`
@@ -468,7 +474,7 @@ function ENT:Guard(isAI)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:993</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:999</code>.</p>
 
 <a id="ent-interact"></a>
 ## `ENT:Interact`
@@ -535,7 +541,8 @@ function ENT:IsInLockOnCone(ent, halfAngleDeg)
 
 </div>
 
-*Documentation pending. The signature and source location were generated automatically.*
+Returns true if ent is within the lock-on cone (default ±65° from the
+nextbot's own forward vector).
 
 ### Parameters
 
@@ -603,7 +610,7 @@ This method takes no explicit arguments.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:1151</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:1157</code>.</p>
 
 <a id="ent-onmeleeattack"></a>
 ## `ENT:OnMeleeAttack`
@@ -630,7 +637,7 @@ function ENT:OnMeleeAttack(enemy)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:1112</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:1118</code>.</p>
 
 <a id="ent-onpossessed"></a>
 ## `ENT:OnPossessed`
@@ -684,7 +691,7 @@ function ENT:OnRangeAttack(enemy)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:1073</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:1079</code>.</p>
 
 <a id="ent-onwaterlevelchange"></a>
 ## `ENT:OnWaterLevelChange`
@@ -709,7 +716,7 @@ This method takes no explicit arguments.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:1331</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:1337</code>.</p>
 
 <a id="ent-possessionr"></a>
 ## `ENT:PossessionR`
@@ -811,7 +818,7 @@ This method takes no explicit arguments.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:1350</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:1356</code>.</p>
 
 <a id="ent-regeneratehealth"></a>
 ## `ENT:RegenerateHealth`
@@ -865,7 +872,7 @@ function ENT:RemovePerk(pwr)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:1317</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:1323</code>.</p>
 
 <a id="ent-resetdownedstate"></a>
 ## `ENT:ResetDownedState`
@@ -890,7 +897,7 @@ This method takes no explicit arguments.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:1205</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:1211</code>.</p>
 
 <a id="ent-resetmovementanimations"></a>
 ## `ENT:ResetMovementAnimations`
@@ -915,7 +922,7 @@ This method takes no explicit arguments.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:1189</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:1195</code>.</p>
 
 <a id="ent-resetrates"></a>
 ## `ENT:ResetRates`
@@ -940,7 +947,7 @@ This method takes no explicit arguments.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:1247</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:1253</code>.</p>
 
 <a id="ent-setcommonfightermoveset"></a>
 ## `ENT:SetCommonFighterMoveset`
@@ -992,7 +999,7 @@ function ENT:SetHyperArmor(value)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:1279</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:1285</code>.</p>
 
 <a id="ent-setmovementanimations"></a>
 ## `ENT:SetMovementAnimations`
@@ -1023,7 +1030,7 @@ function ENT:SetMovementAnimations(combat, walk, run, idle, guard)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:1219</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:1225</code>.</p>
 
 <a id="ent-setupkeybinds"></a>
 ## `ENT:SetupKeybinds`
@@ -1073,7 +1080,7 @@ This method takes no explicit arguments.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:1158</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:1164</code>.</p>
 
 <a id="ent-sootheanger"></a>
 ## `ENT:SootheAnger`
@@ -1098,7 +1105,7 @@ This method takes no explicit arguments.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:986</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:992</code>.</p>
 
 <a id="ent-switchstyle"></a>
 ## `ENT:SwitchStyle`
@@ -1183,4 +1190,4 @@ for use in CICO
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:1269</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:1275</code>.</p>

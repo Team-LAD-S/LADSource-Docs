@@ -1,16 +1,16 @@
 # Documenting the API
 
-The API generator reads documentation comments immediately above `ENT` methods
-inside `lua/entities/lad_framework_base`.
+The API generator reads documentation comments immediately above LADBot `ENT`
+methods, shared Entity metatable methods in `meta.lua`, and Battle Manager
+methods in `battle_manager.lua`.
 
 ## Example
 
 ```lua
---- Starts combat against the supplied target.
+--- Activates combat of a LADBot that this function is ran on.
 ---@realm server
----@param target Entity Fighter or NPC to engage.
+---@param target Target snaps to whoever activates combat
 ---@param skipanim boolean Whether to skip the battle-start animation.
----@return boolean started Whether combat was started.
 function ENT:ActivateCombat(target, skipanim)
     -- Implementation
 end
@@ -43,4 +43,5 @@ Lua itself and consumed by the documentation generator.
 - Mark implementation helpers `internal` instead of silently publishing them as
   stable API.
 
-Do not edit files under `docs/reference`; they are replaced during each build.
+Do not edit files under `docs/reference`; they are replaced whenever the
+reference generator runs.

@@ -39,7 +39,7 @@ Methods defined in `lua/entities/lad_framework_base/events.lua`.
 | [`ENT:OnLandOnGround`](#ent-onlandonground) | Documentation pending. |
 | [`ENT:OnLeaveGround`](#ent-onleaveground) | Documentation pending. |
 | [`ENT:OnStairs`](#ent-onstairs) | Documentation pending. |
-| [`ENT:OnTakeDamage`](#ent-ontakedamage) | Documentation pending. |
+| [`ENT:OnTakeDamage`](#ent-ontakedamage) | called outside the coroutine |
 | [`ENT:PlayAgonyAnimations`](#ent-playagonyanimations) | wtf is happening here |
 | [`ENT:PlayDamageAnimations`](#ent-playdamageanimations) | we gotta play the anims themselves |
 | [`ENT:PlayDeathAnimations`](#ent-playdeathanimations) | Documentation pending. |
@@ -840,7 +840,7 @@ function ENT:OnTakeDamage(dmg, hitgroup)
 
 </div>
 
-*Documentation pending. The signature and source location were generated automatically.*
+called outside the coroutine
 
 ### Parameters
 

@@ -2,7 +2,7 @@
 
 LADSource is a Garry's Mod addon for building fighters and combat inspired by
 the Like a Dragon series. This wiki documents how to create a LADBot and how to
-work with the systems exposed by `lad_framework_base`.
+work with LADBot, Entity, and framework-level APIs exposed by LADSource.
 
 ## Where to begin
 
@@ -28,7 +28,7 @@ work with the systems exposed by `lad_framework_base`.
 
     ---
 
-    Browse generated methods grouped by the Lua file that defines them.
+    Browse LADBot modules, shared Entity extensions, and the Battle Manager.
 
     [Browse the API](reference/index.md)
 

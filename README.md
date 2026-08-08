@@ -1,6 +1,6 @@
 # LADSource Documentation
 
-Public developer documentation and generated LADBot API reference for
+Public developer documentation and generated LADSource API reference for
 Like a Dragon: Source.
 
 The site is published at <https://team-lad-s.github.io/LADSource-Docs/>.
@@ -30,9 +30,10 @@ Then run:
 .\.venv-docs\Scripts\python.exe tools/docs/generate_reference.py
 ```
 
-The generator reads `../LADSource/lua/entities/lad_framework_base` by default
-and writes the publishable snapshot to `docs/reference`. Commit regenerated
-reference pages alongside documentation changes.
+The generator reads the LADBot base, shared Entity extensions, and Battle
+Manager from the sibling `../LADSource` checkout by default. It writes the
+publishable snapshot to `docs/reference`. Commit regenerated reference pages
+alongside documentation changes.
 
 To use another checkout location:
 

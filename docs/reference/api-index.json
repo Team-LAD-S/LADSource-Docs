@@ -21,7 +21,8 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-findvoidrecoverypos"
+    "anchor": "ent-findvoidrecoverypos",
+    "api_group": "ladbot"
   },
   {
     "name": "_InitDebugText",
@@ -37,7 +38,8 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-initdebugtext"
+    "anchor": "ent-initdebugtext",
+    "api_group": "ladbot"
   },
   {
     "name": "_InitMaterials",
@@ -53,7 +55,8 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-initmaterials"
+    "anchor": "ent-initmaterials",
+    "api_group": "ladbot"
   },
   {
     "name": "_ShouldRecoverFromVoid",
@@ -69,7 +72,8 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-shouldrecoverfromvoid"
+    "anchor": "ent-shouldrecoverfromvoid",
+    "api_group": "ladbot"
   },
   {
     "name": "BumpAnim",
@@ -93,7 +97,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-bumpanim"
+    "anchor": "ent-bumpanim",
+    "api_group": "ladbot"
   },
   {
     "name": "CICO",
@@ -117,7 +122,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-cico"
+    "anchor": "ent-cico",
+    "api_group": "ladbot"
   },
   {
     "name": "CICO",
@@ -141,7 +147,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-cico-1433"
+    "anchor": "ent-cico-1433",
+    "api_group": "ladbot"
   },
   {
     "name": "CreateDirectionCompass",
@@ -157,7 +164,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-createdirectioncompass"
+    "anchor": "ent-createdirectioncompass",
+    "api_group": "ladbot"
   },
   {
     "name": "CustomDraw",
@@ -173,7 +181,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-customdraw"
+    "anchor": "ent-customdraw",
+    "api_group": "ladbot"
   },
   {
     "name": "CustomInitialize",
@@ -189,7 +198,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-custominitialize"
+    "anchor": "ent-custominitialize",
+    "api_group": "ladbot"
   },
   {
     "name": "CustomInitialize",
@@ -205,7 +215,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-custominitialize-1480"
+    "anchor": "ent-custominitialize-1480",
+    "api_group": "ladbot"
   },
   {
     "name": "CustomThink",
@@ -221,7 +232,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-customthink"
+    "anchor": "ent-customthink",
+    "api_group": "ladbot"
   },
   {
     "name": "CustomThink",
@@ -237,7 +249,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-customthink-1495"
+    "anchor": "ent-customthink-1495",
+    "api_group": "ladbot"
   },
   {
     "name": "DebugDrawCone",
@@ -297,7 +310,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-debugdrawcone"
+    "anchor": "ent-debugdrawcone",
+    "api_group": "ladbot"
   },
   {
     "name": "GetPlayerColor",
@@ -313,7 +327,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getplayercolor"
+    "anchor": "ent-getplayercolor",
+    "api_group": "ladbot"
   },
   {
     "name": "IsPropLeftOrRight",
@@ -337,7 +352,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-ispropleftorright"
+    "anchor": "ent-ispropleftorright",
+    "api_group": "ladbot"
   },
   {
     "name": "LoadData",
@@ -367,7 +383,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-loaddata"
+    "anchor": "ent-loaddata",
+    "api_group": "ladbot"
   },
   {
     "name": "Multithread",
@@ -391,7 +408,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-multithread"
+    "anchor": "ent-multithread",
+    "api_group": "ladbot"
   },
   {
     "name": "OnAvoidEnemy",
@@ -415,7 +433,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-onavoidenemy"
+    "anchor": "ent-onavoidenemy",
+    "api_group": "ladbot"
   },
   {
     "name": "OnChaseEnemy",
@@ -439,7 +458,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-onchaseenemy"
+    "anchor": "ent-onchaseenemy",
+    "api_group": "ladbot"
   },
   {
     "name": "OnContact",
@@ -463,7 +483,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-oncontact"
+    "anchor": "ent-oncontact",
+    "api_group": "ladbot"
   },
   {
     "name": "OnDispossessed",
@@ -487,7 +508,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-ondispossessed"
+    "anchor": "ent-ondispossessed",
+    "api_group": "ladbot"
   },
   {
     "name": "OnDowned",
@@ -517,7 +539,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-ondowned"
+    "anchor": "ent-ondowned",
+    "api_group": "ladbot"
   },
   {
     "name": "OnFatalDamage",
@@ -547,7 +570,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-onfataldamage"
+    "anchor": "ent-onfataldamage",
+    "api_group": "ladbot"
   },
   {
     "name": "OnIdle",
@@ -563,7 +587,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-onidle"
+    "anchor": "ent-onidle",
+    "api_group": "ladbot"
   },
   {
     "name": "OnPatrolling",
@@ -587,7 +612,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-onpatrolling"
+    "anchor": "ent-onpatrolling",
+    "api_group": "ladbot"
   },
   {
     "name": "OnPatrolUnreachable",
@@ -611,7 +637,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-onpatrolunreachable"
+    "anchor": "ent-onpatrolunreachable",
+    "api_group": "ladbot"
   },
   {
     "name": "OnReachedPatrol",
@@ -622,7 +649,7 @@
     ],
     "source_file": "lua/entities/lad_framework_base/shared.lua",
     "source_line": 1113,
-    "description": "",
+    "description": "These hooks are called while the nextbot is patrolling (inside the coroutine)",
     "realm": "not documented",
     "parameters": [
       {
@@ -635,7 +662,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-onreachedpatrol"
+    "anchor": "ent-onreachedpatrol",
+    "api_group": "ladbot"
   },
   {
     "name": "OnRemove",
@@ -651,7 +679,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-onremove"
+    "anchor": "ent-onremove",
+    "api_group": "ladbot"
   },
   {
     "name": "OnRemove",
@@ -667,7 +696,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-onremove-1500"
+    "anchor": "ent-onremove-1500",
+    "api_group": "ladbot"
   },
   {
     "name": "OnSpawn",
@@ -676,14 +706,15 @@
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/shared.lua",
     "source_line": 1134,
-    "description": "",
+    "description": "Those hooks are called inside the coroutine",
     "realm": "not documented",
     "parameters": [],
     "returns": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-onspawn"
+    "anchor": "ent-onspawn",
+    "api_group": "ladbot"
   },
   {
     "name": "OnTookDamage",
@@ -695,7 +726,7 @@
     ],
     "source_file": "lua/entities/lad_framework_base/shared.lua",
     "source_line": 1145,
-    "description": "",
+    "description": "Called inside the coroutine",
     "realm": "not documented",
     "parameters": [
       {
@@ -713,7 +744,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-ontookdamage"
+    "anchor": "ent-ontookdamage",
+    "api_group": "ladbot"
   },
   {
     "name": "PlayBumpAnimation",
@@ -737,7 +769,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-playbumpanimation"
+    "anchor": "ent-playbumpanimation",
+    "api_group": "ladbot"
   },
   {
     "name": "RecoverFromVoid",
@@ -753,7 +786,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-recoverfromvoid"
+    "anchor": "ent-recoverfromvoid",
+    "api_group": "ladbot"
   },
   {
     "name": "SetNexbotColor",
@@ -769,7 +803,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-setnexbotcolor"
+    "anchor": "ent-setnexbotcolor",
+    "api_group": "ladbot"
   },
   {
     "name": "ShouldIgnore",
@@ -793,7 +828,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-shouldignore"
+    "anchor": "ent-shouldignore",
+    "api_group": "ladbot"
   },
   {
     "name": "UpdateTransmitState",
@@ -809,7 +845,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-updatetransmitstate"
+    "anchor": "ent-updatetransmitstate",
+    "api_group": "ladbot"
   },
   {
     "name": "AIAttemptReload",
@@ -825,7 +862,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-aiattemptreload"
+    "anchor": "ent-aiattemptreload",
+    "api_group": "ladbot"
   },
   {
     "name": "AICheckEnemyWeaponClass",
@@ -849,7 +887,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-aicheckenemyweaponclass"
+    "anchor": "ent-aicheckenemyweaponclass",
+    "api_group": "ladbot"
   },
   {
     "name": "AICheckObstacles",
@@ -865,7 +904,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-aicheckobstacles"
+    "anchor": "ent-aicheckobstacles",
+    "api_group": "ladbot"
   },
   {
     "name": "AIDefaultAttackRoutine",
@@ -889,7 +929,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-aidefaultattackroutine"
+    "anchor": "ent-aidefaultattackroutine",
+    "api_group": "ladbot"
   },
   {
     "name": "AIDefaultFlinchAttack",
@@ -913,7 +954,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-aidefaultflinchattack"
+    "anchor": "ent-aidefaultflinchattack",
+    "api_group": "ladbot"
   },
   {
     "name": "AIDefaultGuardAction",
@@ -937,7 +979,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-aidefaultguardaction"
+    "anchor": "ent-aidefaultguardaction",
+    "api_group": "ladbot"
   },
   {
     "name": "AIDefaultGuardAttack",
@@ -961,7 +1004,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-aidefaultguardattack"
+    "anchor": "ent-aidefaultguardattack",
+    "api_group": "ladbot"
   },
   {
     "name": "AIDefaultRangeAttackRoutine",
@@ -985,7 +1029,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-aidefaultrangeattackroutine"
+    "anchor": "ent-aidefaultrangeattackroutine",
+    "api_group": "ladbot"
   },
   {
     "name": "AIDefaultRecoverFast",
@@ -1009,7 +1054,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-aidefaultrecoverfast"
+    "anchor": "ent-aidefaultrecoverfast",
+    "api_group": "ladbot"
   },
   {
     "name": "AIDefaultStrafingRoutine",
@@ -1033,7 +1079,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-aidefaultstrafingroutine"
+    "anchor": "ent-aidefaultstrafingroutine",
+    "api_group": "ladbot"
   },
   {
     "name": "AIDefaultSwayGuardRoutine",
@@ -1057,7 +1104,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-aidefaultswayguardroutine"
+    "anchor": "ent-aidefaultswayguardroutine",
+    "api_group": "ladbot"
   },
   {
     "name": "AIFaceEnemy",
@@ -1081,7 +1129,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-aifaceenemy"
+    "anchor": "ent-aifaceenemy",
+    "api_group": "ladbot"
   },
   {
     "name": "AIFlinchReGuard",
@@ -1097,7 +1146,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-aiflinchreguard"
+    "anchor": "ent-aiflinchreguard",
+    "api_group": "ladbot"
   },
   {
     "name": "AIForceEnemyMovesetActivation",
@@ -1121,7 +1171,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-aiforceenemymovesetactivation"
+    "anchor": "ent-aiforceenemymovesetactivation",
+    "api_group": "ladbot"
   },
   {
     "name": "AIGrabAttackRoutine",
@@ -1145,7 +1196,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-aigrabattackroutine"
+    "anchor": "ent-aigrabattackroutine",
+    "api_group": "ladbot"
   },
   {
     "name": "AIGrabMovementRoutine",
@@ -1169,7 +1221,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-aigrabmovementroutine"
+    "anchor": "ent-aigrabmovementroutine",
+    "api_group": "ladbot"
   },
   {
     "name": "AIHactBBoxAvoidance",
@@ -1185,7 +1238,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-aihactbboxavoidance"
+    "anchor": "ent-aihactbboxavoidance",
+    "api_group": "ladbot"
   },
   {
     "name": "AILoopFar",
@@ -1209,7 +1263,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-ailoopfar"
+    "anchor": "ent-ailoopfar",
+    "api_group": "ladbot"
   },
   {
     "name": "AILoopNear",
@@ -1233,7 +1288,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-ailoopnear"
+    "anchor": "ent-ailoopnear",
+    "api_group": "ladbot"
   },
   {
     "name": "AIManageAnger",
@@ -1263,7 +1319,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-aimanageanger"
+    "anchor": "ent-aimanageanger",
+    "api_group": "ladbot"
   },
   {
     "name": "AIManageBravery",
@@ -1299,7 +1356,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-aimanagebravery"
+    "anchor": "ent-aimanagebravery",
+    "api_group": "ladbot"
   },
   {
     "name": "AIManageTauntAnger",
@@ -1335,7 +1393,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-aimanagetauntanger"
+    "anchor": "ent-aimanagetauntanger",
+    "api_group": "ladbot"
   },
   {
     "name": "AINodedComboThink",
@@ -1351,7 +1410,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-ainodedcombothink"
+    "anchor": "ent-ainodedcombothink",
+    "api_group": "ladbot"
   },
   {
     "name": "AINodeExecute",
@@ -1375,7 +1435,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-ainodeexecute"
+    "anchor": "ent-ainodeexecute",
+    "api_group": "ladbot"
   },
   {
     "name": "AIOpenDoors",
@@ -1399,7 +1460,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-aiopendoors"
+    "anchor": "ent-aiopendoors",
+    "api_group": "ladbot"
   },
   {
     "name": "AIRunAttackRoutine",
@@ -1435,7 +1497,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-airunattackroutine"
+    "anchor": "ent-airunattackroutine",
+    "api_group": "ladbot"
   },
   {
     "name": "AIScanAndExecuteHacts",
@@ -1451,7 +1514,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-aiscanandexecutehacts"
+    "anchor": "ent-aiscanandexecutehacts",
+    "api_group": "ladbot"
   },
   {
     "name": "AIWeaponThrowRoutine",
@@ -1481,7 +1545,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-aiweaponthrowroutine"
+    "anchor": "ent-aiweaponthrowroutine",
+    "api_group": "ladbot"
   },
   {
     "name": "BattleAILoopFar",
@@ -1505,7 +1570,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-battleailoopfar"
+    "anchor": "ent-battleailoopfar",
+    "api_group": "ladbot"
   },
   {
     "name": "BattleAILoopNear",
@@ -1529,7 +1595,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-battleailoopnear"
+    "anchor": "ent-battleailoopnear",
+    "api_group": "ladbot"
   },
   {
     "name": "FindNearbyAlliesInCombat",
@@ -1553,7 +1620,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-findnearbyalliesincombat"
+    "anchor": "ent-findnearbyalliesincombat",
+    "api_group": "ladbot"
   },
   {
     "name": "GetEncirclementStrafeBias",
@@ -1577,7 +1645,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getencirclementstrafebias"
+    "anchor": "ent-getencirclementstrafebias",
+    "api_group": "ladbot"
   },
   {
     "name": "GetSwayFrequency",
@@ -1593,7 +1662,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getswayfrequency"
+    "anchor": "ent-getswayfrequency",
+    "api_group": "ladbot"
   },
   {
     "name": "GetSwayNextAttack",
@@ -1609,7 +1679,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getswaynextattack"
+    "anchor": "ent-getswaynextattack",
+    "api_group": "ladbot"
   },
   {
     "name": "GoToWall",
@@ -1645,7 +1716,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-gotowall"
+    "anchor": "ent-gotowall",
+    "api_group": "ladbot"
   },
   {
     "name": "GoToWeapon",
@@ -1681,7 +1753,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-gotoweapon"
+    "anchor": "ent-gotoweapon",
+    "api_group": "ladbot"
   },
   {
     "name": "OnLastEnemy",
@@ -1705,7 +1778,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-onlastenemy"
+    "anchor": "ent-onlastenemy",
+    "api_group": "ladbot"
   },
   {
     "name": "ScanForNearestWallAndJump",
@@ -1721,7 +1795,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-scanfornearestwallandjump"
+    "anchor": "ent-scanfornearestwallandjump",
+    "api_group": "ladbot"
   },
   {
     "name": "ScanForNearestWeaponAndMove",
@@ -1737,7 +1812,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-scanfornearestweaponandmove"
+    "anchor": "ent-scanfornearestweaponandmove",
+    "api_group": "ladbot"
   },
   {
     "name": "SetNextAttack",
@@ -1767,7 +1843,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-setnextattack"
+    "anchor": "ent-setnextattack",
+    "api_group": "ladbot"
   },
   {
     "name": "_BattleManagerDeathThink",
@@ -1783,7 +1860,8 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-battlemanagerdeaththink"
+    "anchor": "ent-battlemanagerdeaththink",
+    "api_group": "ladbot"
   },
   {
     "name": "IsInLongBattle",
@@ -1799,7 +1877,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-isinlongbattle"
+    "anchor": "ent-isinlongbattle",
+    "api_group": "ladbot"
   },
   {
     "name": "PlayBattleStartAnim",
@@ -1835,7 +1914,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-playbattlestartanim"
+    "anchor": "ent-playbattlestartanim",
+    "api_group": "ladbot"
   },
   {
     "name": "StartBattle",
@@ -1859,7 +1939,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-startbattle"
+    "anchor": "ent-startbattle",
+    "api_group": "ladbot"
   },
   {
     "name": "StartDynamicIntroBattle",
@@ -1889,7 +1970,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-startdynamicintrobattle"
+    "anchor": "ent-startdynamicintrobattle",
+    "api_group": "ladbot"
   },
   {
     "name": "ActivateCombat",
@@ -1900,26 +1982,27 @@
       "skipanim"
     ],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 774,
-    "description": "",
-    "realm": "not documented",
+    "source_line": 778,
+    "description": "Activates combat of a LADBot that this function is ran on.",
+    "realm": "server",
     "parameters": [
       {
         "name": "target",
-        "type": "any",
-        "description": ""
+        "type": "Target",
+        "description": "snaps to whoever activates combat"
       },
       {
         "name": "skipanim",
-        "type": "any",
-        "description": ""
+        "type": "boolean",
+        "description": "Whether to skip the battle-start animation."
       }
     ],
     "returns": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-activatecombat"
+    "anchor": "ent-activatecombat",
+    "api_group": "ladbot"
   },
   {
     "name": "ActivatePerk",
@@ -1930,7 +2013,7 @@
       "pwr"
     ],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 1288,
+    "source_line": 1294,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -1949,7 +2032,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-activateperk"
+    "anchor": "ent-activateperk",
+    "api_group": "ladbot"
   },
   {
     "name": "BecomeConfused",
@@ -1957,7 +2041,7 @@
     "signature": "function ENT:BecomeConfused()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 914,
+    "source_line": 920,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -1965,7 +2049,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-becomeconfused"
+    "anchor": "ent-becomeconfused",
+    "api_group": "ladbot"
   },
   {
     "name": "BecomePissed",
@@ -1973,7 +2058,7 @@
     "signature": "function ENT:BecomePissed()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 958,
+    "source_line": 964,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -1981,7 +2066,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-becomepissed"
+    "anchor": "ent-becomepissed",
+    "api_group": "ladbot"
   },
   {
     "name": "BecomeScared",
@@ -1989,7 +2075,7 @@
     "signature": "function ENT:BecomeScared()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 941,
+    "source_line": 947,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -1997,7 +2083,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-becomescared"
+    "anchor": "ent-becomescared",
+    "api_group": "ladbot"
   },
   {
     "name": "CancelGuard",
@@ -2005,7 +2092,7 @@
     "signature": "function ENT:CancelGuard()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 1057,
+    "source_line": 1063,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -2013,7 +2100,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-cancelguard"
+    "anchor": "ent-cancelguard",
+    "api_group": "ladbot"
   },
   {
     "name": "CeaseMovementRates",
@@ -2021,7 +2109,7 @@
     "signature": "function ENT:CeaseMovementRates()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 1255,
+    "source_line": 1261,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -2029,7 +2117,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-ceasemovementrates"
+    "anchor": "ent-ceasemovementrates",
+    "api_group": "ladbot"
   },
   {
     "name": "CycleToNextStyle",
@@ -2045,7 +2134,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-cycletonextstyle"
+    "anchor": "ent-cycletonextstyle",
+    "api_group": "ladbot"
   },
   {
     "name": "DeactivateCombat",
@@ -2053,7 +2143,7 @@
     "signature": "function ENT:DeactivateCombat()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 858,
+    "source_line": 864,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -2061,7 +2151,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-deactivatecombat"
+    "anchor": "ent-deactivatecombat",
+    "api_group": "ladbot"
   },
   {
     "name": "DeductAreaWideBravery",
@@ -2072,7 +2163,7 @@
       "radius"
     ],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 927,
+    "source_line": 933,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -2091,7 +2182,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-deductareawidebravery"
+    "anchor": "ent-deductareawidebravery",
+    "api_group": "ladbot"
   },
   {
     "name": "GetDoorState",
@@ -2115,7 +2207,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getdoorstate"
+    "anchor": "ent-getdoorstate",
+    "api_group": "ladbot"
   },
   {
     "name": "GetLockedInDirectionalTarget",
@@ -2126,7 +2219,7 @@
     ],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
     "source_line": 582,
-    "description": "",
+    "description": "Returns the best enemy candidate in the direction the possessor is pressing (WASD, 8-way),\nor nil if no suitable candidate passes all three filters:\n1. Edge-triggered: caller only invokes this on a direction change (see PossessionThink).\n2. Angular separation: candidate must be >20 degrees away from current target\n(avoids switching between enemies that are essentially overlapping from our POV).\n3. Hysteresis: candidate must outscore the current target by a margin of 0.15\n(avoids switching to a marginally better-aligned enemy in a tight cluster).",
     "realm": "not documented",
     "parameters": [
       {
@@ -2139,7 +2232,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getlockedindirectionaltarget"
+    "anchor": "ent-getlockedindirectionaltarget",
+    "api_group": "ladbot"
   },
   {
     "name": "GetLockInDirSnapshot",
@@ -2148,14 +2242,15 @@
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
     "source_line": 553,
-    "description": "",
+    "description": "Used for edge-detection: a switch is only evaluated when this string changes.",
     "realm": "not documented",
     "parameters": [],
     "returns": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getlockindirsnapshot"
+    "anchor": "ent-getlockindirsnapshot",
+    "api_group": "ladbot"
   },
   {
     "name": "GetMovementDirection",
@@ -2163,7 +2258,7 @@
     "signature": "function ENT:GetMovementDirection()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 1357,
+    "source_line": 1363,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -2171,7 +2266,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getmovementdirection"
+    "anchor": "ent-getmovementdirection",
+    "api_group": "ladbot"
   },
   {
     "name": "GetNearestEnemy",
@@ -2187,7 +2283,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getnearestenemy"
+    "anchor": "ent-getnearestenemy",
+    "api_group": "ladbot"
   },
   {
     "name": "Guard",
@@ -2197,7 +2294,7 @@
       "isAI"
     ],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 993,
+    "source_line": 999,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -2211,7 +2308,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-guard"
+    "anchor": "ent-guard",
+    "api_group": "ladbot"
   },
   {
     "name": "Interact",
@@ -2227,7 +2325,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-interact"
+    "anchor": "ent-interact",
+    "api_group": "ladbot"
   },
   {
     "name": "IsDoorLocked",
@@ -2251,7 +2350,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-isdoorlocked"
+    "anchor": "ent-isdoorlocked",
+    "api_group": "ladbot"
   },
   {
     "name": "IsInLockOnCone",
@@ -2263,7 +2363,7 @@
     ],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
     "source_line": 538,
-    "description": "",
+    "description": "Returns true if ent is within the lock-on cone (default ±65° from the\nnextbot's own forward vector).",
     "realm": "not documented",
     "parameters": [
       {
@@ -2281,7 +2381,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-isinlockoncone"
+    "anchor": "ent-isinlockoncone",
+    "api_group": "ladbot"
   },
   {
     "name": "LAD_DoScreenShake",
@@ -2323,7 +2424,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-lad-doscreenshake"
+    "anchor": "ent-lad-doscreenshake",
+    "api_group": "ladbot"
   },
   {
     "name": "OnIdleEnemy",
@@ -2331,7 +2433,7 @@
     "signature": "function ENT:OnIdleEnemy()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 1151,
+    "source_line": 1157,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -2339,7 +2441,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-onidleenemy"
+    "anchor": "ent-onidleenemy",
+    "api_group": "ladbot"
   },
   {
     "name": "OnMeleeAttack",
@@ -2349,7 +2452,7 @@
       "enemy"
     ],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 1112,
+    "source_line": 1118,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -2363,7 +2466,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-onmeleeattack"
+    "anchor": "ent-onmeleeattack",
+    "api_group": "ladbot"
   },
   {
     "name": "OnPossessed",
@@ -2387,7 +2491,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-onpossessed"
+    "anchor": "ent-onpossessed",
+    "api_group": "ladbot"
   },
   {
     "name": "OnRangeAttack",
@@ -2397,7 +2502,7 @@
       "enemy"
     ],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 1073,
+    "source_line": 1079,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -2411,7 +2516,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-onrangeattack"
+    "anchor": "ent-onrangeattack",
+    "api_group": "ladbot"
   },
   {
     "name": "OnWaterLevelChange",
@@ -2419,7 +2525,7 @@
     "signature": "function ENT:OnWaterLevelChange()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 1331,
+    "source_line": 1337,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -2427,7 +2533,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-onwaterlevelchange"
+    "anchor": "ent-onwaterlevelchange",
+    "api_group": "ladbot"
   },
   {
     "name": "PossessionR",
@@ -2443,7 +2550,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-possessionr"
+    "anchor": "ent-possessionr",
+    "api_group": "ladbot"
   },
   {
     "name": "PossessionThink",
@@ -2459,7 +2567,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-possessionthink"
+    "anchor": "ent-possessionthink",
+    "api_group": "ladbot"
   },
   {
     "name": "PossessionX",
@@ -2483,7 +2592,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-possessionx"
+    "anchor": "ent-possessionx",
+    "api_group": "ladbot"
   },
   {
     "name": "PredictNextPosition",
@@ -2491,7 +2601,7 @@
     "signature": "function ENT:PredictNextPosition()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 1350,
+    "source_line": 1356,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -2499,7 +2609,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-predictnextposition"
+    "anchor": "ent-predictnextposition",
+    "api_group": "ladbot"
   },
   {
     "name": "RegenerateHealth",
@@ -2523,7 +2634,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-regeneratehealth"
+    "anchor": "ent-regeneratehealth",
+    "api_group": "ladbot"
   },
   {
     "name": "RemovePerk",
@@ -2533,7 +2645,7 @@
       "pwr"
     ],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 1317,
+    "source_line": 1323,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -2547,7 +2659,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-removeperk"
+    "anchor": "ent-removeperk",
+    "api_group": "ladbot"
   },
   {
     "name": "ResetDownedState",
@@ -2555,7 +2668,7 @@
     "signature": "function ENT:ResetDownedState()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 1205,
+    "source_line": 1211,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -2563,7 +2676,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-resetdownedstate"
+    "anchor": "ent-resetdownedstate",
+    "api_group": "ladbot"
   },
   {
     "name": "ResetMovementAnimations",
@@ -2571,7 +2685,7 @@
     "signature": "function ENT:ResetMovementAnimations()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 1189,
+    "source_line": 1195,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -2579,7 +2693,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-resetmovementanimations"
+    "anchor": "ent-resetmovementanimations",
+    "api_group": "ladbot"
   },
   {
     "name": "ResetRates",
@@ -2587,7 +2702,7 @@
     "signature": "function ENT:ResetRates()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 1247,
+    "source_line": 1253,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -2595,7 +2710,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-resetrates"
+    "anchor": "ent-resetrates",
+    "api_group": "ladbot"
   },
   {
     "name": "SetCommonFighterMoveset",
@@ -2611,7 +2727,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-setcommonfightermoveset"
+    "anchor": "ent-setcommonfightermoveset",
+    "api_group": "ladbot"
   },
   {
     "name": "SetHyperArmor",
@@ -2621,7 +2738,7 @@
       "value"
     ],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 1279,
+    "source_line": 1285,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -2635,7 +2752,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-sethyperarmor"
+    "anchor": "ent-sethyperarmor",
+    "api_group": "ladbot"
   },
   {
     "name": "SetMovementAnimations",
@@ -2649,7 +2767,7 @@
       "guard"
     ],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 1219,
+    "source_line": 1225,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -2683,7 +2801,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-setmovementanimations"
+    "anchor": "ent-setmovementanimations",
+    "api_group": "ladbot"
   },
   {
     "name": "SetupKeybinds",
@@ -2699,7 +2818,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-setupkeybinds"
+    "anchor": "ent-setupkeybinds",
+    "api_group": "ladbot"
   },
   {
     "name": "ShouldRun",
@@ -2707,7 +2827,7 @@
     "signature": "function ENT:ShouldRun()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 1158,
+    "source_line": 1164,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -2715,7 +2835,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-shouldrun"
+    "anchor": "ent-shouldrun",
+    "api_group": "ladbot"
   },
   {
     "name": "SootheAnger",
@@ -2723,7 +2844,7 @@
     "signature": "function ENT:SootheAnger()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 986,
+    "source_line": 992,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -2731,7 +2852,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-sootheanger"
+    "anchor": "ent-sootheanger",
+    "api_group": "ladbot"
   },
   {
     "name": "SwitchStyle",
@@ -2761,7 +2883,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-switchstyle"
+    "anchor": "ent-switchstyle",
+    "api_group": "ladbot"
   },
   {
     "name": "SwitchStyleUntilReady",
@@ -2803,7 +2926,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-switchstyleuntilready"
+    "anchor": "ent-switchstyleuntilready",
+    "api_group": "ladbot"
   },
   {
     "name": "TempHyperArmor",
@@ -2813,7 +2937,7 @@
       "ha"
     ],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 1269,
+    "source_line": 1275,
     "description": "for use in CICO",
     "realm": "not documented",
     "parameters": [
@@ -2827,7 +2951,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-temphyperarmor"
+    "anchor": "ent-temphyperarmor",
+    "api_group": "ladbot"
   },
   {
     "name": "_PostGrabSyncCombo",
@@ -2851,7 +2976,8 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-postgrabsynccombo"
+    "anchor": "ent-postgrabsynccombo",
+    "api_group": "ladbot"
   },
   {
     "name": "CanMoveGrabbedEntity",
@@ -2887,7 +3013,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-canmovegrabbedentity"
+    "anchor": "ent-canmovegrabbedentity",
+    "api_group": "ladbot"
   },
   {
     "name": "CanMoveInGrab",
@@ -2903,7 +3030,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-canmoveingrab"
+    "anchor": "ent-canmoveingrab",
+    "api_group": "ladbot"
   },
   {
     "name": "GetGrabDirection",
@@ -2919,7 +3047,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getgrabdirection"
+    "anchor": "ent-getgrabdirection",
+    "api_group": "ladbot"
   },
   {
     "name": "GetGrabTarget",
@@ -2935,7 +3064,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getgrabtarget"
+    "anchor": "ent-getgrabtarget",
+    "api_group": "ladbot"
   },
   {
     "name": "GetLastGrabber",
@@ -2951,7 +3081,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getlastgrabber"
+    "anchor": "ent-getlastgrabber",
+    "api_group": "ladbot"
   },
   {
     "name": "Grab",
@@ -2993,7 +3124,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-grab"
+    "anchor": "ent-grab",
+    "api_group": "ladbot"
   },
   {
     "name": "GrabbedThink",
@@ -3009,7 +3141,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-grabbedthink"
+    "anchor": "ent-grabbedthink",
+    "api_group": "ladbot"
   },
   {
     "name": "GrabHACT",
@@ -3033,7 +3166,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-grabhact"
+    "anchor": "ent-grabhact",
+    "api_group": "ladbot"
   },
   {
     "name": "GrabResist",
@@ -3063,7 +3197,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-grabresist"
+    "anchor": "ent-grabresist",
+    "api_group": "ladbot"
   },
   {
     "name": "GrabSync",
@@ -3093,7 +3228,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-grabsync"
+    "anchor": "ent-grabsync",
+    "api_group": "ladbot"
   },
   {
     "name": "GrabTarget",
@@ -3135,7 +3271,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-grabtarget"
+    "anchor": "ent-grabtarget",
+    "api_group": "ladbot"
   },
   {
     "name": "ResetGrabMoveset",
@@ -3159,7 +3296,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-resetgrabmoveset"
+    "anchor": "ent-resetgrabmoveset",
+    "api_group": "ladbot"
   },
   {
     "name": "SetPreGrabMoveset",
@@ -3183,7 +3321,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-setpregrabmoveset"
+    "anchor": "ent-setpregrabmoveset",
+    "api_group": "ladbot"
   },
   {
     "name": "StopGrabbing",
@@ -3207,7 +3346,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-stopgrabbing"
+    "anchor": "ent-stopgrabbing",
+    "api_group": "ladbot"
   },
   {
     "name": "SwitchGrabDir",
@@ -3223,7 +3363,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-switchgrabdir"
+    "anchor": "ent-switchgrabdir",
+    "api_group": "ladbot"
   },
   {
     "name": "TransitionGrabMoveset",
@@ -3259,7 +3400,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-transitiongrabmoveset"
+    "anchor": "ent-transitiongrabmoveset",
+    "api_group": "ladbot"
   },
   {
     "name": "TryGrab",
@@ -3289,7 +3431,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-trygrab"
+    "anchor": "ent-trygrab",
+    "api_group": "ladbot"
   },
   {
     "name": "_ApplyMoveAnim",
@@ -3343,7 +3486,8 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-applymoveanim"
+    "anchor": "ent-applymoveanim",
+    "api_group": "ladbot"
   },
   {
     "name": "_ApplyMoveAnimBlend",
@@ -3385,7 +3529,8 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-applymoveanimblend"
+    "anchor": "ent-applymoveanimblend",
+    "api_group": "ladbot"
   },
   {
     "name": "_ApplyMoveLure",
@@ -3433,7 +3578,8 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-applymovelure"
+    "anchor": "ent-applymovelure",
+    "api_group": "ladbot"
   },
   {
     "name": "_ApplyMoveProperties",
@@ -3469,7 +3615,8 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-applymoveproperties"
+    "anchor": "ent-applymoveproperties",
+    "api_group": "ladbot"
   },
   {
     "name": "_ApplyMoveRecoverFast",
@@ -3505,7 +3652,8 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-applymoverecoverfast"
+    "anchor": "ent-applymoverecoverfast",
+    "api_group": "ladbot"
   },
   {
     "name": "_ApplyMoveSway",
@@ -3541,7 +3689,8 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-applymovesway"
+    "anchor": "ent-applymovesway",
+    "api_group": "ladbot"
   },
   {
     "name": "_ApplyMoveSyncHit",
@@ -3577,7 +3726,8 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-applymovesynchit"
+    "anchor": "ent-applymovesynchit",
+    "api_group": "ladbot"
   },
   {
     "name": "_ApplyMoveTags",
@@ -3601,7 +3751,8 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-applymovetags"
+    "anchor": "ent-applymovetags",
+    "api_group": "ladbot"
   },
   {
     "name": "_CleanupDynamicSlowDown",
@@ -3625,7 +3776,8 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-cleanupdynamicslowdown"
+    "anchor": "ent-cleanupdynamicslowdown",
+    "api_group": "ladbot"
   },
   {
     "name": "_CleanupNodeSounds",
@@ -3649,7 +3801,8 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-cleanupnodesounds"
+    "anchor": "ent-cleanupnodesounds",
+    "api_group": "ladbot"
   },
   {
     "name": "_GetCachedMovesetData",
@@ -3673,7 +3826,8 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getcachedmovesetdata"
+    "anchor": "ent-getcachedmovesetdata",
+    "api_group": "ladbot"
   },
   {
     "name": "_StartDynamicSlowDown",
@@ -3689,7 +3843,8 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-startdynamicslowdown"
+    "anchor": "ent-startdynamicslowdown",
+    "api_group": "ladbot"
   },
   {
     "name": "AddUpgrade",
@@ -3713,7 +3868,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-addupgrade"
+    "anchor": "ent-addupgrade",
+    "api_group": "ladbot"
   },
   {
     "name": "CacheNodeFollowUps",
@@ -3737,7 +3893,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-cachenodefollowups"
+    "anchor": "ent-cachenodefollowups",
+    "api_group": "ladbot"
   },
   {
     "name": "CheckConditions",
@@ -3773,7 +3930,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-checkconditions"
+    "anchor": "ent-checkconditions",
+    "api_group": "ladbot"
   },
   {
     "name": "CheckCustomConditions",
@@ -3789,7 +3947,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-checkcustomconditions"
+    "anchor": "ent-checkcustomconditions",
+    "api_group": "ladbot"
   },
   {
     "name": "CheckIFrameState",
@@ -3805,7 +3964,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-checkiframestate"
+    "anchor": "ent-checkiframestate",
+    "api_group": "ladbot"
   },
   {
     "name": "CheckRemoveButtonHoldCycle",
@@ -3821,7 +3981,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-checkremovebuttonholdcycle"
+    "anchor": "ent-checkremovebuttonholdcycle",
+    "api_group": "ladbot"
   },
   {
     "name": "ClearUpgrades",
@@ -3837,7 +3998,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-clearupgrades"
+    "anchor": "ent-clearupgrades",
+    "api_group": "ladbot"
   },
   {
     "name": "ExecuteFollowUp",
@@ -3861,7 +4023,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-executefollowup"
+    "anchor": "ent-executefollowup",
+    "api_group": "ladbot"
   },
   {
     "name": "ExecuteMove",
@@ -3891,7 +4054,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-executemove"
+    "anchor": "ent-executemove",
+    "api_group": "ladbot"
   },
   {
     "name": "FindMatchingFollowUp",
@@ -3921,7 +4085,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-findmatchingfollowup"
+    "anchor": "ent-findmatchingfollowup",
+    "api_group": "ladbot"
   },
   {
     "name": "GetCurrentAnimCycle",
@@ -3937,7 +4102,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getcurrentanimcycle"
+    "anchor": "ent-getcurrentanimcycle",
+    "api_group": "ladbot"
   },
   {
     "name": "GetCurrentMoveNode",
@@ -3953,7 +4119,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getcurrentmovenode"
+    "anchor": "ent-getcurrentmovenode",
+    "api_group": "ladbot"
   },
   {
     "name": "GetMoveName",
@@ -3969,7 +4136,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getmovename"
+    "anchor": "ent-getmovename",
+    "api_group": "ladbot"
   },
   {
     "name": "GetMoveName",
@@ -3985,7 +4153,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getmovename-2111"
+    "anchor": "ent-getmovename-2111",
+    "api_group": "ladbot"
   },
   {
     "name": "GetMoveset",
@@ -4001,7 +4170,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getmoveset"
+    "anchor": "ent-getmoveset",
+    "api_group": "ladbot"
   },
   {
     "name": "GetMoveset",
@@ -4017,7 +4187,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getmoveset-2121"
+    "anchor": "ent-getmoveset-2121",
+    "api_group": "ladbot"
   },
   {
     "name": "GetPlayerDir",
@@ -4041,7 +4212,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getplayerdir"
+    "anchor": "ent-getplayerdir",
+    "api_group": "ladbot"
   },
   {
     "name": "GetRelativeDirection",
@@ -4071,7 +4243,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getrelativedirection"
+    "anchor": "ent-getrelativedirection",
+    "api_group": "ladbot"
   },
   {
     "name": "GetUpgrade",
@@ -4095,7 +4268,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getupgrade"
+    "anchor": "ent-getupgrade",
+    "api_group": "ladbot"
   },
   {
     "name": "InvalidateMovesetCache",
@@ -4119,7 +4293,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-invalidatemovesetcache"
+    "anchor": "ent-invalidatemovesetcache",
+    "api_group": "ladbot"
   },
   {
     "name": "MovesetEventThink",
@@ -4135,7 +4310,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-moveseteventthink"
+    "anchor": "ent-moveseteventthink",
+    "api_group": "ladbot"
   },
   {
     "name": "MovesetExists",
@@ -4159,7 +4335,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-movesetexists"
+    "anchor": "ent-movesetexists",
+    "api_group": "ladbot"
   },
   {
     "name": "PlayMovementDirAnimation",
@@ -4189,7 +4366,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-playmovementdiranimation"
+    "anchor": "ent-playmovementdiranimation",
+    "api_group": "ladbot"
   },
   {
     "name": "PrintNodeFollowUps",
@@ -4213,7 +4391,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-printnodefollowups"
+    "anchor": "ent-printnodefollowups",
+    "api_group": "ladbot"
   },
   {
     "name": "RecoverFast",
@@ -4237,7 +4416,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-recoverfast"
+    "anchor": "ent-recoverfast",
+    "api_group": "ladbot"
   },
   {
     "name": "ResetNodeParams",
@@ -4267,7 +4447,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-resetnodeparams"
+    "anchor": "ent-resetnodeparams",
+    "api_group": "ladbot"
   },
   {
     "name": "SetBusy",
@@ -4291,7 +4472,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-setbusy"
+    "anchor": "ent-setbusy",
+    "api_group": "ladbot"
   },
   {
     "name": "SetFighterMoveset",
@@ -4351,7 +4533,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-setfightermoveset"
+    "anchor": "ent-setfightermoveset",
+    "api_group": "ladbot"
   },
   {
     "name": "SetNextMoveNode",
@@ -4375,7 +4558,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-setnextmovenode"
+    "anchor": "ent-setnextmovenode",
+    "api_group": "ladbot"
   },
   {
     "name": "SwayNoded",
@@ -4405,7 +4589,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-swaynoded"
+    "anchor": "ent-swaynoded",
+    "api_group": "ladbot"
   },
   {
     "name": "_EnsureInputState",
@@ -4421,7 +4606,8 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-ensureinputstate"
+    "anchor": "ent-ensureinputstate",
+    "api_group": "ladbot"
   },
   {
     "name": "_InputBlocked",
@@ -4437,7 +4623,8 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-inputblocked"
+    "anchor": "ent-inputblocked",
+    "api_group": "ladbot"
   },
   {
     "name": "_ProcessAutoFollowUps",
@@ -4467,7 +4654,8 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-processautofollowups"
+    "anchor": "ent-processautofollowups",
+    "api_group": "ladbot"
   },
   {
     "name": "_ProcessHeldInputs",
@@ -4497,7 +4685,8 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-processheldinputs"
+    "anchor": "ent-processheldinputs",
+    "api_group": "ladbot"
   },
   {
     "name": "_ProcessQueuedInputs",
@@ -4533,7 +4722,8 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-processqueuedinputs"
+    "anchor": "ent-processqueuedinputs",
+    "api_group": "ladbot"
   },
   {
     "name": "CleanStaleInputs",
@@ -4563,7 +4753,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-cleanstaleinputs"
+    "anchor": "ent-cleanstaleinputs",
+    "api_group": "ladbot"
   },
   {
     "name": "GetButtonForAction",
@@ -4587,7 +4778,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getbuttonforaction"
+    "anchor": "ent-getbuttonforaction",
+    "api_group": "ladbot"
   },
   {
     "name": "GetInputName",
@@ -4611,7 +4803,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getinputname"
+    "anchor": "ent-getinputname",
+    "api_group": "ladbot"
   },
   {
     "name": "HandleInput",
@@ -4641,7 +4834,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-handleinput"
+    "anchor": "ent-handleinput",
+    "api_group": "ladbot"
   },
   {
     "name": "HandleInputRelease",
@@ -4671,7 +4865,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-handleinputrelease"
+    "anchor": "ent-handleinputrelease",
+    "api_group": "ladbot"
   },
   {
     "name": "HandleMoveInputEdge",
@@ -4687,7 +4882,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-handlemoveinputedge"
+    "anchor": "ent-handlemoveinputedge",
+    "api_group": "ladbot"
   },
   {
     "name": "ProcessInputQueue",
@@ -4703,7 +4899,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-processinputqueue"
+    "anchor": "ent-processinputqueue",
+    "api_group": "ladbot"
   },
   {
     "name": "SetupInputVars",
@@ -4727,7 +4924,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-setupinputvars"
+    "anchor": "ent-setupinputvars",
+    "api_group": "ladbot"
   },
   {
     "name": "CheckMovementState",
@@ -4743,7 +4941,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-checkmovementstate"
+    "anchor": "ent-checkmovementstate",
+    "api_group": "ladbot"
   },
   {
     "name": "ClimbLadderToTop",
@@ -4767,7 +4966,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-climbladdertotop"
+    "anchor": "ent-climbladdertotop",
+    "api_group": "ladbot"
   },
   {
     "name": "HandleDIRDuringAttack",
@@ -4783,7 +4983,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-handledirduringattack"
+    "anchor": "ent-handledirduringattack",
+    "api_group": "ladbot"
   },
   {
     "name": "PossessionControls",
@@ -4825,7 +5026,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-possessioncontrols"
+    "anchor": "ent-possessioncontrols",
+    "api_group": "ladbot"
   },
   {
     "name": "TryLadder",
@@ -4841,7 +5043,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-tryladder"
+    "anchor": "ent-tryladder",
+    "api_group": "ladbot"
   },
   {
     "name": "ApplyBodyparts",
@@ -4871,7 +5074,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-applybodyparts"
+    "anchor": "ent-applybodyparts",
+    "api_group": "ladbot"
   },
   {
     "name": "CreateBodypart",
@@ -4907,7 +5111,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-createbodypart"
+    "anchor": "ent-createbodypart",
+    "api_group": "ladbot"
   },
   {
     "name": "CreateDynamicCosmetic",
@@ -4967,7 +5172,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-createdynamiccosmetic"
+    "anchor": "ent-createdynamiccosmetic",
+    "api_group": "ladbot"
   },
   {
     "name": "KnockOffCosmetics",
@@ -4997,7 +5203,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-knockoffcosmetics"
+    "anchor": "ent-knockoffcosmetics",
+    "api_group": "ladbot"
   },
   {
     "name": "SetLightingOrigin",
@@ -5013,7 +5220,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-setlightingorigin"
+    "anchor": "ent-setlightingorigin",
+    "api_group": "ladbot"
   },
   {
     "name": "SetupValveBiped",
@@ -5029,7 +5237,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-setupvalvebiped"
+    "anchor": "ent-setupvalvebiped",
+    "api_group": "ladbot"
   },
   {
     "name": "AbortHact",
@@ -5038,14 +5247,15 @@
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
     "source_line": 3173,
-    "description": "",
+    "description": "Cleans up a mid-hact state when the activator dies before the hact finishes normally.\nWithout this, subjects remain stuck in IsInHact = true indefinitely.",
     "realm": "not documented",
     "parameters": [],
     "returns": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-aborthact"
+    "anchor": "ent-aborthact",
+    "api_group": "ladbot"
   },
   {
     "name": "AddHeat",
@@ -5069,7 +5279,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-addheat"
+    "anchor": "ent-addheat",
+    "api_group": "ladbot"
   },
   {
     "name": "CacheAvailableHacts",
@@ -5085,7 +5296,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-cacheavailablehacts"
+    "anchor": "ent-cacheavailablehacts",
+    "api_group": "ladbot"
   },
   {
     "name": "CanForcePositionToNearestWall",
@@ -5115,7 +5327,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-canforcepositiontonearestwall"
+    "anchor": "ent-canforcepositiontonearestwall",
+    "api_group": "ladbot"
   },
   {
     "name": "CleanupHactViewState",
@@ -5139,7 +5352,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-cleanuphactviewstate"
+    "anchor": "ent-cleanuphactviewstate",
+    "api_group": "ladbot"
   },
   {
     "name": "ConsumeHeat",
@@ -5163,7 +5377,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-consumeheat"
+    "anchor": "ent-consumeheat",
+    "api_group": "ladbot"
   },
   {
     "name": "DeductHeat",
@@ -5187,7 +5402,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-deductheat"
+    "anchor": "ent-deductheat",
+    "api_group": "ladbot"
   },
   {
     "name": "DetectEnvironment",
@@ -5203,7 +5419,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-detectenvironment"
+    "anchor": "ent-detectenvironment",
+    "api_group": "ladbot"
   },
   {
     "name": "EndHact",
@@ -5227,7 +5444,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-endhact"
+    "anchor": "ent-endhact",
+    "api_group": "ladbot"
   },
   {
     "name": "EndHactViews",
@@ -5243,7 +5461,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-endhactviews"
+    "anchor": "ent-endhactviews",
+    "api_group": "ladbot"
   },
   {
     "name": "ExecuteHact",
@@ -5297,7 +5516,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-executehact"
+    "anchor": "ent-executehact",
+    "api_group": "ladbot"
   },
   {
     "name": "FindNearestNavWall",
@@ -5327,7 +5547,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-findnearestnavwall"
+    "anchor": "ent-findnearestnavwall",
+    "api_group": "ladbot"
   },
   {
     "name": "FindSafePosition",
@@ -5363,7 +5584,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-findsafeposition"
+    "anchor": "ent-findsafeposition",
+    "api_group": "ladbot"
   },
   {
     "name": "ForcePositionToNearestWall",
@@ -5405,7 +5627,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-forcepositiontonearestwall"
+    "anchor": "ent-forcepositiontonearestwall",
+    "api_group": "ladbot"
   },
   {
     "name": "GetAvailableHactActions",
@@ -5421,7 +5644,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getavailablehactactions"
+    "anchor": "ent-getavailablehactactions",
+    "api_group": "ladbot"
   },
   {
     "name": "GetBlueHeatBarCount",
@@ -5437,7 +5661,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getblueheatbarcount"
+    "anchor": "ent-getblueheatbarcount",
+    "api_group": "ladbot"
   },
   {
     "name": "GetBlueHeatBarValue",
@@ -5453,7 +5678,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getblueheatbarvalue"
+    "anchor": "ent-getblueheatbarvalue",
+    "api_group": "ladbot"
   },
   {
     "name": "GetCurrentHeatGear",
@@ -5469,7 +5695,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getcurrentheatgear"
+    "anchor": "ent-getcurrentheatgear",
+    "api_group": "ladbot"
   },
   {
     "name": "GetForcePositionToWallCandidate",
@@ -5499,7 +5726,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getforcepositiontowallcandidate"
+    "anchor": "ent-getforcepositiontowallcandidate",
+    "api_group": "ladbot"
   },
   {
     "name": "GetForcePositionToWallSearchParams",
@@ -5529,7 +5757,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getforcepositiontowallsearchparams"
+    "anchor": "ent-getforcepositiontowallsearchparams",
+    "api_group": "ladbot"
   },
   {
     "name": "GetHact",
@@ -5545,7 +5774,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-gethact"
+    "anchor": "ent-gethact",
+    "api_group": "ladbot"
   },
   {
     "name": "GetHactCameraDataEntry",
@@ -5569,7 +5799,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-gethactcameradataentry"
+    "anchor": "ent-gethactcameradataentry",
+    "api_group": "ladbot"
   },
   {
     "name": "GetHactCamPos",
@@ -5585,7 +5816,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-gethactcampos"
+    "anchor": "ent-gethactcampos",
+    "api_group": "ladbot"
   },
   {
     "name": "GetHactFrameProgressionEntry",
@@ -5615,7 +5847,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-gethactframeprogressionentry"
+    "anchor": "ent-gethactframeprogressionentry",
+    "api_group": "ladbot"
   },
   {
     "name": "GetHeat",
@@ -5631,7 +5864,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getheat"
+    "anchor": "ent-getheat",
+    "api_group": "ladbot"
   },
   {
     "name": "GetHeatGearCount",
@@ -5647,7 +5881,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getheatgearcount"
+    "anchor": "ent-getheatgearcount",
+    "api_group": "ladbot"
   },
   {
     "name": "GetHeatGearForAmount",
@@ -5671,7 +5906,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getheatgearforamount"
+    "anchor": "ent-getheatgearforamount",
+    "api_group": "ladbot"
   },
   {
     "name": "GetHeatSystemType",
@@ -5687,7 +5923,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getheatsystemtype"
+    "anchor": "ent-getheatsystemtype",
+    "api_group": "ladbot"
   },
   {
     "name": "GetMaxHeat",
@@ -5703,7 +5940,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getmaxheat"
+    "anchor": "ent-getmaxheat",
+    "api_group": "ladbot"
   },
   {
     "name": "GetNetworkedBlueHeatBarCount",
@@ -5719,7 +5957,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getnetworkedblueheatbarcount"
+    "anchor": "ent-getnetworkedblueheatbarcount",
+    "api_group": "ladbot"
   },
   {
     "name": "GetNetworkedBlueHeatBarValue",
@@ -5735,7 +5974,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getnetworkedblueheatbarvalue"
+    "anchor": "ent-getnetworkedblueheatbarvalue",
+    "api_group": "ladbot"
   },
   {
     "name": "GetNetworkedHeat",
@@ -5751,7 +5991,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getnetworkedheat"
+    "anchor": "ent-getnetworkedheat",
+    "api_group": "ladbot"
   },
   {
     "name": "GetNetworkedHeatGearCount",
@@ -5767,7 +6008,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getnetworkedheatgearcount"
+    "anchor": "ent-getnetworkedheatgearcount",
+    "api_group": "ladbot"
   },
   {
     "name": "GetNetworkedHeatSystemType",
@@ -5783,7 +6025,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getnetworkedheatsystemtype"
+    "anchor": "ent-getnetworkedheatsystemtype",
+    "api_group": "ladbot"
   },
   {
     "name": "GetNetworkedRedHeatBarCount",
@@ -5799,7 +6042,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getnetworkedredheatbarcount"
+    "anchor": "ent-getnetworkedredheatbarcount",
+    "api_group": "ladbot"
   },
   {
     "name": "GetRedHeatAmount",
@@ -5815,7 +6059,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getredheatamount"
+    "anchor": "ent-getredheatamount",
+    "api_group": "ladbot"
   },
   {
     "name": "GetRedHeatBarCount",
@@ -5831,7 +6076,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getredheatbarcount"
+    "anchor": "ent-getredheatbarcount",
+    "api_group": "ladbot"
   },
   {
     "name": "GetRedHeatStart",
@@ -5847,7 +6093,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getredheatstart"
+    "anchor": "ent-getredheatstart",
+    "api_group": "ladbot"
   },
   {
     "name": "GetWallHactFaceAwayFromWall",
@@ -5877,7 +6124,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getwallhactfaceawayfromwall"
+    "anchor": "ent-getwallhactfaceawayfromwall",
+    "api_group": "ladbot"
   },
   {
     "name": "GetWallHactReferenceEntity",
@@ -5907,7 +6155,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getwallhactreferenceentity"
+    "anchor": "ent-getwallhactreferenceentity",
+    "api_group": "ladbot"
   },
   {
     "name": "HactBridge",
@@ -5923,7 +6172,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-hactbridge"
+    "anchor": "ent-hactbridge",
+    "api_group": "ladbot"
   },
   {
     "name": "HactBridgeTo",
@@ -5947,7 +6197,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-hactbridgeto"
+    "anchor": "ent-hactbridgeto",
+    "api_group": "ladbot"
   },
   {
     "name": "HactExists",
@@ -5971,7 +6222,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-hactexists"
+    "anchor": "ent-hactexists",
+    "api_group": "ladbot"
   },
   {
     "name": "HactFOVEvent",
@@ -6007,7 +6259,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-hactfovevent"
+    "anchor": "ent-hactfovevent",
+    "api_group": "ladbot"
   },
   {
     "name": "HeatPopBehavior",
@@ -6031,7 +6284,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-heatpopbehavior"
+    "anchor": "ent-heatpopbehavior",
+    "api_group": "ladbot"
   },
   {
     "name": "HeatThink",
@@ -6047,7 +6301,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-heatthink"
+    "anchor": "ent-heatthink",
+    "api_group": "ladbot"
   },
   {
     "name": "IsFrozenProp",
@@ -6071,7 +6326,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-isfrozenprop"
+    "anchor": "ent-isfrozenprop",
+    "api_group": "ladbot"
   },
   {
     "name": "IsInRedHeat",
@@ -6087,7 +6343,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-isinredheat"
+    "anchor": "ent-isinredheat",
+    "api_group": "ladbot"
   },
   {
     "name": "LAD_HactEventFramesHasKey",
@@ -6111,7 +6368,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-lad-hacteventframeshaskey"
+    "anchor": "ent-lad-hacteventframeshaskey",
+    "api_group": "ladbot"
   },
   {
     "name": "LAD_HactEventFramesUseDamageEvents",
@@ -6127,7 +6385,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-lad-hacteventframesusedamageevents"
+    "anchor": "ent-lad-hacteventframesusedamageevents",
+    "api_group": "ladbot"
   },
   {
     "name": "LAD_ShouldSuppressHactModelEvent",
@@ -6151,7 +6410,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-lad-shouldsuppresshactmodelevent"
+    "anchor": "ent-lad-shouldsuppresshactmodelevent",
+    "api_group": "ladbot"
   },
   {
     "name": "PlayDynamicIntro",
@@ -6175,7 +6435,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-playdynamicintro"
+    "anchor": "ent-playdynamicintro",
+    "api_group": "ladbot"
   },
   {
     "name": "PlayLocalSound",
@@ -6205,7 +6466,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-playlocalsound"
+    "anchor": "ent-playlocalsound",
+    "api_group": "ladbot"
   },
   {
     "name": "PlayVictimHact",
@@ -6235,7 +6497,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-playvictimhact"
+    "anchor": "ent-playvictimhact",
+    "api_group": "ladbot"
   },
   {
     "name": "PopHeat",
@@ -6265,7 +6528,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-popheat"
+    "anchor": "ent-popheat",
+    "api_group": "ladbot"
   },
   {
     "name": "PosToWall",
@@ -6301,7 +6565,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-postowall"
+    "anchor": "ent-postowall",
+    "api_group": "ladbot"
   },
   {
     "name": "RefreshHactBridgeViewers",
@@ -6349,7 +6614,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-refreshhactbridgeviewers"
+    "anchor": "ent-refreshhactbridgeviewers",
+    "api_group": "ladbot"
   },
   {
     "name": "RemoveHeatAura",
@@ -6365,7 +6631,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-removeheataura"
+    "anchor": "ent-removeheataura",
+    "api_group": "ladbot"
   },
   {
     "name": "ResetHactEventFrames",
@@ -6389,7 +6656,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-resethacteventframes"
+    "anchor": "ent-resethacteventframes",
+    "api_group": "ladbot"
   },
   {
     "name": "ResetHactViewFOV",
@@ -6413,7 +6681,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-resethactviewfov"
+    "anchor": "ent-resethactviewfov",
+    "api_group": "ladbot"
   },
   {
     "name": "ResetHeatDecayTimers",
@@ -6429,7 +6698,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-resetheatdecaytimers"
+    "anchor": "ent-resetheatdecaytimers",
+    "api_group": "ladbot"
   },
   {
     "name": "RunHactEventFrame",
@@ -6459,7 +6729,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-runhacteventframe"
+    "anchor": "ent-runhacteventframe",
+    "api_group": "ladbot"
   },
   {
     "name": "ScanAndExecuteHacts",
@@ -6475,7 +6746,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-scanandexecutehacts"
+    "anchor": "ent-scanandexecutehacts",
+    "api_group": "ladbot"
   },
   {
     "name": "SendHactView",
@@ -6565,7 +6837,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-sendhactview"
+    "anchor": "ent-sendhactview",
+    "api_group": "ladbot"
   },
   {
     "name": "SetHactBridge",
@@ -6589,7 +6862,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-sethactbridge"
+    "anchor": "ent-sethactbridge",
+    "api_group": "ladbot"
   },
   {
     "name": "SetHeat",
@@ -6613,7 +6887,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-setheat"
+    "anchor": "ent-setheat",
+    "api_group": "ladbot"
   },
   {
     "name": "StartHactBridgeAnimation",
@@ -6649,7 +6924,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-starthactbridgeanimation"
+    "anchor": "ent-starthactbridgeanimation",
+    "api_group": "ladbot"
   },
   {
     "name": "StartHactFrameProgression",
@@ -6673,7 +6949,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-starthactframeprogression"
+    "anchor": "ent-starthactframeprogression",
+    "api_group": "ladbot"
   },
   {
     "name": "StartHeatDecayTimer",
@@ -6689,7 +6966,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-startheatdecaytimer"
+    "anchor": "ent-startheatdecaytimer",
+    "api_group": "ladbot"
   },
   {
     "name": "StopHactFrameProgression",
@@ -6705,7 +6983,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-stophactframeprogression"
+    "anchor": "ent-stophactframeprogression",
+    "api_group": "ladbot"
   },
   {
     "name": "SyncHeatNetworkVars",
@@ -6721,7 +7000,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-syncheatnetworkvars"
+    "anchor": "ent-syncheatnetworkvars",
+    "api_group": "ladbot"
   },
   {
     "name": "UpdateHactEventFrames",
@@ -6745,7 +7025,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-updatehacteventframes"
+    "anchor": "ent-updatehacteventframes",
+    "api_group": "ladbot"
   },
   {
     "name": "UpdateHactFrameBridge",
@@ -6761,7 +7042,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-updatehactframebridge"
+    "anchor": "ent-updatehactframebridge",
+    "api_group": "ladbot"
   },
   {
     "name": "UpdateHactSubjectEventFrames",
@@ -6785,7 +7067,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-updatehactsubjecteventframes"
+    "anchor": "ent-updatehactsubjecteventframes",
+    "api_group": "ladbot"
   },
   {
     "name": "UpdateHeatAura",
@@ -6801,7 +7084,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-updateheataura"
+    "anchor": "ent-updateheataura",
+    "api_group": "ladbot"
   },
   {
     "name": "UpdateHeatHUD",
@@ -6817,7 +7101,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-updateheathud"
+    "anchor": "ent-updateheathud",
+    "api_group": "ladbot"
   },
   {
     "name": "UpdateHeatPopAura",
@@ -6847,7 +7132,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-updateheatpopaura"
+    "anchor": "ent-updateheatpopaura",
+    "api_group": "ladbot"
   },
   {
     "name": "_DownedStandup",
@@ -6883,7 +7169,8 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-downedstandup"
+    "anchor": "ent-downedstandup",
+    "api_group": "ladbot"
   },
   {
     "name": "_HandleDMGAnim",
@@ -6949,7 +7236,8 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-handledmganim"
+    "anchor": "ent-handledmganim",
+    "api_group": "ladbot"
   },
   {
     "name": "_SwitchWBType",
@@ -6979,7 +7267,8 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-switchwbtype"
+    "anchor": "ent-switchwbtype",
+    "api_group": "ladbot"
   },
   {
     "name": "AlignToSlope",
@@ -7003,7 +7292,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-aligntoslope"
+    "anchor": "ent-aligntoslope",
+    "api_group": "ladbot"
   },
   {
     "name": "AntiJuggleEscape",
@@ -7027,7 +7317,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-antijuggleescape"
+    "anchor": "ent-antijuggleescape",
+    "api_group": "ladbot"
   },
   {
     "name": "CheckForWallbound",
@@ -7043,7 +7334,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-checkforwallbound"
+    "anchor": "ent-checkforwallbound",
+    "api_group": "ladbot"
   },
   {
     "name": "CheckGuardBreakBeforeDamage",
@@ -7091,7 +7383,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-checkguardbreakbeforedamage"
+    "anchor": "ent-checkguardbreakbeforedamage",
+    "api_group": "ladbot"
   },
   {
     "name": "CheckJuggleState",
@@ -7107,7 +7400,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-checkjugglestate"
+    "anchor": "ent-checkjugglestate",
+    "api_group": "ladbot"
   },
   {
     "name": "CheckWallboundState",
@@ -7123,7 +7417,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-checkwallboundstate"
+    "anchor": "ent-checkwallboundstate",
+    "api_group": "ladbot"
   },
   {
     "name": "CreateParentedProp",
@@ -7171,7 +7466,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-createparentedprop"
+    "anchor": "ent-createparentedprop",
+    "api_group": "ladbot"
   },
   {
     "name": "CustomHandleAnimEvent",
@@ -7219,7 +7515,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-customhandleanimevent"
+    "anchor": "ent-customhandleanimevent",
+    "api_group": "ladbot"
   },
   {
     "name": "CustomOnDealtDamage",
@@ -7249,7 +7546,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-customondealtdamage"
+    "anchor": "ent-customondealtdamage",
+    "api_group": "ladbot"
   },
   {
     "name": "DamageDirection",
@@ -7279,7 +7577,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-damagedirection"
+    "anchor": "ent-damagedirection",
+    "api_group": "ladbot"
   },
   {
     "name": "DeathThink",
@@ -7295,7 +7594,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-deaththink"
+    "anchor": "ent-deaththink",
+    "api_group": "ladbot"
   },
   {
     "name": "Downed",
@@ -7325,7 +7625,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-downed"
+    "anchor": "ent-downed",
+    "api_group": "ladbot"
   },
   {
     "name": "DropParentedProp",
@@ -7349,7 +7650,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-dropparentedprop"
+    "anchor": "ent-dropparentedprop",
+    "api_group": "ladbot"
   },
   {
     "name": "ForeignDMGGuardingBehavior",
@@ -7373,7 +7675,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-foreigndmgguardingbehavior"
+    "anchor": "ent-foreigndmgguardingbehavior",
+    "api_group": "ladbot"
   },
   {
     "name": "GetSyncAttacker",
@@ -7389,7 +7692,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getsyncattacker"
+    "anchor": "ent-getsyncattacker",
+    "api_group": "ladbot"
   },
   {
     "name": "GetSyncVictim",
@@ -7405,7 +7709,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getsyncvictim"
+    "anchor": "ent-getsyncvictim",
+    "api_group": "ladbot"
   },
   {
     "name": "HandleAnimEvent",
@@ -7453,7 +7758,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-handleanimevent"
+    "anchor": "ent-handleanimevent",
+    "api_group": "ladbot"
   },
   {
     "name": "HandleBulletDamage",
@@ -7483,7 +7789,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-handlebulletdamage"
+    "anchor": "ent-handlebulletdamage",
+    "api_group": "ladbot"
   },
   {
     "name": "Juggle",
@@ -7513,7 +7820,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-juggle"
+    "anchor": "ent-juggle",
+    "api_group": "ladbot"
   },
   {
     "name": "OnDealtDamage",
@@ -7543,7 +7851,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-ondealtdamage"
+    "anchor": "ent-ondealtdamage",
+    "api_group": "ladbot"
   },
   {
     "name": "OnDeath",
@@ -7579,7 +7888,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-ondeath"
+    "anchor": "ent-ondeath",
+    "api_group": "ladbot"
   },
   {
     "name": "OnIgnite",
@@ -7595,7 +7905,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-onignite"
+    "anchor": "ent-onignite",
+    "api_group": "ladbot"
   },
   {
     "name": "OnLandOnGround",
@@ -7611,7 +7922,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-onlandonground"
+    "anchor": "ent-onlandonground",
+    "api_group": "ladbot"
   },
   {
     "name": "OnLeaveGround",
@@ -7627,7 +7939,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-onleaveground"
+    "anchor": "ent-onleaveground",
+    "api_group": "ladbot"
   },
   {
     "name": "OnStairs",
@@ -7643,7 +7956,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-onstairs"
+    "anchor": "ent-onstairs",
+    "api_group": "ladbot"
   },
   {
     "name": "OnTakeDamage",
@@ -7655,7 +7969,7 @@
     ],
     "source_file": "lua/entities/lad_framework_base/events.lua",
     "source_line": 538,
-    "description": "",
+    "description": "called outside the coroutine",
     "realm": "not documented",
     "parameters": [
       {
@@ -7673,7 +7987,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-ontakedamage"
+    "anchor": "ent-ontakedamage",
+    "api_group": "ladbot"
   },
   {
     "name": "PlayAgonyAnimations",
@@ -7709,7 +8024,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-playagonyanimations"
+    "anchor": "ent-playagonyanimations",
+    "api_group": "ladbot"
   },
   {
     "name": "PlayDamageAnimations",
@@ -7745,7 +8061,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-playdamageanimations"
+    "anchor": "ent-playdamageanimations",
+    "api_group": "ladbot"
   },
   {
     "name": "PlayDeathAnimations",
@@ -7775,7 +8092,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-playdeathanimations"
+    "anchor": "ent-playdeathanimations",
+    "api_group": "ladbot"
   },
   {
     "name": "PlayDuoSync",
@@ -7853,7 +8171,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-playduosync"
+    "anchor": "ent-playduosync",
+    "api_group": "ladbot"
   },
   {
     "name": "PlayGuardingAnimations",
@@ -7889,7 +8208,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-playguardinganimations"
+    "anchor": "ent-playguardinganimations",
+    "api_group": "ladbot"
   },
   {
     "name": "PlayStairRolling",
@@ -7905,7 +8225,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-playstairrolling"
+    "anchor": "ent-playstairrolling",
+    "api_group": "ladbot"
   },
   {
     "name": "PlayWallboundAnim",
@@ -7947,7 +8268,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-playwallboundanim"
+    "anchor": "ent-playwallboundanim",
+    "api_group": "ladbot"
   },
   {
     "name": "ResetSyncEnts",
@@ -7963,7 +8285,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-resetsyncents"
+    "anchor": "ent-resetsyncents",
+    "api_group": "ladbot"
   },
   {
     "name": "SendHactKey",
@@ -7987,7 +8310,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-sendhactkey"
+    "anchor": "ent-sendhactkey",
+    "api_group": "ladbot"
   },
   {
     "name": "SendLastKey",
@@ -8011,7 +8335,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-sendlastkey"
+    "anchor": "ent-sendlastkey",
+    "api_group": "ladbot"
   },
   {
     "name": "SetSolidLAD",
@@ -8035,7 +8360,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-setsolidlad"
+    "anchor": "ent-setsolidlad",
+    "api_group": "ladbot"
   },
   {
     "name": "SetSyncAttacker",
@@ -8059,7 +8385,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-setsyncattacker"
+    "anchor": "ent-setsyncattacker",
+    "api_group": "ladbot"
   },
   {
     "name": "SetSyncVictim",
@@ -8083,7 +8410,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-setsyncvictim"
+    "anchor": "ent-setsyncvictim",
+    "api_group": "ladbot"
   },
   {
     "name": "StandUp",
@@ -8107,7 +8435,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-standup"
+    "anchor": "ent-standup",
+    "api_group": "ladbot"
   },
   {
     "name": "TakeDamageLastAttacker",
@@ -8137,7 +8466,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-takedamagelastattacker"
+    "anchor": "ent-takedamagelastattacker",
+    "api_group": "ladbot"
   },
   {
     "name": "UpdateStun",
@@ -8185,7 +8515,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-updatestun"
+    "anchor": "ent-updatestun",
+    "api_group": "ladbot"
   },
   {
     "name": "_GetRootAnimVelocity",
@@ -8194,14 +8525,15 @@
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/ragdoll.lua",
     "source_line": 74,
-    "description": "",
+    "description": "Returns the root-motion velocity of the current animation sequence in world space.\nSource model space: +X = forward, +Y = LEFT, +Z = up.\nang:Right() points to the RIGHT (-Y in model space), so the Y component must be\nnegated; otherwise lateral root-motion is applied in the opposite direction.",
     "realm": "not documented",
     "parameters": [],
     "returns": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getrootanimvelocity"
+    "anchor": "ent-getrootanimvelocity",
+    "api_group": "ladbot"
   },
   {
     "name": "_RagdollApplyHitImpulse",
@@ -8213,7 +8545,7 @@
     ],
     "source_file": "lua/entities/lad_framework_base/ragdoll.lua",
     "source_line": 559,
-    "description": "",
+    "description": "Applies a physics impulse to the active ragdoll at the nearest bone to hitPos.\nUsed by ApplyAttackDamage to make the ragdoll react to incoming hits.",
     "realm": "not documented",
     "parameters": [
       {
@@ -8231,7 +8563,8 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-ragdollapplyhitimpulse"
+    "anchor": "ent-ragdollapplyhitimpulse",
+    "api_group": "ladbot"
   },
   {
     "name": "_SpawnVelocityRagdoll",
@@ -8240,14 +8573,15 @@
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/ragdoll.lua",
     "source_line": 83,
-    "description": "",
+    "description": "Spawns a prop_ragdoll that exactly matches the NPC's current pose and applies\nper-bone animation velocities so limbs carry momentum rather than freezing.\nReturns the ragdoll entity (or nil on failure).",
     "realm": "not documented",
     "parameters": [],
     "returns": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-spawnvelocityragdoll"
+    "anchor": "ent-spawnvelocityragdoll",
+    "api_group": "ladbot"
   },
   {
     "name": "_TrackBoneVelocities",
@@ -8256,14 +8590,15 @@
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/ragdoll.lua",
     "source_line": 26,
-    "description": "",
+    "description": "Tracks per-bone world velocities every think tick by differencing positions.\nCalled automatically from the main think loop.  Only active while the NPC is\nalive and not in an active ragdoll phase so we don't waste cycles.",
     "realm": "not documented",
     "parameters": [],
     "returns": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-trackbonevelocities"
+    "anchor": "ent-trackbonevelocities",
+    "api_group": "ladbot"
   },
   {
     "name": "DeathRagdoll",
@@ -8272,14 +8607,15 @@
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/ragdoll.lua",
     "source_line": 586,
-    "description": "",
+    "description": "Death ragdoll — spawns a permanent physics ragdoll with per-bone animation\nvelocities so every limb carries the momentum it had at the moment of death.\nOnly active when lad_ragdollmode == 1 (checked at call-site in OnDeath).",
     "realm": "not documented",
     "parameters": [],
     "returns": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-deathragdoll"
+    "anchor": "ent-deathragdoll",
+    "api_group": "ladbot"
   },
   {
     "name": "DowningRagdoll",
@@ -8290,7 +8626,7 @@
     ],
     "source_file": "lua/entities/lad_framework_base/ragdoll.lua",
     "source_line": 292,
-    "description": "",
+    "description": "Ragdoll triggered by a downing hit-reaction at a specific animation cycle.\nThe NPC is hidden behind a physics ragdoll for ragdoll_time seconds; it then\nlerps its limbs toward the first frame of the appropriate get-up animation\nand seamlessly transitions back to the NPC standing-up sequence.\nOnly active when lad_ragdollmode == 1.\nCall this from inside your hit-reaction cycle callback — orientation flags\n(DownedFront / DownedBack) must already be set by the time you call it.",
     "realm": "not documented",
     "parameters": [
       {
@@ -8303,7 +8639,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-downingragdoll"
+    "anchor": "ent-downingragdoll",
+    "api_group": "ladbot"
   },
   {
     "name": "DoAttack",
@@ -8339,7 +8676,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-doattack"
+    "anchor": "ent-doattack",
+    "api_group": "ladbot"
   },
   {
     "name": "GetHitReactionData",
@@ -8355,7 +8693,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-gethitreactiondata"
+    "anchor": "ent-gethitreactiondata",
+    "api_group": "ladbot"
   },
   {
     "name": "HandleAnimEvent",
@@ -8403,7 +8742,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-handleanimevent"
+    "anchor": "ent-handleanimevent",
+    "api_group": "ladbot"
   },
   {
     "name": "HandleHitReaction",
@@ -8445,7 +8785,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-handlehitreaction"
+    "anchor": "ent-handlehitreaction",
+    "api_group": "ladbot"
   },
   {
     "name": "HandleMovesetEvents",
@@ -8481,7 +8822,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-handlemovesetevents"
+    "anchor": "ent-handlemovesetevents",
+    "api_group": "ladbot"
   },
   {
     "name": "KnockbackVelocity",
@@ -8505,7 +8847,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-knockbackvelocity"
+    "anchor": "ent-knockbackvelocity",
+    "api_group": "ladbot"
   },
   {
     "name": "SetAttackBone",
@@ -8529,7 +8872,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-setattackbone"
+    "anchor": "ent-setattackbone",
+    "api_group": "ladbot"
   },
   {
     "name": "SetHitReactionData",
@@ -8553,7 +8897,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-sethitreactiondata"
+    "anchor": "ent-sethitreactiondata",
+    "api_group": "ladbot"
   },
   {
     "name": "PlayFaceAnim",
@@ -8583,7 +8928,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-playfaceanim"
+    "anchor": "ent-playfaceanim",
+    "api_group": "ladbot"
   },
   {
     "name": "SafeSetFlexWeight",
@@ -8613,7 +8959,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-safesetflexweight"
+    "anchor": "ent-safesetflexweight",
+    "api_group": "ladbot"
   },
   {
     "name": "CheckCustomConditions",
@@ -8629,7 +8976,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-checkcustomconditions"
+    "anchor": "ent-checkcustomconditions",
+    "api_group": "ladbot"
   },
   {
     "name": "CustomAfterBattleStart",
@@ -8645,7 +8993,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-customafterbattlestart"
+    "anchor": "ent-customafterbattlestart",
+    "api_group": "ladbot"
   },
   {
     "name": "CustomAfterHeatPopped",
@@ -8661,7 +9010,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-customafterheatpopped"
+    "anchor": "ent-customafterheatpopped",
+    "api_group": "ladbot"
   },
   {
     "name": "CustomAfterStandingUp",
@@ -8677,7 +9027,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-customafterstandingup"
+    "anchor": "ent-customafterstandingup",
+    "api_group": "ladbot"
   },
   {
     "name": "CustomAIDefaultAttackRoutine",
@@ -8701,7 +9052,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-customaidefaultattackroutine"
+    "anchor": "ent-customaidefaultattackroutine",
+    "api_group": "ladbot"
   },
   {
     "name": "CustomBeforeBattleStart",
@@ -8717,7 +9069,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-custombeforebattlestart"
+    "anchor": "ent-custombeforebattlestart",
+    "api_group": "ladbot"
   },
   {
     "name": "CustomBeforeHeatPopped",
@@ -8733,7 +9086,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-custombeforeheatpopped"
+    "anchor": "ent-custombeforeheatpopped",
+    "api_group": "ladbot"
   },
   {
     "name": "CustomBeforeStandingUp",
@@ -8749,7 +9103,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-custombeforestandingup"
+    "anchor": "ent-custombeforestandingup",
+    "api_group": "ladbot"
   },
   {
     "name": "CustomBeforeTakeDamage",
@@ -8779,7 +9134,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-custombeforetakedamage"
+    "anchor": "ent-custombeforetakedamage",
+    "api_group": "ladbot"
   },
   {
     "name": "CustomDeathThink",
@@ -8795,7 +9151,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-customdeaththink"
+    "anchor": "ent-customdeaththink",
+    "api_group": "ladbot"
   },
   {
     "name": "CustomFighterInitialize",
@@ -8811,7 +9168,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-customfighterinitialize"
+    "anchor": "ent-customfighterinitialize",
+    "api_group": "ladbot"
   },
   {
     "name": "CustomFighterThink",
@@ -8827,7 +9185,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-customfighterthink"
+    "anchor": "ent-customfighterthink",
+    "api_group": "ladbot"
   },
   {
     "name": "CustomMidFighterInitialize",
@@ -8843,7 +9202,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-custommidfighterinitialize"
+    "anchor": "ent-custommidfighterinitialize",
+    "api_group": "ladbot"
   },
   {
     "name": "CustomOnDeath",
@@ -8859,7 +9219,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-customondeath"
+    "anchor": "ent-customondeath",
+    "api_group": "ladbot"
   },
   {
     "name": "CustomOnLandOnGround",
@@ -8875,7 +9236,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-customonlandonground"
+    "anchor": "ent-customonlandonground",
+    "api_group": "ladbot"
   },
   {
     "name": "CustomOnPossessed",
@@ -8891,7 +9253,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-customonpossessed"
+    "anchor": "ent-customonpossessed",
+    "api_group": "ladbot"
   },
   {
     "name": "CustomOnRemove",
@@ -8907,7 +9270,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-customonremove"
+    "anchor": "ent-customonremove",
+    "api_group": "ladbot"
   },
   {
     "name": "CustomOnTakeDamage",
@@ -8937,7 +9301,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-customontakedamage"
+    "anchor": "ent-customontakedamage",
+    "api_group": "ladbot"
   },
   {
     "name": "CustomPostMovesetInit",
@@ -8953,7 +9318,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-custompostmovesetinit"
+    "anchor": "ent-custompostmovesetinit",
+    "api_group": "ladbot"
   },
   {
     "name": "OnActivateCombat",
@@ -8969,7 +9335,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-onactivatecombat"
+    "anchor": "ent-onactivatecombat",
+    "api_group": "ladbot"
   },
   {
     "name": "OnBumpAnim",
@@ -8993,7 +9360,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-onbumpanim"
+    "anchor": "ent-onbumpanim",
+    "api_group": "ladbot"
   },
   {
     "name": "OnCosmeticKnockoff",
@@ -9017,7 +9385,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-oncosmeticknockoff"
+    "anchor": "ent-oncosmeticknockoff",
+    "api_group": "ladbot"
   },
   {
     "name": "OnDeactivateCombat",
@@ -9033,7 +9402,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-ondeactivatecombat"
+    "anchor": "ent-ondeactivatecombat",
+    "api_group": "ladbot"
   },
   {
     "name": "OnDrawMovesetWeapon",
@@ -9057,7 +9427,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-ondrawmovesetweapon"
+    "anchor": "ent-ondrawmovesetweapon",
+    "api_group": "ladbot"
   },
   {
     "name": "SetupExclusiveMoveset",
@@ -9073,7 +9444,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-setupexclusivemoveset"
+    "anchor": "ent-setupexclusivemoveset",
+    "api_group": "ladbot"
   },
   {
     "name": "AuthSubtitle",
@@ -9089,7 +9461,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-authsubtitle"
+    "anchor": "ent-authsubtitle",
+    "api_group": "ladbot"
   },
   {
     "name": "DisplayItemNotification",
@@ -9105,7 +9478,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-displayitemnotification"
+    "anchor": "ent-displayitemnotification",
+    "api_group": "ladbot"
   },
   {
     "name": "DrawActionButton",
@@ -9171,7 +9545,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-drawactionbutton"
+    "anchor": "ent-drawactionbutton",
+    "api_group": "ladbot"
   },
   {
     "name": "DrawAllyHUD",
@@ -9187,7 +9562,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-drawallyhud"
+    "anchor": "ent-drawallyhud",
+    "api_group": "ladbot"
   },
   {
     "name": "DrawDebugHUD",
@@ -9203,7 +9579,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-drawdebughud"
+    "anchor": "ent-drawdebughud",
+    "api_group": "ladbot"
   },
   {
     "name": "DrawDialoguePrompt",
@@ -9219,7 +9596,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-drawdialogueprompt"
+    "anchor": "ent-drawdialogueprompt",
+    "api_group": "ladbot"
   },
   {
     "name": "DrawEnemyHUD",
@@ -9235,7 +9613,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-drawenemyhud"
+    "anchor": "ent-drawenemyhud",
+    "api_group": "ladbot"
   },
   {
     "name": "DrawEnemyHUDNew",
@@ -9325,7 +9704,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-drawenemyhudnew"
+    "anchor": "ent-drawenemyhudnew",
+    "api_group": "ladbot"
   },
   {
     "name": "DrawHeatPrompt",
@@ -9341,7 +9721,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-drawheatprompt"
+    "anchor": "ent-drawheatprompt",
+    "api_group": "ladbot"
   },
   {
     "name": "DrawInteractionPopup",
@@ -9365,7 +9746,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-drawinteractionpopup"
+    "anchor": "ent-drawinteractionpopup",
+    "api_group": "ladbot"
   },
   {
     "name": "DrawMinimap",
@@ -9381,7 +9763,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-drawminimap"
+    "anchor": "ent-drawminimap",
+    "api_group": "ladbot"
   },
   {
     "name": "DrawPlayerHUD",
@@ -9397,7 +9780,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-drawplayerhud"
+    "anchor": "ent-drawplayerhud",
+    "api_group": "ladbot"
   },
   {
     "name": "DrawQTEPrompt",
@@ -9413,7 +9797,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-drawqteprompt"
+    "anchor": "ent-drawqteprompt",
+    "api_group": "ladbot"
   },
   {
     "name": "DrawWeaponInfo",
@@ -9429,7 +9814,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-drawweaponinfo"
+    "anchor": "ent-drawweaponinfo",
+    "api_group": "ladbot"
   },
   {
     "name": "DynamicIntroHUD",
@@ -9445,7 +9831,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-dynamicintrohud"
+    "anchor": "ent-dynamicintrohud",
+    "api_group": "ladbot"
   },
   {
     "name": "HUDDetectAllies",
@@ -9461,7 +9848,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-huddetectallies"
+    "anchor": "ent-huddetectallies",
+    "api_group": "ladbot"
   },
   {
     "name": "HUDDetectBoss",
@@ -9477,7 +9865,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-huddetectboss"
+    "anchor": "ent-huddetectboss",
+    "api_group": "ladbot"
   },
   {
     "name": "HUDDetectCommon",
@@ -9493,7 +9882,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-huddetectcommon"
+    "anchor": "ent-huddetectcommon",
+    "api_group": "ladbot"
   },
   {
     "name": "HUDDisableCommon",
@@ -9509,7 +9899,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-huddisablecommon"
+    "anchor": "ent-huddisablecommon",
+    "api_group": "ladbot"
   },
   {
     "name": "HUDDynamicTitleCard",
@@ -9533,7 +9924,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-huddynamictitlecard"
+    "anchor": "ent-huddynamictitlecard",
+    "api_group": "ladbot"
   },
   {
     "name": "HUDUpdateCommon",
@@ -9557,7 +9949,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-hudupdatecommon"
+    "anchor": "ent-hudupdatecommon",
+    "api_group": "ladbot"
   },
   {
     "name": "Kiwami_DrawHeatChunk",
@@ -9647,7 +10040,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-kiwami-drawheatchunk"
+    "anchor": "ent-kiwami-drawheatchunk",
+    "api_group": "ladbot"
   },
   {
     "name": "Kiwami_DrawHeatHUD",
@@ -9725,7 +10119,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-kiwami-drawheathud"
+    "anchor": "ent-kiwami-drawheathud",
+    "api_group": "ladbot"
   },
   {
     "name": "PlayHUDSound",
@@ -9755,7 +10150,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-playhudsound"
+    "anchor": "ent-playhudsound",
+    "api_group": "ladbot"
   },
   {
     "name": "PossessionHUD",
@@ -9771,7 +10167,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-possessionhud"
+    "anchor": "ent-possessionhud",
+    "api_group": "ladbot"
   },
   {
     "name": "UpdateClientRelationship",
@@ -9787,7 +10184,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-updateclientrelationship"
+    "anchor": "ent-updateclientrelationship",
+    "api_group": "ladbot"
   },
   {
     "name": "Y0_DrawHeatBarSegment",
@@ -9889,7 +10287,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-y0-drawheatbarsegment"
+    "anchor": "ent-y0-drawheatbarsegment",
+    "api_group": "ladbot"
   },
   {
     "name": "EmitVoice",
@@ -9925,7 +10324,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-emitvoice"
+    "anchor": "ent-emitvoice",
+    "api_group": "ladbot"
   },
   {
     "name": "EmitVoiceExt",
@@ -9967,7 +10367,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-emitvoiceext"
+    "anchor": "ent-emitvoiceext",
+    "api_group": "ladbot"
   },
   {
     "name": "GetVoicebank",
@@ -9983,7 +10384,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getvoicebank"
+    "anchor": "ent-getvoicebank",
+    "api_group": "ladbot"
   },
   {
     "name": "PlayHactSound",
@@ -10037,7 +10439,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-playhactsound"
+    "anchor": "ent-playhactsound",
+    "api_group": "ladbot"
   },
   {
     "name": "SetFighterVoicebank",
@@ -10061,7 +10464,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-setfightervoicebank"
+    "anchor": "ent-setfightervoicebank",
+    "api_group": "ladbot"
   },
   {
     "name": "VoicebankExists",
@@ -10085,7 +10489,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-voicebankexists"
+    "anchor": "ent-voicebankexists",
+    "api_group": "ladbot"
   },
   {
     "name": "SendHactQTEPrompt",
@@ -10133,7 +10538,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-sendhactqteprompt"
+    "anchor": "ent-sendhactqteprompt",
+    "api_group": "ladbot"
   },
   {
     "name": "SetQTEButtonMaterials",
@@ -10149,7 +10555,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-setqtebuttonmaterials"
+    "anchor": "ent-setqtebuttonmaterials",
+    "api_group": "ladbot"
   },
   {
     "name": "_GetSoundtrackRecipients",
@@ -10160,7 +10567,7 @@
     ],
     "source_file": "lua/entities/lad_framework_base/soundtrack.lua",
     "source_line": 107,
-    "description": "",
+    "description": "Returns a list of all Player recipients for this entity's soundtrack events.\nIncludes own possessor (if possessed and satisfies combatCheck) plus possessors of\nall other possessed fighters currently in the same battle.\nselfIgnoreCombat = true skips the FighterInCombat check for self only\n(used during battle-start anim where FighterInCombat is not yet set).",
     "realm": "not documented",
     "parameters": [
       {
@@ -10173,7 +10580,8 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getsoundtrackrecipients"
+    "anchor": "ent-getsoundtrackrecipients",
+    "api_group": "ladbot"
   },
   {
     "name": "_LoadSoundtrackDef",
@@ -10184,7 +10592,7 @@
     ],
     "source_file": "lua/entities/lad_framework_base/soundtrack.lua",
     "source_line": 91,
-    "description": "",
+    "description": "Loads and caches a soundtrack definition file from data_static. Returns { name, hasEnd } or nil.",
     "realm": "not documented",
     "parameters": [
       {
@@ -10197,7 +10605,8 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-loadsoundtrackdef"
+    "anchor": "ent-loadsoundtrackdef",
+    "api_group": "ladbot"
   },
   {
     "name": "_SendSoundtrackStart",
@@ -10211,7 +10620,7 @@
     ],
     "source_file": "lua/entities/lad_framework_base/soundtrack.lua",
     "source_line": 144,
-    "description": "",
+    "description": "Sends LAD_SoundtrackStart to all eligible recipients (own possessor and battle allies' possessors).\nPass ignoreCombatCheck = true to send before FighterInCombat is set (battle start anim path).\nPass skipIntro = true to jump straight to the loop (used on moveset switches mid-combat).\nPass waitForIntro = true to defer a moveset switch until the current _start intro finishes.\nPass directRecipient (Player) to force-add a specific player when the entity is unpossessed\nand has no battle yet (e.g. endless boss intro).",
     "realm": "not documented",
     "parameters": [
       {
@@ -10239,7 +10648,8 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-sendsoundtrackstart"
+    "anchor": "ent-sendsoundtrackstart",
+    "api_group": "ladbot"
   },
   {
     "name": "_SendSoundtrackStop",
@@ -10250,7 +10660,7 @@
     ],
     "source_file": "lua/entities/lad_framework_base/soundtrack.lua",
     "source_line": 177,
-    "description": "",
+    "description": "Sends LAD_SoundtrackStop to the possessing player",
     "realm": "not documented",
     "parameters": [
       {
@@ -10263,7 +10673,8 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-sendsoundtrackstop"
+    "anchor": "ent-sendsoundtrackstop",
+    "api_group": "ladbot"
   },
   {
     "name": "_SoundtrackActivateCombat",
@@ -10272,14 +10683,15 @@
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/soundtrack.lua",
     "source_line": 224,
-    "description": "",
+    "description": "Called by ActivateCombat in fighter_command.lua (not a public hook).\nSkips sending if the soundtrack was already started during PlayBattleStartAnim.",
     "realm": "not documented",
     "parameters": [],
     "returns": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-soundtrackactivatecombat"
+    "anchor": "ent-soundtrackactivatecombat",
+    "api_group": "ladbot"
   },
   {
     "name": "_SoundtrackBattleStart",
@@ -10290,7 +10702,7 @@
     ],
     "source_file": "lua/entities/lad_framework_base/soundtrack.lua",
     "source_line": 209,
-    "description": "",
+    "description": "Called from PlayBattleStartAnim in battle.lua when the intro anim/camera begins.\nStarts music early so it plays under the battle start animation.",
     "realm": "not documented",
     "parameters": [
       {
@@ -10303,7 +10715,8 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-soundtrackbattlestart"
+    "anchor": "ent-soundtrackbattlestart",
+    "api_group": "ladbot"
   },
   {
     "name": "_SoundtrackDeactivateCombat",
@@ -10312,14 +10725,15 @@
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/soundtrack.lua",
     "source_line": 234,
-    "description": "",
+    "description": "Called by DeactivateCombat in fighter_command.lua (not a public hook)",
     "realm": "not documented",
     "parameters": [],
     "returns": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-soundtrackdeactivatecombat"
+    "anchor": "ent-soundtrackdeactivatecombat",
+    "api_group": "ladbot"
   },
   {
     "name": "_SoundtrackDeathThink",
@@ -10328,14 +10742,15 @@
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/soundtrack.lua",
     "source_line": 404,
-    "description": "",
+    "description": "Called by DeathThink in events.lua (not a public hook)\nSends the defeat signal exactly once to own possessor and all battle allies' possessors.",
     "realm": "not documented",
     "parameters": [],
     "returns": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-soundtrackdeaththink"
+    "anchor": "ent-soundtrackdeaththink",
+    "api_group": "ladbot"
   },
   {
     "name": "_SoundtrackOnDispossessed",
@@ -10346,7 +10761,7 @@
     ],
     "source_file": "lua/entities/lad_framework_base/soundtrack.lua",
     "source_line": 326,
-    "description": "",
+    "description": "Called by OnDispossessed in shared.lua (not a public hook)",
     "realm": "not documented",
     "parameters": [
       {
@@ -10359,7 +10774,8 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-soundtrackondispossessed"
+    "anchor": "ent-soundtrackondispossessed",
+    "api_group": "ladbot"
   },
   {
     "name": "_SoundtrackOnPossessed",
@@ -10368,14 +10784,15 @@
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/soundtrack.lua",
     "source_line": 294,
-    "description": "",
+    "description": "Called by OnPossessed in fighter_command.lua (not a public hook)\nSends own soundtrack if in combat, then syncs all other battle fighters to the new possessor.",
     "realm": "not documented",
     "parameters": [],
     "returns": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-soundtrackonpossessed"
+    "anchor": "ent-soundtrackonpossessed",
+    "api_group": "ladbot"
   },
   {
     "name": "_SoundtrackOnRemove",
@@ -10384,14 +10801,15 @@
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/soundtrack.lua",
     "source_line": 348,
-    "description": "",
+    "description": "Called by OnRemove in shared.lua (not a public hook)",
     "realm": "not documented",
     "parameters": [],
     "returns": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-soundtrackonremove"
+    "anchor": "ent-soundtrackonremove",
+    "api_group": "ladbot"
   },
   {
     "name": "GetActiveSoundtrackData",
@@ -10400,14 +10818,15 @@
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/soundtrack.lua",
     "source_line": 60,
-    "description": "",
+    "description": "Returns { sdFile, weight } for the active style/moveset, falling back to defaults.\nStyle-ID lookup is primary so temporary weapon/grab movesets do not override music.\nNOTE: SoundTracksByMoveset only accepts numeric style IDs (e.g., [1], [2], [3]).",
     "realm": "not documented",
     "parameters": [],
     "returns": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getactivesoundtrackdata"
+    "anchor": "ent-getactivesoundtrackdata",
+    "api_group": "ladbot"
   },
   {
     "name": "SoundtrackEarlyStart",
@@ -10418,7 +10837,7 @@
     ],
     "source_file": "lua/entities/lad_framework_base/soundtrack.lua",
     "source_line": 218,
-    "description": "",
+    "description": "Public API: starts the combat soundtrack early without requiring FighterInCombat to be set.\nPass directRecipient (Player) when the entity is not yet in a battle and not possessed\n(e.g. endless arena boss intro) so the track is delivered to the correct player.",
     "realm": "not documented",
     "parameters": [
       {
@@ -10431,7 +10850,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-soundtrackearlystart"
+    "anchor": "ent-soundtrackearlystart",
+    "api_group": "ladbot"
   },
   {
     "name": "SoundtrackMovesetUpdate",
@@ -10440,14 +10860,15 @@
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/soundtrack.lua",
     "source_line": 188,
-    "description": "",
+    "description": "Checks if the active moveset changed the soundtrack and resends if so.\nCalled from SetFighterMoveset (moveset.lua) after moveset initialises.\nSkips if a temporary weapon/grab moveset is active to avoid glitches during transitions.",
     "realm": "not documented",
     "parameters": [],
     "returns": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-soundtrackmovesetupdate"
+    "anchor": "ent-soundtrackmovesetupdate",
+    "api_group": "ladbot"
   },
   {
     "name": "SetCommonFighterName",
@@ -10463,7 +10884,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-setcommonfightername"
+    "anchor": "ent-setcommonfightername",
+    "api_group": "ladbot"
   },
   {
     "name": "SetCustomCommonFighterName",
@@ -10487,7 +10909,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-setcustomcommonfightername"
+    "anchor": "ent-setcustomcommonfightername",
+    "api_group": "ladbot"
   },
   {
     "name": "_BaseInitialize",
@@ -10503,7 +10926,8 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-baseinitialize"
+    "anchor": "ent-baseinitialize",
+    "api_group": "ladbot"
   },
   {
     "name": "_BaseInitialize",
@@ -10512,14 +10936,15 @@
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
     "source_line": 1910,
-    "description": "",
+    "description": "_BaseInitialize is an empty stub in DRGBase called after _InitModules() completes,\nso all internal fields (_DrGBaseSequenceEvents etc.) are already set up by the time\nthis runs.  Overriding Initialize() directly would skip _InitModules() entirely.",
     "realm": "not documented",
     "parameters": [],
     "returns": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-baseinitialize-1910"
+    "anchor": "ent-baseinitialize-1910",
+    "api_group": "ladbot"
   },
   {
     "name": "_HandleLandOnGround",
@@ -10535,7 +10960,8 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-handlelandonground"
+    "anchor": "ent-handlelandonground",
+    "api_group": "ladbot"
   },
   {
     "name": "_HandleLeaveGround",
@@ -10551,7 +10977,8 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-handleleaveground"
+    "anchor": "ent-handleleaveground",
+    "api_group": "ladbot"
   },
   {
     "name": "_InitModules",
@@ -10567,7 +10994,8 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-initmodules"
+    "anchor": "ent-initmodules",
+    "api_group": "ladbot"
   },
   {
     "name": "_LADDrawBonemergedChild",
@@ -10597,7 +11025,8 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-laddrawbonemergedchild"
+    "anchor": "ent-laddrawbonemergedchild",
+    "api_group": "ladbot"
   },
   {
     "name": "ApplyAttackDamage",
@@ -10651,7 +11080,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-applyattackdamage"
+    "anchor": "ent-applyattackdamage",
+    "api_group": "ladbot"
   },
   {
     "name": "Approach",
@@ -10681,7 +11111,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-approach"
+    "anchor": "ent-approach",
+    "api_group": "ladbot"
   },
   {
     "name": "Attack",
@@ -10717,7 +11148,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-attack"
+    "anchor": "ent-attack",
+    "api_group": "ladbot"
   },
   {
     "name": "AttackEntity",
@@ -10741,7 +11173,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-attackentity"
+    "anchor": "ent-attackentity",
+    "api_group": "ladbot"
   },
   {
     "name": "BehaveStart",
@@ -10757,7 +11190,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-behavestart"
+    "anchor": "ent-behavestart",
+    "api_group": "ladbot"
   },
   {
     "name": "BehaveUpdate",
@@ -10773,7 +11207,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-behaveupdate"
+    "anchor": "ent-behaveupdate",
+    "api_group": "ladbot"
   },
   {
     "name": "ClearPSAWPrediction",
@@ -10789,7 +11224,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-clearpsawprediction"
+    "anchor": "ent-clearpsawprediction",
+    "api_group": "ladbot"
   },
   {
     "name": "CustomInitialize",
@@ -10805,7 +11241,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-custominitialize"
+    "anchor": "ent-custominitialize",
+    "api_group": "ladbot"
   },
   {
     "name": "Draw",
@@ -10829,7 +11266,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-draw"
+    "anchor": "ent-draw",
+    "api_group": "ladbot"
   },
   {
     "name": "EntitiesInCone",
@@ -10883,7 +11321,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-entitiesincone"
+    "anchor": "ent-entitiesincone",
+    "api_group": "ladbot"
   },
   {
     "name": "FaceEnemy",
@@ -10899,7 +11338,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-faceenemy"
+    "anchor": "ent-faceenemy",
+    "api_group": "ladbot"
   },
   {
     "name": "FaceTowards",
@@ -10923,7 +11363,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-facetowards"
+    "anchor": "ent-facetowards",
+    "api_group": "ladbot"
   },
   {
     "name": "FixCollisions",
@@ -10939,7 +11380,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-fixcollisions"
+    "anchor": "ent-fixcollisions",
+    "api_group": "ladbot"
   },
   {
     "name": "GetRenderAngles",
@@ -10955,7 +11397,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getrenderangles"
+    "anchor": "ent-getrenderangles",
+    "api_group": "ladbot"
   },
   {
     "name": "GetRenderOrigin",
@@ -10964,14 +11407,15 @@
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
     "source_line": 1922,
-    "description": "",
+    "description": "Return our client-predicted position for rendering instead of the network-interpolated\norigin.  GetPos() (hitboxes/physics) is never touched — only the visual draw position\nis overridden.  During non-PSAW states _LAD_predictedPos is nil so it falls back to\nthe normal GetPos() path.",
     "realm": "not documented",
     "parameters": [],
     "returns": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getrenderorigin"
+    "anchor": "ent-getrenderorigin",
+    "api_group": "ladbot"
   },
   {
     "name": "HandleEnemy",
@@ -10987,7 +11431,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-handleenemy"
+    "anchor": "ent-handleenemy",
+    "api_group": "ladbot"
   },
   {
     "name": "Initialize",
@@ -11003,7 +11448,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-initialize"
+    "anchor": "ent-initialize",
+    "api_group": "ladbot"
   },
   {
     "name": "MoveBackward",
@@ -11033,7 +11479,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-movebackward"
+    "anchor": "ent-movebackward",
+    "api_group": "ladbot"
   },
   {
     "name": "MoveForward",
@@ -11063,7 +11510,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-moveforward"
+    "anchor": "ent-moveforward",
+    "api_group": "ladbot"
   },
   {
     "name": "MoveLeft",
@@ -11093,7 +11541,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-moveleft"
+    "anchor": "ent-moveleft",
+    "api_group": "ladbot"
   },
   {
     "name": "MoveRight",
@@ -11123,7 +11572,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-moveright"
+    "anchor": "ent-moveright",
+    "api_group": "ladbot"
   },
   {
     "name": "OnFallDamage",
@@ -11147,7 +11597,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-onfalldamage"
+    "anchor": "ent-onfalldamage",
+    "api_group": "ladbot"
   },
   {
     "name": "OnInjured",
@@ -11171,7 +11622,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-oninjured"
+    "anchor": "ent-oninjured",
+    "api_group": "ladbot"
   },
   {
     "name": "OnKilled",
@@ -11195,7 +11647,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-onkilled"
+    "anchor": "ent-onkilled",
+    "api_group": "ladbot"
   },
   {
     "name": "OnRemove",
@@ -11204,14 +11657,15 @@
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
     "source_line": 1915,
-    "description": "",
+    "description": "Weak keys handle GC cleanup, but CallOnRemove fires before GC so explicit nil is cleaner.",
     "realm": "not documented",
     "parameters": [],
     "returns": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-onremove"
+    "anchor": "ent-onremove",
+    "api_group": "ladbot"
   },
   {
     "name": "OnUpdateAnimation",
@@ -11227,7 +11681,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-onupdateanimation"
+    "anchor": "ent-onupdateanimation",
+    "api_group": "ladbot"
   },
   {
     "name": "Patrol",
@@ -11243,7 +11698,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-patrol"
+    "anchor": "ent-patrol",
+    "api_group": "ladbot"
   },
   {
     "name": "PlaySequence",
@@ -11279,7 +11735,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-playsequence"
+    "anchor": "ent-playsequence",
+    "api_group": "ladbot"
   },
   {
     "name": "PlaySequenceAndMove",
@@ -11315,7 +11772,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-playsequenceandmove"
+    "anchor": "ent-playsequenceandmove",
+    "api_group": "ladbot"
   },
   {
     "name": "PlaySequenceAndWait",
@@ -11351,7 +11809,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-playsequenceandwait"
+    "anchor": "ent-playsequenceandwait",
+    "api_group": "ladbot"
   },
   {
     "name": "PossessorView",
@@ -11367,7 +11826,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-possessorview"
+    "anchor": "ent-possessorview",
+    "api_group": "ladbot"
   },
   {
     "name": "PushEnt",
@@ -11397,7 +11857,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-pushent"
+    "anchor": "ent-pushent",
+    "api_group": "ladbot"
   },
   {
     "name": "SetupDataTables",
@@ -11413,7 +11874,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-setupdatatables"
+    "anchor": "ent-setupdatatables",
+    "api_group": "ladbot"
   },
   {
     "name": "Think",
@@ -11422,14 +11884,15 @@
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
     "source_line": 1341,
-    "description": "",
+    "description": "ENT:Think() override (source: drgbase_nextbot/shared.lua)\nEliminates 10-12 redundant CurTime() C calls per tick by caching one value at the top.\nIn the medium-delay block, reuses self._DrGBaseWaterLevel (already maintained at 20Hz by\nthe short-delay block) instead of calling WaterLevel() a second time per 0.1s interval.",
     "realm": "not documented",
     "parameters": [],
     "returns": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-think"
+    "anchor": "ent-think",
+    "api_group": "ladbot"
   },
   {
     "name": "UpdateAnimation",
@@ -11445,7 +11908,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-updateanimation"
+    "anchor": "ent-updateanimation",
+    "api_group": "ladbot"
   },
   {
     "name": "UpdateEnemy",
@@ -11461,7 +11925,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-updateenemy"
+    "anchor": "ent-updateenemy",
+    "api_group": "ladbot"
   },
   {
     "name": "ChargeAura",
@@ -11509,7 +11974,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-chargeaura"
+    "anchor": "ent-chargeaura",
+    "api_group": "ladbot"
   },
   {
     "name": "CreateAfterImage",
@@ -11557,7 +12023,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-createafterimage"
+    "anchor": "ent-createafterimage",
+    "api_group": "ladbot"
   },
   {
     "name": "CreatePibTrail",
@@ -11629,7 +12096,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-createpibtrail"
+    "anchor": "ent-createpibtrail",
+    "api_group": "ladbot"
   },
   {
     "name": "DispatchAttackTrails",
@@ -11665,7 +12133,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-dispatchattacktrails"
+    "anchor": "ent-dispatchattacktrails",
+    "api_group": "ladbot"
   },
   {
     "name": "DispatchLimbFlashes",
@@ -11701,7 +12170,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-dispatchlimbflashes"
+    "anchor": "ent-dispatchlimbflashes",
+    "api_group": "ladbot"
   },
   {
     "name": "DispatchParticleTrails",
@@ -11737,7 +12207,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-dispatchparticletrails"
+    "anchor": "ent-dispatchparticletrails",
+    "api_group": "ladbot"
   },
   {
     "name": "EnableLimbFlash",
@@ -11785,7 +12256,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-enablelimbflash"
+    "anchor": "ent-enablelimbflash",
+    "api_group": "ladbot"
   },
   {
     "name": "GetGuardFX",
@@ -11815,7 +12287,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getguardfx"
+    "anchor": "ent-getguardfx",
+    "api_group": "ladbot"
   },
   {
     "name": "HeatAura",
@@ -11851,7 +12324,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-heataura"
+    "anchor": "ent-heataura",
+    "api_group": "ladbot"
   },
   {
     "name": "SetGreyscaleEffect",
@@ -11875,7 +12349,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-setgreyscaleeffect"
+    "anchor": "ent-setgreyscaleeffect",
+    "api_group": "ladbot"
   },
   {
     "name": "VFX_EjectShell",
@@ -11899,7 +12374,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-vfx-ejectshell"
+    "anchor": "ent-vfx-ejectshell",
+    "api_group": "ladbot"
   },
   {
     "name": "VFX_HandSpark",
@@ -11923,7 +12399,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-vfx-handspark"
+    "anchor": "ent-vfx-handspark",
+    "api_group": "ladbot"
   },
   {
     "name": "VFX_MeshTrail",
@@ -11947,7 +12424,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-vfx-meshtrail"
+    "anchor": "ent-vfx-meshtrail",
+    "api_group": "ladbot"
   },
   {
     "name": "VFX_Shock",
@@ -11971,7 +12449,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-vfx-shock"
+    "anchor": "ent-vfx-shock",
+    "api_group": "ladbot"
   },
   {
     "name": "VFX_SparkOnce",
@@ -11995,7 +12474,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-vfx-sparkonce"
+    "anchor": "ent-vfx-sparkonce",
+    "api_group": "ladbot"
   },
   {
     "name": "VFX_WeaponSpark",
@@ -12019,7 +12499,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-vfx-weaponspark"
+    "anchor": "ent-vfx-weaponspark",
+    "api_group": "ladbot"
   },
   {
     "name": "DisplaySubtitle",
@@ -12055,7 +12536,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-displaysubtitle"
+    "anchor": "ent-displaysubtitle",
+    "api_group": "ladbot"
   },
   {
     "name": "ClearDialogueInfo",
@@ -12071,7 +12553,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-cleardialogueinfo"
+    "anchor": "ent-cleardialogueinfo",
+    "api_group": "ladbot"
   },
   {
     "name": "FindNearbyDialogueTarget",
@@ -12095,7 +12578,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-findnearbydialoguetarget"
+    "anchor": "ent-findnearbydialoguetarget",
+    "api_group": "ladbot"
   },
   {
     "name": "GetStationaryDialogueCooldownUntil",
@@ -12111,7 +12595,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getstationarydialoguecooldownuntil"
+    "anchor": "ent-getstationarydialoguecooldownuntil",
+    "api_group": "ladbot"
   },
   {
     "name": "IsDialogueCombatBlocked",
@@ -12127,7 +12612,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-isdialoguecombatblocked"
+    "anchor": "ent-isdialoguecombatblocked",
+    "api_group": "ladbot"
   },
   {
     "name": "IsOverworldStationary",
@@ -12143,7 +12629,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-isoverworldstationary"
+    "anchor": "ent-isoverworldstationary",
+    "api_group": "ladbot"
   },
   {
     "name": "IsStationaryDialogueAvailable",
@@ -12159,7 +12646,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-isstationarydialogueavailable"
+    "anchor": "ent-isstationarydialogueavailable",
+    "api_group": "ladbot"
   },
   {
     "name": "SetStationaryOverworldEnabled",
@@ -12183,7 +12671,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-setstationaryoverworldenabled"
+    "anchor": "ent-setstationaryoverworldenabled",
+    "api_group": "ladbot"
   },
   {
     "name": "TriggerDialogue",
@@ -12225,7 +12714,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-triggerdialogue"
+    "anchor": "ent-triggerdialogue",
+    "api_group": "ladbot"
   },
   {
     "name": "TriggerDialogueData",
@@ -12240,7 +12730,7 @@
     ],
     "source_file": "lua/entities/lad_framework_base/dialogue.lua",
     "source_line": 236,
-    "description": "",
+    "description": "Starts a dialogue from an in-memory table instead of a JSON file.",
     "realm": "not documented",
     "parameters": [
       {
@@ -12273,7 +12763,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-triggerdialoguedata"
+    "anchor": "ent-triggerdialoguedata",
+    "api_group": "ladbot"
   },
   {
     "name": "TriggerStationaryDialogue",
@@ -12297,7 +12788,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-triggerstationarydialogue"
+    "anchor": "ent-triggerstationarydialogue",
+    "api_group": "ladbot"
   },
   {
     "name": "AddItem",
@@ -12321,7 +12813,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-additem"
+    "anchor": "ent-additem",
+    "api_group": "ladbot"
   },
   {
     "name": "GenerateItemID",
@@ -12337,7 +12830,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-generateitemid"
+    "anchor": "ent-generateitemid",
+    "api_group": "ladbot"
   },
   {
     "name": "AttachTempWeapon",
@@ -12373,7 +12867,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-attachtempweapon"
+    "anchor": "ent-attachtempweapon",
+    "api_group": "ladbot"
   },
   {
     "name": "AutoPickupWeaponInternal",
@@ -12403,7 +12898,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-autopickupweaponinternal"
+    "anchor": "ent-autopickupweaponinternal",
+    "api_group": "ladbot"
   },
   {
     "name": "ClearWeaponInfo",
@@ -12427,7 +12923,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-clearweaponinfo"
+    "anchor": "ent-clearweaponinfo",
+    "api_group": "ladbot"
   },
   {
     "name": "DeductWeaponDurability",
@@ -12457,7 +12954,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-deductweapondurability"
+    "anchor": "ent-deductweapondurability",
+    "api_group": "ladbot"
   },
   {
     "name": "DisposeWeaponSetPos",
@@ -12481,7 +12979,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-disposeweaponsetpos"
+    "anchor": "ent-disposeweaponsetpos",
+    "api_group": "ladbot"
   },
   {
     "name": "DrawHiddenWeapon",
@@ -12505,7 +13004,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-drawhiddenweapon"
+    "anchor": "ent-drawhiddenweapon",
+    "api_group": "ladbot"
   },
   {
     "name": "DrawMovesetWeapon",
@@ -12529,7 +13029,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-drawmovesetweapon"
+    "anchor": "ent-drawmovesetweapon",
+    "api_group": "ladbot"
   },
   {
     "name": "DropPropWeapon",
@@ -12583,7 +13084,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-droppropweapon"
+    "anchor": "ent-droppropweapon",
+    "api_group": "ladbot"
   },
   {
     "name": "DropSecondaryWeapon",
@@ -12631,7 +13133,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-dropsecondaryweapon"
+    "anchor": "ent-dropsecondaryweapon",
+    "api_group": "ladbot"
   },
   {
     "name": "EquipWeapon",
@@ -12661,7 +13164,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-equipweapon"
+    "anchor": "ent-equipweapon",
+    "api_group": "ladbot"
   },
   {
     "name": "GetAllowedWeaponMoveset",
@@ -12685,7 +13189,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getallowedweaponmoveset"
+    "anchor": "ent-getallowedweaponmoveset",
+    "api_group": "ladbot"
   },
   {
     "name": "GetClosestValidPickupProp",
@@ -12701,7 +13206,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getclosestvalidpickupprop"
+    "anchor": "ent-getclosestvalidpickupprop",
+    "api_group": "ladbot"
   },
   {
     "name": "GetHeldWeaponType",
@@ -12717,7 +13223,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getheldweapontype"
+    "anchor": "ent-getheldweapontype",
+    "api_group": "ladbot"
   },
   {
     "name": "GetPickupType",
@@ -12733,7 +13240,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getpickuptype"
+    "anchor": "ent-getpickuptype",
+    "api_group": "ladbot"
   },
   {
     "name": "GetWeaponByID",
@@ -12757,7 +13265,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getweaponbyid"
+    "anchor": "ent-getweaponbyid",
+    "api_group": "ladbot"
   },
   {
     "name": "GetWeaponClass",
@@ -12773,7 +13282,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-getweaponclass"
+    "anchor": "ent-getweaponclass",
+    "api_group": "ladbot"
   },
   {
     "name": "IsPropValidPickup",
@@ -12797,7 +13307,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-ispropvalidpickup"
+    "anchor": "ent-ispropvalidpickup",
+    "api_group": "ladbot"
   },
   {
     "name": "LaunchProjectile",
@@ -12851,7 +13362,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-launchprojectile"
+    "anchor": "ent-launchprojectile",
+    "api_group": "ladbot"
   },
   {
     "name": "PickupWeapon",
@@ -12875,7 +13387,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-pickupweapon"
+    "anchor": "ent-pickupweapon",
+    "api_group": "ladbot"
   },
   {
     "name": "PickupWeaponInternal",
@@ -12917,7 +13430,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-pickupweaponinternal"
+    "anchor": "ent-pickupweaponinternal",
+    "api_group": "ladbot"
   },
   {
     "name": "PickupWeaponSecondaryInternal",
@@ -12941,7 +13455,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-pickupweaponsecondaryinternal"
+    "anchor": "ent-pickupweaponsecondaryinternal",
+    "api_group": "ladbot"
   },
   {
     "name": "SendWeaponInfo",
@@ -12971,7 +13486,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-sendweaponinfo"
+    "anchor": "ent-sendweaponinfo",
+    "api_group": "ladbot"
   },
   {
     "name": "SetHiddenWeapon",
@@ -12987,7 +13503,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-sethiddenweapon"
+    "anchor": "ent-sethiddenweapon",
+    "api_group": "ladbot"
   },
   {
     "name": "SetWeaponDurability",
@@ -13017,7 +13534,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-setweapondurability"
+    "anchor": "ent-setweapondurability",
+    "api_group": "ladbot"
   },
   {
     "name": "ShootWeapon",
@@ -13041,7 +13559,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-shootweapon"
+    "anchor": "ent-shootweapon",
+    "api_group": "ladbot"
   },
   {
     "name": "StashWeapon",
@@ -13057,7 +13576,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-stashweapon"
+    "anchor": "ent-stashweapon",
+    "api_group": "ladbot"
   },
   {
     "name": "ThrowWeapon",
@@ -13073,7 +13593,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-throwweapon"
+    "anchor": "ent-throwweapon",
+    "api_group": "ladbot"
   },
   {
     "name": "UpdateWeaponAttachment",
@@ -13097,7 +13618,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-updateweaponattachment"
+    "anchor": "ent-updateweaponattachment",
+    "api_group": "ladbot"
   },
   {
     "name": "Weapon2VisualAttach",
@@ -13121,7 +13643,8 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-weapon2visualattach"
+    "anchor": "ent-weapon2visualattach",
+    "api_group": "ladbot"
   },
   {
     "name": "WeaponVisualAttach",
@@ -13157,6 +13680,471 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-weaponvisualattach"
+    "anchor": "ent-weaponvisualattach",
+    "api_group": "ladbot"
+  },
+  {
+    "name": "CheckDownedState",
+    "display_name": "Entity:CheckDownedState",
+    "signature": "function Entity:CheckDownedState()",
+    "arguments": [],
+    "source_file": "lua/lad_framework/meta.lua",
+    "source_line": 24,
+    "description": "",
+    "realm": "shared",
+    "parameters": [],
+    "returns": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "entity-checkdownedstate",
+    "api_group": "entity"
+  },
+  {
+    "name": "Defeated",
+    "display_name": "Entity:Defeated",
+    "signature": "function Entity:Defeated()",
+    "arguments": [],
+    "source_file": "lua/lad_framework/meta.lua",
+    "source_line": 32,
+    "description": "",
+    "realm": "shared",
+    "parameters": [],
+    "returns": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "entity-defeated",
+    "api_group": "entity"
+  },
+  {
+    "name": "GetIsLADFighter",
+    "display_name": "Entity:GetIsLADFighter",
+    "signature": "function Entity:GetIsLADFighter()",
+    "arguments": [],
+    "source_file": "lua/lad_framework/meta.lua",
+    "source_line": 88,
+    "description": "Returns true if this entity is a LADFighter (LADBot).",
+    "realm": "server",
+    "parameters": [],
+    "returns": [
+      {
+        "type": "boolean",
+        "description": "IsLADFighter."
+      }
+    ],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "entity-getisladfighter",
+    "api_group": "entity"
+  },
+  {
+    "name": "GetSideDirection",
+    "display_name": "Entity:GetSideDirection",
+    "signature": "function Entity:GetSideDirection(side)",
+    "arguments": [
+      "side"
+    ],
+    "source_file": "lua/lad_framework/meta.lua",
+    "source_line": 42,
+    "description": "Retrieves the side for an entity",
+    "realm": "shared",
+    "parameters": [
+      {
+        "name": "side",
+        "type": "any",
+        "description": ""
+      }
+    ],
+    "returns": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "entity-getsidedirection",
+    "api_group": "entity"
+  },
+  {
+    "name": "HUDFindEntityName",
+    "display_name": "Entity:HUDFindEntityName",
+    "signature": "function Entity:HUDFindEntityName(entity)",
+    "arguments": [
+      "entity"
+    ],
+    "source_file": "lua/lad_framework/meta.lua",
+    "source_line": 5,
+    "description": "function to find the name of an entity for HUD",
+    "realm": "shared",
+    "parameters": [
+      {
+        "name": "entity",
+        "type": "any",
+        "description": ""
+      }
+    ],
+    "returns": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "entity-hudfindentityname",
+    "api_group": "entity"
+  },
+  {
+    "name": "LADS_GetHullRangeSquaredTo",
+    "display_name": "Entity:LADS_GetHullRangeSquaredTo",
+    "signature": "function Entity:LADS_GetHullRangeSquaredTo(pos)",
+    "arguments": [
+      "pos"
+    ],
+    "source_file": "lua/lad_framework/meta.lua",
+    "source_line": 79,
+    "description": "",
+    "realm": "shared",
+    "parameters": [
+      {
+        "name": "pos",
+        "type": "any",
+        "description": ""
+      }
+    ],
+    "returns": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "entity-lads-gethullrangesquaredto",
+    "api_group": "entity"
+  },
+  {
+    "name": "LADS_GetHullRangeTo",
+    "display_name": "Entity:LADS_GetHullRangeTo",
+    "signature": "function Entity:LADS_GetHullRangeTo(pos)",
+    "arguments": [
+      "pos"
+    ],
+    "source_file": "lua/lad_framework/meta.lua",
+    "source_line": 74,
+    "description": "",
+    "realm": "shared",
+    "parameters": [
+      {
+        "name": "pos",
+        "type": "any",
+        "description": ""
+      }
+    ],
+    "returns": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "entity-lads-gethullrangeto",
+    "api_group": "entity"
+  },
+  {
+    "name": "LADS_IsEnemyInFront",
+    "display_name": "Entity:LADS_IsEnemyInFront",
+    "signature": "function Entity:LADS_IsEnemyInFront(enemy)",
+    "arguments": [
+      "enemy"
+    ],
+    "source_file": "lua/lad_framework/meta.lua",
+    "source_line": 100,
+    "description": "",
+    "realm": "shared",
+    "parameters": [
+      {
+        "name": "enemy",
+        "type": "any",
+        "description": ""
+      }
+    ],
+    "returns": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "entity-lads-isenemyinfront",
+    "api_group": "entity"
+  },
+  {
+    "name": "LADS_IsInCone",
+    "display_name": "Entity:LADS_IsInCone",
+    "signature": "function Entity:LADS_IsInCone(ent, angle, distance, side, origin, direction)",
+    "arguments": [
+      "ent",
+      "angle",
+      "distance",
+      "side",
+      "origin",
+      "direction"
+    ],
+    "source_file": "lua/lad_framework/meta.lua",
+    "source_line": 61,
+    "description": "",
+    "realm": "shared",
+    "parameters": [
+      {
+        "name": "ent",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "angle",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "distance",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "side",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "origin",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "direction",
+        "type": "any",
+        "description": ""
+      }
+    ],
+    "returns": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "entity-lads-isincone",
+    "api_group": "entity"
+  },
+  {
+    "name": "LADS_IsInRange",
+    "display_name": "Entity:LADS_IsInRange",
+    "signature": "function Entity:LADS_IsInRange(pos, range)",
+    "arguments": [
+      "pos",
+      "range"
+    ],
+    "source_file": "lua/lad_framework/meta.lua",
+    "source_line": 70,
+    "description": "",
+    "realm": "shared",
+    "parameters": [
+      {
+        "name": "pos",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "range",
+        "type": "any",
+        "description": ""
+      }
+    ],
+    "returns": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "entity-lads-isinrange",
+    "api_group": "entity"
+  },
+  {
+    "name": "BattleCount",
+    "display_name": "BattleManager:BattleCount",
+    "signature": "function BattleManager:BattleCount()",
+    "arguments": [],
+    "source_file": "lua/lad_framework/battle_manager.lua",
+    "source_line": 504,
+    "description": "Debug: returns how many battles are currently tracked.",
+    "realm": "server",
+    "parameters": [],
+    "returns": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "battlemanager-battlecount",
+    "api_group": "battle_manager"
+  },
+  {
+    "name": "CheckBattleEnd",
+    "display_name": "BattleManager:CheckBattleEnd",
+    "signature": "function BattleManager:CheckBattleEnd(battleID)",
+    "arguments": [
+      "battleID"
+    ],
+    "source_file": "lua/lad_framework/battle_manager.lua",
+    "source_line": 264,
+    "description": "Evaluate whether the battle is over for any remaining participant.\nDeactivates combat on any fighter who no longer has a living enemy in the battle.\nDissolves the battle record once everyone has left.",
+    "realm": "server",
+    "parameters": [
+      {
+        "name": "battleID",
+        "type": "any",
+        "description": ""
+      }
+    ],
+    "returns": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "battlemanager-checkbattleend",
+    "api_group": "battle_manager"
+  },
+  {
+    "name": "Create",
+    "display_name": "BattleManager:Create",
+    "signature": "function BattleManager:Create(participants, opts)",
+    "arguments": [
+      "participants",
+      "opts"
+    ],
+    "source_file": "lua/lad_framework/battle_manager.lua",
+    "source_line": 140,
+    "description": "Create a new battle from a list of participant entities. Returns the battle ID.\nAll listed fighters receive _battleID = <id> immediately so that ActivateCombat\n(which may fire later inside a CICO coroutine) can find the existing battle.\nopts (optional table): { endless = true } — battle never declares victory/defeat;\nCheckBattleEnd returns early so the record stays alive for the next wave.",
+    "realm": "server",
+    "parameters": [
+      {
+        "name": "participants",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "opts",
+        "type": "any",
+        "description": ""
+      }
+    ],
+    "returns": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "battlemanager-create",
+    "api_group": "battle_manager"
+  },
+  {
+    "name": "FindNearestBattle",
+    "display_name": "BattleManager:FindNearestBattle",
+    "signature": "function BattleManager:FindNearestBattle(pos, maxDist)",
+    "arguments": [
+      "pos",
+      "maxDist"
+    ],
+    "source_file": "lua/lad_framework/battle_manager.lua",
+    "source_line": 484,
+    "description": "Find the ID of the nearest active battle within maxDist units of pos.\nReturns nil if none is found.",
+    "realm": "server",
+    "parameters": [
+      {
+        "name": "pos",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "maxDist",
+        "type": "any",
+        "description": ""
+      }
+    ],
+    "returns": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "battlemanager-findnearestbattle",
+    "api_group": "battle_manager"
+  },
+  {
+    "name": "Join",
+    "display_name": "BattleManager:Join",
+    "signature": "function BattleManager:Join(fighter, battleID)",
+    "arguments": [
+      "fighter",
+      "battleID"
+    ],
+    "source_file": "lua/lad_framework/battle_manager.lua",
+    "source_line": 175,
+    "description": "Add a fighter to an existing battle as a late joiner (no intro animation).\nReturns true on success.",
+    "realm": "server",
+    "parameters": [
+      {
+        "name": "fighter",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "battleID",
+        "type": "any",
+        "description": ""
+      }
+    ],
+    "returns": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "battlemanager-join",
+    "api_group": "battle_manager"
+  },
+  {
+    "name": "Leave",
+    "display_name": "BattleManager:Leave",
+    "signature": "function BattleManager:Leave(fighter, checkEnd)",
+    "arguments": [
+      "fighter",
+      "checkEnd"
+    ],
+    "source_file": "lua/lad_framework/battle_manager.lua",
+    "source_line": 230,
+    "description": "Remove a fighter from their current battle.\ncheckEnd: pass true to immediately re-evaluate whether the battle should end\n(e.g. after a kill). Pass false during bulk cleanup (OnRemove) to\navoid operating on partially-removed entity state.",
+    "realm": "server",
+    "parameters": [
+      {
+        "name": "fighter",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "checkEnd",
+        "type": "any",
+        "description": ""
+      }
+    ],
+    "returns": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "battlemanager-leave",
+    "api_group": "battle_manager"
+  },
+  {
+    "name": "Merge",
+    "display_name": "BattleManager:Merge",
+    "signature": "function BattleManager:Merge(keepID, dissolveID)",
+    "arguments": [
+      "keepID",
+      "dissolveID"
+    ],
+    "source_file": "lua/lad_framework/battle_manager.lua",
+    "source_line": 196,
+    "description": "Merge two battles into one. All fighters from dissolveID are re-registered under keepID.\nThe dissolveID battle record is dissolved. All fighter._battleID values are updated.",
+    "realm": "server",
+    "parameters": [
+      {
+        "name": "keepID",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "dissolveID",
+        "type": "any",
+        "description": ""
+      }
+    ],
+    "returns": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "battlemanager-merge",
+    "api_group": "battle_manager"
   }
 ]
