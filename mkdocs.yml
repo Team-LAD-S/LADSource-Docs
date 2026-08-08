@@ -59,4 +59,4 @@ extra_css:
 extra_javascript:
   - javascripts/module-table-sort.js
 
-copyright: Copyright &copy; Team LADS. LADSource is licensed under GPL-3.0.
+copyright: Copyright &copy; Team LADS. LADSource codebase is licensed under GPL-3.0.
