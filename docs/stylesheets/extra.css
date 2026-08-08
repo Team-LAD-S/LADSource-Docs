@@ -93,10 +93,6 @@
   font-size: 0.8rem;
 }
 
-.api-method-list {
-  overflow-x: auto;
-}
-
 .api-method-list table {
   width: 100%;
 }
