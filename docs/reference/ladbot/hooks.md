@@ -9,6 +9,8 @@ Methods defined in `lua/entities/lad_framework_base/hooks.lua`.
 
 ## Methods
 
+<div class="api-method-list" markdown>
+
 | Method | Summary |
 | --- | --- |
 | [`ENT:CheckCustomConditions`](#ent-checkcustomconditions) | for moveset conditions specific to an entity. |
@@ -37,10 +39,12 @@ Methods defined in `lua/entities/lad_framework_base/hooks.lua`.
 | [`ENT:OnDrawMovesetWeapon`](#ent-ondrawmovesetweapon) | Documentation pending. |
 | [`ENT:SetupExclusiveMoveset`](#ent-setupexclusivemoveset) | Documentation pending. |
 
+</div>
+
 <a id="ent-checkcustomconditions"></a>
 ## `ENT:CheckCustomConditions`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -65,7 +69,7 @@ No return values are documented.
 <a id="ent-customafterbattlestart"></a>
 ## `ENT:CustomAfterBattleStart`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -90,7 +94,7 @@ No return values are documented.
 <a id="ent-customafterheatpopped"></a>
 ## `ENT:CustomAfterHeatPopped`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -115,7 +119,7 @@ No return values are documented.
 <a id="ent-customafterstandingup"></a>
 ## `ENT:CustomAfterStandingUp`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -140,7 +144,7 @@ No return values are documented.
 <a id="ent-customaidefaultattackroutine"></a>
 ## `ENT:CustomAIDefaultAttackRoutine`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -167,7 +171,7 @@ No return values are documented.
 <a id="ent-custombeforebattlestart"></a>
 ## `ENT:CustomBeforeBattleStart`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -192,7 +196,7 @@ No return values are documented.
 <a id="ent-custombeforeheatpopped"></a>
 ## `ENT:CustomBeforeHeatPopped`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -217,7 +221,7 @@ No return values are documented.
 <a id="ent-custombeforestandingup"></a>
 ## `ENT:CustomBeforeStandingUp`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -242,7 +246,7 @@ No return values are documented.
 <a id="ent-custombeforetakedamage"></a>
 ## `ENT:CustomBeforeTakeDamage`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -270,7 +274,7 @@ No return values are documented.
 <a id="ent-customdeaththink"></a>
 ## `ENT:CustomDeathThink`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -295,7 +299,7 @@ No return values are documented.
 <a id="ent-customfighterinitialize"></a>
 ## `ENT:CustomFighterInitialize`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -320,7 +324,7 @@ No return values are documented.
 <a id="ent-customfighterthink"></a>
 ## `ENT:CustomFighterThink`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -345,7 +349,7 @@ No return values are documented.
 <a id="ent-custommidfighterinitialize"></a>
 ## `ENT:CustomMidFighterInitialize`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -370,7 +374,7 @@ No return values are documented.
 <a id="ent-customondeath"></a>
 ## `ENT:CustomOnDeath`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -395,7 +399,7 @@ No return values are documented.
 <a id="ent-customonlandonground"></a>
 ## `ENT:CustomOnLandOnGround`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -420,7 +424,7 @@ No return values are documented.
 <a id="ent-customonpossessed"></a>
 ## `ENT:CustomOnPossessed`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -445,7 +449,7 @@ No return values are documented.
 <a id="ent-customonremove"></a>
 ## `ENT:CustomOnRemove`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -470,7 +474,7 @@ No return values are documented.
 <a id="ent-customontakedamage"></a>
 ## `ENT:CustomOnTakeDamage`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -498,7 +502,7 @@ No return values are documented.
 <a id="ent-custompostmovesetinit"></a>
 ## `ENT:CustomPostMovesetInit`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -523,7 +527,7 @@ No return values are documented.
 <a id="ent-onactivatecombat"></a>
 ## `ENT:OnActivateCombat`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -548,7 +552,7 @@ No return values are documented.
 <a id="ent-onbumpanim"></a>
 ## `ENT:OnBumpAnim`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -575,7 +579,7 @@ No return values are documented.
 <a id="ent-oncosmeticknockoff"></a>
 ## `ENT:OnCosmeticKnockoff`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -602,7 +606,7 @@ No return values are documented.
 <a id="ent-ondeactivatecombat"></a>
 ## `ENT:OnDeactivateCombat`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -627,7 +631,7 @@ No return values are documented.
 <a id="ent-ondrawmovesetweapon"></a>
 ## `ENT:OnDrawMovesetWeapon`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -654,7 +658,7 @@ No return values are documented.
 <a id="ent-setupexclusivemoveset"></a>
 ## `ENT:SetupExclusiveMoveset`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 

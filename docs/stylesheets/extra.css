@@ -2,16 +2,27 @@
   --md-primary-fg-color: #181b22;
   --md-primary-fg-color--light: #252a35;
   --md-primary-fg-color--dark: #0d0f14;
-  --md-accent-fg-color: #1c9cff;
-  --md-typeset-a-color: #087dcc;
+  --md-accent-fg-color: #A6191B;
+  --md-typeset-a-color: #891417;
   --lad-gold: #f6bf3a;
+  --lad-deprecated: #A6191B;
+  --lad-internal: #947A54;
+  --lad-client: #DEA909;
+  --lad-server: #03A9F4;
+  --lad-shared: #43A047;
+  --lad-callback: #8E62D9;
 }
 
 [data-md-color-scheme="slate"] {
   --md-default-bg-color: #15171d;
   --md-default-bg-color--light: #1d2028;
   --md-code-bg-color: #20232b;
-  --md-typeset-a-color: #43b2ff;
+  --md-typeset-a-color: #f84447;
+}
+
+[data-md-color-scheme="default"] a.md-nav__link--active {
+  color: var(--md-accent-fg-color);
+  font-weight: 700;
 }
 
 .md-header {
@@ -40,10 +51,11 @@
 }
 
 .api-badge {
-  background: color-mix(in srgb, var(--md-accent-fg-color) 16%, transparent);
-  border: 1px solid color-mix(in srgb, var(--md-accent-fg-color) 60%, transparent);
+  --api-badge-color: var(--md-accent-fg-color);
+  background: color-mix(in srgb, var(--api-badge-color) 16%, transparent);
+  border: 1px solid color-mix(in srgb, var(--api-badge-color) 60%, transparent);
   border-radius: 0.25rem;
-  color: var(--md-accent-fg-color);
+  color: var(--api-badge-color);
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.04em;
@@ -51,13 +63,51 @@
   text-transform: uppercase;
 }
 
-.api-badge--deprecated,
 .api-badge--internal {
-  border-color: var(--lad-gold);
-  color: var(--lad-gold);
+  --api-badge-color: var(--lad-internal);
+}
+
+.api-badge--deprecated,
+.api-badge--not-documented {
+  --api-badge-color: var(--lad-deprecated);
+}
+
+.api-badge--client {
+  --api-badge-color: var(--lad-client);
+}
+
+.api-badge--server {
+  --api-badge-color: var(--lad-server);
+}
+
+.api-badge--shared {
+  --api-badge-color: var(--lad-shared);
+}
+
+.api-badge--callback {
+  --api-badge-color: var(--lad-callback);
 }
 
 .api-source {
   color: var(--md-default-fg-color--light);
   font-size: 0.8rem;
+}
+
+.api-method-list {
+  overflow-x: auto;
+}
+
+.api-method-list table {
+  width: 100%;
+}
+
+.api-method-list th:first-child,
+.api-method-list td:first-child,
+.api-method-list td:first-child code {
+  white-space: nowrap;
+}
+
+.api-method-list th:first-child,
+.api-method-list td:first-child {
+  width: 1%;
 }

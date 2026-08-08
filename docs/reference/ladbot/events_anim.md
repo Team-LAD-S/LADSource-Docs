@@ -9,6 +9,8 @@ Methods defined in `lua/entities/lad_framework_base/events_anim.lua`.
 
 ## Methods
 
+<div class="api-method-list" markdown>
+
 | Method | Summary |
 | --- | --- |
 | [`ENT:DoAttack`](#ent-doattack) | Documentation pending. |
@@ -20,10 +22,12 @@ Methods defined in `lua/entities/lad_framework_base/events_anim.lua`.
 | [`ENT:SetAttackBone`](#ent-setattackbone) | Documentation pending. |
 | [`ENT:SetHitReactionData`](#ent-sethitreactiondata) | Documentation pending. |
 
+</div>
+
 <a id="ent-doattack"></a>
 ## `ENT:DoAttack`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -52,7 +56,7 @@ No return values are documented.
 <a id="ent-gethitreactiondata"></a>
 ## `ENT:GetHitReactionData`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -77,7 +81,7 @@ No return values are documented.
 <a id="ent-handleanimevent"></a>
 ## `ENT:HandleAnimEvent`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -108,7 +112,7 @@ No return values are documented.
 <a id="ent-handlehitreaction"></a>
 ## `ENT:HandleHitReaction`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -138,7 +142,7 @@ No return values are documented.
 <a id="ent-handlemovesetevents"></a>
 ## `ENT:HandleMovesetEvents`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -167,7 +171,7 @@ No return values are documented.
 <a id="ent-knockbackvelocity"></a>
 ## `ENT:KnockbackVelocity`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -194,7 +198,7 @@ No return values are documented.
 <a id="ent-setattackbone"></a>
 ## `ENT:SetAttackBone`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -221,7 +225,7 @@ No return values are documented.
 <a id="ent-sethitreactiondata"></a>
 ## `ENT:SetHitReactionData`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 

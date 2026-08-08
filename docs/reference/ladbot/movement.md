@@ -9,6 +9,8 @@ Methods defined in `lua/entities/lad_framework_base/movement.lua`.
 
 ## Methods
 
+<div class="api-method-list" markdown>
+
 | Method | Summary |
 | --- | --- |
 | [`ENT:CheckMovementState`](#ent-checkmovementstate) | Documentation pending. |
@@ -17,10 +19,12 @@ Methods defined in `lua/entities/lad_framework_base/movement.lua`.
 | [`ENT:PossessionControls`](#ent-possessioncontrols) | Documentation pending. |
 | [`ENT:TryLadder`](#ent-tryladder) | Documentation pending. |
 
+</div>
+
 <a id="ent-checkmovementstate"></a>
 ## `ENT:CheckMovementState`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -45,7 +49,7 @@ No return values are documented.
 <a id="ent-climbladdertotop"></a>
 ## `ENT:ClimbLadderToTop`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -72,7 +76,7 @@ No return values are documented.
 <a id="ent-handledirduringattack"></a>
 ## `ENT:HandleDIRDuringAttack`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -97,7 +101,7 @@ No return values are documented.
 <a id="ent-possessioncontrols"></a>
 ## `ENT:PossessionControls`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -127,7 +131,7 @@ No return values are documented.
 <a id="ent-tryladder"></a>
 ## `ENT:TryLadder`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 

@@ -9,6 +9,8 @@ Methods defined in `lua/entities/lad_framework_base/dialogue.lua`.
 
 ## Methods
 
+<div class="api-method-list" markdown>
+
 | Method | Summary |
 | --- | --- |
 | [`ENT:ClearDialogueInfo`](#ent-cleardialogueinfo) | Documentation pending. |
@@ -22,10 +24,12 @@ Methods defined in `lua/entities/lad_framework_base/dialogue.lua`.
 | [`ENT:TriggerDialogueData`](#ent-triggerdialoguedata) | Starts a dialogue from an in-memory table instead of a JSON file. |
 | [`ENT:TriggerStationaryDialogue`](#ent-triggerstationarydialogue) | Documentation pending. |
 
+</div>
+
 <a id="ent-cleardialogueinfo"></a>
 ## `ENT:ClearDialogueInfo`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -50,7 +54,7 @@ No return values are documented.
 <a id="ent-findnearbydialoguetarget"></a>
 ## `ENT:FindNearbyDialogueTarget`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -77,7 +81,7 @@ No return values are documented.
 <a id="ent-getstationarydialoguecooldownuntil"></a>
 ## `ENT:GetStationaryDialogueCooldownUntil`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -102,7 +106,7 @@ No return values are documented.
 <a id="ent-isdialoguecombatblocked"></a>
 ## `ENT:IsDialogueCombatBlocked`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -127,7 +131,7 @@ No return values are documented.
 <a id="ent-isoverworldstationary"></a>
 ## `ENT:IsOverworldStationary`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -152,7 +156,7 @@ No return values are documented.
 <a id="ent-isstationarydialogueavailable"></a>
 ## `ENT:IsStationaryDialogueAvailable`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -177,7 +181,7 @@ No return values are documented.
 <a id="ent-setstationaryoverworldenabled"></a>
 ## `ENT:SetStationaryOverworldEnabled`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -204,7 +208,7 @@ No return values are documented.
 <a id="ent-triggerdialogue"></a>
 ## `ENT:TriggerDialogue`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -234,7 +238,7 @@ No return values are documented.
 <a id="ent-triggerdialoguedata"></a>
 ## `ENT:TriggerDialogueData`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -265,7 +269,7 @@ No return values are documented.
 <a id="ent-triggerstationarydialogue"></a>
 ## `ENT:TriggerStationaryDialogue`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 

@@ -208,18 +208,23 @@ def source_url(repository_url: str, branch: str, method: Method) -> str | None:
 
 
 def render_badges(method: Method) -> str:
-    badges = [(method.realm, "")]
+    badges = [method.realm]
     if method.callback:
-        badges.append(("callback", ""))
+        badges.append("callback")
     if method.internal:
-        badges.append(("internal", "api-badge--internal"))
+        badges.append("internal")
     if method.deprecated:
-        badges.append(("deprecated", "api-badge--deprecated"))
+        badges.append("deprecated")
+
     content = "".join(
-        f'<span class="api-badge {css_class}">{label}</span>'
-        for label, css_class in badges
+        f'<span class="api-badge api-badge--{badge_slug(label)}">{label}</span>'
+        for label in badges
     )
     return f'<div class="api-badges">{content}</div>'
+
+
+def badge_slug(label: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", label.casefold()).strip("-") or "unknown"
 
 
 def render_method(method: Method, repository_url: str, branch: str) -> list[str]:
@@ -328,11 +333,20 @@ def render_module(
     if not methods:
         return "\n".join(output + ["No matching API methods were detected in this file.", ""])
 
-    output.extend(["## Methods", "", "| Method | Summary |", "| --- | --- |"])
+    output.extend(
+        [
+            "## Methods",
+            "",
+            '<div class="api-method-list" markdown>',
+            "",
+            "| Method | Summary |",
+            "| --- | --- |",
+        ]
+    )
     for method in methods:
         summary = markdown_cell(method.description) or "Documentation pending."
         output.append(f"| [`{method.display_name}`](#{method.anchor}) | {summary} |")
-    output.append("")
+    output.extend(["", "</div>", ""])
     for method in methods:
         output.extend(render_method(method, repository_url, branch))
     return "\n".join(output)

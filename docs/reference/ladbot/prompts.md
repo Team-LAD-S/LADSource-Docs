@@ -9,15 +9,19 @@ Methods defined in `lua/entities/lad_framework_base/prompts.lua`.
 
 ## Methods
 
+<div class="api-method-list" markdown>
+
 | Method | Summary |
 | --- | --- |
 | [`ENT:SendHactQTEPrompt`](#ent-sendhactqteprompt) | Documentation pending. |
 | [`ENT:SetQTEButtonMaterials`](#ent-setqtebuttonmaterials) | Documentation pending. |
 
+</div>
+
 <a id="ent-sendhactqteprompt"></a>
 ## `ENT:SendHactQTEPrompt`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -48,7 +52,7 @@ No return values are documented.
 <a id="ent-setqtebuttonmaterials"></a>
 ## `ENT:SetQTEButtonMaterials`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 

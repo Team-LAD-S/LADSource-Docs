@@ -9,6 +9,8 @@ Methods defined in `lua/entities/lad_framework_base/customization.lua`.
 
 ## Methods
 
+<div class="api-method-list" markdown>
+
 | Method | Summary |
 | --- | --- |
 | [`ENT:ApplyBodyparts`](#ent-applybodyparts) | Documentation pending. |
@@ -18,10 +20,12 @@ Methods defined in `lua/entities/lad_framework_base/customization.lua`.
 | [`ENT:SetLightingOrigin`](#ent-setlightingorigin) | Documentation pending. |
 | [`ENT:SetupValveBiped`](#ent-setupvalvebiped) | Documentation pending. |
 
+</div>
+
 <a id="ent-applybodyparts"></a>
 ## `ENT:ApplyBodyparts`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -49,7 +53,7 @@ No return values are documented.
 <a id="ent-createbodypart"></a>
 ## `ENT:CreateBodypart`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -78,7 +82,7 @@ No return values are documented.
 <a id="ent-createdynamiccosmetic"></a>
 ## `ENT:CreateDynamicCosmetic`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -111,7 +115,7 @@ No return values are documented.
 <a id="ent-knockoffcosmetics"></a>
 ## `ENT:KnockOffCosmetics`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -139,7 +143,7 @@ No return values are documented.
 <a id="ent-setlightingorigin"></a>
 ## `ENT:SetLightingOrigin`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -164,7 +168,7 @@ No return values are documented.
 <a id="ent-setupvalvebiped"></a>
 ## `ENT:SetupValveBiped`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 

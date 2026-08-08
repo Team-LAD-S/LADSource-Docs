@@ -9,6 +9,8 @@ Methods defined in `lua/entities/lad_framework_base/hud.lua`.
 
 ## Methods
 
+<div class="api-method-list" markdown>
+
 | Method | Summary |
 | --- | --- |
 | [`ENT:AuthSubtitle`](#ent-authsubtitle) | Documentation pending. |
@@ -39,10 +41,12 @@ Methods defined in `lua/entities/lad_framework_base/hud.lua`.
 | [`ENT:UpdateClientRelationship`](#ent-updateclientrelationship) | Documentation pending. |
 | [`ENT:Y0_DrawHeatBarSegment`](#ent-y0-drawheatbarsegment) | Documentation pending. |
 
+</div>
+
 <a id="ent-authsubtitle"></a>
 ## `ENT:AuthSubtitle`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -67,7 +71,7 @@ No return values are documented.
 <a id="ent-displayitemnotification"></a>
 ## `ENT:DisplayItemNotification`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -92,7 +96,7 @@ No return values are documented.
 <a id="ent-drawactionbutton"></a>
 ## `ENT:DrawActionButton`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -126,7 +130,7 @@ No return values are documented.
 <a id="ent-drawallyhud"></a>
 ## `ENT:DrawAllyHUD`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -151,7 +155,7 @@ No return values are documented.
 <a id="ent-drawdebughud"></a>
 ## `ENT:DrawDebugHUD`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -176,7 +180,7 @@ No return values are documented.
 <a id="ent-drawdialogueprompt"></a>
 ## `ENT:DrawDialoguePrompt`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -201,7 +205,7 @@ No return values are documented.
 <a id="ent-drawenemyhud"></a>
 ## `ENT:DrawEnemyHUD`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -226,7 +230,7 @@ No return values are documented.
 <a id="ent-drawenemyhudnew"></a>
 ## `ENT:DrawEnemyHUDNew`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -264,7 +268,7 @@ No return values are documented.
 <a id="ent-drawheatprompt"></a>
 ## `ENT:DrawHeatPrompt`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -289,7 +293,7 @@ No return values are documented.
 <a id="ent-drawinteractionpopup"></a>
 ## `ENT:DrawInteractionPopup`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -316,7 +320,7 @@ No return values are documented.
 <a id="ent-drawminimap"></a>
 ## `ENT:DrawMinimap`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -341,7 +345,7 @@ No return values are documented.
 <a id="ent-drawplayerhud"></a>
 ## `ENT:DrawPlayerHUD`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -366,7 +370,7 @@ No return values are documented.
 <a id="ent-drawqteprompt"></a>
 ## `ENT:DrawQTEPrompt`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -391,7 +395,7 @@ No return values are documented.
 <a id="ent-drawweaponinfo"></a>
 ## `ENT:DrawWeaponInfo`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -416,7 +420,7 @@ No return values are documented.
 <a id="ent-dynamicintrohud"></a>
 ## `ENT:DynamicIntroHUD`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -441,7 +445,7 @@ No return values are documented.
 <a id="ent-huddetectallies"></a>
 ## `ENT:HUDDetectAllies`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -466,7 +470,7 @@ No return values are documented.
 <a id="ent-huddetectboss"></a>
 ## `ENT:HUDDetectBoss`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -491,7 +495,7 @@ No return values are documented.
 <a id="ent-huddetectcommon"></a>
 ## `ENT:HUDDetectCommon`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -516,7 +520,7 @@ No return values are documented.
 <a id="ent-huddisablecommon"></a>
 ## `ENT:HUDDisableCommon`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -541,7 +545,7 @@ No return values are documented.
 <a id="ent-huddynamictitlecard"></a>
 ## `ENT:HUDDynamicTitleCard`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -568,7 +572,7 @@ No return values are documented.
 <a id="ent-hudupdatecommon"></a>
 ## `ENT:HUDUpdateCommon`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -595,7 +599,7 @@ No return values are documented.
 <a id="ent-kiwami-drawheatchunk"></a>
 ## `ENT:Kiwami_DrawHeatChunk`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -633,7 +637,7 @@ No return values are documented.
 <a id="ent-kiwami-drawheathud"></a>
 ## `ENT:Kiwami_DrawHeatHUD`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -669,7 +673,7 @@ No return values are documented.
 <a id="ent-playhudsound"></a>
 ## `ENT:PlayHUDSound`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -697,7 +701,7 @@ No return values are documented.
 <a id="ent-possessionhud"></a>
 ## `ENT:PossessionHUD`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -722,7 +726,7 @@ No return values are documented.
 <a id="ent-updateclientrelationship"></a>
 ## `ENT:UpdateClientRelationship`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -747,7 +751,7 @@ No return values are documented.
 <a id="ent-y0-drawheatbarsegment"></a>
 ## `ENT:Y0_DrawHeatBarSegment`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 

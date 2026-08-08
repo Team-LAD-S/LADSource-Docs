@@ -9,14 +9,18 @@ Methods defined in `lua/entities/lad_framework_base/subtitles.lua`.
 
 ## Methods
 
+<div class="api-method-list" markdown>
+
 | Method | Summary |
 | --- | --- |
 | [`ENT:DisplaySubtitle`](#ent-displaysubtitle) | Documentation pending. |
 
+</div>
+
 <a id="ent-displaysubtitle"></a>
 ## `ENT:DisplaySubtitle`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 

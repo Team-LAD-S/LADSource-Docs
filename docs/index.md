@@ -1,4 +1,4 @@
-# LADSource developer wiki
+# Main
 
 LADSource is a Garry's Mod addon for building fighters and combat inspired by
 the Like a Dragon series. This wiki documents how to create a LADBot and how to

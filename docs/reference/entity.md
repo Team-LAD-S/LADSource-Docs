@@ -11,6 +11,8 @@ Methods defined in `lua/lad_framework/meta.lua`.
 
 ## Methods
 
+<div class="api-method-list" markdown>
+
 | Method | Summary |
 | --- | --- |
 | [`Entity:CheckDownedState`](#entity-checkdownedstate) | Documentation pending. |
@@ -24,10 +26,12 @@ Methods defined in `lua/lad_framework/meta.lua`.
 | [`Entity:LADS_IsInCone`](#entity-lads-isincone) | Documentation pending. |
 | [`Entity:LADS_IsInRange`](#entity-lads-isinrange) | Documentation pending. |
 
+</div>
+
 <a id="entity-checkdownedstate"></a>
 ## `Entity:CheckDownedState`
 
-<div class="api-badges"><span class="api-badge ">shared</span></div>
+<div class="api-badges"><span class="api-badge api-badge--shared">shared</span></div>
 
 <div class="api-signature" markdown>
 
@@ -52,7 +56,7 @@ No return values are documented.
 <a id="entity-defeated"></a>
 ## `Entity:Defeated`
 
-<div class="api-badges"><span class="api-badge ">shared</span></div>
+<div class="api-badges"><span class="api-badge api-badge--shared">shared</span></div>
 
 <div class="api-signature" markdown>
 
@@ -77,7 +81,7 @@ No return values are documented.
 <a id="entity-getisladfighter"></a>
 ## `Entity:GetIsLADFighter`
 
-<div class="api-badges"><span class="api-badge ">server</span></div>
+<div class="api-badges"><span class="api-badge api-badge--server">server</span></div>
 
 <div class="api-signature" markdown>
 
@@ -104,7 +108,7 @@ This method takes no explicit arguments.
 <a id="entity-getsidedirection"></a>
 ## `Entity:GetSideDirection`
 
-<div class="api-badges"><span class="api-badge ">shared</span></div>
+<div class="api-badges"><span class="api-badge api-badge--shared">shared</span></div>
 
 <div class="api-signature" markdown>
 
@@ -131,7 +135,7 @@ No return values are documented.
 <a id="entity-hudfindentityname"></a>
 ## `Entity:HUDFindEntityName`
 
-<div class="api-badges"><span class="api-badge ">shared</span></div>
+<div class="api-badges"><span class="api-badge api-badge--shared">shared</span></div>
 
 <div class="api-signature" markdown>
 
@@ -158,7 +162,7 @@ No return values are documented.
 <a id="entity-lads-gethullrangesquaredto"></a>
 ## `Entity:LADS_GetHullRangeSquaredTo`
 
-<div class="api-badges"><span class="api-badge ">shared</span></div>
+<div class="api-badges"><span class="api-badge api-badge--shared">shared</span></div>
 
 <div class="api-signature" markdown>
 
@@ -185,7 +189,7 @@ No return values are documented.
 <a id="entity-lads-gethullrangeto"></a>
 ## `Entity:LADS_GetHullRangeTo`
 
-<div class="api-badges"><span class="api-badge ">shared</span></div>
+<div class="api-badges"><span class="api-badge api-badge--shared">shared</span></div>
 
 <div class="api-signature" markdown>
 
@@ -212,7 +216,7 @@ No return values are documented.
 <a id="entity-lads-isenemyinfront"></a>
 ## `Entity:LADS_IsEnemyInFront`
 
-<div class="api-badges"><span class="api-badge ">shared</span></div>
+<div class="api-badges"><span class="api-badge api-badge--shared">shared</span></div>
 
 <div class="api-signature" markdown>
 
@@ -239,7 +243,7 @@ No return values are documented.
 <a id="entity-lads-isincone"></a>
 ## `Entity:LADS_IsInCone`
 
-<div class="api-badges"><span class="api-badge ">shared</span></div>
+<div class="api-badges"><span class="api-badge api-badge--shared">shared</span></div>
 
 <div class="api-signature" markdown>
 
@@ -271,7 +275,7 @@ No return values are documented.
 <a id="entity-lads-isinrange"></a>
 ## `Entity:LADS_IsInRange`
 
-<div class="api-badges"><span class="api-badge ">shared</span></div>
+<div class="api-badges"><span class="api-badge api-badge--shared">shared</span></div>
 
 <div class="api-signature" markdown>
 

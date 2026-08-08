@@ -9,6 +9,8 @@ Methods defined in `lua/entities/lad_framework_base/soundtrack.lua`.
 
 ## Methods
 
+<div class="api-method-list" markdown>
+
 | Method | Summary |
 | --- | --- |
 | [`ENT:_GetSoundtrackRecipients`](#ent-getsoundtrackrecipients) | Returns a list of all Player recipients for this entity's soundtrack events. Includes own possessor (if possessed and satisfies combatCheck) plus possessors of all other possessed fighters currently in the same battle. selfIgnoreCombat = true skips the FighterInCombat check for self only (used during battle-start anim where FighterInCombat is not yet set). |
@@ -26,10 +28,12 @@ Methods defined in `lua/entities/lad_framework_base/soundtrack.lua`.
 | [`ENT:SoundtrackEarlyStart`](#ent-soundtrackearlystart) | Public API: starts the combat soundtrack early without requiring FighterInCombat to be set. Pass directRecipient (Player) when the entity is not yet in a battle and not possessed (e.g. endless arena boss intro) so the track is delivered to the correct player. |
 | [`ENT:SoundtrackMovesetUpdate`](#ent-soundtrackmovesetupdate) | Checks if the active moveset changed the soundtrack and resends if so. Called from SetFighterMoveset (moveset.lua) after moveset initialises. Skips if a temporary weapon/grab moveset is active to avoid glitches during transitions. |
 
+</div>
+
 <a id="ent-getsoundtrackrecipients"></a>
 ## `ENT:_GetSoundtrackRecipients`
 
-<div class="api-badges"><span class="api-badge ">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 
 <div class="api-signature" markdown>
 
@@ -60,7 +64,7 @@ No return values are documented.
 <a id="ent-loadsoundtrackdef"></a>
 ## `ENT:_LoadSoundtrackDef`
 
-<div class="api-badges"><span class="api-badge ">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 
 <div class="api-signature" markdown>
 
@@ -87,7 +91,7 @@ No return values are documented.
 <a id="ent-sendsoundtrackstart"></a>
 ## `ENT:_SendSoundtrackStart`
 
-<div class="api-badges"><span class="api-badge ">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 
 <div class="api-signature" markdown>
 
@@ -122,7 +126,7 @@ No return values are documented.
 <a id="ent-sendsoundtrackstop"></a>
 ## `ENT:_SendSoundtrackStop`
 
-<div class="api-badges"><span class="api-badge ">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 
 <div class="api-signature" markdown>
 
@@ -149,7 +153,7 @@ No return values are documented.
 <a id="ent-soundtrackactivatecombat"></a>
 ## `ENT:_SoundtrackActivateCombat`
 
-<div class="api-badges"><span class="api-badge ">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 
 <div class="api-signature" markdown>
 
@@ -175,7 +179,7 @@ No return values are documented.
 <a id="ent-soundtrackbattlestart"></a>
 ## `ENT:_SoundtrackBattleStart`
 
-<div class="api-badges"><span class="api-badge ">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 
 <div class="api-signature" markdown>
 
@@ -203,7 +207,7 @@ No return values are documented.
 <a id="ent-soundtrackdeactivatecombat"></a>
 ## `ENT:_SoundtrackDeactivateCombat`
 
-<div class="api-badges"><span class="api-badge ">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 
 <div class="api-signature" markdown>
 
@@ -228,7 +232,7 @@ No return values are documented.
 <a id="ent-soundtrackdeaththink"></a>
 ## `ENT:_SoundtrackDeathThink`
 
-<div class="api-badges"><span class="api-badge ">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 
 <div class="api-signature" markdown>
 
@@ -254,7 +258,7 @@ No return values are documented.
 <a id="ent-soundtrackondispossessed"></a>
 ## `ENT:_SoundtrackOnDispossessed`
 
-<div class="api-badges"><span class="api-badge ">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 
 <div class="api-signature" markdown>
 
@@ -281,7 +285,7 @@ No return values are documented.
 <a id="ent-soundtrackonpossessed"></a>
 ## `ENT:_SoundtrackOnPossessed`
 
-<div class="api-badges"><span class="api-badge ">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 
 <div class="api-signature" markdown>
 
@@ -307,7 +311,7 @@ No return values are documented.
 <a id="ent-soundtrackonremove"></a>
 ## `ENT:_SoundtrackOnRemove`
 
-<div class="api-badges"><span class="api-badge ">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 
 <div class="api-signature" markdown>
 
@@ -332,7 +336,7 @@ No return values are documented.
 <a id="ent-getactivesoundtrackdata"></a>
 ## `ENT:GetActiveSoundtrackData`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -359,7 +363,7 @@ No return values are documented.
 <a id="ent-soundtrackearlystart"></a>
 ## `ENT:SoundtrackEarlyStart`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -388,7 +392,7 @@ No return values are documented.
 <a id="ent-soundtrackmovesetupdate"></a>
 ## `ENT:SoundtrackMovesetUpdate`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 

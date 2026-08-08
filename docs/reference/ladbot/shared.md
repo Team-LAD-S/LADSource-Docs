@@ -9,6 +9,8 @@ Methods defined in `lua/entities/lad_framework_base/shared.lua`.
 
 ## Methods
 
+<div class="api-method-list" markdown>
+
 | Method | Summary |
 | --- | --- |
 | [`ENT:_FindVoidRecoveryPos`](#ent-findvoidrecoverypos) | Documentation pending. |
@@ -49,10 +51,12 @@ Methods defined in `lua/entities/lad_framework_base/shared.lua`.
 | [`ENT:ShouldIgnore`](#ent-shouldignore) | Documentation pending. |
 | [`ENT:UpdateTransmitState`](#ent-updatetransmitstate) | fixes the attachment point bullshit |
 
+</div>
+
 <a id="ent-findvoidrecoverypos"></a>
 ## `ENT:_FindVoidRecoveryPos`
 
-<div class="api-badges"><span class="api-badge ">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 
 <div class="api-signature" markdown>
 
@@ -79,7 +83,7 @@ No return values are documented.
 <a id="ent-initdebugtext"></a>
 ## `ENT:_InitDebugText`
 
-<div class="api-badges"><span class="api-badge ">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 
 <div class="api-signature" markdown>
 
@@ -104,7 +108,7 @@ No return values are documented.
 <a id="ent-initmaterials"></a>
 ## `ENT:_InitMaterials`
 
-<div class="api-badges"><span class="api-badge ">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 
 <div class="api-signature" markdown>
 
@@ -129,7 +133,7 @@ No return values are documented.
 <a id="ent-shouldrecoverfromvoid"></a>
 ## `ENT:_ShouldRecoverFromVoid`
 
-<div class="api-badges"><span class="api-badge ">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 
 <div class="api-signature" markdown>
 
@@ -154,7 +158,7 @@ No return values are documented.
 <a id="ent-bumpanim"></a>
 ## `ENT:BumpAnim`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -181,7 +185,7 @@ No return values are documented.
 <a id="ent-cico"></a>
 ## `ENT:CICO`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -208,7 +212,7 @@ No return values are documented.
 <a id="ent-cico-1433"></a>
 ## `ENT:CICO`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -235,7 +239,7 @@ No return values are documented.
 <a id="ent-createdirectioncompass"></a>
 ## `ENT:CreateDirectionCompass`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -260,7 +264,7 @@ No return values are documented.
 <a id="ent-customdraw"></a>
 ## `ENT:CustomDraw`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -285,7 +289,7 @@ No return values are documented.
 <a id="ent-custominitialize"></a>
 ## `ENT:CustomInitialize`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -310,7 +314,7 @@ No return values are documented.
 <a id="ent-custominitialize-1480"></a>
 ## `ENT:CustomInitialize`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -335,7 +339,7 @@ No return values are documented.
 <a id="ent-customthink"></a>
 ## `ENT:CustomThink`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -360,7 +364,7 @@ No return values are documented.
 <a id="ent-customthink-1495"></a>
 ## `ENT:CustomThink`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -385,7 +389,7 @@ No return values are documented.
 <a id="ent-debugdrawcone"></a>
 ## `ENT:DebugDrawCone`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -418,7 +422,7 @@ No return values are documented.
 <a id="ent-getplayercolor"></a>
 ## `ENT:GetPlayerColor`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -443,7 +447,7 @@ No return values are documented.
 <a id="ent-ispropleftorright"></a>
 ## `ENT:IsPropLeftOrRight`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -470,7 +474,7 @@ No return values are documented.
 <a id="ent-loaddata"></a>
 ## `ENT:LoadData`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -498,7 +502,7 @@ No return values are documented.
 <a id="ent-multithread"></a>
 ## `ENT:Multithread`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -525,7 +529,7 @@ No return values are documented.
 <a id="ent-onavoidenemy"></a>
 ## `ENT:OnAvoidEnemy`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -552,7 +556,7 @@ No return values are documented.
 <a id="ent-onchaseenemy"></a>
 ## `ENT:OnChaseEnemy`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -579,7 +583,7 @@ No return values are documented.
 <a id="ent-oncontact"></a>
 ## `ENT:OnContact`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -606,7 +610,7 @@ No return values are documented.
 <a id="ent-ondispossessed"></a>
 ## `ENT:OnDispossessed`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -633,7 +637,7 @@ No return values are documented.
 <a id="ent-ondowned"></a>
 ## `ENT:OnDowned`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -661,7 +665,7 @@ No return values are documented.
 <a id="ent-onfataldamage"></a>
 ## `ENT:OnFatalDamage`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -689,7 +693,7 @@ No return values are documented.
 <a id="ent-onidle"></a>
 ## `ENT:OnIdle`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -714,7 +718,7 @@ No return values are documented.
 <a id="ent-onpatrolling"></a>
 ## `ENT:OnPatrolling`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -741,7 +745,7 @@ No return values are documented.
 <a id="ent-onpatrolunreachable"></a>
 ## `ENT:OnPatrolUnreachable`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -768,7 +772,7 @@ No return values are documented.
 <a id="ent-onreachedpatrol"></a>
 ## `ENT:OnReachedPatrol`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -795,7 +799,7 @@ No return values are documented.
 <a id="ent-onremove"></a>
 ## `ENT:OnRemove`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -820,7 +824,7 @@ No return values are documented.
 <a id="ent-onremove-1500"></a>
 ## `ENT:OnRemove`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -845,7 +849,7 @@ No return values are documented.
 <a id="ent-onspawn"></a>
 ## `ENT:OnSpawn`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -870,7 +874,7 @@ No return values are documented.
 <a id="ent-ontookdamage"></a>
 ## `ENT:OnTookDamage`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -898,7 +902,7 @@ No return values are documented.
 <a id="ent-playbumpanimation"></a>
 ## `ENT:PlayBumpAnimation`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -925,7 +929,7 @@ No return values are documented.
 <a id="ent-recoverfromvoid"></a>
 ## `ENT:RecoverFromVoid`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -950,7 +954,7 @@ No return values are documented.
 <a id="ent-setnexbotcolor"></a>
 ## `ENT:SetNexbotColor`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -975,7 +979,7 @@ No return values are documented.
 <a id="ent-shouldignore"></a>
 ## `ENT:ShouldIgnore`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -1002,7 +1006,7 @@ No return values are documented.
 <a id="ent-updatetransmitstate"></a>
 ## `ENT:UpdateTransmitState`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 

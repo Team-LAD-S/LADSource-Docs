@@ -9,15 +9,19 @@ Methods defined in `lua/entities/lad_framework_base/names.lua`.
 
 ## Methods
 
+<div class="api-method-list" markdown>
+
 | Method | Summary |
 | --- | --- |
 | [`ENT:SetCommonFighterName`](#ent-setcommonfightername) | Documentation pending. |
 | [`ENT:SetCustomCommonFighterName`](#ent-setcustomcommonfightername) | Documentation pending. |
 
+</div>
+
 <a id="ent-setcommonfightername"></a>
 ## `ENT:SetCommonFighterName`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -42,7 +46,7 @@ No return values are documented.
 <a id="ent-setcustomcommonfightername"></a>
 ## `ENT:SetCustomCommonFighterName`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 

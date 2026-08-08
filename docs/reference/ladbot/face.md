@@ -9,15 +9,19 @@ Methods defined in `lua/entities/lad_framework_base/face.lua`.
 
 ## Methods
 
+<div class="api-method-list" markdown>
+
 | Method | Summary |
 | --- | --- |
 | [`ENT:PlayFaceAnim`](#ent-playfaceanim) | Documentation pending. |
 | [`ENT:SafeSetFlexWeight`](#ent-safesetflexweight) | Documentation pending. |
 
+</div>
+
 <a id="ent-playfaceanim"></a>
 ## `ENT:PlayFaceAnim`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -45,7 +49,7 @@ No return values are documented.
 <a id="ent-safesetflexweight"></a>
 ## `ENT:SafeSetFlexWeight`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 

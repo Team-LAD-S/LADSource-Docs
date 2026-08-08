@@ -9,6 +9,8 @@ Methods defined in `lua/entities/lad_framework_base/ai.lua`.
 
 ## Methods
 
+<div class="api-method-list" markdown>
+
 | Method | Summary |
 | --- | --- |
 | [`ENT:AIAttemptReload`](#ent-aiattemptreload) | Documentation pending. |
@@ -52,10 +54,12 @@ Methods defined in `lua/entities/lad_framework_base/ai.lua`.
 | [`ENT:ScanForNearestWeaponAndMove`](#ent-scanfornearestweaponandmove) | Documentation pending. |
 | [`ENT:SetNextAttack`](#ent-setnextattack) | Documentation pending. |
 
+</div>
+
 <a id="ent-aiattemptreload"></a>
 ## `ENT:AIAttemptReload`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -80,7 +84,7 @@ No return values are documented.
 <a id="ent-aicheckenemyweaponclass"></a>
 ## `ENT:AICheckEnemyWeaponClass`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -107,7 +111,7 @@ No return values are documented.
 <a id="ent-aicheckobstacles"></a>
 ## `ENT:AICheckObstacles`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -132,7 +136,7 @@ No return values are documented.
 <a id="ent-aidefaultattackroutine"></a>
 ## `ENT:AIDefaultAttackRoutine`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -159,7 +163,7 @@ No return values are documented.
 <a id="ent-aidefaultflinchattack"></a>
 ## `ENT:AIDefaultFlinchAttack`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -186,7 +190,7 @@ No return values are documented.
 <a id="ent-aidefaultguardaction"></a>
 ## `ENT:AIDefaultGuardAction`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -213,7 +217,7 @@ No return values are documented.
 <a id="ent-aidefaultguardattack"></a>
 ## `ENT:AIDefaultGuardAttack`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -240,7 +244,7 @@ No return values are documented.
 <a id="ent-aidefaultrangeattackroutine"></a>
 ## `ENT:AIDefaultRangeAttackRoutine`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -267,7 +271,7 @@ No return values are documented.
 <a id="ent-aidefaultrecoverfast"></a>
 ## `ENT:AIDefaultRecoverFast`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -294,7 +298,7 @@ No return values are documented.
 <a id="ent-aidefaultstrafingroutine"></a>
 ## `ENT:AIDefaultStrafingRoutine`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -321,7 +325,7 @@ No return values are documented.
 <a id="ent-aidefaultswayguardroutine"></a>
 ## `ENT:AIDefaultSwayGuardRoutine`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -348,7 +352,7 @@ No return values are documented.
 <a id="ent-aifaceenemy"></a>
 ## `ENT:AIFaceEnemy`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -375,7 +379,7 @@ No return values are documented.
 <a id="ent-aiflinchreguard"></a>
 ## `ENT:AIFlinchReGuard`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -400,7 +404,7 @@ No return values are documented.
 <a id="ent-aiforceenemymovesetactivation"></a>
 ## `ENT:AIForceEnemyMovesetActivation`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -427,7 +431,7 @@ No return values are documented.
 <a id="ent-aigrabattackroutine"></a>
 ## `ENT:AIGrabAttackRoutine`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -454,7 +458,7 @@ No return values are documented.
 <a id="ent-aigrabmovementroutine"></a>
 ## `ENT:AIGrabMovementRoutine`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -481,7 +485,7 @@ No return values are documented.
 <a id="ent-aihactbboxavoidance"></a>
 ## `ENT:AIHactBBoxAvoidance`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -506,7 +510,7 @@ No return values are documented.
 <a id="ent-ailoopfar"></a>
 ## `ENT:AILoopFar`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -533,7 +537,7 @@ No return values are documented.
 <a id="ent-ailoopnear"></a>
 ## `ENT:AILoopNear`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -560,7 +564,7 @@ No return values are documented.
 <a id="ent-aimanageanger"></a>
 ## `ENT:AIManageAnger`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -588,7 +592,7 @@ No return values are documented.
 <a id="ent-aimanagebravery"></a>
 ## `ENT:AIManageBravery`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -617,7 +621,7 @@ No return values are documented.
 <a id="ent-aimanagetauntanger"></a>
 ## `ENT:AIManageTauntAnger`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -646,7 +650,7 @@ No return values are documented.
 <a id="ent-ainodedcombothink"></a>
 ## `ENT:AINodedComboThink`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -671,7 +675,7 @@ No return values are documented.
 <a id="ent-ainodeexecute"></a>
 ## `ENT:AINodeExecute`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -698,7 +702,7 @@ No return values are documented.
 <a id="ent-aiopendoors"></a>
 ## `ENT:AIOpenDoors`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -725,7 +729,7 @@ No return values are documented.
 <a id="ent-airunattackroutine"></a>
 ## `ENT:AIRunAttackRoutine`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -754,7 +758,7 @@ No return values are documented.
 <a id="ent-aiscanandexecutehacts"></a>
 ## `ENT:AIScanAndExecuteHacts`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -779,7 +783,7 @@ No return values are documented.
 <a id="ent-aiweaponthrowroutine"></a>
 ## `ENT:AIWeaponThrowRoutine`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -807,7 +811,7 @@ No return values are documented.
 <a id="ent-battleailoopfar"></a>
 ## `ENT:BattleAILoopFar`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -834,7 +838,7 @@ No return values are documented.
 <a id="ent-battleailoopnear"></a>
 ## `ENT:BattleAILoopNear`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -861,7 +865,7 @@ No return values are documented.
 <a id="ent-findnearbyalliesincombat"></a>
 ## `ENT:FindNearbyAlliesInCombat`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -888,7 +892,7 @@ No return values are documented.
 <a id="ent-getencirclementstrafebias"></a>
 ## `ENT:GetEncirclementStrafeBias`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -915,7 +919,7 @@ No return values are documented.
 <a id="ent-getswayfrequency"></a>
 ## `ENT:GetSwayFrequency`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -940,7 +944,7 @@ No return values are documented.
 <a id="ent-getswaynextattack"></a>
 ## `ENT:GetSwayNextAttack`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -965,7 +969,7 @@ No return values are documented.
 <a id="ent-gotowall"></a>
 ## `ENT:GoToWall`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -994,7 +998,7 @@ No return values are documented.
 <a id="ent-gotoweapon"></a>
 ## `ENT:GoToWeapon`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -1023,7 +1027,7 @@ No return values are documented.
 <a id="ent-onlastenemy"></a>
 ## `ENT:OnLastEnemy`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -1050,7 +1054,7 @@ No return values are documented.
 <a id="ent-scanfornearestwallandjump"></a>
 ## `ENT:ScanForNearestWallAndJump`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -1075,7 +1079,7 @@ No return values are documented.
 <a id="ent-scanfornearestweaponandmove"></a>
 ## `ENT:ScanForNearestWeaponAndMove`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -1100,7 +1104,7 @@ No return values are documented.
 <a id="ent-setnextattack"></a>
 ## `ENT:SetNextAttack`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 

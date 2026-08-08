@@ -1988,8 +1988,8 @@
     "parameters": [
       {
         "name": "target",
-        "type": "Target",
-        "description": "snaps to whoever activates combat"
+        "type": "ent",
+        "description": "Snaps to whoever activates combat"
       },
       {
         "name": "skipanim",

@@ -11,6 +11,8 @@ Methods defined in `lua/lad_framework/battle_manager.lua`.
 
 ## Methods
 
+<div class="api-method-list" markdown>
+
 | Method | Summary |
 | --- | --- |
 | [`BattleManager:BattleCount`](#battlemanager-battlecount) | Debug: returns how many battles are currently tracked. |
@@ -21,10 +23,12 @@ Methods defined in `lua/lad_framework/battle_manager.lua`.
 | [`BattleManager:Leave`](#battlemanager-leave) | Remove a fighter from their current battle. checkEnd: pass true to immediately re-evaluate whether the battle should end (e.g. after a kill). Pass false during bulk cleanup (OnRemove) to avoid operating on partially-removed entity state. |
 | [`BattleManager:Merge`](#battlemanager-merge) | Merge two battles into one. All fighters from dissolveID are re-registered under keepID. The dissolveID battle record is dissolved. All fighter._battleID values are updated. |
 
+</div>
+
 <a id="battlemanager-battlecount"></a>
 ## `BattleManager:BattleCount`
 
-<div class="api-badges"><span class="api-badge ">server</span></div>
+<div class="api-badges"><span class="api-badge api-badge--server">server</span></div>
 
 <div class="api-signature" markdown>
 
@@ -49,7 +53,7 @@ No return values are documented.
 <a id="battlemanager-checkbattleend"></a>
 ## `BattleManager:CheckBattleEnd`
 
-<div class="api-badges"><span class="api-badge ">server</span></div>
+<div class="api-badges"><span class="api-badge api-badge--server">server</span></div>
 
 <div class="api-signature" markdown>
 
@@ -78,7 +82,7 @@ No return values are documented.
 <a id="battlemanager-create"></a>
 ## `BattleManager:Create`
 
-<div class="api-badges"><span class="api-badge ">server</span></div>
+<div class="api-badges"><span class="api-badge api-badge--server">server</span></div>
 
 <div class="api-signature" markdown>
 
@@ -110,7 +114,7 @@ No return values are documented.
 <a id="battlemanager-findnearestbattle"></a>
 ## `BattleManager:FindNearestBattle`
 
-<div class="api-badges"><span class="api-badge ">server</span></div>
+<div class="api-badges"><span class="api-badge api-badge--server">server</span></div>
 
 <div class="api-signature" markdown>
 
@@ -139,7 +143,7 @@ No return values are documented.
 <a id="battlemanager-join"></a>
 ## `BattleManager:Join`
 
-<div class="api-badges"><span class="api-badge ">server</span></div>
+<div class="api-badges"><span class="api-badge api-badge--server">server</span></div>
 
 <div class="api-signature" markdown>
 
@@ -168,7 +172,7 @@ No return values are documented.
 <a id="battlemanager-leave"></a>
 ## `BattleManager:Leave`
 
-<div class="api-badges"><span class="api-badge ">server</span></div>
+<div class="api-badges"><span class="api-badge api-badge--server">server</span></div>
 
 <div class="api-signature" markdown>
 
@@ -199,7 +203,7 @@ No return values are documented.
 <a id="battlemanager-merge"></a>
 ## `BattleManager:Merge`
 
-<div class="api-badges"><span class="api-badge ">server</span></div>
+<div class="api-badges"><span class="api-badge api-badge--server">server</span></div>
 
 <div class="api-signature" markdown>
 

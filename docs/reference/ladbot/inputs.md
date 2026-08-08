@@ -9,6 +9,8 @@ Methods defined in `lua/entities/lad_framework_base/inputs.lua`.
 
 ## Methods
 
+<div class="api-method-list" markdown>
+
 | Method | Summary |
 | --- | --- |
 | [`ENT:_EnsureInputState`](#ent-ensureinputstate) | Documentation pending. |
@@ -25,10 +27,12 @@ Methods defined in `lua/entities/lad_framework_base/inputs.lua`.
 | [`ENT:ProcessInputQueue`](#ent-processinputqueue) | Documentation pending. |
 | [`ENT:SetupInputVars`](#ent-setupinputvars) | Documentation pending. |
 
+</div>
+
 <a id="ent-ensureinputstate"></a>
 ## `ENT:_EnsureInputState`
 
-<div class="api-badges"><span class="api-badge ">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 
 <div class="api-signature" markdown>
 
@@ -53,7 +57,7 @@ No return values are documented.
 <a id="ent-inputblocked"></a>
 ## `ENT:_InputBlocked`
 
-<div class="api-badges"><span class="api-badge ">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 
 <div class="api-signature" markdown>
 
@@ -78,7 +82,7 @@ No return values are documented.
 <a id="ent-processautofollowups"></a>
 ## `ENT:_ProcessAutoFollowUps`
 
-<div class="api-badges"><span class="api-badge ">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 
 <div class="api-signature" markdown>
 
@@ -106,7 +110,7 @@ No return values are documented.
 <a id="ent-processheldinputs"></a>
 ## `ENT:_ProcessHeldInputs`
 
-<div class="api-badges"><span class="api-badge ">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 
 <div class="api-signature" markdown>
 
@@ -134,7 +138,7 @@ No return values are documented.
 <a id="ent-processqueuedinputs"></a>
 ## `ENT:_ProcessQueuedInputs`
 
-<div class="api-badges"><span class="api-badge ">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 
 <div class="api-signature" markdown>
 
@@ -163,7 +167,7 @@ No return values are documented.
 <a id="ent-cleanstaleinputs"></a>
 ## `ENT:CleanStaleInputs`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -191,7 +195,7 @@ No return values are documented.
 <a id="ent-getbuttonforaction"></a>
 ## `ENT:GetButtonForAction`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -218,7 +222,7 @@ No return values are documented.
 <a id="ent-getinputname"></a>
 ## `ENT:GetInputName`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -245,7 +249,7 @@ No return values are documented.
 <a id="ent-handleinput"></a>
 ## `ENT:HandleInput`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -273,7 +277,7 @@ No return values are documented.
 <a id="ent-handleinputrelease"></a>
 ## `ENT:HandleInputRelease`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -301,7 +305,7 @@ No return values are documented.
 <a id="ent-handlemoveinputedge"></a>
 ## `ENT:HandleMoveInputEdge`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -326,7 +330,7 @@ No return values are documented.
 <a id="ent-processinputqueue"></a>
 ## `ENT:ProcessInputQueue`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -351,7 +355,7 @@ No return values are documented.
 <a id="ent-setupinputvars"></a>
 ## `ENT:SetupInputVars`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 

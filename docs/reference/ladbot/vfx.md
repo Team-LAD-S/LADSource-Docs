@@ -9,6 +9,8 @@ Methods defined in `lua/entities/lad_framework_base/vfx.lua`.
 
 ## Methods
 
+<div class="api-method-list" markdown>
+
 | Method | Summary |
 | --- | --- |
 | [`ENT:ChargeAura`](#ent-chargeaura) | Documentation pending. |
@@ -28,10 +30,12 @@ Methods defined in `lua/entities/lad_framework_base/vfx.lua`.
 | [`ENT:VFX_SparkOnce`](#ent-vfx-sparkonce) | Documentation pending. |
 | [`ENT:VFX_WeaponSpark`](#ent-vfx-weaponspark) | Documentation pending. |
 
+</div>
+
 <a id="ent-chargeaura"></a>
 ## `ENT:ChargeAura`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -62,7 +66,7 @@ No return values are documented.
 <a id="ent-createafterimage"></a>
 ## `ENT:CreateAfterImage`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -93,7 +97,7 @@ No return values are documented.
 <a id="ent-createpibtrail"></a>
 ## `ENT:CreatePibTrail`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -128,7 +132,7 @@ No return values are documented.
 <a id="ent-dispatchattacktrails"></a>
 ## `ENT:DispatchAttackTrails`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -157,7 +161,7 @@ No return values are documented.
 <a id="ent-dispatchlimbflashes"></a>
 ## `ENT:DispatchLimbFlashes`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -186,7 +190,7 @@ No return values are documented.
 <a id="ent-dispatchparticletrails"></a>
 ## `ENT:DispatchParticleTrails`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -215,7 +219,7 @@ No return values are documented.
 <a id="ent-enablelimbflash"></a>
 ## `ENT:EnableLimbFlash`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -246,7 +250,7 @@ No return values are documented.
 <a id="ent-getguardfx"></a>
 ## `ENT:GetGuardFX`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -274,7 +278,7 @@ No return values are documented.
 <a id="ent-heataura"></a>
 ## `ENT:HeatAura`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -303,7 +307,7 @@ No return values are documented.
 <a id="ent-setgreyscaleeffect"></a>
 ## `ENT:SetGreyscaleEffect`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -330,7 +334,7 @@ No return values are documented.
 <a id="ent-vfx-ejectshell"></a>
 ## `ENT:VFX_EjectShell`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -357,7 +361,7 @@ No return values are documented.
 <a id="ent-vfx-handspark"></a>
 ## `ENT:VFX_HandSpark`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -384,7 +388,7 @@ No return values are documented.
 <a id="ent-vfx-meshtrail"></a>
 ## `ENT:VFX_MeshTrail`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -411,7 +415,7 @@ No return values are documented.
 <a id="ent-vfx-shock"></a>
 ## `ENT:VFX_Shock`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -438,7 +442,7 @@ No return values are documented.
 <a id="ent-vfx-sparkonce"></a>
 ## `ENT:VFX_SparkOnce`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -465,7 +469,7 @@ No return values are documented.
 <a id="ent-vfx-weaponspark"></a>
 ## `ENT:VFX_WeaponSpark`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 

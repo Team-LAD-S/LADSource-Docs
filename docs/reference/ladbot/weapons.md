@@ -9,6 +9,8 @@ Methods defined in `lua/entities/lad_framework_base/weapons.lua`.
 
 ## Methods
 
+<div class="api-method-list" markdown>
+
 | Method | Summary |
 | --- | --- |
 | [`ENT:AttachTempWeapon`](#ent-attachtempweapon) | Documentation pending. |
@@ -42,10 +44,12 @@ Methods defined in `lua/entities/lad_framework_base/weapons.lua`.
 | [`ENT:Weapon2VisualAttach`](#ent-weapon2visualattach) | Documentation pending. |
 | [`ENT:WeaponVisualAttach`](#ent-weaponvisualattach) | Documentation pending. |
 
+</div>
+
 <a id="ent-attachtempweapon"></a>
 ## `ENT:AttachTempWeapon`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -74,7 +78,7 @@ No return values are documented.
 <a id="ent-autopickupweaponinternal"></a>
 ## `ENT:AutoPickupWeaponInternal`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -102,7 +106,7 @@ No return values are documented.
 <a id="ent-clearweaponinfo"></a>
 ## `ENT:ClearWeaponInfo`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -129,7 +133,7 @@ No return values are documented.
 <a id="ent-deductweapondurability"></a>
 ## `ENT:DeductWeaponDurability`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -157,7 +161,7 @@ No return values are documented.
 <a id="ent-disposeweaponsetpos"></a>
 ## `ENT:DisposeWeaponSetPos`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -184,7 +188,7 @@ No return values are documented.
 <a id="ent-drawhiddenweapon"></a>
 ## `ENT:DrawHiddenWeapon`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -211,7 +215,7 @@ No return values are documented.
 <a id="ent-drawmovesetweapon"></a>
 ## `ENT:DrawMovesetWeapon`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -238,7 +242,7 @@ No return values are documented.
 <a id="ent-droppropweapon"></a>
 ## `ENT:DropPropWeapon`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -270,7 +274,7 @@ No return values are documented.
 <a id="ent-dropsecondaryweapon"></a>
 ## `ENT:DropSecondaryWeapon`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -301,7 +305,7 @@ No return values are documented.
 <a id="ent-equipweapon"></a>
 ## `ENT:EquipWeapon`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -329,7 +333,7 @@ No return values are documented.
 <a id="ent-getallowedweaponmoveset"></a>
 ## `ENT:GetAllowedWeaponMoveset`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -356,7 +360,7 @@ No return values are documented.
 <a id="ent-getclosestvalidpickupprop"></a>
 ## `ENT:GetClosestValidPickupProp`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -381,7 +385,7 @@ No return values are documented.
 <a id="ent-getheldweapontype"></a>
 ## `ENT:GetHeldWeaponType`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -406,7 +410,7 @@ No return values are documented.
 <a id="ent-getpickuptype"></a>
 ## `ENT:GetPickupType`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -431,7 +435,7 @@ No return values are documented.
 <a id="ent-getweaponbyid"></a>
 ## `ENT:GetWeaponByID`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -458,7 +462,7 @@ No return values are documented.
 <a id="ent-getweaponclass"></a>
 ## `ENT:GetWeaponClass`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -483,7 +487,7 @@ No return values are documented.
 <a id="ent-ispropvalidpickup"></a>
 ## `ENT:IsPropValidPickup`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -510,7 +514,7 @@ No return values are documented.
 <a id="ent-launchprojectile"></a>
 ## `ENT:LaunchProjectile`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -542,7 +546,7 @@ No return values are documented.
 <a id="ent-pickupweapon"></a>
 ## `ENT:PickupWeapon`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -569,7 +573,7 @@ No return values are documented.
 <a id="ent-pickupweaponinternal"></a>
 ## `ENT:PickupWeaponInternal`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -599,7 +603,7 @@ No return values are documented.
 <a id="ent-pickupweaponsecondaryinternal"></a>
 ## `ENT:PickupWeaponSecondaryInternal`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -626,7 +630,7 @@ No return values are documented.
 <a id="ent-sendweaponinfo"></a>
 ## `ENT:SendWeaponInfo`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -654,7 +658,7 @@ No return values are documented.
 <a id="ent-sethiddenweapon"></a>
 ## `ENT:SetHiddenWeapon`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -679,7 +683,7 @@ No return values are documented.
 <a id="ent-setweapondurability"></a>
 ## `ENT:SetWeaponDurability`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -707,7 +711,7 @@ No return values are documented.
 <a id="ent-shootweapon"></a>
 ## `ENT:ShootWeapon`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -734,7 +738,7 @@ No return values are documented.
 <a id="ent-stashweapon"></a>
 ## `ENT:StashWeapon`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -759,7 +763,7 @@ No return values are documented.
 <a id="ent-throwweapon"></a>
 ## `ENT:ThrowWeapon`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -784,7 +788,7 @@ No return values are documented.
 <a id="ent-updateweaponattachment"></a>
 ## `ENT:UpdateWeaponAttachment`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -811,7 +815,7 @@ No return values are documented.
 <a id="ent-weapon2visualattach"></a>
 ## `ENT:Weapon2VisualAttach`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -838,7 +842,7 @@ No return values are documented.
 <a id="ent-weaponvisualattach"></a>
 ## `ENT:WeaponVisualAttach`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 

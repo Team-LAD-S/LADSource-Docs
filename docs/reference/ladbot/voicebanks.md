@@ -9,6 +9,8 @@ Methods defined in `lua/entities/lad_framework_base/voicebanks.lua`.
 
 ## Methods
 
+<div class="api-method-list" markdown>
+
 | Method | Summary |
 | --- | --- |
 | [`ENT:EmitVoice`](#ent-emitvoice) | Documentation pending. |
@@ -18,10 +20,12 @@ Methods defined in `lua/entities/lad_framework_base/voicebanks.lua`.
 | [`ENT:SetFighterVoicebank`](#ent-setfightervoicebank) | Documentation pending. |
 | [`ENT:VoicebankExists`](#ent-voicebankexists) | Documentation pending. |
 
+</div>
+
 <a id="ent-emitvoice"></a>
 ## `ENT:EmitVoice`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -50,7 +54,7 @@ No return values are documented.
 <a id="ent-emitvoiceext"></a>
 ## `ENT:EmitVoiceExt`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -80,7 +84,7 @@ No return values are documented.
 <a id="ent-getvoicebank"></a>
 ## `ENT:GetVoicebank`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -105,7 +109,7 @@ No return values are documented.
 <a id="ent-playhactsound"></a>
 ## `ENT:PlayHactSound`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -137,7 +141,7 @@ No return values are documented.
 <a id="ent-setfightervoicebank"></a>
 ## `ENT:SetFighterVoicebank`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -164,7 +168,7 @@ No return values are documented.
 <a id="ent-voicebankexists"></a>
 ## `ENT:VoicebankExists`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 

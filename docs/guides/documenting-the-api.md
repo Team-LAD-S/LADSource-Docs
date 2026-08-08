@@ -9,7 +9,7 @@ methods in `battle_manager.lua`.
 ```lua
 --- Activates combat of a LADBot that this function is ran on.
 ---@realm server
----@param target Target snaps to whoever activates combat
+---@param target ent Snaps to whoever activates combat
 ---@param skipanim boolean Whether to skip the battle-start animation.
 function ENT:ActivateCombat(target, skipanim)
     -- Implementation

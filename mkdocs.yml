@@ -7,6 +7,8 @@ edit_uri: edit/main/docs/
 
 theme:
   name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
   language: en
   palette:
     - media: "(prefers-color-scheme: dark)"
@@ -35,6 +37,9 @@ theme:
 
 plugins:
   - search
+
+hooks:
+  - hooks/navigation.py
 
 markdown_extensions:
   - admonition

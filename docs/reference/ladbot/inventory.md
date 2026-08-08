@@ -9,15 +9,19 @@ Methods defined in `lua/entities/lad_framework_base/inventory.lua`.
 
 ## Methods
 
+<div class="api-method-list" markdown>
+
 | Method | Summary |
 | --- | --- |
 | [`ENT:AddItem`](#ent-additem) | Documentation pending. |
 | [`ENT:GenerateItemID`](#ent-generateitemid) | Documentation pending. |
 
+</div>
+
 <a id="ent-additem"></a>
 ## `ENT:AddItem`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -44,7 +48,7 @@ No return values are documented.
 <a id="ent-generateitemid"></a>
 ## `ENT:GenerateItemID`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 

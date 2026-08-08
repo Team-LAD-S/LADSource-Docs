@@ -9,6 +9,8 @@ Methods defined in `lua/entities/lad_framework_base/grab.lua`.
 
 ## Methods
 
+<div class="api-method-list" markdown>
+
 | Method | Summary |
 | --- | --- |
 | [`ENT:_PostGrabSyncCombo`](#ent-postgrabsynccombo) | Documentation pending. |
@@ -30,10 +32,12 @@ Methods defined in `lua/entities/lad_framework_base/grab.lua`.
 | [`ENT:TransitionGrabMoveset`](#ent-transitiongrabmoveset) | Documentation pending. |
 | [`ENT:TryGrab`](#ent-trygrab) | Documentation pending. |
 
+</div>
+
 <a id="ent-postgrabsynccombo"></a>
 ## `ENT:_PostGrabSyncCombo`
 
-<div class="api-badges"><span class="api-badge ">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 
 <div class="api-signature" markdown>
 
@@ -60,7 +64,7 @@ No return values are documented.
 <a id="ent-canmovegrabbedentity"></a>
 ## `ENT:CanMoveGrabbedEntity`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -89,7 +93,7 @@ No return values are documented.
 <a id="ent-canmoveingrab"></a>
 ## `ENT:CanMoveInGrab`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -114,7 +118,7 @@ No return values are documented.
 <a id="ent-getgrabdirection"></a>
 ## `ENT:GetGrabDirection`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -139,7 +143,7 @@ No return values are documented.
 <a id="ent-getgrabtarget"></a>
 ## `ENT:GetGrabTarget`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -164,7 +168,7 @@ No return values are documented.
 <a id="ent-getlastgrabber"></a>
 ## `ENT:GetLastGrabber`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -189,7 +193,7 @@ No return values are documented.
 <a id="ent-grab"></a>
 ## `ENT:Grab`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -219,7 +223,7 @@ No return values are documented.
 <a id="ent-grabbedthink"></a>
 ## `ENT:GrabbedThink`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -244,7 +248,7 @@ No return values are documented.
 <a id="ent-grabhact"></a>
 ## `ENT:GrabHACT`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -271,7 +275,7 @@ No return values are documented.
 <a id="ent-grabresist"></a>
 ## `ENT:GrabResist`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -299,7 +303,7 @@ No return values are documented.
 <a id="ent-grabsync"></a>
 ## `ENT:GrabSync`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -327,7 +331,7 @@ No return values are documented.
 <a id="ent-grabtarget"></a>
 ## `ENT:GrabTarget`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -357,7 +361,7 @@ No return values are documented.
 <a id="ent-resetgrabmoveset"></a>
 ## `ENT:ResetGrabMoveset`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -384,7 +388,7 @@ No return values are documented.
 <a id="ent-setpregrabmoveset"></a>
 ## `ENT:SetPreGrabMoveset`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -411,7 +415,7 @@ No return values are documented.
 <a id="ent-stopgrabbing"></a>
 ## `ENT:StopGrabbing`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -438,7 +442,7 @@ No return values are documented.
 <a id="ent-switchgrabdir"></a>
 ## `ENT:SwitchGrabDir`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -463,7 +467,7 @@ No return values are documented.
 <a id="ent-transitiongrabmoveset"></a>
 ## `ENT:TransitionGrabMoveset`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -492,7 +496,7 @@ No return values are documented.
 <a id="ent-trygrab"></a>
 ## `ENT:TryGrab`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 

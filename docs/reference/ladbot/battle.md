@@ -9,6 +9,8 @@ Methods defined in `lua/entities/lad_framework_base/battle.lua`.
 
 ## Methods
 
+<div class="api-method-list" markdown>
+
 | Method | Summary |
 | --- | --- |
 | [`ENT:_BattleManagerDeathThink`](#ent-battlemanagerdeaththink) | Documentation pending. |
@@ -17,10 +19,12 @@ Methods defined in `lua/entities/lad_framework_base/battle.lua`.
 | [`ENT:StartBattle`](#ent-startbattle) | Documentation pending. |
 | [`ENT:StartDynamicIntroBattle`](#ent-startdynamicintrobattle) | Documentation pending. |
 
+</div>
+
 <a id="ent-battlemanagerdeaththink"></a>
 ## `ENT:_BattleManagerDeathThink`
 
-<div class="api-badges"><span class="api-badge ">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
 
 <div class="api-signature" markdown>
 
@@ -45,7 +49,7 @@ No return values are documented.
 <a id="ent-isinlongbattle"></a>
 ## `ENT:IsInLongBattle`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -70,7 +74,7 @@ No return values are documented.
 <a id="ent-playbattlestartanim"></a>
 ## `ENT:PlayBattleStartAnim`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -99,7 +103,7 @@ No return values are documented.
 <a id="ent-startbattle"></a>
 ## `ENT:StartBattle`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
@@ -126,7 +130,7 @@ No return values are documented.
 <a id="ent-startdynamicintrobattle"></a>
 ## `ENT:StartDynamicIntroBattle`
 
-<div class="api-badges"><span class="api-badge ">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
