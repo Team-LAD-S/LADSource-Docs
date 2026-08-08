@@ -32,8 +32,9 @@ Then run:
 
 The generator reads the LADBot base, shared Entity extensions, and Battle
 Manager from the sibling `../LADSource` checkout by default. It writes the
-publishable snapshot to `docs/reference`. Commit regenerated reference pages
-alongside documentation changes.
+publishable snapshot to `docs/reference`, with one index per API module and one
+page per method. Commit regenerated reference pages alongside documentation
+changes.
 
 To use another checkout location:
 

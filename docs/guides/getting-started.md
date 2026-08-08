@@ -6,8 +6,8 @@ Before developing a LADBot, make sure you have:
 
 - A brain (recommended)
 - Garry's Mod
-- LADSource
 - DrGBase
+- LADSource
 - Any addon that supplies the models, animations, sounds, movesets, or heat
   actions used by your fighter
 

@@ -9,8 +9,8 @@ server-side Battle Manager API.
 | API group | Methods | Description |
 | --- | ---: | --- |
 | [LADBot modules](ladbot/index.md) | 524 | Methods inherited from `lad_framework_base`. |
-| [Entity extensions](entity.md) | 10 | Shared helpers available on all entities. |
-| [Battle Manager](battle_manager.md) | 7 | Server-side battle lifecycle management. |
+| [Entity extensions](entity/index.md) | 10 | Shared helpers available on all entities. |
+| [Battle Manager](battle_manager/index.md) | 7 | Server-side battle lifecycle management. |
 
 !!! tip "Improve a reference entry"
 

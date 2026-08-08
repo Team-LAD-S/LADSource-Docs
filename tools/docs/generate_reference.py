@@ -6,6 +6,7 @@ import argparse
 import json
 import re
 import shutil
+from collections import Counter, defaultdict
 from dataclasses import asdict, dataclass, field
 from pathlib import Path
 from urllib.parse import quote
@@ -16,7 +17,20 @@ DOC_LINE_RE = re.compile(r"^\s*---(?!-)(.*)$")
 COMMENT_LINE_RE = re.compile(r"^\s*--(?!-|\[\[)(.*)$")
 TAG_RE = re.compile(r"^@(?P<name>[A-Za-z_]\w*)(?:\s+(?P<value>.*))?$")
 PARAM_RE = re.compile(r"^(?P<name>[A-Za-z_]\w*|\.\.\.)\s+(?P<type>\S+)(?:\s+(?P<description>.*))?$")
+FIELD_RE = re.compile(
+    r"^(?P<parameter>[A-Za-z_]\w*)\."
+    r"(?P<name>[A-Za-z_]\w*(?:\.[A-Za-z_]\w*)*)(?P<optional>\?)?\s+"
+    r"(?P<type>\S+)(?:\s+(?P<description>.*))?$"
+)
 RETURN_RE = re.compile(r"^(?P<type>\S+)(?:\s+(?P<description>.*))?$")
+
+
+@dataclass
+class TableField:
+    name: str
+    type: str = "any"
+    description: str = ""
+    optional: bool = False
 
 
 @dataclass
@@ -24,6 +38,7 @@ class Parameter:
     name: str
     type: str = "any"
     description: str = ""
+    fields: list[TableField] = field(default_factory=list)
 
 
 @dataclass
@@ -48,6 +63,8 @@ class Method:
     callback: bool = False
     deprecated: str = ""
     anchor: str = ""
+    page_slug: str = ""
+    navigation_title: str = ""
 
 
 def module_title(path: Path) -> str:
@@ -88,6 +105,7 @@ def extract_doc_block(lines: list[str], method_index: int) -> list[str]:
 def parse_documentation(method: Method, doc_lines: list[str]) -> None:
     descriptions: list[str] = []
     documented_parameters: dict[str, Parameter] = {}
+    documented_fields: dict[str, list[TableField]] = defaultdict(list)
 
     for line in doc_lines:
         tag_match = TAG_RE.match(line)
@@ -105,6 +123,15 @@ def parse_documentation(method: Method, doc_lines: list[str]) -> None:
                 match.group("description") or "",
             )
             documented_parameters[parameter.name] = parameter
+        elif tag == "field" and (match := FIELD_RE.match(value)):
+            documented_fields[match.group("parameter")].append(
+                TableField(
+                    match.group("name"),
+                    match.group("type"),
+                    match.group("description") or "",
+                    bool(match.group("optional")),
+                )
+            )
         elif tag == "return" and (match := RETURN_RE.match(value)):
             method.returns.append(
                 ReturnValue(match.group("type"), match.group("description") or "")
@@ -117,10 +144,11 @@ def parse_documentation(method: Method, doc_lines: list[str]) -> None:
             method.deprecated = value or "This method is deprecated."
 
     method.description = "\n".join(descriptions).strip()
-    method.parameters = [
-        documented_parameters.get(argument, Parameter(argument))
-        for argument in method.arguments
-    ]
+    method.parameters = []
+    for argument in method.arguments:
+        parameter = documented_parameters.get(argument, Parameter(argument))
+        parameter.fields.extend(documented_fields.get(argument, []))
+        method.parameters.append(parameter)
 
 
 def method_patterns(receiver: str) -> tuple[re.Pattern[str], re.Pattern[str]]:
@@ -231,10 +259,29 @@ def method_sort_key(method: Method) -> tuple[bool, str, int]:
     return method.internal, method.name.casefold(), method.source_line
 
 
+def method_page_slug(name: str) -> str:
+    separated = re.sub(r"([A-Z]+)([A-Z][a-z])", r"\1-\2", name)
+    separated = re.sub(r"(?<=[a-z0-9])(?=[A-Z])", "-", separated)
+    return re.sub(r"[^a-z0-9]+", "-", separated.casefold()).strip("-") or "method"
+
+
+def assign_method_pages(methods: list[Method]) -> None:
+    base_slugs = [method_page_slug(method.name) for method in methods]
+    duplicate_slugs = Counter(base_slugs)
+    for method, base_slug in zip(methods, base_slugs):
+        duplicate = duplicate_slugs[base_slug] > 1
+        method.page_slug = f"{base_slug}-{method.source_line}" if duplicate else base_slug
+        method.navigation_title = (
+            f"{method.display_name} (line {method.source_line})"
+            if duplicate
+            else method.display_name
+        )
+
+
 def render_method(method: Method, repository_url: str, branch: str) -> list[str]:
     output = [
         f'<a id="{method.anchor}"></a>',
-        f"## `{method.display_name}`",
+        f"# `{method.display_name}`",
         "",
         render_badges(method),
         "",
@@ -253,7 +300,7 @@ def render_method(method: Method, repository_url: str, branch: str) -> list[str]
     if method.deprecated:
         output.extend(["!!! warning \"Deprecated\"", "", f"    {method.deprecated}", ""])
 
-    output.extend(["### Parameters", ""])
+    output.extend(["## Parameters", ""])
     if method.parameters:
         output.extend(["| Name | Type | Description |", "| --- | --- | --- |"])
         for parameter in method.parameters:
@@ -265,7 +312,27 @@ def render_method(method: Method, repository_url: str, branch: str) -> list[str]
     else:
         output.extend(["This method takes no explicit arguments.", ""])
 
-    output.extend(["### Returns", ""])
+    for parameter in method.parameters:
+        if not parameter.fields:
+            continue
+        output.extend(
+            [
+                f"### `{parameter.name}` table fields",
+                "",
+                "| Key | Type | Required | Description |",
+                "| --- | --- | :---: | --- |",
+            ]
+        )
+        for table_field in parameter.fields:
+            output.append(
+                f"| `{markdown_cell(table_field.name)}` | "
+                f"`{markdown_cell(table_field.type)}` | "
+                f"{'No' if table_field.optional else 'Yes'} | "
+                f"{markdown_cell(table_field.description) or 'Not documented.'} |"
+            )
+        output.append("")
+
+    output.extend(["## Returns", ""])
     if method.returns:
         output.extend(["| Type | Description |", "| --- | --- |"])
         for return_value in method.returns:
@@ -287,7 +354,25 @@ def render_method(method: Method, repository_url: str, branch: str) -> list[str]
     return output
 
 
-def render_module(
+def render_method_page(
+    method: Method,
+    module_name: str,
+    repository_url: str,
+    branch: str,
+) -> str:
+    output = [
+        "---",
+        f"title: {json.dumps(method.navigation_title, ensure_ascii=False)}",
+        "---",
+        "",
+        f"[Back to {module_name}](index.md)",
+        "",
+    ]
+    output.extend(render_method(method, repository_url, branch))
+    return "\n".join(output)
+
+
+def render_module_index(
     path: Path,
     methods: list[Method],
     repository_url: str,
@@ -349,11 +434,43 @@ def render_module(
     )
     for method in methods:
         summary = markdown_cell(method.description) or "Documentation pending."
-        output.append(f"| [`{method.display_name}`](#{method.anchor}) | {summary} |")
+        output.append(
+            f"| [`{method.display_name}`]({method.page_slug}.md) | {summary} |"
+        )
     output.extend(["", "</div>", ""])
-    for method in methods:
-        output.extend(render_method(method, repository_url, branch))
     return "\n".join(output)
+
+
+def write_method_section(
+    output_directory: Path,
+    source_path: Path,
+    methods: list[Method],
+    repository_url: str,
+    branch: str,
+    title: str | None = None,
+    introduction: str | None = None,
+) -> None:
+    output_directory.mkdir(parents=True, exist_ok=True)
+    assign_method_pages(methods)
+    section_title = title or module_title(source_path)
+    (output_directory / "index.md").write_text(
+        render_module_index(
+            source_path,
+            methods,
+            repository_url,
+            branch,
+            title=section_title,
+            introduction=introduction,
+        ),
+        encoding="utf-8",
+        newline="\n",
+    )
+    for method in methods:
+        (output_directory / f"{method.page_slug}.md").write_text(
+            render_method_page(method, section_title, repository_url, branch),
+            encoding="utf-8",
+            newline="\n",
+        )
 
 
 def ordered_source_files(source_directory: Path) -> list[Path]:
@@ -412,15 +529,20 @@ def generate(
         methods = parse_methods(path, source_root)
         methods.sort(key=method_sort_key)
         ladbot_modules.append((path, methods))
+        write_method_section(
+            ladbot_output_directory / path.stem,
+            path,
+            methods,
+            repository_url,
+            branch,
+        )
         for method in methods:
             record = asdict(method)
             record["api_group"] = "ladbot"
+            record["reference_path"] = (
+                f"reference/ladbot/{path.stem}/{method.page_slug}.md"
+            )
             manifest.append(record)
-        (ladbot_output_directory / f"{path.stem}.md").write_text(
-            render_module(path, methods, repository_url, branch),
-            encoding="utf-8",
-            newline="\n",
-        )
 
     entity_methods = parse_methods(
         entity_source,
@@ -430,25 +552,23 @@ def generate(
         default_realm="shared",
     )
     entity_methods.sort(key=method_sort_key)
+    write_method_section(
+        output_directory / "entity",
+        entity_source,
+        entity_methods,
+        repository_url,
+        branch,
+        title="Entity extensions",
+        introduction=(
+            "These methods extend Garry's Mod's `Entity` metatable, so they can be "
+            "called on any entity and are not limited to LADBots."
+        ),
+    )
     for method in entity_methods:
         record = asdict(method)
         record["api_group"] = "entity"
+        record["reference_path"] = f"reference/entity/{method.page_slug}.md"
         manifest.append(record)
-    (output_directory / "entity.md").write_text(
-        render_module(
-            entity_source,
-            entity_methods,
-            repository_url,
-            branch,
-            title="Entity extensions",
-            introduction=(
-                "These methods extend Garry's Mod's `Entity` metatable, so they can be "
-                "called on any entity and are not limited to LADBots."
-            ),
-        ),
-        encoding="utf-8",
-        newline="\n",
-    )
 
     battle_manager_methods = parse_methods(
         battle_manager_source,
@@ -458,25 +578,25 @@ def generate(
         default_realm="server",
     )
     battle_manager_methods.sort(key=method_sort_key)
+    write_method_section(
+        output_directory / "battle_manager",
+        battle_manager_source,
+        battle_manager_methods,
+        repository_url,
+        branch,
+        title="Battle Manager",
+        introduction=(
+            "Server-side battle lifecycle methods exposed through "
+            "`LADSource.BattleManager`."
+        ),
+    )
     for method in battle_manager_methods:
         record = asdict(method)
         record["api_group"] = "battle_manager"
+        record["reference_path"] = (
+            f"reference/battle_manager/{method.page_slug}.md"
+        )
         manifest.append(record)
-    (output_directory / "battle_manager.md").write_text(
-        render_module(
-            battle_manager_source,
-            battle_manager_methods,
-            repository_url,
-            branch,
-            title="Battle Manager",
-            introduction=(
-                "Server-side battle lifecycle methods exposed through "
-                "`LADSource.BattleManager`."
-            ),
-        ),
-        encoding="utf-8",
-        newline="\n",
-    )
 
     ladbot_count = sum(len(methods) for _, methods in ladbot_modules)
     ladbot_index = [
@@ -499,7 +619,7 @@ def generate(
     for path, methods in sorted_ladbot_modules:
         relative = path.relative_to(source_root).as_posix()
         ladbot_index.append(
-            f"| [{module_title(path)}]({path.stem}.md) | {len(methods)} | `{relative}` |"
+            f"| [{module_title(path)}]({path.stem}/index.md) | {len(methods)} | `{relative}` |"
         )
     ladbot_index.extend(["", "</div>", ""])
     (ladbot_output_directory / "index.md").write_text(
@@ -520,8 +640,8 @@ def generate(
         "| API group | Methods | Description |",
         "| --- | ---: | --- |",
         f"| [LADBot modules](ladbot/index.md) | {ladbot_count} | Methods inherited from `lad_framework_base`. |",
-        f"| [Entity extensions](entity.md) | {len(entity_methods)} | Shared helpers available on all entities. |",
-        f"| [Battle Manager](battle_manager.md) | {len(battle_manager_methods)} | Server-side battle lifecycle management. |",
+        f"| [Entity extensions](entity/index.md) | {len(entity_methods)} | Shared helpers available on all entities. |",
+        f"| [Battle Manager](battle_manager/index.md) | {len(battle_manager_methods)} | Server-side battle lifecycle management. |",
     ]
     index.extend(
         [

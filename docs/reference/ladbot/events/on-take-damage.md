@@ -1,0 +1,33 @@
+---
+title: "ENT:OnTakeDamage"
+---
+
+[Back to Events](index.md)
+
+<a id="ent-ontakedamage"></a>
+# `ENT:OnTakeDamage`
+
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
+
+<div class="api-signature" markdown>
+
+```lua
+function ENT:OnTakeDamage(dmg, hitgroup)
+```
+
+</div>
+
+called outside the coroutine
+
+## Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `dmg` | `any` | Not documented. |
+| `hitgroup` | `any` | Not documented. |
+
+## Returns
+
+No return values are documented.
+
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:538</code>.</p>

@@ -1,0 +1,32 @@
+---
+title: "ENT:_LoadSoundtrackDef"
+---
+
+[Back to Soundtrack](index.md)
+
+<a id="ent-loadsoundtrackdef"></a>
+# `ENT:_LoadSoundtrackDef`
+
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+
+<div class="api-signature" markdown>
+
+```lua
+function ENT:_LoadSoundtrackDef(sdFile)
+```
+
+</div>
+
+Loads and caches a soundtrack definition file from data_static. Returns { name, hasEnd } or nil.
+
+## Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `sdFile` | `any` | Not documented. |
+
+## Returns
+
+No return values are documented.
+
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/soundtrack.lua:91</code>.</p>

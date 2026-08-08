@@ -24,6 +24,7 @@ The description uses lines beginning with `---`. Tags use `---@tag`.
 | --- | --- |
 | `---@realm server` | The method is server-only. `client` and `shared` are also accepted. |
 | `---@param name Type description` | Documents an argument. |
+| `---@field argument.key Type description` | Documents a required key accepted by a table argument. Add `?` after the key for an optional field. |
 | `---@return Type name description` | Documents a return value. The name is optional. |
 | `---@internal` | Marks an implementation detail that addon developers should not call. |
 | `---@callback` | Marks a method intended to be overridden by a LADBot. |
@@ -32,6 +33,21 @@ The description uses lines beginning with `---`. Tags use `---@tag`.
 Lua Language Server-compatible `param` and `return` tags are used where
 possible. LADSource-specific tags such as `realm` and `callback` are ignored by
 Lua itself and consumed by the documentation generator.
+
+Table fields are rendered in their own section on the method page. Prefix the
+field name with its argument name so the generator can associate the key with
+the correct table when a method accepts more than one table.
+
+```lua
+--- Configures an attack from an options table.
+---@param options table Attack configuration.
+---@field options.damage number Damage dealt by the attack.
+---@field options.hitDelay? number Delay before the hit becomes active.
+---@field options.ignoreGuard? boolean Whether the attack bypasses guarding.
+function ENT:ConfigureAttack(options)
+    -- Implementation
+end
+```
 
 ## Guidelines
 

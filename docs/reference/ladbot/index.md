@@ -9,31 +9,31 @@ that defines them.
 
 | Module | Methods | Source file |
 | --- | ---: | --- |
-| [AI](ai.md) | 40 | `lua/entities/lad_framework_base/ai.lua` |
-| [Battle](battle.md) | 5 | `lua/entities/lad_framework_base/battle.lua` |
-| [Customization](customization.md) | 6 | `lua/entities/lad_framework_base/customization.lua` |
-| [Dialogue](dialogue.md) | 10 | `lua/entities/lad_framework_base/dialogue.lua` |
-| [Events](events.md) | 45 | `lua/entities/lad_framework_base/events.lua` |
-| [Events Anim](events_anim.md) | 8 | `lua/entities/lad_framework_base/events_anim.lua` |
-| [Face](face.md) | 2 | `lua/entities/lad_framework_base/face.lua` |
-| [Fighter Command](fighter_command.md) | 43 | `lua/entities/lad_framework_base/fighter_command.lua` |
-| [Grab](grab.md) | 18 | `lua/entities/lad_framework_base/grab.lua` |
-| [HACT](hact.md) | 77 | `lua/entities/lad_framework_base/hact.lua` |
-| [Hooks](hooks.md) | 25 | `lua/entities/lad_framework_base/hooks.lua` |
-| [HUD](hud.md) | 27 | `lua/entities/lad_framework_base/hud.lua` |
-| [Inputs](inputs.md) | 13 | `lua/entities/lad_framework_base/inputs.lua` |
-| [Inventory](inventory.md) | 2 | `lua/entities/lad_framework_base/inventory.lua` |
-| [Movement](movement.md) | 5 | `lua/entities/lad_framework_base/movement.lua` |
-| [Moveset](moveset.md) | 42 | `lua/entities/lad_framework_base/moveset.lua` |
-| [Names](names.md) | 2 | `lua/entities/lad_framework_base/names.lua` |
-| [Overrides](overrides.md) | 42 | `lua/entities/lad_framework_base/overrides.lua` |
-| [Prompts](prompts.md) | 2 | `lua/entities/lad_framework_base/prompts.lua` |
-| [Ragdoll](ragdoll.md) | 6 | `lua/entities/lad_framework_base/ragdoll.lua` |
-| [Shared](shared.md) | 37 | `lua/entities/lad_framework_base/shared.lua` |
-| [Soundtrack](soundtrack.md) | 14 | `lua/entities/lad_framework_base/soundtrack.lua` |
-| [Subtitles](subtitles.md) | 1 | `lua/entities/lad_framework_base/subtitles.lua` |
-| [VFX](vfx.md) | 16 | `lua/entities/lad_framework_base/vfx.lua` |
-| [Voicebanks](voicebanks.md) | 6 | `lua/entities/lad_framework_base/voicebanks.lua` |
-| [Weapons](weapons.md) | 30 | `lua/entities/lad_framework_base/weapons.lua` |
+| [AI](ai/index.md) | 40 | `lua/entities/lad_framework_base/ai.lua` |
+| [Battle](battle/index.md) | 5 | `lua/entities/lad_framework_base/battle.lua` |
+| [Customization](customization/index.md) | 6 | `lua/entities/lad_framework_base/customization.lua` |
+| [Dialogue](dialogue/index.md) | 10 | `lua/entities/lad_framework_base/dialogue.lua` |
+| [Events](events/index.md) | 45 | `lua/entities/lad_framework_base/events.lua` |
+| [Events Anim](events_anim/index.md) | 8 | `lua/entities/lad_framework_base/events_anim.lua` |
+| [Face](face/index.md) | 2 | `lua/entities/lad_framework_base/face.lua` |
+| [Fighter Command](fighter_command/index.md) | 43 | `lua/entities/lad_framework_base/fighter_command.lua` |
+| [Grab](grab/index.md) | 18 | `lua/entities/lad_framework_base/grab.lua` |
+| [HACT](hact/index.md) | 77 | `lua/entities/lad_framework_base/hact.lua` |
+| [Hooks](hooks/index.md) | 25 | `lua/entities/lad_framework_base/hooks.lua` |
+| [HUD](hud/index.md) | 27 | `lua/entities/lad_framework_base/hud.lua` |
+| [Inputs](inputs/index.md) | 13 | `lua/entities/lad_framework_base/inputs.lua` |
+| [Inventory](inventory/index.md) | 2 | `lua/entities/lad_framework_base/inventory.lua` |
+| [Movement](movement/index.md) | 5 | `lua/entities/lad_framework_base/movement.lua` |
+| [Moveset](moveset/index.md) | 42 | `lua/entities/lad_framework_base/moveset.lua` |
+| [Names](names/index.md) | 2 | `lua/entities/lad_framework_base/names.lua` |
+| [Overrides](overrides/index.md) | 42 | `lua/entities/lad_framework_base/overrides.lua` |
+| [Prompts](prompts/index.md) | 2 | `lua/entities/lad_framework_base/prompts.lua` |
+| [Ragdoll](ragdoll/index.md) | 6 | `lua/entities/lad_framework_base/ragdoll.lua` |
+| [Shared](shared/index.md) | 37 | `lua/entities/lad_framework_base/shared.lua` |
+| [Soundtrack](soundtrack/index.md) | 14 | `lua/entities/lad_framework_base/soundtrack.lua` |
+| [Subtitles](subtitles/index.md) | 1 | `lua/entities/lad_framework_base/subtitles.lua` |
+| [VFX](vfx/index.md) | 16 | `lua/entities/lad_framework_base/vfx.lua` |
+| [Voicebanks](voicebanks/index.md) | 6 | `lua/entities/lad_framework_base/voicebanks.lua` |
+| [Weapons](weapons/index.md) | 30 | `lua/entities/lad_framework_base/weapons.lua` |
 
 </div>

@@ -1,0 +1,32 @@
+---
+title: "ENT:AntiJuggleEscape"
+---
+
+[Back to Events](index.md)
+
+<a id="ent-antijuggleescape"></a>
+# `ENT:AntiJuggleEscape`
+
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
+
+<div class="api-signature" markdown>
+
+```lua
+function ENT:AntiJuggleEscape(dmgdir)
+```
+
+</div>
+
+*Documentation pending. The signature and source location were generated automatically.*
+
+## Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `dmgdir` | `any` | Not documented. |
+
+## Returns
+
+No return values are documented.
+
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:1321</code>.</p>

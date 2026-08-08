@@ -1,0 +1,34 @@
+---
+title: "ENT:DoAttack"
+---
+
+[Back to Events Anim](index.md)
+
+<a id="ent-doattack"></a>
+# `ENT:DoAttack`
+
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
+
+<div class="api-signature" markdown>
+
+```lua
+function ENT:DoAttack(attack, key, atker)
+```
+
+</div>
+
+*Documentation pending. The signature and source location were generated automatically.*
+
+## Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `attack` | `any` | Not documented. |
+| `key` | `any` | Not documented. |
+| `atker` | `any` | Not documented. |
+
+## Returns
+
+No return values are documented.
+
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events_anim.lua:109</code>.</p>
