@@ -8,7 +8,7 @@ work with the systems exposed by `lad_framework_base`.
 
 <div class="grid cards" markdown>
 
--   :material-rocket-launch: **Getting started**
+-   **Getting started**
 
     ---
 
