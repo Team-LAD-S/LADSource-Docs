@@ -13,11 +13,6 @@ Methods defined in `lua/entities/lad_framework_base/inputs.lua`.
 
 | Method | Summary |
 | --- | --- |
-| [`ENT:_EnsureInputState`](#ent-ensureinputstate) | Documentation pending. |
-| [`ENT:_InputBlocked`](#ent-inputblocked) | Documentation pending. |
-| [`ENT:_ProcessAutoFollowUps`](#ent-processautofollowups) | Documentation pending. |
-| [`ENT:_ProcessHeldInputs`](#ent-processheldinputs) | Documentation pending. |
-| [`ENT:_ProcessQueuedInputs`](#ent-processqueuedinputs) | Documentation pending. |
 | [`ENT:CleanStaleInputs`](#ent-cleanstaleinputs) | Documentation pending. |
 | [`ENT:GetButtonForAction`](#ent-getbuttonforaction) | Documentation pending. |
 | [`ENT:GetInputName`](#ent-getinputname) | Documentation pending. |
@@ -26,143 +21,13 @@ Methods defined in `lua/entities/lad_framework_base/inputs.lua`.
 | [`ENT:HandleMoveInputEdge`](#ent-handlemoveinputedge) | Documentation pending. |
 | [`ENT:ProcessInputQueue`](#ent-processinputqueue) | Documentation pending. |
 | [`ENT:SetupInputVars`](#ent-setupinputvars) | Documentation pending. |
+| [`ENT:_EnsureInputState`](#ent-ensureinputstate) | Documentation pending. |
+| [`ENT:_InputBlocked`](#ent-inputblocked) | Documentation pending. |
+| [`ENT:_ProcessAutoFollowUps`](#ent-processautofollowups) | Documentation pending. |
+| [`ENT:_ProcessHeldInputs`](#ent-processheldinputs) | Documentation pending. |
+| [`ENT:_ProcessQueuedInputs`](#ent-processqueuedinputs) | Documentation pending. |
 
 </div>
-
-<a id="ent-ensureinputstate"></a>
-## `ENT:_EnsureInputState`
-
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
-
-<div class="api-signature" markdown>
-
-```lua
-function ENT:_EnsureInputState()
-```
-
-</div>
-
-*Documentation pending. The signature and source location were generated automatically.*
-
-### Parameters
-
-This method takes no explicit arguments.
-
-### Returns
-
-No return values are documented.
-
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/inputs.lua:257</code>.</p>
-
-<a id="ent-inputblocked"></a>
-## `ENT:_InputBlocked`
-
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
-
-<div class="api-signature" markdown>
-
-```lua
-function ENT:_InputBlocked()
-```
-
-</div>
-
-*Documentation pending. The signature and source location were generated automatically.*
-
-### Parameters
-
-This method takes no explicit arguments.
-
-### Returns
-
-No return values are documented.
-
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/inputs.lua:262</code>.</p>
-
-<a id="ent-processautofollowups"></a>
-## `ENT:_ProcessAutoFollowUps`
-
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
-
-<div class="api-signature" markdown>
-
-```lua
-function ENT:_ProcessAutoFollowUps(ply, now)
-```
-
-</div>
-
-*Documentation pending. The signature and source location were generated automatically.*
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| `ply` | `any` | Not documented. |
-| `now` | `any` | Not documented. |
-
-### Returns
-
-No return values are documented.
-
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/inputs.lua:481</code>.</p>
-
-<a id="ent-processheldinputs"></a>
-## `ENT:_ProcessHeldInputs`
-
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
-
-<div class="api-signature" markdown>
-
-```lua
-function ENT:_ProcessHeldInputs(ply, now)
-```
-
-</div>
-
-*Documentation pending. The signature and source location were generated automatically.*
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| `ply` | `any` | Not documented. |
-| `now` | `any` | Not documented. |
-
-### Returns
-
-No return values are documented.
-
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/inputs.lua:456</code>.</p>
-
-<a id="ent-processqueuedinputs"></a>
-## `ENT:_ProcessQueuedInputs`
-
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
-
-<div class="api-signature" markdown>
-
-```lua
-function ENT:_ProcessQueuedInputs(ply, now, bufferTime)
-```
-
-</div>
-
-*Documentation pending. The signature and source location were generated automatically.*
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| `ply` | `any` | Not documented. |
-| `now` | `any` | Not documented. |
-| `bufferTime` | `any` | Not documented. |
-
-### Returns
-
-No return values are documented.
-
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/inputs.lua:425</code>.</p>
 
 <a id="ent-cleanstaleinputs"></a>
 ## `ENT:CleanStaleInputs`
@@ -378,3 +243,138 @@ function ENT:SetupInputVars(ply)
 No return values are documented.
 
 <p class="api-source">Defined in <code>lua/entities/lad_framework_base/inputs.lua:187</code>.</p>
+
+<a id="ent-ensureinputstate"></a>
+## `ENT:_EnsureInputState`
+
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+
+<div class="api-signature" markdown>
+
+```lua
+function ENT:_EnsureInputState()
+```
+
+</div>
+
+*Documentation pending. The signature and source location were generated automatically.*
+
+### Parameters
+
+This method takes no explicit arguments.
+
+### Returns
+
+No return values are documented.
+
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/inputs.lua:257</code>.</p>
+
+<a id="ent-inputblocked"></a>
+## `ENT:_InputBlocked`
+
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+
+<div class="api-signature" markdown>
+
+```lua
+function ENT:_InputBlocked()
+```
+
+</div>
+
+*Documentation pending. The signature and source location were generated automatically.*
+
+### Parameters
+
+This method takes no explicit arguments.
+
+### Returns
+
+No return values are documented.
+
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/inputs.lua:262</code>.</p>
+
+<a id="ent-processautofollowups"></a>
+## `ENT:_ProcessAutoFollowUps`
+
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+
+<div class="api-signature" markdown>
+
+```lua
+function ENT:_ProcessAutoFollowUps(ply, now)
+```
+
+</div>
+
+*Documentation pending. The signature and source location were generated automatically.*
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `ply` | `any` | Not documented. |
+| `now` | `any` | Not documented. |
+
+### Returns
+
+No return values are documented.
+
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/inputs.lua:481</code>.</p>
+
+<a id="ent-processheldinputs"></a>
+## `ENT:_ProcessHeldInputs`
+
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+
+<div class="api-signature" markdown>
+
+```lua
+function ENT:_ProcessHeldInputs(ply, now)
+```
+
+</div>
+
+*Documentation pending. The signature and source location were generated automatically.*
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `ply` | `any` | Not documented. |
+| `now` | `any` | Not documented. |
+
+### Returns
+
+No return values are documented.
+
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/inputs.lua:456</code>.</p>
+
+<a id="ent-processqueuedinputs"></a>
+## `ENT:_ProcessQueuedInputs`
+
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+
+<div class="api-signature" markdown>
+
+```lua
+function ENT:_ProcessQueuedInputs(ply, now, bufferTime)
+```
+
+</div>
+
+*Documentation pending. The signature and source location were generated automatically.*
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `ply` | `any` | Not documented. |
+| `now` | `any` | Not documented. |
+| `bufferTime` | `any` | Not documented. |
+
+### Returns
+
+No return values are documented.
+
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/inputs.lua:425</code>.</p>

@@ -13,10 +13,6 @@ Methods defined in `lua/entities/lad_framework_base/shared.lua`.
 
 | Method | Summary |
 | --- | --- |
-| [`ENT:_FindVoidRecoveryPos`](#ent-findvoidrecoverypos) | Documentation pending. |
-| [`ENT:_InitDebugText`](#ent-initdebugtext) | Documentation pending. |
-| [`ENT:_InitMaterials`](#ent-initmaterials) | Documentation pending. |
-| [`ENT:_ShouldRecoverFromVoid`](#ent-shouldrecoverfromvoid) | Documentation pending. |
 | [`ENT:BumpAnim`](#ent-bumpanim) | Documentation pending. |
 | [`ENT:CICO`](#ent-cico) | Documentation pending. |
 | [`ENT:CICO`](#ent-cico-1433) | clientside CICO |
@@ -50,110 +46,12 @@ Methods defined in `lua/entities/lad_framework_base/shared.lua`.
 | [`ENT:SetNexbotColor`](#ent-setnexbotcolor) | Documentation pending. |
 | [`ENT:ShouldIgnore`](#ent-shouldignore) | Documentation pending. |
 | [`ENT:UpdateTransmitState`](#ent-updatetransmitstate) | fixes the attachment point bullshit |
+| [`ENT:_FindVoidRecoveryPos`](#ent-findvoidrecoverypos) | Documentation pending. |
+| [`ENT:_InitDebugText`](#ent-initdebugtext) | Documentation pending. |
+| [`ENT:_InitMaterials`](#ent-initmaterials) | Documentation pending. |
+| [`ENT:_ShouldRecoverFromVoid`](#ent-shouldrecoverfromvoid) | Documentation pending. |
 
 </div>
-
-<a id="ent-findvoidrecoverypos"></a>
-## `ENT:_FindVoidRecoveryPos`
-
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
-
-<div class="api-signature" markdown>
-
-```lua
-function ENT:_FindVoidRecoveryPos(origin)
-```
-
-</div>
-
-*Documentation pending. The signature and source location were generated automatically.*
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| `origin` | `any` | Not documented. |
-
-### Returns
-
-No return values are documented.
-
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:636</code>.</p>
-
-<a id="ent-initdebugtext"></a>
-## `ENT:_InitDebugText`
-
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
-
-<div class="api-signature" markdown>
-
-```lua
-function ENT:_InitDebugText()
-```
-
-</div>
-
-*Documentation pending. The signature and source location were generated automatically.*
-
-### Parameters
-
-This method takes no explicit arguments.
-
-### Returns
-
-No return values are documented.
-
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1454</code>.</p>
-
-<a id="ent-initmaterials"></a>
-## `ENT:_InitMaterials`
-
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
-
-<div class="api-signature" markdown>
-
-```lua
-function ENT:_InitMaterials()
-```
-
-</div>
-
-*Documentation pending. The signature and source location were generated automatically.*
-
-### Parameters
-
-This method takes no explicit arguments.
-
-### Returns
-
-No return values are documented.
-
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1488</code>.</p>
-
-<a id="ent-shouldrecoverfromvoid"></a>
-## `ENT:_ShouldRecoverFromVoid`
-
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
-
-<div class="api-signature" markdown>
-
-```lua
-function ENT:_ShouldRecoverFromVoid()
-```
-
-</div>
-
-*Documentation pending. The signature and source location were generated automatically.*
-
-### Parameters
-
-This method takes no explicit arguments.
-
-### Returns
-
-No return values are documented.
-
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:688</code>.</p>
 
 <a id="ent-bumpanim"></a>
 ## `ENT:BumpAnim`
@@ -1027,3 +925,105 @@ This method takes no explicit arguments.
 No return values are documented.
 
 <p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:587</code>.</p>
+
+<a id="ent-findvoidrecoverypos"></a>
+## `ENT:_FindVoidRecoveryPos`
+
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+
+<div class="api-signature" markdown>
+
+```lua
+function ENT:_FindVoidRecoveryPos(origin)
+```
+
+</div>
+
+*Documentation pending. The signature and source location were generated automatically.*
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `origin` | `any` | Not documented. |
+
+### Returns
+
+No return values are documented.
+
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:636</code>.</p>
+
+<a id="ent-initdebugtext"></a>
+## `ENT:_InitDebugText`
+
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+
+<div class="api-signature" markdown>
+
+```lua
+function ENT:_InitDebugText()
+```
+
+</div>
+
+*Documentation pending. The signature and source location were generated automatically.*
+
+### Parameters
+
+This method takes no explicit arguments.
+
+### Returns
+
+No return values are documented.
+
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1454</code>.</p>
+
+<a id="ent-initmaterials"></a>
+## `ENT:_InitMaterials`
+
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+
+<div class="api-signature" markdown>
+
+```lua
+function ENT:_InitMaterials()
+```
+
+</div>
+
+*Documentation pending. The signature and source location were generated automatically.*
+
+### Parameters
+
+This method takes no explicit arguments.
+
+### Returns
+
+No return values are documented.
+
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1488</code>.</p>
+
+<a id="ent-shouldrecoverfromvoid"></a>
+## `ENT:_ShouldRecoverFromVoid`
+
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+
+<div class="api-signature" markdown>
+
+```lua
+function ENT:_ShouldRecoverFromVoid()
+```
+
+</div>
+
+*Documentation pending. The signature and source location were generated automatically.*
+
+### Parameters
+
+This method takes no explicit arguments.
+
+### Returns
+
+No return values are documented.
+
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:688</code>.</p>

@@ -227,6 +227,10 @@ def badge_slug(label: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", label.casefold()).strip("-") or "unknown"
 
 
+def method_sort_key(method: Method) -> tuple[bool, str, int]:
+    return method.internal, method.name.casefold(), method.source_line
+
+
 def render_method(method: Method, repository_url: str, branch: str) -> list[str]:
     output = [
         f'<a id="{method.anchor}"></a>',
@@ -406,7 +410,7 @@ def generate(
     ladbot_modules: list[tuple[Path, list[Method]]] = []
     for path in ordered_source_files(ladbot_source_directory):
         methods = parse_methods(path, source_root)
-        methods.sort(key=lambda method: (method.name.casefold(), method.source_line))
+        methods.sort(key=method_sort_key)
         ladbot_modules.append((path, methods))
         for method in methods:
             record = asdict(method)
@@ -425,7 +429,7 @@ def generate(
         display_receiver="Entity",
         default_realm="shared",
     )
-    entity_methods.sort(key=lambda method: (method.name.casefold(), method.source_line))
+    entity_methods.sort(key=method_sort_key)
     for method in entity_methods:
         record = asdict(method)
         record["api_group"] = "entity"
@@ -453,9 +457,7 @@ def generate(
         display_receiver="BattleManager",
         default_realm="server",
     )
-    battle_manager_methods.sort(
-        key=lambda method: (method.name.casefold(), method.source_line)
-    )
+    battle_manager_methods.sort(key=method_sort_key)
     for method in battle_manager_methods:
         record = asdict(method)
         record["api_group"] = "battle_manager"
@@ -486,15 +488,20 @@ def generate(
         f"**{ladbot_count} methods** were detected across "
         f"**{len(ladbot_modules)} modules**.",
         "",
+        '<div class="api-module-list" markdown>',
+        "",
         "| Module | Methods | Source file |",
         "| --- | ---: | --- |",
     ]
-    for path, methods in ladbot_modules:
+    sorted_ladbot_modules = sorted(
+        ladbot_modules, key=lambda item: module_title(item[0]).casefold()
+    )
+    for path, methods in sorted_ladbot_modules:
         relative = path.relative_to(source_root).as_posix()
         ladbot_index.append(
             f"| [{module_title(path)}]({path.stem}.md) | {len(methods)} | `{relative}` |"
         )
-    ladbot_index.append("")
+    ladbot_index.extend(["", "</div>", ""])
     (ladbot_output_directory / "index.md").write_text(
         "\n".join(ladbot_index), encoding="utf-8", newline="\n"
     )

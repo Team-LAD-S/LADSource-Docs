@@ -1,81 +1,5 @@
 [
   {
-    "name": "_FindVoidRecoveryPos",
-    "display_name": "ENT:_FindVoidRecoveryPos",
-    "signature": "function ENT:_FindVoidRecoveryPos(origin)",
-    "arguments": [
-      "origin"
-    ],
-    "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 636,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [
-      {
-        "name": "origin",
-        "type": "any",
-        "description": ""
-      }
-    ],
-    "returns": [],
-    "internal": true,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-findvoidrecoverypos",
-    "api_group": "ladbot"
-  },
-  {
-    "name": "_InitDebugText",
-    "display_name": "ENT:_InitDebugText",
-    "signature": "function ENT:_InitDebugText()",
-    "arguments": [],
-    "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 1454,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [],
-    "returns": [],
-    "internal": true,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-initdebugtext",
-    "api_group": "ladbot"
-  },
-  {
-    "name": "_InitMaterials",
-    "display_name": "ENT:_InitMaterials",
-    "signature": "function ENT:_InitMaterials()",
-    "arguments": [],
-    "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 1488,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [],
-    "returns": [],
-    "internal": true,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-initmaterials",
-    "api_group": "ladbot"
-  },
-  {
-    "name": "_ShouldRecoverFromVoid",
-    "display_name": "ENT:_ShouldRecoverFromVoid",
-    "signature": "function ENT:_ShouldRecoverFromVoid()",
-    "arguments": [],
-    "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 688,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [],
-    "returns": [],
-    "internal": true,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-shouldrecoverfromvoid",
-    "api_group": "ladbot"
-  },
-  {
     "name": "BumpAnim",
     "display_name": "ENT:BumpAnim",
     "signature": "function ENT:BumpAnim(ent)",
@@ -846,6 +770,82 @@
     "callback": false,
     "deprecated": "",
     "anchor": "ent-updatetransmitstate",
+    "api_group": "ladbot"
+  },
+  {
+    "name": "_FindVoidRecoveryPos",
+    "display_name": "ENT:_FindVoidRecoveryPos",
+    "signature": "function ENT:_FindVoidRecoveryPos(origin)",
+    "arguments": [
+      "origin"
+    ],
+    "source_file": "lua/entities/lad_framework_base/shared.lua",
+    "source_line": 636,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [
+      {
+        "name": "origin",
+        "type": "any",
+        "description": ""
+      }
+    ],
+    "returns": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-findvoidrecoverypos",
+    "api_group": "ladbot"
+  },
+  {
+    "name": "_InitDebugText",
+    "display_name": "ENT:_InitDebugText",
+    "signature": "function ENT:_InitDebugText()",
+    "arguments": [],
+    "source_file": "lua/entities/lad_framework_base/shared.lua",
+    "source_line": 1454,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [],
+    "returns": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-initdebugtext",
+    "api_group": "ladbot"
+  },
+  {
+    "name": "_InitMaterials",
+    "display_name": "ENT:_InitMaterials",
+    "signature": "function ENT:_InitMaterials()",
+    "arguments": [],
+    "source_file": "lua/entities/lad_framework_base/shared.lua",
+    "source_line": 1488,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [],
+    "returns": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-initmaterials",
+    "api_group": "ladbot"
+  },
+  {
+    "name": "_ShouldRecoverFromVoid",
+    "display_name": "ENT:_ShouldRecoverFromVoid",
+    "signature": "function ENT:_ShouldRecoverFromVoid()",
+    "arguments": [],
+    "source_file": "lua/entities/lad_framework_base/shared.lua",
+    "source_line": 688,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [],
+    "returns": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-shouldrecoverfromvoid",
     "api_group": "ladbot"
   },
   {
@@ -1847,23 +1847,6 @@
     "api_group": "ladbot"
   },
   {
-    "name": "_BattleManagerDeathThink",
-    "display_name": "ENT:_BattleManagerDeathThink",
-    "signature": "function ENT:_BattleManagerDeathThink()",
-    "arguments": [],
-    "source_file": "lua/entities/lad_framework_base/battle.lua",
-    "source_line": 163,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [],
-    "returns": [],
-    "internal": true,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-battlemanagerdeaththink",
-    "api_group": "ladbot"
-  },
-  {
     "name": "IsInLongBattle",
     "display_name": "ENT:IsInLongBattle",
     "signature": "function ENT:IsInLongBattle()",
@@ -1971,6 +1954,23 @@
     "callback": false,
     "deprecated": "",
     "anchor": "ent-startdynamicintrobattle",
+    "api_group": "ladbot"
+  },
+  {
+    "name": "_BattleManagerDeathThink",
+    "display_name": "ENT:_BattleManagerDeathThink",
+    "signature": "function ENT:_BattleManagerDeathThink()",
+    "arguments": [],
+    "source_file": "lua/entities/lad_framework_base/battle.lua",
+    "source_line": 163,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [],
+    "returns": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-battlemanagerdeaththink",
     "api_group": "ladbot"
   },
   {
@@ -2955,31 +2955,6 @@
     "api_group": "ladbot"
   },
   {
-    "name": "_PostGrabSyncCombo",
-    "display_name": "ENT:_PostGrabSyncCombo",
-    "signature": "function ENT:_PostGrabSyncCombo(target)",
-    "arguments": [
-      "target"
-    ],
-    "source_file": "lua/entities/lad_framework_base/grab.lua",
-    "source_line": 560,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [
-      {
-        "name": "target",
-        "type": "any",
-        "description": ""
-      }
-    ],
-    "returns": [],
-    "internal": true,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-postgrabsynccombo",
-    "api_group": "ladbot"
-  },
-  {
     "name": "CanMoveGrabbedEntity",
     "display_name": "ENT:CanMoveGrabbedEntity",
     "signature": "function ENT:CanMoveGrabbedEntity(grabber, grabbed, offset)",
@@ -3435,49 +3410,19 @@
     "api_group": "ladbot"
   },
   {
-    "name": "_ApplyMoveAnim",
-    "display_name": "ENT:_ApplyMoveAnim",
-    "signature": "function ENT:_ApplyMoveAnim(move, moveName, capturedGen, nodeAnimRate, AIFaceCycle, startDowned)",
+    "name": "_PostGrabSyncCombo",
+    "display_name": "ENT:_PostGrabSyncCombo",
+    "signature": "function ENT:_PostGrabSyncCombo(target)",
     "arguments": [
-      "move",
-      "moveName",
-      "capturedGen",
-      "nodeAnimRate",
-      "AIFaceCycle",
-      "startDowned"
+      "target"
     ],
-    "source_file": "lua/entities/lad_framework_base/moveset.lua",
-    "source_line": 1529,
+    "source_file": "lua/entities/lad_framework_base/grab.lua",
+    "source_line": 560,
     "description": "",
     "realm": "not documented",
     "parameters": [
       {
-        "name": "move",
-        "type": "any",
-        "description": ""
-      },
-      {
-        "name": "moveName",
-        "type": "any",
-        "description": ""
-      },
-      {
-        "name": "capturedGen",
-        "type": "any",
-        "description": ""
-      },
-      {
-        "name": "nodeAnimRate",
-        "type": "any",
-        "description": ""
-      },
-      {
-        "name": "AIFaceCycle",
-        "type": "any",
-        "description": ""
-      },
-      {
-        "name": "startDowned",
+        "name": "target",
         "type": "any",
         "description": ""
       }
@@ -3486,364 +3431,7 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-applymoveanim",
-    "api_group": "ladbot"
-  },
-  {
-    "name": "_ApplyMoveAnimBlend",
-    "display_name": "ENT:_ApplyMoveAnimBlend",
-    "signature": "function ENT:_ApplyMoveAnimBlend(move, moveName, capturedGen, nodeAnimRate)",
-    "arguments": [
-      "move",
-      "moveName",
-      "capturedGen",
-      "nodeAnimRate"
-    ],
-    "source_file": "lua/entities/lad_framework_base/moveset.lua",
-    "source_line": 1642,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [
-      {
-        "name": "move",
-        "type": "any",
-        "description": ""
-      },
-      {
-        "name": "moveName",
-        "type": "any",
-        "description": ""
-      },
-      {
-        "name": "capturedGen",
-        "type": "any",
-        "description": ""
-      },
-      {
-        "name": "nodeAnimRate",
-        "type": "any",
-        "description": ""
-      }
-    ],
-    "returns": [],
-    "internal": true,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-applymoveanimblend",
-    "api_group": "ladbot"
-  },
-  {
-    "name": "_ApplyMoveLure",
-    "display_name": "ENT:_ApplyMoveLure",
-    "signature": "function ENT:_ApplyMoveLure(move, moveName, capturedGen, nodeAnimRate, syncPos)",
-    "arguments": [
-      "move",
-      "moveName",
-      "capturedGen",
-      "nodeAnimRate",
-      "syncPos"
-    ],
-    "source_file": "lua/entities/lad_framework_base/moveset.lua",
-    "source_line": 1668,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [
-      {
-        "name": "move",
-        "type": "any",
-        "description": ""
-      },
-      {
-        "name": "moveName",
-        "type": "any",
-        "description": ""
-      },
-      {
-        "name": "capturedGen",
-        "type": "any",
-        "description": ""
-      },
-      {
-        "name": "nodeAnimRate",
-        "type": "any",
-        "description": ""
-      },
-      {
-        "name": "syncPos",
-        "type": "any",
-        "description": ""
-      }
-    ],
-    "returns": [],
-    "internal": true,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-applymovelure",
-    "api_group": "ladbot"
-  },
-  {
-    "name": "_ApplyMoveProperties",
-    "display_name": "ENT:_ApplyMoveProperties",
-    "signature": "function ENT:_ApplyMoveProperties(move, moveName, nodeAnimRate)",
-    "arguments": [
-      "move",
-      "moveName",
-      "nodeAnimRate"
-    ],
-    "source_file": "lua/entities/lad_framework_base/moveset.lua",
-    "source_line": 1217,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [
-      {
-        "name": "move",
-        "type": "any",
-        "description": ""
-      },
-      {
-        "name": "moveName",
-        "type": "any",
-        "description": ""
-      },
-      {
-        "name": "nodeAnimRate",
-        "type": "any",
-        "description": ""
-      }
-    ],
-    "returns": [],
-    "internal": true,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-applymoveproperties",
-    "api_group": "ladbot"
-  },
-  {
-    "name": "_ApplyMoveRecoverFast",
-    "display_name": "ENT:_ApplyMoveRecoverFast",
-    "signature": "function ENT:_ApplyMoveRecoverFast(move, moveName, capturedGen)",
-    "arguments": [
-      "move",
-      "moveName",
-      "capturedGen"
-    ],
-    "source_file": "lua/entities/lad_framework_base/moveset.lua",
-    "source_line": 1633,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [
-      {
-        "name": "move",
-        "type": "any",
-        "description": ""
-      },
-      {
-        "name": "moveName",
-        "type": "any",
-        "description": ""
-      },
-      {
-        "name": "capturedGen",
-        "type": "any",
-        "description": ""
-      }
-    ],
-    "returns": [],
-    "internal": true,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-applymoverecoverfast",
-    "api_group": "ladbot"
-  },
-  {
-    "name": "_ApplyMoveSway",
-    "display_name": "ENT:_ApplyMoveSway",
-    "signature": "function ENT:_ApplyMoveSway(move, moveName, capturedGen)",
-    "arguments": [
-      "move",
-      "moveName",
-      "capturedGen"
-    ],
-    "source_file": "lua/entities/lad_framework_base/moveset.lua",
-    "source_line": 1614,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [
-      {
-        "name": "move",
-        "type": "any",
-        "description": ""
-      },
-      {
-        "name": "moveName",
-        "type": "any",
-        "description": ""
-      },
-      {
-        "name": "capturedGen",
-        "type": "any",
-        "description": ""
-      }
-    ],
-    "returns": [],
-    "internal": true,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-applymovesway",
-    "api_group": "ladbot"
-  },
-  {
-    "name": "_ApplyMoveSyncHit",
-    "display_name": "ENT:_ApplyMoveSyncHit",
-    "signature": "function ENT:_ApplyMoveSyncHit(move, syncPos, syncAng)",
-    "arguments": [
-      "move",
-      "syncPos",
-      "syncAng"
-    ],
-    "source_file": "lua/entities/lad_framework_base/moveset.lua",
-    "source_line": 1686,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [
-      {
-        "name": "move",
-        "type": "any",
-        "description": ""
-      },
-      {
-        "name": "syncPos",
-        "type": "any",
-        "description": ""
-      },
-      {
-        "name": "syncAng",
-        "type": "any",
-        "description": ""
-      }
-    ],
-    "returns": [],
-    "internal": true,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-applymovesynchit",
-    "api_group": "ladbot"
-  },
-  {
-    "name": "_ApplyMoveTags",
-    "display_name": "ENT:_ApplyMoveTags",
-    "signature": "function ENT:_ApplyMoveTags(move)",
-    "arguments": [
-      "move"
-    ],
-    "source_file": "lua/entities/lad_framework_base/moveset.lua",
-    "source_line": 1494,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [
-      {
-        "name": "move",
-        "type": "any",
-        "description": ""
-      }
-    ],
-    "returns": [],
-    "internal": true,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-applymovetags",
-    "api_group": "ladbot"
-  },
-  {
-    "name": "_CleanupDynamicSlowDown",
-    "display_name": "ENT:_CleanupDynamicSlowDown",
-    "signature": "function ENT:_CleanupDynamicSlowDown(completed)",
-    "arguments": [
-      "completed"
-    ],
-    "source_file": "lua/entities/lad_framework_base/moveset.lua",
-    "source_line": 1960,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [
-      {
-        "name": "completed",
-        "type": "any",
-        "description": ""
-      }
-    ],
-    "returns": [],
-    "internal": true,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-cleanupdynamicslowdown",
-    "api_group": "ladbot"
-  },
-  {
-    "name": "_CleanupNodeSounds",
-    "display_name": "ENT:_CleanupNodeSounds",
-    "signature": "function ENT:_CleanupNodeSounds(moveName)",
-    "arguments": [
-      "moveName"
-    ],
-    "source_file": "lua/entities/lad_framework_base/moveset.lua",
-    "source_line": 1474,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [
-      {
-        "name": "moveName",
-        "type": "any",
-        "description": ""
-      }
-    ],
-    "returns": [],
-    "internal": true,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-cleanupnodesounds",
-    "api_group": "ladbot"
-  },
-  {
-    "name": "_GetCachedMovesetData",
-    "display_name": "ENT:_GetCachedMovesetData",
-    "signature": "function ENT:_GetCachedMovesetData(ms)",
-    "arguments": [
-      "ms"
-    ],
-    "source_file": "lua/entities/lad_framework_base/moveset.lua",
-    "source_line": 172,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [
-      {
-        "name": "ms",
-        "type": "any",
-        "description": ""
-      }
-    ],
-    "returns": [],
-    "internal": true,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-getcachedmovesetdata",
-    "api_group": "ladbot"
-  },
-  {
-    "name": "_StartDynamicSlowDown",
-    "display_name": "ENT:_StartDynamicSlowDown",
-    "signature": "function ENT:_StartDynamicSlowDown()",
-    "arguments": [],
-    "source_file": "lua/entities/lad_framework_base/moveset.lua",
-    "source_line": 1905,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [],
-    "returns": [],
-    "internal": true,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-startdynamicslowdown",
+    "anchor": "ent-postgrabsynccombo",
     "api_group": "ladbot"
   },
   {
@@ -4593,12 +4181,407 @@
     "api_group": "ladbot"
   },
   {
-    "name": "_EnsureInputState",
-    "display_name": "ENT:_EnsureInputState",
-    "signature": "function ENT:_EnsureInputState()",
+    "name": "_ApplyMoveAnim",
+    "display_name": "ENT:_ApplyMoveAnim",
+    "signature": "function ENT:_ApplyMoveAnim(move, moveName, capturedGen, nodeAnimRate, AIFaceCycle, startDowned)",
+    "arguments": [
+      "move",
+      "moveName",
+      "capturedGen",
+      "nodeAnimRate",
+      "AIFaceCycle",
+      "startDowned"
+    ],
+    "source_file": "lua/entities/lad_framework_base/moveset.lua",
+    "source_line": 1529,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [
+      {
+        "name": "move",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "moveName",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "capturedGen",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "nodeAnimRate",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "AIFaceCycle",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "startDowned",
+        "type": "any",
+        "description": ""
+      }
+    ],
+    "returns": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-applymoveanim",
+    "api_group": "ladbot"
+  },
+  {
+    "name": "_ApplyMoveAnimBlend",
+    "display_name": "ENT:_ApplyMoveAnimBlend",
+    "signature": "function ENT:_ApplyMoveAnimBlend(move, moveName, capturedGen, nodeAnimRate)",
+    "arguments": [
+      "move",
+      "moveName",
+      "capturedGen",
+      "nodeAnimRate"
+    ],
+    "source_file": "lua/entities/lad_framework_base/moveset.lua",
+    "source_line": 1642,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [
+      {
+        "name": "move",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "moveName",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "capturedGen",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "nodeAnimRate",
+        "type": "any",
+        "description": ""
+      }
+    ],
+    "returns": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-applymoveanimblend",
+    "api_group": "ladbot"
+  },
+  {
+    "name": "_ApplyMoveLure",
+    "display_name": "ENT:_ApplyMoveLure",
+    "signature": "function ENT:_ApplyMoveLure(move, moveName, capturedGen, nodeAnimRate, syncPos)",
+    "arguments": [
+      "move",
+      "moveName",
+      "capturedGen",
+      "nodeAnimRate",
+      "syncPos"
+    ],
+    "source_file": "lua/entities/lad_framework_base/moveset.lua",
+    "source_line": 1668,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [
+      {
+        "name": "move",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "moveName",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "capturedGen",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "nodeAnimRate",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "syncPos",
+        "type": "any",
+        "description": ""
+      }
+    ],
+    "returns": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-applymovelure",
+    "api_group": "ladbot"
+  },
+  {
+    "name": "_ApplyMoveProperties",
+    "display_name": "ENT:_ApplyMoveProperties",
+    "signature": "function ENT:_ApplyMoveProperties(move, moveName, nodeAnimRate)",
+    "arguments": [
+      "move",
+      "moveName",
+      "nodeAnimRate"
+    ],
+    "source_file": "lua/entities/lad_framework_base/moveset.lua",
+    "source_line": 1217,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [
+      {
+        "name": "move",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "moveName",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "nodeAnimRate",
+        "type": "any",
+        "description": ""
+      }
+    ],
+    "returns": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-applymoveproperties",
+    "api_group": "ladbot"
+  },
+  {
+    "name": "_ApplyMoveRecoverFast",
+    "display_name": "ENT:_ApplyMoveRecoverFast",
+    "signature": "function ENT:_ApplyMoveRecoverFast(move, moveName, capturedGen)",
+    "arguments": [
+      "move",
+      "moveName",
+      "capturedGen"
+    ],
+    "source_file": "lua/entities/lad_framework_base/moveset.lua",
+    "source_line": 1633,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [
+      {
+        "name": "move",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "moveName",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "capturedGen",
+        "type": "any",
+        "description": ""
+      }
+    ],
+    "returns": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-applymoverecoverfast",
+    "api_group": "ladbot"
+  },
+  {
+    "name": "_ApplyMoveSway",
+    "display_name": "ENT:_ApplyMoveSway",
+    "signature": "function ENT:_ApplyMoveSway(move, moveName, capturedGen)",
+    "arguments": [
+      "move",
+      "moveName",
+      "capturedGen"
+    ],
+    "source_file": "lua/entities/lad_framework_base/moveset.lua",
+    "source_line": 1614,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [
+      {
+        "name": "move",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "moveName",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "capturedGen",
+        "type": "any",
+        "description": ""
+      }
+    ],
+    "returns": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-applymovesway",
+    "api_group": "ladbot"
+  },
+  {
+    "name": "_ApplyMoveSyncHit",
+    "display_name": "ENT:_ApplyMoveSyncHit",
+    "signature": "function ENT:_ApplyMoveSyncHit(move, syncPos, syncAng)",
+    "arguments": [
+      "move",
+      "syncPos",
+      "syncAng"
+    ],
+    "source_file": "lua/entities/lad_framework_base/moveset.lua",
+    "source_line": 1686,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [
+      {
+        "name": "move",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "syncPos",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "syncAng",
+        "type": "any",
+        "description": ""
+      }
+    ],
+    "returns": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-applymovesynchit",
+    "api_group": "ladbot"
+  },
+  {
+    "name": "_ApplyMoveTags",
+    "display_name": "ENT:_ApplyMoveTags",
+    "signature": "function ENT:_ApplyMoveTags(move)",
+    "arguments": [
+      "move"
+    ],
+    "source_file": "lua/entities/lad_framework_base/moveset.lua",
+    "source_line": 1494,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [
+      {
+        "name": "move",
+        "type": "any",
+        "description": ""
+      }
+    ],
+    "returns": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-applymovetags",
+    "api_group": "ladbot"
+  },
+  {
+    "name": "_CleanupDynamicSlowDown",
+    "display_name": "ENT:_CleanupDynamicSlowDown",
+    "signature": "function ENT:_CleanupDynamicSlowDown(completed)",
+    "arguments": [
+      "completed"
+    ],
+    "source_file": "lua/entities/lad_framework_base/moveset.lua",
+    "source_line": 1960,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [
+      {
+        "name": "completed",
+        "type": "any",
+        "description": ""
+      }
+    ],
+    "returns": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-cleanupdynamicslowdown",
+    "api_group": "ladbot"
+  },
+  {
+    "name": "_CleanupNodeSounds",
+    "display_name": "ENT:_CleanupNodeSounds",
+    "signature": "function ENT:_CleanupNodeSounds(moveName)",
+    "arguments": [
+      "moveName"
+    ],
+    "source_file": "lua/entities/lad_framework_base/moveset.lua",
+    "source_line": 1474,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [
+      {
+        "name": "moveName",
+        "type": "any",
+        "description": ""
+      }
+    ],
+    "returns": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-cleanupnodesounds",
+    "api_group": "ladbot"
+  },
+  {
+    "name": "_GetCachedMovesetData",
+    "display_name": "ENT:_GetCachedMovesetData",
+    "signature": "function ENT:_GetCachedMovesetData(ms)",
+    "arguments": [
+      "ms"
+    ],
+    "source_file": "lua/entities/lad_framework_base/moveset.lua",
+    "source_line": 172,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [
+      {
+        "name": "ms",
+        "type": "any",
+        "description": ""
+      }
+    ],
+    "returns": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-getcachedmovesetdata",
+    "api_group": "ladbot"
+  },
+  {
+    "name": "_StartDynamicSlowDown",
+    "display_name": "ENT:_StartDynamicSlowDown",
+    "signature": "function ENT:_StartDynamicSlowDown()",
     "arguments": [],
-    "source_file": "lua/entities/lad_framework_base/inputs.lua",
-    "source_line": 257,
+    "source_file": "lua/entities/lad_framework_base/moveset.lua",
+    "source_line": 1905,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -4606,123 +4589,7 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-ensureinputstate",
-    "api_group": "ladbot"
-  },
-  {
-    "name": "_InputBlocked",
-    "display_name": "ENT:_InputBlocked",
-    "signature": "function ENT:_InputBlocked()",
-    "arguments": [],
-    "source_file": "lua/entities/lad_framework_base/inputs.lua",
-    "source_line": 262,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [],
-    "returns": [],
-    "internal": true,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-inputblocked",
-    "api_group": "ladbot"
-  },
-  {
-    "name": "_ProcessAutoFollowUps",
-    "display_name": "ENT:_ProcessAutoFollowUps",
-    "signature": "function ENT:_ProcessAutoFollowUps(ply, now)",
-    "arguments": [
-      "ply",
-      "now"
-    ],
-    "source_file": "lua/entities/lad_framework_base/inputs.lua",
-    "source_line": 481,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [
-      {
-        "name": "ply",
-        "type": "any",
-        "description": ""
-      },
-      {
-        "name": "now",
-        "type": "any",
-        "description": ""
-      }
-    ],
-    "returns": [],
-    "internal": true,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-processautofollowups",
-    "api_group": "ladbot"
-  },
-  {
-    "name": "_ProcessHeldInputs",
-    "display_name": "ENT:_ProcessHeldInputs",
-    "signature": "function ENT:_ProcessHeldInputs(ply, now)",
-    "arguments": [
-      "ply",
-      "now"
-    ],
-    "source_file": "lua/entities/lad_framework_base/inputs.lua",
-    "source_line": 456,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [
-      {
-        "name": "ply",
-        "type": "any",
-        "description": ""
-      },
-      {
-        "name": "now",
-        "type": "any",
-        "description": ""
-      }
-    ],
-    "returns": [],
-    "internal": true,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-processheldinputs",
-    "api_group": "ladbot"
-  },
-  {
-    "name": "_ProcessQueuedInputs",
-    "display_name": "ENT:_ProcessQueuedInputs",
-    "signature": "function ENT:_ProcessQueuedInputs(ply, now, bufferTime)",
-    "arguments": [
-      "ply",
-      "now",
-      "bufferTime"
-    ],
-    "source_file": "lua/entities/lad_framework_base/inputs.lua",
-    "source_line": 425,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [
-      {
-        "name": "ply",
-        "type": "any",
-        "description": ""
-      },
-      {
-        "name": "now",
-        "type": "any",
-        "description": ""
-      },
-      {
-        "name": "bufferTime",
-        "type": "any",
-        "description": ""
-      }
-    ],
-    "returns": [],
-    "internal": true,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-processqueuedinputs",
+    "anchor": "ent-startdynamicslowdown",
     "api_group": "ladbot"
   },
   {
@@ -4925,6 +4792,139 @@
     "callback": false,
     "deprecated": "",
     "anchor": "ent-setupinputvars",
+    "api_group": "ladbot"
+  },
+  {
+    "name": "_EnsureInputState",
+    "display_name": "ENT:_EnsureInputState",
+    "signature": "function ENT:_EnsureInputState()",
+    "arguments": [],
+    "source_file": "lua/entities/lad_framework_base/inputs.lua",
+    "source_line": 257,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [],
+    "returns": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-ensureinputstate",
+    "api_group": "ladbot"
+  },
+  {
+    "name": "_InputBlocked",
+    "display_name": "ENT:_InputBlocked",
+    "signature": "function ENT:_InputBlocked()",
+    "arguments": [],
+    "source_file": "lua/entities/lad_framework_base/inputs.lua",
+    "source_line": 262,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [],
+    "returns": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-inputblocked",
+    "api_group": "ladbot"
+  },
+  {
+    "name": "_ProcessAutoFollowUps",
+    "display_name": "ENT:_ProcessAutoFollowUps",
+    "signature": "function ENT:_ProcessAutoFollowUps(ply, now)",
+    "arguments": [
+      "ply",
+      "now"
+    ],
+    "source_file": "lua/entities/lad_framework_base/inputs.lua",
+    "source_line": 481,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [
+      {
+        "name": "ply",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "now",
+        "type": "any",
+        "description": ""
+      }
+    ],
+    "returns": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-processautofollowups",
+    "api_group": "ladbot"
+  },
+  {
+    "name": "_ProcessHeldInputs",
+    "display_name": "ENT:_ProcessHeldInputs",
+    "signature": "function ENT:_ProcessHeldInputs(ply, now)",
+    "arguments": [
+      "ply",
+      "now"
+    ],
+    "source_file": "lua/entities/lad_framework_base/inputs.lua",
+    "source_line": 456,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [
+      {
+        "name": "ply",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "now",
+        "type": "any",
+        "description": ""
+      }
+    ],
+    "returns": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-processheldinputs",
+    "api_group": "ladbot"
+  },
+  {
+    "name": "_ProcessQueuedInputs",
+    "display_name": "ENT:_ProcessQueuedInputs",
+    "signature": "function ENT:_ProcessQueuedInputs(ply, now, bufferTime)",
+    "arguments": [
+      "ply",
+      "now",
+      "bufferTime"
+    ],
+    "source_file": "lua/entities/lad_framework_base/inputs.lua",
+    "source_line": 425,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [
+      {
+        "name": "ply",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "now",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "bufferTime",
+        "type": "any",
+        "description": ""
+      }
+    ],
+    "returns": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-processqueuedinputs",
     "api_group": "ladbot"
   },
   {
@@ -7136,141 +7136,6 @@
     "api_group": "ladbot"
   },
   {
-    "name": "_DownedStandup",
-    "display_name": "ENT:_DownedStandup",
-    "signature": "function ENT:_DownedStandup(part, dmg, dmgdir)",
-    "arguments": [
-      "part",
-      "dmg",
-      "dmgdir"
-    ],
-    "source_file": "lua/entities/lad_framework_base/events.lua",
-    "source_line": 2794,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [
-      {
-        "name": "part",
-        "type": "any",
-        "description": ""
-      },
-      {
-        "name": "dmg",
-        "type": "any",
-        "description": ""
-      },
-      {
-        "name": "dmgdir",
-        "type": "any",
-        "description": ""
-      }
-    ],
-    "returns": [],
-    "internal": true,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-downedstandup",
-    "api_group": "ladbot"
-  },
-  {
-    "name": "_HandleDMGAnim",
-    "display_name": "ENT:_HandleDMGAnim",
-    "signature": "function ENT:_HandleDMGAnim(status, anim, dmgdir, dmg, wallbound, wallboundtype, ragcycle, ragdur)",
-    "arguments": [
-      "status",
-      "anim",
-      "dmgdir",
-      "dmg",
-      "wallbound",
-      "wallboundtype",
-      "ragcycle",
-      "ragdur"
-    ],
-    "source_file": "lua/entities/lad_framework_base/events.lua",
-    "source_line": 2631,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [
-      {
-        "name": "status",
-        "type": "any",
-        "description": ""
-      },
-      {
-        "name": "anim",
-        "type": "any",
-        "description": ""
-      },
-      {
-        "name": "dmgdir",
-        "type": "any",
-        "description": ""
-      },
-      {
-        "name": "dmg",
-        "type": "any",
-        "description": ""
-      },
-      {
-        "name": "wallbound",
-        "type": "any",
-        "description": ""
-      },
-      {
-        "name": "wallboundtype",
-        "type": "any",
-        "description": ""
-      },
-      {
-        "name": "ragcycle",
-        "type": "any",
-        "description": ""
-      },
-      {
-        "name": "ragdur",
-        "type": "any",
-        "description": ""
-      }
-    ],
-    "returns": [],
-    "internal": true,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-handledmganim",
-    "api_group": "ladbot"
-  },
-  {
-    "name": "_SwitchWBType",
-    "display_name": "ENT:_SwitchWBType",
-    "signature": "function ENT:_SwitchWBType(wbtype, ragdur)",
-    "arguments": [
-      "wbtype",
-      "ragdur"
-    ],
-    "source_file": "lua/entities/lad_framework_base/events.lua",
-    "source_line": 2448,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [
-      {
-        "name": "wbtype",
-        "type": "any",
-        "description": ""
-      },
-      {
-        "name": "ragdur",
-        "type": "any",
-        "description": ""
-      }
-    ],
-    "returns": [],
-    "internal": true,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-switchwbtype",
-    "api_group": "ladbot"
-  },
-  {
     "name": "AlignToSlope",
     "display_name": "ENT:AlignToSlope",
     "signature": "function ENT:AlignToSlope(reset)",
@@ -8519,6 +8384,183 @@
     "api_group": "ladbot"
   },
   {
+    "name": "_DownedStandup",
+    "display_name": "ENT:_DownedStandup",
+    "signature": "function ENT:_DownedStandup(part, dmg, dmgdir)",
+    "arguments": [
+      "part",
+      "dmg",
+      "dmgdir"
+    ],
+    "source_file": "lua/entities/lad_framework_base/events.lua",
+    "source_line": 2794,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [
+      {
+        "name": "part",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "dmg",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "dmgdir",
+        "type": "any",
+        "description": ""
+      }
+    ],
+    "returns": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-downedstandup",
+    "api_group": "ladbot"
+  },
+  {
+    "name": "_HandleDMGAnim",
+    "display_name": "ENT:_HandleDMGAnim",
+    "signature": "function ENT:_HandleDMGAnim(status, anim, dmgdir, dmg, wallbound, wallboundtype, ragcycle, ragdur)",
+    "arguments": [
+      "status",
+      "anim",
+      "dmgdir",
+      "dmg",
+      "wallbound",
+      "wallboundtype",
+      "ragcycle",
+      "ragdur"
+    ],
+    "source_file": "lua/entities/lad_framework_base/events.lua",
+    "source_line": 2631,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [
+      {
+        "name": "status",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "anim",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "dmgdir",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "dmg",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "wallbound",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "wallboundtype",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "ragcycle",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "ragdur",
+        "type": "any",
+        "description": ""
+      }
+    ],
+    "returns": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-handledmganim",
+    "api_group": "ladbot"
+  },
+  {
+    "name": "_SwitchWBType",
+    "display_name": "ENT:_SwitchWBType",
+    "signature": "function ENT:_SwitchWBType(wbtype, ragdur)",
+    "arguments": [
+      "wbtype",
+      "ragdur"
+    ],
+    "source_file": "lua/entities/lad_framework_base/events.lua",
+    "source_line": 2448,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [
+      {
+        "name": "wbtype",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "ragdur",
+        "type": "any",
+        "description": ""
+      }
+    ],
+    "returns": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-switchwbtype",
+    "api_group": "ladbot"
+  },
+  {
+    "name": "DeathRagdoll",
+    "display_name": "ENT:DeathRagdoll",
+    "signature": "function ENT:DeathRagdoll()",
+    "arguments": [],
+    "source_file": "lua/entities/lad_framework_base/ragdoll.lua",
+    "source_line": 586,
+    "description": "Death ragdoll — spawns a permanent physics ragdoll with per-bone animation\nvelocities so every limb carries the momentum it had at the moment of death.\nOnly active when lad_ragdollmode == 1 (checked at call-site in OnDeath).",
+    "realm": "not documented",
+    "parameters": [],
+    "returns": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-deathragdoll",
+    "api_group": "ladbot"
+  },
+  {
+    "name": "DowningRagdoll",
+    "display_name": "ENT:DowningRagdoll",
+    "signature": "function ENT:DowningRagdoll(ragdoll_time)",
+    "arguments": [
+      "ragdoll_time"
+    ],
+    "source_file": "lua/entities/lad_framework_base/ragdoll.lua",
+    "source_line": 292,
+    "description": "Ragdoll triggered by a downing hit-reaction at a specific animation cycle.\nThe NPC is hidden behind a physics ragdoll for ragdoll_time seconds; it then\nlerps its limbs toward the first frame of the appropriate get-up animation\nand seamlessly transitions back to the NPC standing-up sequence.\nOnly active when lad_ragdollmode == 1.\nCall this from inside your hit-reaction cycle callback — orientation flags\n(DownedFront / DownedBack) must already be set by the time you call it.",
+    "realm": "not documented",
+    "parameters": [
+      {
+        "name": "ragdoll_time",
+        "type": "any",
+        "description": ""
+      }
+    ],
+    "returns": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-downingragdoll",
+    "api_group": "ladbot"
+  },
+  {
     "name": "_GetRootAnimVelocity",
     "display_name": "ENT:_GetRootAnimVelocity",
     "signature": "function ENT:_GetRootAnimVelocity()",
@@ -8598,48 +8640,6 @@
     "callback": false,
     "deprecated": "",
     "anchor": "ent-trackbonevelocities",
-    "api_group": "ladbot"
-  },
-  {
-    "name": "DeathRagdoll",
-    "display_name": "ENT:DeathRagdoll",
-    "signature": "function ENT:DeathRagdoll()",
-    "arguments": [],
-    "source_file": "lua/entities/lad_framework_base/ragdoll.lua",
-    "source_line": 586,
-    "description": "Death ragdoll — spawns a permanent physics ragdoll with per-bone animation\nvelocities so every limb carries the momentum it had at the moment of death.\nOnly active when lad_ragdollmode == 1 (checked at call-site in OnDeath).",
-    "realm": "not documented",
-    "parameters": [],
-    "returns": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-deathragdoll",
-    "api_group": "ladbot"
-  },
-  {
-    "name": "DowningRagdoll",
-    "display_name": "ENT:DowningRagdoll",
-    "signature": "function ENT:DowningRagdoll(ragdoll_time)",
-    "arguments": [
-      "ragdoll_time"
-    ],
-    "source_file": "lua/entities/lad_framework_base/ragdoll.lua",
-    "source_line": 292,
-    "description": "Ragdoll triggered by a downing hit-reaction at a specific animation cycle.\nThe NPC is hidden behind a physics ragdoll for ragdoll_time seconds; it then\nlerps its limbs toward the first frame of the appropriate get-up animation\nand seamlessly transitions back to the NPC standing-up sequence.\nOnly active when lad_ragdollmode == 1.\nCall this from inside your hit-reaction cycle callback — orientation flags\n(DownedFront / DownedBack) must already be set by the time you call it.",
-    "realm": "not documented",
-    "parameters": [
-      {
-        "name": "ragdoll_time",
-        "type": "any",
-        "description": ""
-      }
-    ],
-    "returns": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-downingragdoll",
     "api_group": "ladbot"
   },
   {
@@ -10559,6 +10559,65 @@
     "api_group": "ladbot"
   },
   {
+    "name": "GetActiveSoundtrackData",
+    "display_name": "ENT:GetActiveSoundtrackData",
+    "signature": "function ENT:GetActiveSoundtrackData()",
+    "arguments": [],
+    "source_file": "lua/entities/lad_framework_base/soundtrack.lua",
+    "source_line": 60,
+    "description": "Returns { sdFile, weight } for the active style/moveset, falling back to defaults.\nStyle-ID lookup is primary so temporary weapon/grab movesets do not override music.\nNOTE: SoundTracksByMoveset only accepts numeric style IDs (e.g., [1], [2], [3]).",
+    "realm": "not documented",
+    "parameters": [],
+    "returns": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-getactivesoundtrackdata",
+    "api_group": "ladbot"
+  },
+  {
+    "name": "SoundtrackEarlyStart",
+    "display_name": "ENT:SoundtrackEarlyStart",
+    "signature": "function ENT:SoundtrackEarlyStart(directRecipient)",
+    "arguments": [
+      "directRecipient"
+    ],
+    "source_file": "lua/entities/lad_framework_base/soundtrack.lua",
+    "source_line": 218,
+    "description": "Public API: starts the combat soundtrack early without requiring FighterInCombat to be set.\nPass directRecipient (Player) when the entity is not yet in a battle and not possessed\n(e.g. endless arena boss intro) so the track is delivered to the correct player.",
+    "realm": "not documented",
+    "parameters": [
+      {
+        "name": "directRecipient",
+        "type": "any",
+        "description": ""
+      }
+    ],
+    "returns": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-soundtrackearlystart",
+    "api_group": "ladbot"
+  },
+  {
+    "name": "SoundtrackMovesetUpdate",
+    "display_name": "ENT:SoundtrackMovesetUpdate",
+    "signature": "function ENT:SoundtrackMovesetUpdate()",
+    "arguments": [],
+    "source_file": "lua/entities/lad_framework_base/soundtrack.lua",
+    "source_line": 188,
+    "description": "Checks if the active moveset changed the soundtrack and resends if so.\nCalled from SetFighterMoveset (moveset.lua) after moveset initialises.\nSkips if a temporary weapon/grab moveset is active to avoid glitches during transitions.",
+    "realm": "not documented",
+    "parameters": [],
+    "returns": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-soundtrackmovesetupdate",
+    "api_group": "ladbot"
+  },
+  {
     "name": "_GetSoundtrackRecipients",
     "display_name": "ENT:_GetSoundtrackRecipients",
     "signature": "function ENT:_GetSoundtrackRecipients(selfIgnoreCombat)",
@@ -10812,65 +10871,6 @@
     "api_group": "ladbot"
   },
   {
-    "name": "GetActiveSoundtrackData",
-    "display_name": "ENT:GetActiveSoundtrackData",
-    "signature": "function ENT:GetActiveSoundtrackData()",
-    "arguments": [],
-    "source_file": "lua/entities/lad_framework_base/soundtrack.lua",
-    "source_line": 60,
-    "description": "Returns { sdFile, weight } for the active style/moveset, falling back to defaults.\nStyle-ID lookup is primary so temporary weapon/grab movesets do not override music.\nNOTE: SoundTracksByMoveset only accepts numeric style IDs (e.g., [1], [2], [3]).",
-    "realm": "not documented",
-    "parameters": [],
-    "returns": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-getactivesoundtrackdata",
-    "api_group": "ladbot"
-  },
-  {
-    "name": "SoundtrackEarlyStart",
-    "display_name": "ENT:SoundtrackEarlyStart",
-    "signature": "function ENT:SoundtrackEarlyStart(directRecipient)",
-    "arguments": [
-      "directRecipient"
-    ],
-    "source_file": "lua/entities/lad_framework_base/soundtrack.lua",
-    "source_line": 218,
-    "description": "Public API: starts the combat soundtrack early without requiring FighterInCombat to be set.\nPass directRecipient (Player) when the entity is not yet in a battle and not possessed\n(e.g. endless arena boss intro) so the track is delivered to the correct player.",
-    "realm": "not documented",
-    "parameters": [
-      {
-        "name": "directRecipient",
-        "type": "any",
-        "description": ""
-      }
-    ],
-    "returns": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-soundtrackearlystart",
-    "api_group": "ladbot"
-  },
-  {
-    "name": "SoundtrackMovesetUpdate",
-    "display_name": "ENT:SoundtrackMovesetUpdate",
-    "signature": "function ENT:SoundtrackMovesetUpdate()",
-    "arguments": [],
-    "source_file": "lua/entities/lad_framework_base/soundtrack.lua",
-    "source_line": 188,
-    "description": "Checks if the active moveset changed the soundtrack and resends if so.\nCalled from SetFighterMoveset (moveset.lua) after moveset initialises.\nSkips if a temporary weapon/grab moveset is active to avoid glitches during transitions.",
-    "realm": "not documented",
-    "parameters": [],
-    "returns": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-soundtrackmovesetupdate",
-    "api_group": "ladbot"
-  },
-  {
     "name": "SetCommonFighterName",
     "display_name": "ENT:SetCommonFighterName",
     "signature": "function ENT:SetCommonFighterName()",
@@ -10910,122 +10910,6 @@
     "callback": false,
     "deprecated": "",
     "anchor": "ent-setcustomcommonfightername",
-    "api_group": "ladbot"
-  },
-  {
-    "name": "_BaseInitialize",
-    "display_name": "ENT:_BaseInitialize",
-    "signature": "function ENT:_BaseInitialize()",
-    "arguments": [],
-    "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 137,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [],
-    "returns": [],
-    "internal": true,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-baseinitialize",
-    "api_group": "ladbot"
-  },
-  {
-    "name": "_BaseInitialize",
-    "display_name": "ENT:_BaseInitialize",
-    "signature": "function ENT:_BaseInitialize()",
-    "arguments": [],
-    "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 1910,
-    "description": "_BaseInitialize is an empty stub in DRGBase called after _InitModules() completes,\nso all internal fields (_DrGBaseSequenceEvents etc.) are already set up by the time\nthis runs.  Overriding Initialize() directly would skip _InitModules() entirely.",
-    "realm": "not documented",
-    "parameters": [],
-    "returns": [],
-    "internal": true,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-baseinitialize-1910",
-    "api_group": "ladbot"
-  },
-  {
-    "name": "_HandleLandOnGround",
-    "display_name": "ENT:_HandleLandOnGround",
-    "signature": "function ENT:_HandleLandOnGround()",
-    "arguments": [],
-    "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 592,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [],
-    "returns": [],
-    "internal": true,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-handlelandonground",
-    "api_group": "ladbot"
-  },
-  {
-    "name": "_HandleLeaveGround",
-    "display_name": "ENT:_HandleLeaveGround",
-    "signature": "function ENT:_HandleLeaveGround()",
-    "arguments": [],
-    "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 616,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [],
-    "returns": [],
-    "internal": true,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-handleleaveground",
-    "api_group": "ladbot"
-  },
-  {
-    "name": "_InitModules",
-    "display_name": "ENT:_InitModules",
-    "signature": "function ENT:_InitModules()",
-    "arguments": [],
-    "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 142,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [],
-    "returns": [],
-    "internal": true,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-initmodules",
-    "api_group": "ladbot"
-  },
-  {
-    "name": "_LADDrawBonemergedChild",
-    "display_name": "ENT:_LADDrawBonemergedChild",
-    "signature": "function ENT:_LADDrawBonemergedChild(child, flags)",
-    "arguments": [
-      "child",
-      "flags"
-    ],
-    "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 1858,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [
-      {
-        "name": "child",
-        "type": "any",
-        "description": ""
-      },
-      {
-        "name": "flags",
-        "type": "any",
-        "description": ""
-      }
-    ],
-    "returns": [],
-    "internal": true,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-laddrawbonemergedchild",
     "api_group": "ladbot"
   },
   {
@@ -11926,6 +11810,122 @@
     "callback": false,
     "deprecated": "",
     "anchor": "ent-updateenemy",
+    "api_group": "ladbot"
+  },
+  {
+    "name": "_BaseInitialize",
+    "display_name": "ENT:_BaseInitialize",
+    "signature": "function ENT:_BaseInitialize()",
+    "arguments": [],
+    "source_file": "lua/entities/lad_framework_base/overrides.lua",
+    "source_line": 137,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [],
+    "returns": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-baseinitialize",
+    "api_group": "ladbot"
+  },
+  {
+    "name": "_BaseInitialize",
+    "display_name": "ENT:_BaseInitialize",
+    "signature": "function ENT:_BaseInitialize()",
+    "arguments": [],
+    "source_file": "lua/entities/lad_framework_base/overrides.lua",
+    "source_line": 1910,
+    "description": "_BaseInitialize is an empty stub in DRGBase called after _InitModules() completes,\nso all internal fields (_DrGBaseSequenceEvents etc.) are already set up by the time\nthis runs.  Overriding Initialize() directly would skip _InitModules() entirely.",
+    "realm": "not documented",
+    "parameters": [],
+    "returns": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-baseinitialize-1910",
+    "api_group": "ladbot"
+  },
+  {
+    "name": "_HandleLandOnGround",
+    "display_name": "ENT:_HandleLandOnGround",
+    "signature": "function ENT:_HandleLandOnGround()",
+    "arguments": [],
+    "source_file": "lua/entities/lad_framework_base/overrides.lua",
+    "source_line": 592,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [],
+    "returns": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-handlelandonground",
+    "api_group": "ladbot"
+  },
+  {
+    "name": "_HandleLeaveGround",
+    "display_name": "ENT:_HandleLeaveGround",
+    "signature": "function ENT:_HandleLeaveGround()",
+    "arguments": [],
+    "source_file": "lua/entities/lad_framework_base/overrides.lua",
+    "source_line": 616,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [],
+    "returns": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-handleleaveground",
+    "api_group": "ladbot"
+  },
+  {
+    "name": "_InitModules",
+    "display_name": "ENT:_InitModules",
+    "signature": "function ENT:_InitModules()",
+    "arguments": [],
+    "source_file": "lua/entities/lad_framework_base/overrides.lua",
+    "source_line": 142,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [],
+    "returns": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-initmodules",
+    "api_group": "ladbot"
+  },
+  {
+    "name": "_LADDrawBonemergedChild",
+    "display_name": "ENT:_LADDrawBonemergedChild",
+    "signature": "function ENT:_LADDrawBonemergedChild(child, flags)",
+    "arguments": [
+      "child",
+      "flags"
+    ],
+    "source_file": "lua/entities/lad_framework_base/overrides.lua",
+    "source_line": 1858,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [
+      {
+        "name": "child",
+        "type": "any",
+        "description": ""
+      },
+      {
+        "name": "flags",
+        "type": "any",
+        "description": ""
+      }
+    ],
+    "returns": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-laddrawbonemergedchild",
     "api_group": "ladbot"
   },
   {

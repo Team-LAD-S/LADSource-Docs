@@ -13,6 +13,9 @@ Methods defined in `lua/entities/lad_framework_base/soundtrack.lua`.
 
 | Method | Summary |
 | --- | --- |
+| [`ENT:GetActiveSoundtrackData`](#ent-getactivesoundtrackdata) | Returns { sdFile, weight } for the active style/moveset, falling back to defaults. Style-ID lookup is primary so temporary weapon/grab movesets do not override music. NOTE: SoundTracksByMoveset only accepts numeric style IDs (e.g., [1], [2], [3]). |
+| [`ENT:SoundtrackEarlyStart`](#ent-soundtrackearlystart) | Public API: starts the combat soundtrack early without requiring FighterInCombat to be set. Pass directRecipient (Player) when the entity is not yet in a battle and not possessed (e.g. endless arena boss intro) so the track is delivered to the correct player. |
+| [`ENT:SoundtrackMovesetUpdate`](#ent-soundtrackmovesetupdate) | Checks if the active moveset changed the soundtrack and resends if so. Called from SetFighterMoveset (moveset.lua) after moveset initialises. Skips if a temporary weapon/grab moveset is active to avoid glitches during transitions. |
 | [`ENT:_GetSoundtrackRecipients`](#ent-getsoundtrackrecipients) | Returns a list of all Player recipients for this entity's soundtrack events. Includes own possessor (if possessed and satisfies combatCheck) plus possessors of all other possessed fighters currently in the same battle. selfIgnoreCombat = true skips the FighterInCombat check for self only (used during battle-start anim where FighterInCombat is not yet set). |
 | [`ENT:_LoadSoundtrackDef`](#ent-loadsoundtrackdef) | Loads and caches a soundtrack definition file from data_static. Returns { name, hasEnd } or nil. |
 | [`ENT:_SendSoundtrackStart`](#ent-sendsoundtrackstart) | Sends LAD_SoundtrackStart to all eligible recipients (own possessor and battle allies' possessors). Pass ignoreCombatCheck = true to send before FighterInCombat is set (battle start anim path). Pass skipIntro = true to jump straight to the loop (used on moveset switches mid-combat). Pass waitForIntro = true to defer a moveset switch until the current _start intro finishes. Pass directRecipient (Player) to force-add a specific player when the entity is unpossessed and has no battle yet (e.g. endless boss intro). |
@@ -24,11 +27,91 @@ Methods defined in `lua/entities/lad_framework_base/soundtrack.lua`.
 | [`ENT:_SoundtrackOnDispossessed`](#ent-soundtrackondispossessed) | Called by OnDispossessed in shared.lua (not a public hook) |
 | [`ENT:_SoundtrackOnPossessed`](#ent-soundtrackonpossessed) | Called by OnPossessed in fighter_command.lua (not a public hook) Sends own soundtrack if in combat, then syncs all other battle fighters to the new possessor. |
 | [`ENT:_SoundtrackOnRemove`](#ent-soundtrackonremove) | Called by OnRemove in shared.lua (not a public hook) |
-| [`ENT:GetActiveSoundtrackData`](#ent-getactivesoundtrackdata) | Returns { sdFile, weight } for the active style/moveset, falling back to defaults. Style-ID lookup is primary so temporary weapon/grab movesets do not override music. NOTE: SoundTracksByMoveset only accepts numeric style IDs (e.g., [1], [2], [3]). |
-| [`ENT:SoundtrackEarlyStart`](#ent-soundtrackearlystart) | Public API: starts the combat soundtrack early without requiring FighterInCombat to be set. Pass directRecipient (Player) when the entity is not yet in a battle and not possessed (e.g. endless arena boss intro) so the track is delivered to the correct player. |
-| [`ENT:SoundtrackMovesetUpdate`](#ent-soundtrackmovesetupdate) | Checks if the active moveset changed the soundtrack and resends if so. Called from SetFighterMoveset (moveset.lua) after moveset initialises. Skips if a temporary weapon/grab moveset is active to avoid glitches during transitions. |
 
 </div>
+
+<a id="ent-getactivesoundtrackdata"></a>
+## `ENT:GetActiveSoundtrackData`
+
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
+
+<div class="api-signature" markdown>
+
+```lua
+function ENT:GetActiveSoundtrackData()
+```
+
+</div>
+
+Returns { sdFile, weight } for the active style/moveset, falling back to defaults.
+Style-ID lookup is primary so temporary weapon/grab movesets do not override music.
+NOTE: SoundTracksByMoveset only accepts numeric style IDs (e.g., [1], [2], [3]).
+
+### Parameters
+
+This method takes no explicit arguments.
+
+### Returns
+
+No return values are documented.
+
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/soundtrack.lua:60</code>.</p>
+
+<a id="ent-soundtrackearlystart"></a>
+## `ENT:SoundtrackEarlyStart`
+
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
+
+<div class="api-signature" markdown>
+
+```lua
+function ENT:SoundtrackEarlyStart(directRecipient)
+```
+
+</div>
+
+Public API: starts the combat soundtrack early without requiring FighterInCombat to be set.
+Pass directRecipient (Player) when the entity is not yet in a battle and not possessed
+(e.g. endless arena boss intro) so the track is delivered to the correct player.
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `directRecipient` | `any` | Not documented. |
+
+### Returns
+
+No return values are documented.
+
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/soundtrack.lua:218</code>.</p>
+
+<a id="ent-soundtrackmovesetupdate"></a>
+## `ENT:SoundtrackMovesetUpdate`
+
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
+
+<div class="api-signature" markdown>
+
+```lua
+function ENT:SoundtrackMovesetUpdate()
+```
+
+</div>
+
+Checks if the active moveset changed the soundtrack and resends if so.
+Called from SetFighterMoveset (moveset.lua) after moveset initialises.
+Skips if a temporary weapon/grab moveset is active to avoid glitches during transitions.
+
+### Parameters
+
+This method takes no explicit arguments.
+
+### Returns
+
+No return values are documented.
+
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/soundtrack.lua:188</code>.</p>
 
 <a id="ent-getsoundtrackrecipients"></a>
 ## `ENT:_GetSoundtrackRecipients`
@@ -332,86 +415,3 @@ This method takes no explicit arguments.
 No return values are documented.
 
 <p class="api-source">Defined in <code>lua/entities/lad_framework_base/soundtrack.lua:348</code>.</p>
-
-<a id="ent-getactivesoundtrackdata"></a>
-## `ENT:GetActiveSoundtrackData`
-
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
-
-<div class="api-signature" markdown>
-
-```lua
-function ENT:GetActiveSoundtrackData()
-```
-
-</div>
-
-Returns { sdFile, weight } for the active style/moveset, falling back to defaults.
-Style-ID lookup is primary so temporary weapon/grab movesets do not override music.
-NOTE: SoundTracksByMoveset only accepts numeric style IDs (e.g., [1], [2], [3]).
-
-### Parameters
-
-This method takes no explicit arguments.
-
-### Returns
-
-No return values are documented.
-
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/soundtrack.lua:60</code>.</p>
-
-<a id="ent-soundtrackearlystart"></a>
-## `ENT:SoundtrackEarlyStart`
-
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
-
-<div class="api-signature" markdown>
-
-```lua
-function ENT:SoundtrackEarlyStart(directRecipient)
-```
-
-</div>
-
-Public API: starts the combat soundtrack early without requiring FighterInCombat to be set.
-Pass directRecipient (Player) when the entity is not yet in a battle and not possessed
-(e.g. endless arena boss intro) so the track is delivered to the correct player.
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| `directRecipient` | `any` | Not documented. |
-
-### Returns
-
-No return values are documented.
-
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/soundtrack.lua:218</code>.</p>
-
-<a id="ent-soundtrackmovesetupdate"></a>
-## `ENT:SoundtrackMovesetUpdate`
-
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
-
-<div class="api-signature" markdown>
-
-```lua
-function ENT:SoundtrackMovesetUpdate()
-```
-
-</div>
-
-Checks if the active moveset changed the soundtrack and resends if so.
-Called from SetFighterMoveset (moveset.lua) after moveset initialises.
-Skips if a temporary weapon/grab moveset is active to avoid glitches during transitions.
-
-### Parameters
-
-This method takes no explicit arguments.
-
-### Returns
-
-No return values are documented.
-
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/soundtrack.lua:188</code>.</p>

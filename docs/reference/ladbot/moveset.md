@@ -13,18 +13,6 @@ Methods defined in `lua/entities/lad_framework_base/moveset.lua`.
 
 | Method | Summary |
 | --- | --- |
-| [`ENT:_ApplyMoveAnim`](#ent-applymoveanim) | Documentation pending. |
-| [`ENT:_ApplyMoveAnimBlend`](#ent-applymoveanimblend) | Documentation pending. |
-| [`ENT:_ApplyMoveLure`](#ent-applymovelure) | Documentation pending. |
-| [`ENT:_ApplyMoveProperties`](#ent-applymoveproperties) | Documentation pending. |
-| [`ENT:_ApplyMoveRecoverFast`](#ent-applymoverecoverfast) | Documentation pending. |
-| [`ENT:_ApplyMoveSway`](#ent-applymovesway) | Documentation pending. |
-| [`ENT:_ApplyMoveSyncHit`](#ent-applymovesynchit) | Documentation pending. |
-| [`ENT:_ApplyMoveTags`](#ent-applymovetags) | Documentation pending. |
-| [`ENT:_CleanupDynamicSlowDown`](#ent-cleanupdynamicslowdown) | Documentation pending. |
-| [`ENT:_CleanupNodeSounds`](#ent-cleanupnodesounds) | Documentation pending. |
-| [`ENT:_GetCachedMovesetData`](#ent-getcachedmovesetdata) | Documentation pending. |
-| [`ENT:_StartDynamicSlowDown`](#ent-startdynamicslowdown) | Documentation pending. |
 | [`ENT:AddUpgrade`](#ent-addupgrade) | Documentation pending. |
 | [`ENT:CacheNodeFollowUps`](#ent-cachenodefollowups) | Documentation pending. |
 | [`ENT:CheckConditions`](#ent-checkconditions) | Documentation pending. |
@@ -55,350 +43,20 @@ Methods defined in `lua/entities/lad_framework_base/moveset.lua`.
 | [`ENT:SetFighterMoveset`](#ent-setfightermoveset) | Documentation pending. |
 | [`ENT:SetNextMoveNode`](#ent-setnextmovenode) | Documentation pending. |
 | [`ENT:SwayNoded`](#ent-swaynoded) | Documentation pending. |
+| [`ENT:_ApplyMoveAnim`](#ent-applymoveanim) | Documentation pending. |
+| [`ENT:_ApplyMoveAnimBlend`](#ent-applymoveanimblend) | Documentation pending. |
+| [`ENT:_ApplyMoveLure`](#ent-applymovelure) | Documentation pending. |
+| [`ENT:_ApplyMoveProperties`](#ent-applymoveproperties) | Documentation pending. |
+| [`ENT:_ApplyMoveRecoverFast`](#ent-applymoverecoverfast) | Documentation pending. |
+| [`ENT:_ApplyMoveSway`](#ent-applymovesway) | Documentation pending. |
+| [`ENT:_ApplyMoveSyncHit`](#ent-applymovesynchit) | Documentation pending. |
+| [`ENT:_ApplyMoveTags`](#ent-applymovetags) | Documentation pending. |
+| [`ENT:_CleanupDynamicSlowDown`](#ent-cleanupdynamicslowdown) | Documentation pending. |
+| [`ENT:_CleanupNodeSounds`](#ent-cleanupnodesounds) | Documentation pending. |
+| [`ENT:_GetCachedMovesetData`](#ent-getcachedmovesetdata) | Documentation pending. |
+| [`ENT:_StartDynamicSlowDown`](#ent-startdynamicslowdown) | Documentation pending. |
 
 </div>
-
-<a id="ent-applymoveanim"></a>
-## `ENT:_ApplyMoveAnim`
-
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
-
-<div class="api-signature" markdown>
-
-```lua
-function ENT:_ApplyMoveAnim(move, moveName, capturedGen, nodeAnimRate, AIFaceCycle, startDowned)
-```
-
-</div>
-
-*Documentation pending. The signature and source location were generated automatically.*
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| `move` | `any` | Not documented. |
-| `moveName` | `any` | Not documented. |
-| `capturedGen` | `any` | Not documented. |
-| `nodeAnimRate` | `any` | Not documented. |
-| `AIFaceCycle` | `any` | Not documented. |
-| `startDowned` | `any` | Not documented. |
-
-### Returns
-
-No return values are documented.
-
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1529</code>.</p>
-
-<a id="ent-applymoveanimblend"></a>
-## `ENT:_ApplyMoveAnimBlend`
-
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
-
-<div class="api-signature" markdown>
-
-```lua
-function ENT:_ApplyMoveAnimBlend(move, moveName, capturedGen, nodeAnimRate)
-```
-
-</div>
-
-*Documentation pending. The signature and source location were generated automatically.*
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| `move` | `any` | Not documented. |
-| `moveName` | `any` | Not documented. |
-| `capturedGen` | `any` | Not documented. |
-| `nodeAnimRate` | `any` | Not documented. |
-
-### Returns
-
-No return values are documented.
-
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1642</code>.</p>
-
-<a id="ent-applymovelure"></a>
-## `ENT:_ApplyMoveLure`
-
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
-
-<div class="api-signature" markdown>
-
-```lua
-function ENT:_ApplyMoveLure(move, moveName, capturedGen, nodeAnimRate, syncPos)
-```
-
-</div>
-
-*Documentation pending. The signature and source location were generated automatically.*
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| `move` | `any` | Not documented. |
-| `moveName` | `any` | Not documented. |
-| `capturedGen` | `any` | Not documented. |
-| `nodeAnimRate` | `any` | Not documented. |
-| `syncPos` | `any` | Not documented. |
-
-### Returns
-
-No return values are documented.
-
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1668</code>.</p>
-
-<a id="ent-applymoveproperties"></a>
-## `ENT:_ApplyMoveProperties`
-
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
-
-<div class="api-signature" markdown>
-
-```lua
-function ENT:_ApplyMoveProperties(move, moveName, nodeAnimRate)
-```
-
-</div>
-
-*Documentation pending. The signature and source location were generated automatically.*
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| `move` | `any` | Not documented. |
-| `moveName` | `any` | Not documented. |
-| `nodeAnimRate` | `any` | Not documented. |
-
-### Returns
-
-No return values are documented.
-
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1217</code>.</p>
-
-<a id="ent-applymoverecoverfast"></a>
-## `ENT:_ApplyMoveRecoverFast`
-
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
-
-<div class="api-signature" markdown>
-
-```lua
-function ENT:_ApplyMoveRecoverFast(move, moveName, capturedGen)
-```
-
-</div>
-
-*Documentation pending. The signature and source location were generated automatically.*
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| `move` | `any` | Not documented. |
-| `moveName` | `any` | Not documented. |
-| `capturedGen` | `any` | Not documented. |
-
-### Returns
-
-No return values are documented.
-
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1633</code>.</p>
-
-<a id="ent-applymovesway"></a>
-## `ENT:_ApplyMoveSway`
-
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
-
-<div class="api-signature" markdown>
-
-```lua
-function ENT:_ApplyMoveSway(move, moveName, capturedGen)
-```
-
-</div>
-
-*Documentation pending. The signature and source location were generated automatically.*
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| `move` | `any` | Not documented. |
-| `moveName` | `any` | Not documented. |
-| `capturedGen` | `any` | Not documented. |
-
-### Returns
-
-No return values are documented.
-
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1614</code>.</p>
-
-<a id="ent-applymovesynchit"></a>
-## `ENT:_ApplyMoveSyncHit`
-
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
-
-<div class="api-signature" markdown>
-
-```lua
-function ENT:_ApplyMoveSyncHit(move, syncPos, syncAng)
-```
-
-</div>
-
-*Documentation pending. The signature and source location were generated automatically.*
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| `move` | `any` | Not documented. |
-| `syncPos` | `any` | Not documented. |
-| `syncAng` | `any` | Not documented. |
-
-### Returns
-
-No return values are documented.
-
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1686</code>.</p>
-
-<a id="ent-applymovetags"></a>
-## `ENT:_ApplyMoveTags`
-
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
-
-<div class="api-signature" markdown>
-
-```lua
-function ENT:_ApplyMoveTags(move)
-```
-
-</div>
-
-*Documentation pending. The signature and source location were generated automatically.*
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| `move` | `any` | Not documented. |
-
-### Returns
-
-No return values are documented.
-
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1494</code>.</p>
-
-<a id="ent-cleanupdynamicslowdown"></a>
-## `ENT:_CleanupDynamicSlowDown`
-
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
-
-<div class="api-signature" markdown>
-
-```lua
-function ENT:_CleanupDynamicSlowDown(completed)
-```
-
-</div>
-
-*Documentation pending. The signature and source location were generated automatically.*
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| `completed` | `any` | Not documented. |
-
-### Returns
-
-No return values are documented.
-
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1960</code>.</p>
-
-<a id="ent-cleanupnodesounds"></a>
-## `ENT:_CleanupNodeSounds`
-
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
-
-<div class="api-signature" markdown>
-
-```lua
-function ENT:_CleanupNodeSounds(moveName)
-```
-
-</div>
-
-*Documentation pending. The signature and source location were generated automatically.*
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| `moveName` | `any` | Not documented. |
-
-### Returns
-
-No return values are documented.
-
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1474</code>.</p>
-
-<a id="ent-getcachedmovesetdata"></a>
-## `ENT:_GetCachedMovesetData`
-
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
-
-<div class="api-signature" markdown>
-
-```lua
-function ENT:_GetCachedMovesetData(ms)
-```
-
-</div>
-
-*Documentation pending. The signature and source location were generated automatically.*
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| `ms` | `any` | Not documented. |
-
-### Returns
-
-No return values are documented.
-
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:172</code>.</p>
-
-<a id="ent-startdynamicslowdown"></a>
-## `ENT:_StartDynamicSlowDown`
-
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
-
-<div class="api-signature" markdown>
-
-```lua
-function ENT:_StartDynamicSlowDown()
-```
-
-</div>
-
-*Documentation pending. The signature and source location were generated automatically.*
-
-### Parameters
-
-This method takes no explicit arguments.
-
-### Returns
-
-No return values are documented.
-
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1905</code>.</p>
 
 <a id="ent-addupgrade"></a>
 ## `ENT:AddUpgrade`
@@ -1201,3 +859,345 @@ function ENT:SwayNoded(tbl, animOptions)
 No return values are documented.
 
 <p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:2086</code>.</p>
+
+<a id="ent-applymoveanim"></a>
+## `ENT:_ApplyMoveAnim`
+
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+
+<div class="api-signature" markdown>
+
+```lua
+function ENT:_ApplyMoveAnim(move, moveName, capturedGen, nodeAnimRate, AIFaceCycle, startDowned)
+```
+
+</div>
+
+*Documentation pending. The signature and source location were generated automatically.*
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `move` | `any` | Not documented. |
+| `moveName` | `any` | Not documented. |
+| `capturedGen` | `any` | Not documented. |
+| `nodeAnimRate` | `any` | Not documented. |
+| `AIFaceCycle` | `any` | Not documented. |
+| `startDowned` | `any` | Not documented. |
+
+### Returns
+
+No return values are documented.
+
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1529</code>.</p>
+
+<a id="ent-applymoveanimblend"></a>
+## `ENT:_ApplyMoveAnimBlend`
+
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+
+<div class="api-signature" markdown>
+
+```lua
+function ENT:_ApplyMoveAnimBlend(move, moveName, capturedGen, nodeAnimRate)
+```
+
+</div>
+
+*Documentation pending. The signature and source location were generated automatically.*
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `move` | `any` | Not documented. |
+| `moveName` | `any` | Not documented. |
+| `capturedGen` | `any` | Not documented. |
+| `nodeAnimRate` | `any` | Not documented. |
+
+### Returns
+
+No return values are documented.
+
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1642</code>.</p>
+
+<a id="ent-applymovelure"></a>
+## `ENT:_ApplyMoveLure`
+
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+
+<div class="api-signature" markdown>
+
+```lua
+function ENT:_ApplyMoveLure(move, moveName, capturedGen, nodeAnimRate, syncPos)
+```
+
+</div>
+
+*Documentation pending. The signature and source location were generated automatically.*
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `move` | `any` | Not documented. |
+| `moveName` | `any` | Not documented. |
+| `capturedGen` | `any` | Not documented. |
+| `nodeAnimRate` | `any` | Not documented. |
+| `syncPos` | `any` | Not documented. |
+
+### Returns
+
+No return values are documented.
+
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1668</code>.</p>
+
+<a id="ent-applymoveproperties"></a>
+## `ENT:_ApplyMoveProperties`
+
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+
+<div class="api-signature" markdown>
+
+```lua
+function ENT:_ApplyMoveProperties(move, moveName, nodeAnimRate)
+```
+
+</div>
+
+*Documentation pending. The signature and source location were generated automatically.*
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `move` | `any` | Not documented. |
+| `moveName` | `any` | Not documented. |
+| `nodeAnimRate` | `any` | Not documented. |
+
+### Returns
+
+No return values are documented.
+
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1217</code>.</p>
+
+<a id="ent-applymoverecoverfast"></a>
+## `ENT:_ApplyMoveRecoverFast`
+
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+
+<div class="api-signature" markdown>
+
+```lua
+function ENT:_ApplyMoveRecoverFast(move, moveName, capturedGen)
+```
+
+</div>
+
+*Documentation pending. The signature and source location were generated automatically.*
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `move` | `any` | Not documented. |
+| `moveName` | `any` | Not documented. |
+| `capturedGen` | `any` | Not documented. |
+
+### Returns
+
+No return values are documented.
+
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1633</code>.</p>
+
+<a id="ent-applymovesway"></a>
+## `ENT:_ApplyMoveSway`
+
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+
+<div class="api-signature" markdown>
+
+```lua
+function ENT:_ApplyMoveSway(move, moveName, capturedGen)
+```
+
+</div>
+
+*Documentation pending. The signature and source location were generated automatically.*
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `move` | `any` | Not documented. |
+| `moveName` | `any` | Not documented. |
+| `capturedGen` | `any` | Not documented. |
+
+### Returns
+
+No return values are documented.
+
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1614</code>.</p>
+
+<a id="ent-applymovesynchit"></a>
+## `ENT:_ApplyMoveSyncHit`
+
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+
+<div class="api-signature" markdown>
+
+```lua
+function ENT:_ApplyMoveSyncHit(move, syncPos, syncAng)
+```
+
+</div>
+
+*Documentation pending. The signature and source location were generated automatically.*
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `move` | `any` | Not documented. |
+| `syncPos` | `any` | Not documented. |
+| `syncAng` | `any` | Not documented. |
+
+### Returns
+
+No return values are documented.
+
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1686</code>.</p>
+
+<a id="ent-applymovetags"></a>
+## `ENT:_ApplyMoveTags`
+
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+
+<div class="api-signature" markdown>
+
+```lua
+function ENT:_ApplyMoveTags(move)
+```
+
+</div>
+
+*Documentation pending. The signature and source location were generated automatically.*
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `move` | `any` | Not documented. |
+
+### Returns
+
+No return values are documented.
+
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1494</code>.</p>
+
+<a id="ent-cleanupdynamicslowdown"></a>
+## `ENT:_CleanupDynamicSlowDown`
+
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+
+<div class="api-signature" markdown>
+
+```lua
+function ENT:_CleanupDynamicSlowDown(completed)
+```
+
+</div>
+
+*Documentation pending. The signature and source location were generated automatically.*
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `completed` | `any` | Not documented. |
+
+### Returns
+
+No return values are documented.
+
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1960</code>.</p>
+
+<a id="ent-cleanupnodesounds"></a>
+## `ENT:_CleanupNodeSounds`
+
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+
+<div class="api-signature" markdown>
+
+```lua
+function ENT:_CleanupNodeSounds(moveName)
+```
+
+</div>
+
+*Documentation pending. The signature and source location were generated automatically.*
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `moveName` | `any` | Not documented. |
+
+### Returns
+
+No return values are documented.
+
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1474</code>.</p>
+
+<a id="ent-getcachedmovesetdata"></a>
+## `ENT:_GetCachedMovesetData`
+
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+
+<div class="api-signature" markdown>
+
+```lua
+function ENT:_GetCachedMovesetData(ms)
+```
+
+</div>
+
+*Documentation pending. The signature and source location were generated automatically.*
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `ms` | `any` | Not documented. |
+
+### Returns
+
+No return values are documented.
+
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:172</code>.</p>
+
+<a id="ent-startdynamicslowdown"></a>
+## `ENT:_StartDynamicSlowDown`
+
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+
+<div class="api-signature" markdown>
+
+```lua
+function ENT:_StartDynamicSlowDown()
+```
+
+</div>
+
+*Documentation pending. The signature and source location were generated automatically.*
+
+### Parameters
+
+This method takes no explicit arguments.
+
+### Returns
+
+No return values are documented.
+
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1905</code>.</p>

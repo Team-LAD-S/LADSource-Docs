@@ -13,12 +13,6 @@ Methods defined in `lua/entities/lad_framework_base/overrides.lua`.
 
 | Method | Summary |
 | --- | --- |
-| [`ENT:_BaseInitialize`](#ent-baseinitialize) | Documentation pending. |
-| [`ENT:_BaseInitialize`](#ent-baseinitialize-1910) | _BaseInitialize is an empty stub in DRGBase called after _InitModules() completes, so all internal fields (_DrGBaseSequenceEvents etc.) are already set up by the time this runs.  Overriding Initialize() directly would skip _InitModules() entirely. |
-| [`ENT:_HandleLandOnGround`](#ent-handlelandonground) | Documentation pending. |
-| [`ENT:_HandleLeaveGround`](#ent-handleleaveground) | Documentation pending. |
-| [`ENT:_InitModules`](#ent-initmodules) | Documentation pending. |
-| [`ENT:_LADDrawBonemergedChild`](#ent-laddrawbonemergedchild) | Documentation pending. |
 | [`ENT:ApplyAttackDamage`](#ent-applyattackdamage) | Documentation pending. |
 | [`ENT:Approach`](#ent-approach) | Documentation pending. |
 | [`ENT:Attack`](#ent-attack) | filters downed people |
@@ -55,163 +49,14 @@ Methods defined in `lua/entities/lad_framework_base/overrides.lua`.
 | [`ENT:Think`](#ent-think) | ENT:Think() override (source: drgbase_nextbot/shared.lua) Eliminates 10-12 redundant CurTime() C calls per tick by caching one value at the top. In the medium-delay block, reuses self._DrGBaseWaterLevel (already maintained at 20Hz by the short-delay block) instead of calling WaterLevel() a second time per 0.1s interval. |
 | [`ENT:UpdateAnimation`](#ent-updateanimation) | Documentation pending. |
 | [`ENT:UpdateEnemy`](#ent-updateenemy) | Documentation pending. |
+| [`ENT:_BaseInitialize`](#ent-baseinitialize) | Documentation pending. |
+| [`ENT:_BaseInitialize`](#ent-baseinitialize-1910) | _BaseInitialize is an empty stub in DRGBase called after _InitModules() completes, so all internal fields (_DrGBaseSequenceEvents etc.) are already set up by the time this runs.  Overriding Initialize() directly would skip _InitModules() entirely. |
+| [`ENT:_HandleLandOnGround`](#ent-handlelandonground) | Documentation pending. |
+| [`ENT:_HandleLeaveGround`](#ent-handleleaveground) | Documentation pending. |
+| [`ENT:_InitModules`](#ent-initmodules) | Documentation pending. |
+| [`ENT:_LADDrawBonemergedChild`](#ent-laddrawbonemergedchild) | Documentation pending. |
 
 </div>
-
-<a id="ent-baseinitialize"></a>
-## `ENT:_BaseInitialize`
-
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
-
-<div class="api-signature" markdown>
-
-```lua
-function ENT:_BaseInitialize()
-```
-
-</div>
-
-*Documentation pending. The signature and source location were generated automatically.*
-
-### Parameters
-
-This method takes no explicit arguments.
-
-### Returns
-
-No return values are documented.
-
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/overrides.lua:137</code>.</p>
-
-<a id="ent-baseinitialize-1910"></a>
-## `ENT:_BaseInitialize`
-
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
-
-<div class="api-signature" markdown>
-
-```lua
-function ENT:_BaseInitialize()
-```
-
-</div>
-
-_BaseInitialize is an empty stub in DRGBase called after _InitModules() completes,
-so all internal fields (_DrGBaseSequenceEvents etc.) are already set up by the time
-this runs.  Overriding Initialize() directly would skip _InitModules() entirely.
-
-### Parameters
-
-This method takes no explicit arguments.
-
-### Returns
-
-No return values are documented.
-
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/overrides.lua:1910</code>.</p>
-
-<a id="ent-handlelandonground"></a>
-## `ENT:_HandleLandOnGround`
-
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
-
-<div class="api-signature" markdown>
-
-```lua
-function ENT:_HandleLandOnGround()
-```
-
-</div>
-
-*Documentation pending. The signature and source location were generated automatically.*
-
-### Parameters
-
-This method takes no explicit arguments.
-
-### Returns
-
-No return values are documented.
-
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/overrides.lua:592</code>.</p>
-
-<a id="ent-handleleaveground"></a>
-## `ENT:_HandleLeaveGround`
-
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
-
-<div class="api-signature" markdown>
-
-```lua
-function ENT:_HandleLeaveGround()
-```
-
-</div>
-
-*Documentation pending. The signature and source location were generated automatically.*
-
-### Parameters
-
-This method takes no explicit arguments.
-
-### Returns
-
-No return values are documented.
-
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/overrides.lua:616</code>.</p>
-
-<a id="ent-initmodules"></a>
-## `ENT:_InitModules`
-
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
-
-<div class="api-signature" markdown>
-
-```lua
-function ENT:_InitModules()
-```
-
-</div>
-
-*Documentation pending. The signature and source location were generated automatically.*
-
-### Parameters
-
-This method takes no explicit arguments.
-
-### Returns
-
-No return values are documented.
-
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/overrides.lua:142</code>.</p>
-
-<a id="ent-laddrawbonemergedchild"></a>
-## `ENT:_LADDrawBonemergedChild`
-
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
-
-<div class="api-signature" markdown>
-
-```lua
-function ENT:_LADDrawBonemergedChild(child, flags)
-```
-
-</div>
-
-*Documentation pending. The signature and source location were generated automatically.*
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| `child` | `any` | Not documented. |
-| `flags` | `any` | Not documented. |
-
-### Returns
-
-No return values are documented.
-
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/overrides.lua:1858</code>.</p>
 
 <a id="ent-applyattackdamage"></a>
 ## `ENT:ApplyAttackDamage`
@@ -1178,3 +1023,158 @@ This method takes no explicit arguments.
 No return values are documented.
 
 <p class="api-source">Defined in <code>lua/entities/lad_framework_base/overrides.lua:1747</code>.</p>
+
+<a id="ent-baseinitialize"></a>
+## `ENT:_BaseInitialize`
+
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+
+<div class="api-signature" markdown>
+
+```lua
+function ENT:_BaseInitialize()
+```
+
+</div>
+
+*Documentation pending. The signature and source location were generated automatically.*
+
+### Parameters
+
+This method takes no explicit arguments.
+
+### Returns
+
+No return values are documented.
+
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/overrides.lua:137</code>.</p>
+
+<a id="ent-baseinitialize-1910"></a>
+## `ENT:_BaseInitialize`
+
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+
+<div class="api-signature" markdown>
+
+```lua
+function ENT:_BaseInitialize()
+```
+
+</div>
+
+_BaseInitialize is an empty stub in DRGBase called after _InitModules() completes,
+so all internal fields (_DrGBaseSequenceEvents etc.) are already set up by the time
+this runs.  Overriding Initialize() directly would skip _InitModules() entirely.
+
+### Parameters
+
+This method takes no explicit arguments.
+
+### Returns
+
+No return values are documented.
+
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/overrides.lua:1910</code>.</p>
+
+<a id="ent-handlelandonground"></a>
+## `ENT:_HandleLandOnGround`
+
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+
+<div class="api-signature" markdown>
+
+```lua
+function ENT:_HandleLandOnGround()
+```
+
+</div>
+
+*Documentation pending. The signature and source location were generated automatically.*
+
+### Parameters
+
+This method takes no explicit arguments.
+
+### Returns
+
+No return values are documented.
+
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/overrides.lua:592</code>.</p>
+
+<a id="ent-handleleaveground"></a>
+## `ENT:_HandleLeaveGround`
+
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+
+<div class="api-signature" markdown>
+
+```lua
+function ENT:_HandleLeaveGround()
+```
+
+</div>
+
+*Documentation pending. The signature and source location were generated automatically.*
+
+### Parameters
+
+This method takes no explicit arguments.
+
+### Returns
+
+No return values are documented.
+
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/overrides.lua:616</code>.</p>
+
+<a id="ent-initmodules"></a>
+## `ENT:_InitModules`
+
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+
+<div class="api-signature" markdown>
+
+```lua
+function ENT:_InitModules()
+```
+
+</div>
+
+*Documentation pending. The signature and source location were generated automatically.*
+
+### Parameters
+
+This method takes no explicit arguments.
+
+### Returns
+
+No return values are documented.
+
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/overrides.lua:142</code>.</p>
+
+<a id="ent-laddrawbonemergedchild"></a>
+## `ENT:_LADDrawBonemergedChild`
+
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+
+<div class="api-signature" markdown>
+
+```lua
+function ENT:_LADDrawBonemergedChild(child, flags)
+```
+
+</div>
+
+*Documentation pending. The signature and source location were generated automatically.*
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `child` | `any` | Not documented. |
+| `flags` | `any` | Not documented. |
+
+### Returns
+
+No return values are documented.
+
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/overrides.lua:1858</code>.</p>

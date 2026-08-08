@@ -13,38 +13,13 @@ Methods defined in `lua/entities/lad_framework_base/battle.lua`.
 
 | Method | Summary |
 | --- | --- |
-| [`ENT:_BattleManagerDeathThink`](#ent-battlemanagerdeaththink) | Documentation pending. |
 | [`ENT:IsInLongBattle`](#ent-isinlongbattle) | Documentation pending. |
 | [`ENT:PlayBattleStartAnim`](#ent-playbattlestartanim) | Documentation pending. |
 | [`ENT:StartBattle`](#ent-startbattle) | Documentation pending. |
 | [`ENT:StartDynamicIntroBattle`](#ent-startdynamicintrobattle) | Documentation pending. |
+| [`ENT:_BattleManagerDeathThink`](#ent-battlemanagerdeaththink) | Documentation pending. |
 
 </div>
-
-<a id="ent-battlemanagerdeaththink"></a>
-## `ENT:_BattleManagerDeathThink`
-
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
-
-<div class="api-signature" markdown>
-
-```lua
-function ENT:_BattleManagerDeathThink()
-```
-
-</div>
-
-*Documentation pending. The signature and source location were generated automatically.*
-
-### Parameters
-
-This method takes no explicit arguments.
-
-### Returns
-
-No return values are documented.
-
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/battle.lua:163</code>.</p>
 
 <a id="ent-isinlongbattle"></a>
 ## `ENT:IsInLongBattle`
@@ -154,3 +129,28 @@ function ENT:StartDynamicIntroBattle(target, skipEarlySoundtrack)
 No return values are documented.
 
 <p class="api-source">Defined in <code>lua/entities/lad_framework_base/battle.lua:136</code>.</p>
+
+<a id="ent-battlemanagerdeaththink"></a>
+## `ENT:_BattleManagerDeathThink`
+
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+
+<div class="api-signature" markdown>
+
+```lua
+function ENT:_BattleManagerDeathThink()
+```
+
+</div>
+
+*Documentation pending. The signature and source location were generated automatically.*
+
+### Parameters
+
+This method takes no explicit arguments.
+
+### Returns
+
+No return values are documented.
+
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/battle.lua:163</code>.</p>

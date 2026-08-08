@@ -13,7 +13,6 @@ Methods defined in `lua/entities/lad_framework_base/grab.lua`.
 
 | Method | Summary |
 | --- | --- |
-| [`ENT:_PostGrabSyncCombo`](#ent-postgrabsynccombo) | Documentation pending. |
 | [`ENT:CanMoveGrabbedEntity`](#ent-canmovegrabbedentity) | check if the grabbed entity can be moved to the desired position |
 | [`ENT:CanMoveInGrab`](#ent-canmoveingrab) | Documentation pending. |
 | [`ENT:GetGrabDirection`](#ent-getgrabdirection) | Documentation pending. |
@@ -31,35 +30,9 @@ Methods defined in `lua/entities/lad_framework_base/grab.lua`.
 | [`ENT:SwitchGrabDir`](#ent-switchgrabdir) | Documentation pending. |
 | [`ENT:TransitionGrabMoveset`](#ent-transitiongrabmoveset) | Documentation pending. |
 | [`ENT:TryGrab`](#ent-trygrab) | Documentation pending. |
+| [`ENT:_PostGrabSyncCombo`](#ent-postgrabsynccombo) | Documentation pending. |
 
 </div>
-
-<a id="ent-postgrabsynccombo"></a>
-## `ENT:_PostGrabSyncCombo`
-
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
-
-<div class="api-signature" markdown>
-
-```lua
-function ENT:_PostGrabSyncCombo(target)
-```
-
-</div>
-
-*Documentation pending. The signature and source location were generated automatically.*
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| `target` | `any` | Not documented. |
-
-### Returns
-
-No return values are documented.
-
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/grab.lua:560</code>.</p>
 
 <a id="ent-canmovegrabbedentity"></a>
 ## `ENT:CanMoveGrabbedEntity`
@@ -520,3 +493,30 @@ function ENT:TryGrab(ent, dmg)
 No return values are documented.
 
 <p class="api-source">Defined in <code>lua/entities/lad_framework_base/grab.lua:72</code>.</p>
+
+<a id="ent-postgrabsynccombo"></a>
+## `ENT:_PostGrabSyncCombo`
+
+<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+
+<div class="api-signature" markdown>
+
+```lua
+function ENT:_PostGrabSyncCombo(target)
+```
+
+</div>
+
+*Documentation pending. The signature and source location were generated automatically.*
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `target` | `any` | Not documented. |
+
+### Returns
+
+No return values are documented.
+
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/grab.lua:560</code>.</p>

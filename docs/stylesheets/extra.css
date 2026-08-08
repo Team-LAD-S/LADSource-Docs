@@ -107,3 +107,39 @@
 .api-method-list td:first-child {
   width: 1%;
 }
+
+.api-sort-button {
+  align-items: center;
+  color: inherit;
+  cursor: pointer;
+  display: flex;
+  font: inherit;
+  font-weight: 700;
+  gap: 0.35rem;
+  text-align: left;
+  width: 100%;
+}
+
+.api-sort-button::after {
+  content: "↕";
+  opacity: 0.45;
+}
+
+.api-module-list th:nth-child(2) .api-sort-button {
+  justify-content: flex-end;
+}
+
+.api-module-list th[aria-sort="ascending"] .api-sort-button::after {
+  content: "↑";
+  opacity: 1;
+}
+
+.api-module-list th[aria-sort="descending"] .api-sort-button::after {
+  content: "↓";
+  opacity: 1;
+}
+
+.api-sort-button:hover,
+.api-sort-button:focus-visible {
+  color: var(--md-accent-fg-color);
+}
