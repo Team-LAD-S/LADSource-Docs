@@ -21,9 +21,13 @@ function ENT:GetUpgrade(upgrade)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `upgrade` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `upgrade` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

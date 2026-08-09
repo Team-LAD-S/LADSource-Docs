@@ -21,16 +21,20 @@ gargantuan ass
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `event` | `any` | Not documented. |
-| `time` | `any` | Not documented. |
-| `cycle` | `any` | Not documented. |
-| `_` | `any` | Not documented. |
-| `key` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `event` | `any` | Yes | Not documented. |
+| `time` | `any` | Yes | Not documented. |
+| `cycle` | `any` | Yes | Not documented. |
+| `_` | `any` | Yes | Not documented. |
+| `key` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events_anim.lua:613</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events_anim.lua:654</code>.</p>

@@ -21,11 +21,15 @@ function ENT:AIManageBravery(enemy, cof, ftype)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `enemy` | `any` | Not documented. |
-| `cof` | `any` | Not documented. |
-| `ftype` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `enemy` | `any` | Yes | Not documented. |
+| `cof` | `any` | Yes | Not documented. |
+| `ftype` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

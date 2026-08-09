@@ -21,11 +21,15 @@ function ENT:DispatchParticleTrails(move, moveName, animSeq)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `move` | `any` | Not documented. |
-| `moveName` | `any` | Not documented. |
-| `animSeq` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `move` | `any` | Yes | Not documented. |
+| `moveName` | `any` | Yes | Not documented. |
+| `animSeq` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

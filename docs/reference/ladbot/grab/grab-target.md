@@ -21,12 +21,16 @@ function ENT:GrabTarget(target, grab, dmg, dmgdir)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `target` | `any` | Not documented. |
-| `grab` | `any` | Not documented. |
-| `dmg` | `any` | Not documented. |
-| `dmgdir` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `target` | `any` | Yes | Not documented. |
+| `grab` | `any` | Yes | Not documented. |
+| `dmg` | `any` | Yes | Not documented. |
+| `dmgdir` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

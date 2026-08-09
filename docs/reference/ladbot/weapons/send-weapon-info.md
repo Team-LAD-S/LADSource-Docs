@@ -21,10 +21,14 @@ function ENT:SendWeaponInfo(weapon, slot)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `weapon` | `any` | Not documented. |
-| `slot` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `weapon` | `any` | Yes | Not documented. |
+| `slot` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

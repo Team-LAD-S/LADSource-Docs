@@ -15,6 +15,7 @@
         "name": "ent",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -44,6 +45,7 @@
         "name": "callback",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -73,6 +75,7 @@
         "name": "callback",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -228,42 +231,49 @@
         "name": "origin",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "direction",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "angle",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "range",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "segments",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "duration",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "color",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -313,6 +323,7 @@
         "name": "prop",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -343,12 +354,14 @@
         "name": "type",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "id",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -378,6 +391,7 @@
         "name": "funcs",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -407,6 +421,7 @@
         "name": "enemy",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -436,6 +451,7 @@
         "name": "enemy",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -465,6 +481,7 @@
         "name": "ent",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -494,6 +511,7 @@
         "name": "ply",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -524,12 +542,14 @@
         "name": "dmg",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "hitgroup",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -560,12 +580,14 @@
         "name": "dmg",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "hitgroup",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -615,6 +637,7 @@
         "name": "pos",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -644,6 +667,7 @@
         "name": "pos",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -673,6 +697,7 @@
         "name": "pos",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -763,12 +788,14 @@
         "name": "dmg",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "hitgroup",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -798,6 +825,7 @@
         "name": "anim",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -867,6 +895,7 @@
         "name": "ent",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -916,6 +945,7 @@
         "name": "origin",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -1025,6 +1055,7 @@
         "name": "enemy",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -1074,6 +1105,7 @@
         "name": "enemy",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -1103,6 +1135,7 @@
         "name": "enemy",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -1132,6 +1165,7 @@
         "name": "enemy",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -1161,6 +1195,7 @@
         "name": "enemy",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -1190,6 +1225,7 @@
         "name": "enemy",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -1219,6 +1255,7 @@
         "name": "enemy",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -1248,6 +1285,7 @@
         "name": "enemy",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -1277,6 +1315,7 @@
         "name": "enemy",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -1306,6 +1345,7 @@
         "name": "enemy",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -1355,6 +1395,7 @@
         "name": "enemy",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -1384,6 +1425,7 @@
         "name": "enemy",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -1413,6 +1455,7 @@
         "name": "enemy",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -1462,6 +1505,7 @@
         "name": "enemy",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -1491,6 +1535,7 @@
         "name": "enemy",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -1521,12 +1566,14 @@
         "name": "enemy",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "ftype",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -1558,18 +1605,21 @@
         "name": "enemy",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "cof",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "ftype",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -1601,18 +1651,21 @@
         "name": "enemy",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "cof",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "ftype",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -1662,6 +1715,7 @@
         "name": "nodeType",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -1691,6 +1745,7 @@
         "name": "door",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -1722,18 +1777,21 @@
         "name": "enemy",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "mincof",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "cof",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -1784,12 +1842,14 @@
         "name": "enemy",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "cof",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -1819,6 +1879,7 @@
         "name": "enemy",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -1848,6 +1909,7 @@
         "name": "enemy",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -1877,6 +1939,7 @@
         "name": "radius",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -1906,6 +1969,7 @@
         "name": "enemy",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -1977,18 +2041,21 @@
         "name": "pos",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "tolerance",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "callback",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -2020,18 +2087,21 @@
         "name": "pos",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "tolerance",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "callback",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -2061,6 +2131,7 @@
         "name": "enemy",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -2131,12 +2202,14 @@
         "name": "min",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "max",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -2188,18 +2261,21 @@
         "name": "cam",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "target",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "fov",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -2229,6 +2305,7 @@
         "name": "target",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -2259,12 +2336,14 @@
         "name": "target",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "skipEarlySoundtrack",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -2315,12 +2394,14 @@
         "name": "target",
         "type": "ent",
         "description": "Snaps to whoever activates combat",
+        "optional": false,
         "fields": []
       },
       {
         "name": "skipanim",
         "type": "boolean",
         "description": "Whether to skip the battle-start animation.",
+        "optional": false,
         "fields": []
       }
     ],
@@ -2351,12 +2432,14 @@
         "name": "time",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "pwr",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -2527,12 +2610,14 @@
         "name": "deduct",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "radius",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -2562,6 +2647,7 @@
         "name": "door",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -2591,6 +2677,7 @@
         "name": "dirSnapshot",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -2680,6 +2767,7 @@
         "name": "isAI",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -2729,6 +2817,7 @@
         "name": "door",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -2759,12 +2848,14 @@
         "name": "ent",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "halfAngleDeg",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -2797,24 +2888,28 @@
         "name": "amplitude",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "frequency",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "duration",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "radius",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -2864,6 +2959,7 @@
         "name": "enemy",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -2893,6 +2989,7 @@
         "name": "ply",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -2922,6 +3019,7 @@
         "name": "enemy",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -3011,6 +3109,7 @@
         "name": "hold",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -3060,6 +3159,7 @@
         "name": "value",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -3089,6 +3189,7 @@
         "name": "pwr",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -3198,6 +3299,7 @@
         "name": "value",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -3231,30 +3333,35 @@
         "name": "combat",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "walk",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "run",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "idle",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "guard",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -3345,12 +3452,14 @@
         "name": "id",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "force",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -3383,24 +3492,28 @@
         "name": "id",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "force",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "onSuccess",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "retryDelay",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -3430,6 +3543,7 @@
         "name": "ha",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -3461,18 +3575,21 @@
         "name": "grabber",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "grabbed",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "offset",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -3585,24 +3702,28 @@
         "name": "anim",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "data",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "animrate",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "AIFaceEnemyCycle",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -3652,6 +3773,7 @@
         "name": "hact",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -3682,12 +3804,14 @@
         "name": "anim",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "offset",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -3718,12 +3842,14 @@
         "name": "anim",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "offset",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -3756,24 +3882,28 @@
         "name": "target",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "grab",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "dmg",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "dmgdir",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -3803,6 +3933,7 @@
         "name": "target",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -3832,6 +3963,7 @@
         "name": "target",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -3861,6 +3993,7 @@
         "name": "target",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -3912,18 +4045,21 @@
         "name": "newGrabMovesetName",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "syncAnim",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "syncOffset",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -3954,12 +4090,14 @@
         "name": "ent",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "dmg",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -3989,6 +4127,7 @@
         "name": "target",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -4018,6 +4157,7 @@
         "name": "upgrade",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -4047,6 +4187,7 @@
         "name": "secondaryMoveTable",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -4078,18 +4219,21 @@
         "name": "conditions",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "ply",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "input",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -4199,6 +4343,7 @@
         "name": "moveToExecute",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -4229,12 +4374,14 @@
         "name": "moveName",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "options",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -4265,12 +4412,14 @@
         "name": "input",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "ply",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -4420,6 +4569,7 @@
         "name": "ply",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -4450,12 +4600,14 @@
         "name": "direction",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "nextbot",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -4485,6 +4637,7 @@
         "name": "upgrade",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -4514,6 +4667,7 @@
         "name": "ms",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -4563,6 +4717,7 @@
         "name": "ms",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -4593,12 +4748,14 @@
         "name": "tbl",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "animOptions",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -4628,6 +4785,7 @@
         "name": "moveName",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -4657,6 +4815,7 @@
         "name": "tbl",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -4687,12 +4846,14 @@
         "name": "fromMove",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "capturedGen",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -4722,6 +4883,7 @@
         "name": "busy",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -4757,42 +4919,49 @@
         "name": "ms",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "hasSwitched",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "isWeaponMoveset",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "isHiddenWeapon",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "stool",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "grabsync",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "skipSwitchAnim",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -4822,6 +4991,7 @@
         "name": "nodeName",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -4852,12 +5022,14 @@
         "name": "tbl",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "animOptions",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -4892,36 +5064,42 @@
         "name": "move",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "moveName",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "capturedGen",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "nodeAnimRate",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "AIFaceCycle",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "startDowned",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -4954,24 +5132,28 @@
         "name": "move",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "moveName",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "capturedGen",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "nodeAnimRate",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -5005,30 +5187,35 @@
         "name": "move",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "moveName",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "capturedGen",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "nodeAnimRate",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "syncPos",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -5060,18 +5247,21 @@
         "name": "move",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "moveName",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "nodeAnimRate",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -5103,18 +5293,21 @@
         "name": "move",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "moveName",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "capturedGen",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -5146,18 +5339,21 @@
         "name": "move",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "moveName",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "capturedGen",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -5189,18 +5385,21 @@
         "name": "move",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "syncPos",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "syncAng",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -5230,6 +5429,7 @@
         "name": "move",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -5259,6 +5459,7 @@
         "name": "completed",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -5288,6 +5489,7 @@
         "name": "moveName",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -5317,6 +5519,7 @@
         "name": "ms",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -5367,12 +5570,14 @@
         "name": "now",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "bufferTime",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -5402,6 +5607,7 @@
         "name": "actionName",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -5431,6 +5637,7 @@
         "name": "button",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -5461,12 +5668,14 @@
         "name": "ply",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "button",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -5497,12 +5706,14 @@
         "name": "ply",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "button",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -5572,6 +5783,7 @@
         "name": "ply",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -5642,12 +5854,14 @@
         "name": "ply",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "now",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -5678,12 +5892,14 @@
         "name": "ply",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "now",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -5715,18 +5931,21 @@
         "name": "ply",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "now",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "bufferTime",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -5776,6 +5995,7 @@
         "name": "ladderNormal",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -5828,24 +6048,28 @@
         "name": "f",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "b",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "r",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "l",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -5896,12 +6120,14 @@
         "name": "partType",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "model",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -5933,18 +6159,21 @@
         "name": "cosmetic",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "model",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "scale",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -5980,42 +6209,49 @@
         "name": "mdl",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "scale",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "attachment",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "pos",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "ang",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "noFade",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "threshold",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -6046,12 +6282,14 @@
         "name": "strength",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "direction",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -6141,6 +6379,7 @@
         "name": "var",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -6191,12 +6430,14 @@
         "name": "curhactOrRadius",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "maxWallDist",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -6226,6 +6467,7 @@
         "name": "duration",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -6255,6 +6497,7 @@
         "name": "curhact",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -6284,6 +6527,7 @@
         "name": "var",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -6333,6 +6577,7 @@
         "name": "suppressEvents",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -6387,36 +6632,42 @@
         "name": "hact",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "subjects",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "ding",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "resetPos",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "executedManually",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "qte",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -6447,12 +6698,14 @@
         "name": "searchRadius",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "maxWallDist",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -6484,18 +6737,21 @@
         "name": "origin",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "bbMin",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "bbMax",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -6528,24 +6784,28 @@
         "name": "subjects",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "curhactOrRadius",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "wallCandidate",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "maxWallDist",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -6656,12 +6916,14 @@
         "name": "curhactOrRadius",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "maxWallDist",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -6692,12 +6954,14 @@
         "name": "curhactOrRadius",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "maxWallDist",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -6747,6 +7011,7 @@
         "name": "cameraAnims",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -6797,12 +7062,14 @@
         "name": "frameProgression",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "index",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -6872,6 +7139,7 @@
         "name": "heat",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -7122,12 +7390,14 @@
         "name": "curhact",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "wallReference",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -7158,12 +7428,14 @@
         "name": "curhact",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "subjects",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -7213,6 +7485,7 @@
         "name": "id",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -7242,6 +7515,7 @@
         "name": "hact",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -7273,18 +7547,21 @@
         "name": "targetFOV",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "startFrame",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "endFrame",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -7314,6 +7591,7 @@
         "name": "time",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -7363,6 +7641,7 @@
         "name": "ent",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -7412,6 +7691,7 @@
         "name": "key",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -7461,6 +7741,7 @@
         "name": "key",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -7490,6 +7771,7 @@
         "name": "enemy",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -7520,12 +7802,14 @@
         "name": "path",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "volume",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -7556,12 +7840,14 @@
         "name": "hact",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "subjects",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -7592,12 +7878,14 @@
         "name": "hyperarmor",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "anim",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -7629,18 +7917,21 @@
         "name": "offset",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "wallReference",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "faceAwayFromWall",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -7674,30 +7965,35 @@
         "name": "bridgeEntry",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "cameraDataPath",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "cameraFOVOptions",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "frameProgressionPath",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "fov",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -7747,6 +8043,7 @@
         "name": "frame",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -7776,6 +8073,7 @@
         "name": "duration",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -7826,12 +8124,14 @@
         "name": "entry",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "track",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -7892,72 +8192,84 @@
         "name": "ply",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "ent",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "subjects",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "hactcam",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "fov",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "fps",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "dontHideEnts",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "smoothReturn",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "cameraAxisOffset",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "cameraDataPath",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "cameraFOVOptions",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "frameProgressionPath",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -7987,6 +8299,7 @@
         "name": "id",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -8016,6 +8329,7 @@
         "name": "var",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -8047,18 +8361,21 @@
         "name": "bridgeName",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "bridgeEntry",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "animName",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -8088,6 +8405,7 @@
         "name": "path",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -8177,6 +8495,7 @@
         "name": "frameOverride",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -8226,6 +8545,7 @@
         "name": "frame",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -8296,12 +8616,14 @@
         "name": "color",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "turnOn",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -8331,6 +8653,7 @@
         "name": "reset",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -8360,6 +8683,7 @@
         "name": "dmgdir",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -8413,30 +8737,35 @@
         "name": "cond",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "dmg",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "dmgdir",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "bypassFlinch",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "damageOverride",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -8510,30 +8839,35 @@
         "name": "mdl",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "attach",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "pos",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "ang",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "skin",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -8567,30 +8901,35 @@
         "name": "event",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "_",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "_",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "_",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "key",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -8621,12 +8960,14 @@
         "name": "ent",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "dmg",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -8657,12 +8998,14 @@
         "name": "dmg",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "legacy",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -8713,12 +9056,14 @@
         "name": "str",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "fatal",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -8748,6 +9093,7 @@
         "name": "obj",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -8777,6 +9123,7 @@
         "name": "dmg",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -8850,30 +9197,35 @@
         "name": "event",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "_",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "_",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "_",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "key",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -8904,12 +9256,14 @@
         "name": "dmg",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "attacker",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -8940,12 +9294,14 @@
         "name": "ent",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "dmg",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -8976,12 +9332,14 @@
         "name": "ent",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "dmg",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -9013,18 +9371,21 @@
         "name": "dmg",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "delay",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "hitgroup",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -9135,12 +9496,14 @@
         "name": "dmg",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "hitgroup",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -9172,18 +9535,21 @@
         "name": "str",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "bodypart",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "bodyrng",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -9215,18 +9581,21 @@
         "name": "cond",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "dmg",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "dmgdir",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -9257,12 +9626,14 @@
         "name": "dmg",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "dmgdir",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -9301,60 +9672,70 @@
         "name": "ent",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "sync",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "sync1",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "offset",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "ang",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "CanWallboundSync1",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "grabswitch",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "noENTreset",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "ragcycle",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "ragdur",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -9386,18 +9767,21 @@
         "name": "cond",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "dmg",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "damageOverride",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -9450,24 +9834,28 @@
         "name": "anim",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "dmg",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "ragcycle",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "ragdur",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -9517,6 +9905,7 @@
         "name": "key",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -9546,6 +9935,7 @@
         "name": "key",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -9575,6 +9965,7 @@
         "name": "solid",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -9604,6 +9995,7 @@
         "name": "ent",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -9633,6 +10025,7 @@
         "name": "ent",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -9662,6 +10055,7 @@
         "name": "str",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -9692,12 +10086,14 @@
         "name": "damage",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "type",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -9731,30 +10127,35 @@
         "name": "ent",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "defcond",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "stuncond",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "mult",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "dmg",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -9786,18 +10187,21 @@
         "name": "part",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "dmg",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "dmgdir",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -9834,48 +10238,56 @@
         "name": "status",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "anim",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "dmgdir",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "dmg",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "wallbound",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "wallboundtype",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "ragcycle",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "ragdur",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -9906,12 +10318,14 @@
         "name": "wbtype",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "ragdur",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -9961,6 +10375,7 @@
         "name": "ragdoll_time",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -10011,12 +10426,14 @@
         "name": "hitPos",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "impulse",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -10080,26 +10497,246 @@
       "atker"
     ],
     "source_file": "lua/entities/lad_framework_base/events_anim.lua",
-    "source_line": 109,
-    "description": "",
-    "realm": "not documented",
+    "source_line": 150,
+    "description": "Runs the attack code, also internally passes information to ENT:Attack(attack, callback, attacker) function from Overrides module.",
+    "realm": "server",
     "parameters": [
       {
         "name": "attack",
-        "type": "any",
-        "description": "",
-        "fields": []
+        "type": "table",
+        "description": "Attack configuration.",
+        "optional": false,
+        "fields": [
+          {
+            "name": "Damage",
+            "type": "number",
+            "description": "Damage dealt by the attack, defaults to 15 if not specified.",
+            "optional": true
+          },
+          {
+            "name": "DamageType",
+            "type": "enum",
+            "description": "Damage type dealt by the attack, defaults to DMG_GENERIC if not specified, see https://wiki.facepunch.com/gmod/Enums/DMG for more information.",
+            "optional": true
+          },
+          {
+            "name": "Range",
+            "type": "number",
+            "description": "Range of the attack, defaults to 23 if not specified.",
+            "optional": true
+          },
+          {
+            "name": "Angle",
+            "type": "number",
+            "description": "Angle of the attack, defaults to 150° if not specified.",
+            "optional": true
+          },
+          {
+            "name": "HitSounds",
+            "type": "table/string",
+            "description": "A table of random sounds to play when the attack hits a target, also accepts strings \"p\" for stronger punch sounds and \"none\" for no hit sounds at all, defaults to weak punch sounds if not specified.",
+            "optional": true
+          },
+          {
+            "name": "MissSounds",
+            "type": "table/string",
+            "description": "A table of random sounds to play when the attack misses a target, also accepts strings \"swing_kick\" for stronger miss sounds and \"none\" for no miss sounds at all, defaults to weak swing sounds if not specified.",
+            "optional": true
+          },
+          {
+            "name": "HitDowned",
+            "type": "boolean",
+            "description": "Whether the attack hits downed targets, defaults to false if not specified.",
+            "optional": true
+          },
+          {
+            "name": "HitOnce",
+            "type": "boolean",
+            "description": "Whether the attack hits one target once, defaults to false if not specified.",
+            "optional": true
+          },
+          {
+            "name": "HitReset",
+            "type": "number",
+            "description": "Used in conjuction with HitOnce, defaults to 3 if not specified.",
+            "optional": true
+          },
+          {
+            "name": "HitProps",
+            "type": "boolean",
+            "description": "Whether the attack hits props, defaults to false if not specified.",
+            "optional": true
+          },
+          {
+            "name": "HitPropsUp",
+            "type": "number",
+            "description": "Upward velocity when a prop is hit, defaults to 200 if not specified.",
+            "optional": true
+          },
+          {
+            "name": "HitPropsForward",
+            "type": "number",
+            "description": "Forward velocity when a prop is hit, defaults to 500 if not specified.",
+            "optional": true
+          },
+          {
+            "name": "TargetiFrames",
+            "type": "boolean",
+            "description": "Whether the attack can target immunity frames, defaults to false if not specified.",
+            "optional": true
+          },
+          {
+            "name": "Bone",
+            "type": "string",
+            "description": "TBD",
+            "optional": true
+          },
+          {
+            "name": "Delay",
+            "type": "number",
+            "description": "Delay before the attack code runs, defaults to 0 if not specified.",
+            "optional": true
+          },
+          {
+            "name": "Side",
+            "type": "string",
+            "description": "Side of the attack, accepts \"front\", \"back\", \"left\", \"right\", defaults to \"front\" if not specified.",
+            "optional": true
+          },
+          {
+            "name": "Knockback",
+            "type": "number",
+            "description": "Knockback force of the attack which affects regular NPCs, defaults to a math.random(120, 140) if not specified.",
+            "optional": true
+          },
+          {
+            "name": "KnockbackUp",
+            "type": "number",
+            "description": "Knockback upwards force of the attack which affects regular NPCs, defaults to 10 if not specified.",
+            "optional": true
+          },
+          {
+            "name": "DamageBuddha",
+            "type": "boolean",
+            "description": "Attack doesn't kill the target, even if damage is greater than their health, defaults to false if not specified.",
+            "optional": true
+          },
+          {
+            "name": "Wallbounce",
+            "type": "boolean",
+            "description": "TBD",
+            "optional": true
+          },
+          {
+            "name": "WallbounceReaction",
+            "type": "boolean",
+            "description": "TBD",
+            "optional": true
+          },
+          {
+            "name": "Attacker",
+            "type": "ent",
+            "description": "Who performed the attack? Defaults to self if not specified.",
+            "optional": true
+          },
+          {
+            "name": "Origin",
+            "type": "Vector(x,y,z)",
+            "description": "Origin of the attack, defaults to self:WorldSpaceCenter() if not specified.",
+            "optional": true
+          },
+          {
+            "name": "AttackType",
+            "type": "string",
+            "description": "Defines attack type specifically when hitting guards, accepts \"sude\", \"metal\", \"katana\", \"bokuto\", \"bullet\"; defaults to \"sude\" if not specified. TODO: rename this to something else? The naming is a bit confusing.",
+            "optional": true
+          },
+          {
+            "name": "WeaponSlot",
+            "type": "number",
+            "description": "Defines which weapon slot the attack is coming from, defaults to 1 (right hand) if not specified (attacker must have a weapon).",
+            "optional": true
+          },
+          {
+            "name": "DeductWeaponDurability",
+            "type": "boolean/number",
+            "description": "How much weapon durability to deduct if attack hits a target, defaults to true/1 if not specified (attacker must have a weapon).",
+            "optional": true
+          },
+          {
+            "name": "WeaponDamageMultiplier",
+            "type": "number",
+            "description": "Multiplies weapon damage by this value, defaults to 1 if not specified (attacker must have a weapon).",
+            "optional": true
+          },
+          {
+            "name": "UseWeaponDamage",
+            "type": "boolean",
+            "description": "Whether to use weapon attack damage, defaults to false if not specified (attacker must have a weapon).",
+            "optional": true
+          },
+          {
+            "name": "UseWeaponRange",
+            "type": "boolean",
+            "description": "Whether to use weapon attack range, defaults to false if not specified (attacker must have a weapon).",
+            "optional": true
+          },
+          {
+            "name": "UseWeaponAngle",
+            "type": "boolean",
+            "description": "Whether to use weapon attack angle, defaults to false if not specified (attacker must have a weapon).",
+            "optional": true
+          },
+          {
+            "name": "UseWeaponHitSounds",
+            "type": "boolean",
+            "description": "Whether to use weapon attack hit sounds, defaults to false if not specified (attacker must have a weapon).",
+            "optional": true
+          },
+          {
+            "name": "UseWeaponMissSounds",
+            "type": "boolean",
+            "description": "Whether to use weapon attack miss sounds, defaults to false if not specified (attacker must have a weapon).",
+            "optional": true
+          },
+          {
+            "name": "UseWeaponAttackType",
+            "type": "boolean",
+            "description": "Whether to use weapon attack type, defaults to false if not specified (attacker must have a weapon).",
+            "optional": true
+          },
+          {
+            "name": "Force",
+            "type": "Vector(x,y,z)",
+            "description": "Force of the attack, defaults to Vector(3000,0,0) if not specified, mainly affects ragdolls and physics props.",
+            "optional": true
+          },
+          {
+            "name": "ViewPunch",
+            "type": "Angle(pitch,yaw,roll)",
+            "description": "View punch, only affects default GMod player entities.",
+            "optional": true
+          },
+          {
+            "name": "_syncvictim",
+            "type": "ent",
+            "description": "Sync victim, internal use only, defaults to nil if not specified.",
+            "optional": true
+          }
+        ]
       },
       {
         "name": "key",
-        "type": "any",
-        "description": "",
+        "type": "string",
+        "description": "Event name for HandleAnimEvent.",
+        "optional": true,
         "fields": []
       },
       {
         "name": "atker",
-        "type": "any",
-        "description": "",
+        "type": "ent",
+        "description": "The attacker entity.",
+        "optional": true,
         "fields": []
       }
     ],
@@ -10119,7 +10756,7 @@
     "signature": "function ENT:GetHitReactionData()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/events_anim.lua",
-    "source_line": 564,
+    "source_line": 605,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -10145,7 +10782,7 @@
       "key"
     ],
     "source_file": "lua/entities/lad_framework_base/events_anim.lua",
-    "source_line": 613,
+    "source_line": 654,
     "description": "gargantuan ass",
     "realm": "not documented",
     "parameters": [
@@ -10153,30 +10790,35 @@
         "name": "event",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "time",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "cycle",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "_",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "key",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -10201,7 +10843,7 @@
       "damageOverride"
     ],
     "source_file": "lua/entities/lad_framework_base/events_anim.lua",
-    "source_line": 362,
+    "source_line": 403,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -10209,24 +10851,28 @@
         "name": "attack",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "ent",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "dmg",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "damageOverride",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -10250,7 +10896,7 @@
       "attacker"
     ],
     "source_file": "lua/entities/lad_framework_base/events_anim.lua",
-    "source_line": 1448,
+    "source_line": 1489,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -10258,18 +10904,21 @@
         "name": "category",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "key",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "attacker",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -10299,6 +10948,7 @@
         "name": "ent",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -10328,6 +10978,7 @@
         "name": "bone",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -10349,7 +11000,7 @@
       "tbl"
     ],
     "source_file": "lua/entities/lad_framework_base/events_anim.lua",
-    "source_line": 560,
+    "source_line": 601,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -10357,6 +11008,7 @@
         "name": "tbl",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -10387,12 +11039,14 @@
         "name": "animName",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "playBackRate",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -10423,12 +11077,14 @@
         "name": "flexName",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "weight",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -10538,6 +11194,7 @@
         "name": "enemy",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -10628,12 +11285,14 @@
         "name": "dmg",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "hitgroup",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -10824,12 +11483,14 @@
         "name": "dmg",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "hitgroup",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -10899,6 +11560,7 @@
         "name": "ent",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -10928,6 +11590,7 @@
         "name": "cosmetic",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -10977,6 +11640,7 @@
         "name": "wep",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -11073,48 +11737,56 @@
         "name": "actionName",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "keyLabel",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "centerX",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "centerY",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "iconW",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "iconH",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "font",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "alpha",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -11235,72 +11907,84 @@
         "name": "enemyhp",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "maxenemyhp",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "fightername",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "textfont",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "healthheight",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "isboss",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "barheight",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "hudspot",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "entindex",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "oldBarWidth",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "oldShakeHP",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "place",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -11350,6 +12034,7 @@
         "name": "data",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -11559,6 +12244,7 @@
         "name": "target",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -11588,6 +12274,7 @@
         "name": "entity",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -11628,72 +12315,84 @@
         "name": "heat",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "lerpedHeat",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "heatMin",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "heatValue",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "isRedHeat",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "heatbarcolor",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "x",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "y",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "width",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "height",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "cutSize",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "slantLeft",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -11732,60 +12431,70 @@
         "name": "heat",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "lerpedHeat",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "blueHeatBars",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "redHeatBars",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "blueHeatBarValue",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "heatbarcolor",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "scaleW",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "scaleH",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "w",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "h",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -11816,12 +12525,14 @@
         "name": "path",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "delay",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -11904,84 +12615,98 @@
         "name": "barIdx",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "heat",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "lerpedHeat",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "heatBarMaxReached",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "heatbarcolor",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "baseX",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "y",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "width",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "height",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "scaleW",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "scaleH",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "colorScale",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "alpha",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "totalBars",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -12013,18 +12738,21 @@
         "name": "snd",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "fallback",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "id",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -12057,24 +12785,28 @@
         "name": "snd",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "voicebank",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "fallback",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "fallback2",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -12129,36 +12861,42 @@
         "name": "snd",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "level",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "pos",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "pitch",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "vol",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "chan",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -12188,6 +12926,7 @@
         "name": "vb",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -12217,6 +12956,7 @@
         "name": "vb",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -12250,30 +12990,35 @@
         "name": "key",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "duration",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "aiSuccessRate",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "spam",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "spamreq",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -12343,6 +13088,7 @@
         "name": "directRecipient",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -12392,6 +13138,7 @@
         "name": "selfIgnoreCombat",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -12421,6 +13168,7 @@
         "name": "sdFile",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -12453,24 +13201,28 @@
         "name": "ignoreCombatCheck",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "skipIntro",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "waitForIntro",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "directRecipient",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -12500,6 +13252,7 @@
         "name": "ply",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -12549,6 +13302,7 @@
         "name": "directRecipient",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -12618,6 +13372,7 @@
         "name": "ply",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -12707,6 +13462,7 @@
         "name": "n",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -12741,36 +13497,42 @@
         "name": "hit",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "ent",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "dmg",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "attack",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "origin",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "trace",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -12801,12 +13563,14 @@
         "name": "pos",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "nb",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -12838,18 +13602,21 @@
         "name": "attack",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "callback",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "attacker",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -12879,6 +13646,7 @@
         "name": "ent",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -12988,6 +13756,7 @@
         "name": "flags",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -13022,36 +13791,42 @@
         "name": "angle",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "distance",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "disp",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "spotted",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "side",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "originEntity",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -13101,6 +13876,7 @@
         "name": "pos",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -13231,12 +14007,14 @@
         "name": "dist",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "callback",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -13267,12 +14045,14 @@
         "name": "dist",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "callback",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -13303,12 +14083,14 @@
         "name": "dist",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "callback",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -13339,12 +14121,14 @@
         "name": "dist",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "callback",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -13374,6 +14158,7 @@
         "name": "speed",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -13403,6 +14188,7 @@
         "name": "dmg",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -13432,6 +14218,7 @@
         "name": "dmg",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -13523,18 +14310,21 @@
         "name": "seq",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "rate",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "callback",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -13566,18 +14356,21 @@
         "name": "seq",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "options",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "callback",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -13609,18 +14402,21 @@
         "name": "seq",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "rate",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "callback",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -13671,12 +14467,14 @@
         "name": "ent",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "force",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -13887,12 +14685,14 @@
         "name": "child",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "flags",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -13926,30 +14726,35 @@
         "name": "enable",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "SDRCleanupTime",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "SDRColor",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "SDRMaterial",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "destroyInstant",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -13983,30 +14788,35 @@
         "name": "color",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "mat",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "customFadeTime",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "drawChildOnly",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "NoBlurPass",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -14044,54 +14854,63 @@
         "name": "attachment_ID",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "Color_Table",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "Is_it_Additive",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "start_Width",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "end_Width",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "lifetime",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "Decay_Time",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "Path_To_Texture",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "Res",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -14123,18 +14942,21 @@
         "name": "p",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "moveName",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "animSeq",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -14166,18 +14988,21 @@
         "name": "move",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "moveName",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "animSeq",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -14209,18 +15034,21 @@
         "name": "move",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "moveName",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "animSeq",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -14254,30 +15082,35 @@
         "name": "enable",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "AttachmentBone",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "radius",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "material",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "additive",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -14308,12 +15141,14 @@
         "name": "attacker",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "attackData",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -14345,18 +15180,21 @@
         "name": "enable",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "color",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "destroyInstant",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -14386,6 +15224,7 @@
         "name": "enable",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -14415,6 +15254,7 @@
         "name": "bulletVFX",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -14444,6 +15284,7 @@
         "name": "att",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -14473,6 +15314,7 @@
         "name": "cfg",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -14502,6 +15344,7 @@
         "name": "count",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -14531,6 +15374,7 @@
         "name": "attachment",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -14560,6 +15404,7 @@
         "name": "slot",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -14591,18 +15436,21 @@
         "name": "text",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "time",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "radius",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -14652,6 +15500,7 @@
         "name": "radius",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -14761,6 +15610,7 @@
         "name": "enabled",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -14793,24 +15643,28 @@
         "name": "ply",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "dialogue",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "id",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "subjects",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -14844,30 +15698,35 @@
         "name": "ply",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "dialogueName",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "dialogueData",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "id",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "subjects",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -14897,6 +15756,7 @@
         "name": "bot",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -14926,6 +15786,7 @@
         "name": "item",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -14977,18 +15838,21 @@
         "name": "attach",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "model",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "attachmentName",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -15019,12 +15883,14 @@
         "name": "v",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "change",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -15054,6 +15920,7 @@
         "name": "force",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -15084,12 +15951,14 @@
         "name": "deduction",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "slot",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -15119,6 +15988,7 @@
         "name": "obj",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -15148,6 +16018,7 @@
         "name": "v",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -15177,6 +16048,7 @@
         "name": "v",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -15211,36 +16083,42 @@
         "name": "throw",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "broken",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "hactbreak",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "delete",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "velocity",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "direction",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -15274,30 +16152,35 @@
         "name": "throw",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "broken",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "delete",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "velocity",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "direction",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -15328,12 +16211,14 @@
         "name": "id",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "cico",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -15363,6 +16248,7 @@
         "name": "weaponType",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -15452,6 +16338,7 @@
         "name": "id",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -15501,6 +16388,7 @@
         "name": "prop",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -15535,36 +16423,42 @@
         "name": "projectile",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "startPos",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "speed",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "att",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "aim",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "options",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -15594,6 +16488,7 @@
         "name": "auto",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -15626,24 +16521,28 @@
         "name": "v",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "hiddenWeapon",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "broke",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "mvbound",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -15673,6 +16572,7 @@
         "name": "v",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -15703,12 +16603,14 @@
         "name": "weapon",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "slot",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -15759,12 +16661,14 @@
         "name": "dur",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "slot",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -15794,6 +16698,7 @@
         "name": "slot",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -15863,6 +16768,7 @@
         "name": "v",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -15892,6 +16798,7 @@
         "name": "v",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -15923,18 +16830,21 @@
         "name": "v",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "auto",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "att",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -16029,6 +16939,7 @@
         "name": "side",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -16058,6 +16969,7 @@
         "name": "entity",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -16087,6 +16999,7 @@
         "name": "pos",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -16116,6 +17029,7 @@
         "name": "pos",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -16145,6 +17059,7 @@
         "name": "enemy",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -16179,36 +17094,42 @@
         "name": "ent",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "angle",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "distance",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "side",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "origin",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "direction",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -16239,12 +17160,14 @@
         "name": "pos",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "range",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -16294,6 +17217,7 @@
         "name": "battleID",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -16324,12 +17248,14 @@
         "name": "participants",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "opts",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -16360,12 +17286,14 @@
         "name": "pos",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "maxDist",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -16396,12 +17324,14 @@
         "name": "fighter",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "battleID",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -16432,12 +17362,14 @@
         "name": "fighter",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "checkEnd",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],
@@ -16468,12 +17400,14 @@
         "name": "keepID",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       },
       {
         "name": "dissolveID",
         "type": "any",
         "description": "",
+        "optional": false,
         "fields": []
       }
     ],

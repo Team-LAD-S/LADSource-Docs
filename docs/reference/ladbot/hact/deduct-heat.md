@@ -21,9 +21,13 @@ function ENT:DeductHeat(var)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `var` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `var` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

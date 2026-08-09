@@ -112,6 +112,24 @@
   width: 1%;
 }
 
+.api-parameter-table table {
+  width: 100%;
+}
+
+.api-parameter-table th:nth-child(-n + 2),
+.api-parameter-table td:nth-child(-n + 2),
+.api-parameter-table td:nth-child(-n + 2) code {
+  white-space: nowrap;
+  word-break: normal;
+}
+
+.api-parameter-table th:nth-child(-n + 2),
+.api-parameter-table td:nth-child(-n + 2),
+.api-parameter-table th:nth-child(3),
+.api-parameter-table td:nth-child(3) {
+  width: 1%;
+}
+
 .api-sort-button {
   align-items: center;
   color: inherit;

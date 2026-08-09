@@ -21,10 +21,14 @@ function ENT:PlayVictimHact(hact, subjects)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `hact` | `any` | Not documented. |
-| `subjects` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `hact` | `any` | Yes | Not documented. |
+| `subjects` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

@@ -21,9 +21,13 @@ function ENT:CacheNodeFollowUps(secondaryMoveTable)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `secondaryMoveTable` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `secondaryMoveTable` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

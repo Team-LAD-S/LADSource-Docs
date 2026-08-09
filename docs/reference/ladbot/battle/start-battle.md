@@ -21,9 +21,13 @@ function ENT:StartBattle(target)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `target` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `target` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

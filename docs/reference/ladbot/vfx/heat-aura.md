@@ -21,11 +21,15 @@ function ENT:HeatAura(enable, color, destroyInstant)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `enable` | `any` | Not documented. |
-| `color` | `any` | Not documented. |
-| `destroyInstant` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `enable` | `any` | Yes | Not documented. |
+| `color` | `any` | Yes | Not documented. |
+| `destroyInstant` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

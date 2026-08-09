@@ -21,10 +21,14 @@ function ENT:DamageDirection(dmg, legacy)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `dmg` | `any` | Not documented. |
-| `legacy` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `dmg` | `any` | Yes | Not documented. |
+| `legacy` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

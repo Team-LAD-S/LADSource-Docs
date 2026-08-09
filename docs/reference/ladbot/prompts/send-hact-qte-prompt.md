@@ -21,13 +21,17 @@ function ENT:SendHactQTEPrompt(key, duration, aiSuccessRate, spam, spamreq)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `key` | `any` | Not documented. |
-| `duration` | `any` | Not documented. |
-| `aiSuccessRate` | `any` | Not documented. |
-| `spam` | `any` | Not documented. |
-| `spamreq` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `key` | `any` | Yes | Not documented. |
+| `duration` | `any` | Yes | Not documented. |
+| `aiSuccessRate` | `any` | Yes | Not documented. |
+| `spam` | `any` | Yes | Not documented. |
+| `spamreq` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

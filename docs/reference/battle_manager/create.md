@@ -25,10 +25,14 @@ CheckBattleEnd returns early so the record stays alive for the next wave.
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `participants` | `any` | Not documented. |
-| `opts` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `participants` | `any` | Yes | Not documented. |
+| `opts` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

@@ -21,11 +21,15 @@ function ENT:PlaySequence(seq, rate, callback)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `seq` | `any` | Not documented. |
-| `rate` | `any` | Not documented. |
-| `callback` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `seq` | `any` | Yes | Not documented. |
+| `rate` | `any` | Yes | Not documented. |
+| `callback` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

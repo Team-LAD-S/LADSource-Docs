@@ -21,15 +21,19 @@ function ENT:DebugDrawCone(origin, direction, angle, range, segments, duration, 
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `origin` | `any` | Not documented. |
-| `direction` | `any` | Not documented. |
-| `angle` | `any` | Not documented. |
-| `range` | `any` | Not documented. |
-| `segments` | `any` | Not documented. |
-| `duration` | `any` | Not documented. |
-| `color` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `origin` | `any` | Yes | Not documented. |
+| `direction` | `any` | Yes | Not documented. |
+| `angle` | `any` | Yes | Not documented. |
+| `range` | `any` | Yes | Not documented. |
+| `segments` | `any` | Yes | Not documented. |
+| `duration` | `any` | Yes | Not documented. |
+| `color` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

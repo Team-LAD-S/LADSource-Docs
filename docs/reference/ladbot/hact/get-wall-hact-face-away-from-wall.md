@@ -21,10 +21,14 @@ function ENT:GetWallHactFaceAwayFromWall(curhact, wallReference)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `curhact` | `any` | Not documented. |
-| `wallReference` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `curhact` | `any` | Yes | Not documented. |
+| `wallReference` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

@@ -21,9 +21,13 @@ function ENT:AddItem(item)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `item` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `item` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

@@ -21,9 +21,13 @@ function ENT:Guard(isAI)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `isAI` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `isAI` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

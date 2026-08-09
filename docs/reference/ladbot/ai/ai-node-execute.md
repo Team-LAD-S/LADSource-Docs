@@ -21,9 +21,13 @@ function ENT:AINodeExecute(nodeType)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `nodeType` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `nodeType` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

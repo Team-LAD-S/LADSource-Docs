@@ -21,9 +21,13 @@ function ENT:HUDUpdateCommon(entity)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `entity` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `entity` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

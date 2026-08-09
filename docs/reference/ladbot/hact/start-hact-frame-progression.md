@@ -21,9 +21,13 @@ function ENT:StartHactFrameProgression(path)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `path` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `path` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

@@ -21,11 +21,15 @@ function ENT:AttachTempWeapon(attach, model, attachmentName)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `attach` | `any` | Not documented. |
-| `model` | `any` | Not documented. |
-| `attachmentName` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `attach` | `any` | Yes | Not documented. |
+| `model` | `any` | Yes | Not documented. |
+| `attachmentName` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

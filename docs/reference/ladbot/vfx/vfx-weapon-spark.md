@@ -21,9 +21,13 @@ function ENT:VFX_WeaponSpark(slot)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `slot` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `slot` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

@@ -21,13 +21,17 @@ function ENT:CreateAfterImage(color, mat, customFadeTime, drawChildOnly, NoBlurP
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `color` | `any` | Not documented. |
-| `mat` | `any` | Not documented. |
-| `customFadeTime` | `any` | Not documented. |
-| `drawChildOnly` | `any` | Not documented. |
-| `NoBlurPass` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `color` | `any` | Yes | Not documented. |
+| `mat` | `any` | Yes | Not documented. |
+| `customFadeTime` | `any` | Yes | Not documented. |
+| `drawChildOnly` | `any` | Yes | Not documented. |
+| `NoBlurPass` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

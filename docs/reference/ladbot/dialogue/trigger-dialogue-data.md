@@ -21,13 +21,17 @@ Starts a dialogue from an in-memory table instead of a JSON file.
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `ply` | `any` | Not documented. |
-| `dialogueName` | `any` | Not documented. |
-| `dialogueData` | `any` | Not documented. |
-| `id` | `any` | Not documented. |
-| `subjects` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `ply` | `any` | Yes | Not documented. |
+| `dialogueName` | `any` | Yes | Not documented. |
+| `dialogueData` | `any` | Yes | Not documented. |
+| `id` | `any` | Yes | Not documented. |
+| `subjects` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

@@ -21,9 +21,13 @@ function ENT:ExecuteFollowUp(moveToExecute)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `moveToExecute` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `moveToExecute` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

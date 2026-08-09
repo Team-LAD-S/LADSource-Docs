@@ -21,9 +21,13 @@ function ENT:GetButtonForAction(actionName)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `actionName` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `actionName` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

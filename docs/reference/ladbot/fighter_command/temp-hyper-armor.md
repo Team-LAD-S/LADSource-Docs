@@ -21,9 +21,13 @@ for use in CICO
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `ha` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `ha` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

@@ -21,9 +21,13 @@ function ENT:HeatPopBehavior(time)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `time` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `time` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

@@ -21,10 +21,14 @@ function ENT:SetWeaponDurability(dur, slot)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `dur` | `any` | Not documented. |
-| `slot` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `dur` | `any` | Yes | Not documented. |
+| `slot` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

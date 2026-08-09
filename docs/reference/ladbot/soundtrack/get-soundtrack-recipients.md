@@ -25,9 +25,13 @@ selfIgnoreCombat = true skips the FighterInCombat check for self only
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `selfIgnoreCombat` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `selfIgnoreCombat` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

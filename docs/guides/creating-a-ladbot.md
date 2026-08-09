@@ -6,8 +6,7 @@ in your addon's `lua/entities` directory.
 ## Minimal fighter
 
 ```lua
-if not DrGBase then return end
-if not LADSource then return end
+if not DrGBase or LADSource then return end
 
 ENT.Base = "lad_framework_base"
 

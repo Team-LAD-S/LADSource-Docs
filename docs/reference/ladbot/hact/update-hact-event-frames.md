@@ -21,9 +21,13 @@ function ENT:UpdateHactEventFrames(frameOverride)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `frameOverride` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `frameOverride` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

@@ -21,10 +21,14 @@ Activates combat of a LADBot that this function is ran on.
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `target` | `ent` | Snaps to whoever activates combat |
-| `skipanim` | `boolean` | Whether to skip the battle-start animation. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `target` | `ent` | Yes | Snaps to whoever activates combat |
+| `skipanim` | `boolean` | Yes | Whether to skip the battle-start animation. |
+
+</div>
 
 ## Returns
 

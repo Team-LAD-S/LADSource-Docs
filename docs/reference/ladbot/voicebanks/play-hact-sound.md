@@ -21,14 +21,18 @@ only to be used for hacts
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `snd` | `any` | Not documented. |
-| `level` | `any` | Not documented. |
-| `pos` | `any` | Not documented. |
-| `pitch` | `any` | Not documented. |
-| `vol` | `any` | Not documented. |
-| `chan` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `snd` | `any` | Yes | Not documented. |
+| `level` | `any` | Yes | Not documented. |
+| `pos` | `any` | Yes | Not documented. |
+| `pitch` | `any` | Yes | Not documented. |
+| `vol` | `any` | Yes | Not documented. |
+| `chan` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

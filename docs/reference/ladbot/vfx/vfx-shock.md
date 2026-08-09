@@ -21,9 +21,13 @@ function ENT:VFX_Shock(count)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `count` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `count` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

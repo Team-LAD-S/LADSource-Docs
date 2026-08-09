@@ -21,13 +21,17 @@ function ENT:DropSecondaryWeapon(throw, broken, delete, velocity, direction)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `throw` | `any` | Not documented. |
-| `broken` | `any` | Not documented. |
-| `delete` | `any` | Not documented. |
-| `velocity` | `any` | Not documented. |
-| `direction` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `throw` | `any` | Yes | Not documented. |
+| `broken` | `any` | Yes | Not documented. |
+| `delete` | `any` | Yes | Not documented. |
+| `velocity` | `any` | Yes | Not documented. |
+| `direction` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

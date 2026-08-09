@@ -21,9 +21,13 @@ function ENT:VFX_EjectShell(bulletVFX)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `bulletVFX` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `bulletVFX` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

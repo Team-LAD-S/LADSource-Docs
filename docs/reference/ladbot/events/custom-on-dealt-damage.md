@@ -21,10 +21,14 @@ function ENT:CustomOnDealtDamage(ent, dmg)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `ent` | `any` | Not documented. |
-| `dmg` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `ent` | `any` | Yes | Not documented. |
+| `dmg` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

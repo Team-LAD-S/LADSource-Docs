@@ -21,9 +21,13 @@ function ENT:OnDrawMovesetWeapon(wep)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `wep` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `wep` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

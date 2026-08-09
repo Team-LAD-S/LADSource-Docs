@@ -21,9 +21,13 @@ function ENT:SetStationaryOverworldEnabled(enabled)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `enabled` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `enabled` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

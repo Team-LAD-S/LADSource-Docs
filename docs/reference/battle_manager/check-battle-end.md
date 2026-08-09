@@ -23,9 +23,13 @@ Dissolves the battle record once everyone has left.
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `battleID` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `battleID` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

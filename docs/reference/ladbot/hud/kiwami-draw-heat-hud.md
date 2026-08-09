@@ -21,18 +21,22 @@ function ENT:Kiwami_DrawHeatHUD(heat, lerpedHeat, blueHeatBars, redHeatBars, blu
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `heat` | `any` | Not documented. |
-| `lerpedHeat` | `any` | Not documented. |
-| `blueHeatBars` | `any` | Not documented. |
-| `redHeatBars` | `any` | Not documented. |
-| `blueHeatBarValue` | `any` | Not documented. |
-| `heatbarcolor` | `any` | Not documented. |
-| `scaleW` | `any` | Not documented. |
-| `scaleH` | `any` | Not documented. |
-| `w` | `any` | Not documented. |
-| `h` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `heat` | `any` | Yes | Not documented. |
+| `lerpedHeat` | `any` | Yes | Not documented. |
+| `blueHeatBars` | `any` | Yes | Not documented. |
+| `redHeatBars` | `any` | Yes | Not documented. |
+| `blueHeatBarValue` | `any` | Yes | Not documented. |
+| `heatbarcolor` | `any` | Yes | Not documented. |
+| `scaleW` | `any` | Yes | Not documented. |
+| `scaleH` | `any` | Yes | Not documented. |
+| `w` | `any` | Yes | Not documented. |
+| `h` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

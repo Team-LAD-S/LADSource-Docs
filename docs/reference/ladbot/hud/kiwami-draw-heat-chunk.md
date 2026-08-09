@@ -21,20 +21,24 @@ function ENT:Kiwami_DrawHeatChunk(heat, lerpedHeat, heatMin, heatValue, isRedHea
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `heat` | `any` | Not documented. |
-| `lerpedHeat` | `any` | Not documented. |
-| `heatMin` | `any` | Not documented. |
-| `heatValue` | `any` | Not documented. |
-| `isRedHeat` | `any` | Not documented. |
-| `heatbarcolor` | `any` | Not documented. |
-| `x` | `any` | Not documented. |
-| `y` | `any` | Not documented. |
-| `width` | `any` | Not documented. |
-| `height` | `any` | Not documented. |
-| `cutSize` | `any` | Not documented. |
-| `slantLeft` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `heat` | `any` | Yes | Not documented. |
+| `lerpedHeat` | `any` | Yes | Not documented. |
+| `heatMin` | `any` | Yes | Not documented. |
+| `heatValue` | `any` | Yes | Not documented. |
+| `isRedHeat` | `any` | Yes | Not documented. |
+| `heatbarcolor` | `any` | Yes | Not documented. |
+| `x` | `any` | Yes | Not documented. |
+| `y` | `any` | Yes | Not documented. |
+| `width` | `any` | Yes | Not documented. |
+| `height` | `any` | Yes | Not documented. |
+| `cutSize` | `any` | Yes | Not documented. |
+| `slantLeft` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

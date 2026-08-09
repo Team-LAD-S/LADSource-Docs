@@ -21,9 +21,13 @@ function ENT:VFX_MeshTrail(cfg)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `cfg` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `cfg` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

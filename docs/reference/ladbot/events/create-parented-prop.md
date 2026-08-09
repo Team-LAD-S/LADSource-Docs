@@ -21,13 +21,17 @@ function ENT:CreateParentedProp(mdl, attach, pos, ang, skin)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `mdl` | `any` | Not documented. |
-| `attach` | `any` | Not documented. |
-| `pos` | `any` | Not documented. |
-| `ang` | `any` | Not documented. |
-| `skin` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `mdl` | `any` | Yes | Not documented. |
+| `attach` | `any` | Yes | Not documented. |
+| `pos` | `any` | Yes | Not documented. |
+| `ang` | `any` | Yes | Not documented. |
+| `skin` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

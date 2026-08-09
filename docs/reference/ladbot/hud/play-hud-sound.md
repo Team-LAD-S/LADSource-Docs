@@ -21,10 +21,14 @@ function ENT:PlayHUDSound(path, delay)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `path` | `any` | Not documented. |
-| `delay` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `path` | `any` | Yes | Not documented. |
+| `delay` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

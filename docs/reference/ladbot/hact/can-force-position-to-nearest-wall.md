@@ -21,10 +21,14 @@ function ENT:CanForcePositionToNearestWall(curhactOrRadius, maxWallDist)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `curhactOrRadius` | `any` | Not documented. |
-| `maxWallDist` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `curhactOrRadius` | `any` | Yes | Not documented. |
+| `maxWallDist` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

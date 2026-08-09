@@ -21,11 +21,15 @@ function ENT:_ApplyMoveSyncHit(move, syncPos, syncAng)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `move` | `any` | Not documented. |
-| `syncPos` | `any` | Not documented. |
-| `syncAng` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `move` | `any` | Yes | Not documented. |
+| `syncPos` | `any` | Yes | Not documented. |
+| `syncAng` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

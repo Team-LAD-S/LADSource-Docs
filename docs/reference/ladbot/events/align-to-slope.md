@@ -21,9 +21,13 @@ function ENT:AlignToSlope(reset)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `reset` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `reset` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

@@ -21,9 +21,13 @@ function ENT:DropParentedProp(obj)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `obj` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `obj` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

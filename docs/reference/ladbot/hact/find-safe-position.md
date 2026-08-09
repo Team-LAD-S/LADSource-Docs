@@ -21,11 +21,15 @@ function ENT:FindSafePosition(origin, bbMin, bbMax)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `origin` | `any` | Not documented. |
-| `bbMin` | `any` | Not documented. |
-| `bbMax` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `origin` | `any` | Yes | Not documented. |
+| `bbMin` | `any` | Yes | Not documented. |
+| `bbMax` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

@@ -21,10 +21,14 @@ function ENT:DeductWeaponDurability(deduction, slot)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `deduction` | `any` | Not documented. |
-| `slot` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `deduction` | `any` | Yes | Not documented. |
+| `slot` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

@@ -21,9 +21,13 @@ function ENT:GetAllowedWeaponMoveset(weaponType)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `weaponType` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `weaponType` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

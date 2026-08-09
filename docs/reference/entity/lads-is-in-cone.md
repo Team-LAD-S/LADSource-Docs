@@ -21,14 +21,18 @@ function Entity:LADS_IsInCone(ent, angle, distance, side, origin, direction)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `ent` | `any` | Not documented. |
-| `angle` | `any` | Not documented. |
-| `distance` | `any` | Not documented. |
-| `side` | `any` | Not documented. |
-| `origin` | `any` | Not documented. |
-| `direction` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `ent` | `any` | Yes | Not documented. |
+| `angle` | `any` | Yes | Not documented. |
+| `distance` | `any` | Yes | Not documented. |
+| `side` | `any` | Yes | Not documented. |
+| `origin` | `any` | Yes | Not documented. |
+| `direction` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

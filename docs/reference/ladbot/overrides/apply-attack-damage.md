@@ -21,14 +21,18 @@ function ENT:ApplyAttackDamage(hit, ent, dmg, attack, origin, trace)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `hit` | `any` | Not documented. |
-| `ent` | `any` | Not documented. |
-| `dmg` | `any` | Not documented. |
-| `attack` | `any` | Not documented. |
-| `origin` | `any` | Not documented. |
-| `trace` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `hit` | `any` | Yes | Not documented. |
+| `ent` | `any` | Yes | Not documented. |
+| `dmg` | `any` | Yes | Not documented. |
+| `attack` | `any` | Yes | Not documented. |
+| `origin` | `any` | Yes | Not documented. |
+| `trace` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

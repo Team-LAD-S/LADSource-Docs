@@ -21,9 +21,13 @@ function ENT:SetCustomCommonFighterName(n)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `n` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `n` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

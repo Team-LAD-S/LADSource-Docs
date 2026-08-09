@@ -21,10 +21,14 @@ function ENT:ExecuteMove(moveName, options)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `moveName` | `any` | Not documented. |
-| `options` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `moveName` | `any` | Yes | Not documented. |
+| `options` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

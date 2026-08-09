@@ -21,9 +21,13 @@ function ENT:ClearWeaponInfo(force)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `force` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `force` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

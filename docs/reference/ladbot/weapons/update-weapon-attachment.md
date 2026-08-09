@@ -21,9 +21,13 @@ function ENT:UpdateWeaponAttachment(v)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `v` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `v` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

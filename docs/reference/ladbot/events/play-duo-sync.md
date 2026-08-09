@@ -21,18 +21,22 @@ function ENT:PlayDuoSync(ent, sync, sync1, offset, ang, CanWallboundSync1, grabs
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `ent` | `any` | Not documented. |
-| `sync` | `any` | Not documented. |
-| `sync1` | `any` | Not documented. |
-| `offset` | `any` | Not documented. |
-| `ang` | `any` | Not documented. |
-| `CanWallboundSync1` | `any` | Not documented. |
-| `grabswitch` | `any` | Not documented. |
-| `noENTreset` | `any` | Not documented. |
-| `ragcycle` | `any` | Not documented. |
-| `ragdur` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `ent` | `any` | Yes | Not documented. |
+| `sync` | `any` | Yes | Not documented. |
+| `sync1` | `any` | Yes | Not documented. |
+| `offset` | `any` | Yes | Not documented. |
+| `ang` | `any` | Yes | Not documented. |
+| `CanWallboundSync1` | `any` | Yes | Not documented. |
+| `grabswitch` | `any` | Yes | Not documented. |
+| `noENTreset` | `any` | Yes | Not documented. |
+| `ragcycle` | `any` | Yes | Not documented. |
+| `ragdur` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

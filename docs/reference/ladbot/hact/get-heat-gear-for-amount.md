@@ -21,9 +21,13 @@ function ENT:GetHeatGearForAmount(heat)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `heat` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `heat` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

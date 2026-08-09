@@ -21,9 +21,13 @@ function ENT:PlayBumpAnimation(anim)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `anim` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `anim` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

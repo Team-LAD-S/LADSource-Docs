@@ -22,10 +22,14 @@ Returns nil if none is found.
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `pos` | `any` | Not documented. |
-| `maxDist` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `pos` | `any` | Yes | Not documented. |
+| `maxDist` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

@@ -21,14 +21,18 @@ function ENT:HandleMovesetEvents(category, key, attacker)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `category` | `any` | Not documented. |
-| `key` | `any` | Not documented. |
-| `attacker` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `category` | `any` | Yes | Not documented. |
+| `key` | `any` | Yes | Not documented. |
+| `attacker` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events_anim.lua:1448</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events_anim.lua:1489</code>.</p>

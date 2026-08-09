@@ -21,12 +21,16 @@ function ENT:_ApplyMoveAnimBlend(move, moveName, capturedGen, nodeAnimRate)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `move` | `any` | Not documented. |
-| `moveName` | `any` | Not documented. |
-| `capturedGen` | `any` | Not documented. |
-| `nodeAnimRate` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `move` | `any` | Yes | Not documented. |
+| `moveName` | `any` | Yes | Not documented. |
+| `capturedGen` | `any` | Yes | Not documented. |
+| `nodeAnimRate` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

@@ -21,10 +21,14 @@ function ENT:EquipWeapon(id, cico)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `id` | `any` | Not documented. |
-| `cico` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `id` | `any` | Yes | Not documented. |
+| `cico` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

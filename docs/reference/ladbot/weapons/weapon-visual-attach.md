@@ -21,11 +21,15 @@ function ENT:WeaponVisualAttach(v, auto, att)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `v` | `any` | Not documented. |
-| `auto` | `any` | Not documented. |
-| `att` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `v` | `any` | Yes | Not documented. |
+| `auto` | `any` | Yes | Not documented. |
+| `att` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

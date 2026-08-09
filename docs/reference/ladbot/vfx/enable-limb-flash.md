@@ -21,13 +21,17 @@ function ENT:EnableLimbFlash(enable, AttachmentBone, radius, material, additive)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `enable` | `any` | Not documented. |
-| `AttachmentBone` | `any` | Not documented. |
-| `radius` | `any` | Not documented. |
-| `material` | `any` | Not documented. |
-| `additive` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `enable` | `any` | Yes | Not documented. |
+| `AttachmentBone` | `any` | Yes | Not documented. |
+| `radius` | `any` | Yes | Not documented. |
+| `material` | `any` | Yes | Not documented. |
+| `additive` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

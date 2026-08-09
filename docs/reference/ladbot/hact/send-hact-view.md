@@ -21,20 +21,24 @@ function ENT:SendHactView(ply, ent, subjects, hactcam, fov, fps, dontHideEnts, s
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `ply` | `any` | Not documented. |
-| `ent` | `any` | Not documented. |
-| `subjects` | `any` | Not documented. |
-| `hactcam` | `any` | Not documented. |
-| `fov` | `any` | Not documented. |
-| `fps` | `any` | Not documented. |
-| `dontHideEnts` | `any` | Not documented. |
-| `smoothReturn` | `any` | Not documented. |
-| `cameraAxisOffset` | `any` | Not documented. |
-| `cameraDataPath` | `any` | Not documented. |
-| `cameraFOVOptions` | `any` | Not documented. |
-| `frameProgressionPath` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `ply` | `any` | Yes | Not documented. |
+| `ent` | `any` | Yes | Not documented. |
+| `subjects` | `any` | Yes | Not documented. |
+| `hactcam` | `any` | Yes | Not documented. |
+| `fov` | `any` | Yes | Not documented. |
+| `fps` | `any` | Yes | Not documented. |
+| `dontHideEnts` | `any` | Yes | Not documented. |
+| `smoothReturn` | `any` | Yes | Not documented. |
+| `cameraAxisOffset` | `any` | Yes | Not documented. |
+| `cameraDataPath` | `any` | Yes | Not documented. |
+| `cameraFOVOptions` | `any` | Yes | Not documented. |
+| `frameProgressionPath` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

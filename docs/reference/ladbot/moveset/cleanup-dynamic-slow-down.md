@@ -21,9 +21,13 @@ function ENT:_CleanupDynamicSlowDown(completed)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `completed` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `completed` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

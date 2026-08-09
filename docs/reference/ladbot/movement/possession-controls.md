@@ -21,12 +21,16 @@ function ENT:PossessionControls(f, b, r, l)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `f` | `any` | Not documented. |
-| `b` | `any` | Not documented. |
-| `r` | `any` | Not documented. |
-| `l` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `f` | `any` | Yes | Not documented. |
+| `b` | `any` | Yes | Not documented. |
+| `r` | `any` | Yes | Not documented. |
+| `l` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

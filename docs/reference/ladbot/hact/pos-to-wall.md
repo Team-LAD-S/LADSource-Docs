@@ -21,11 +21,15 @@ function ENT:PosToWall(offset, wallReference, faceAwayFromWall)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `offset` | `any` | Not documented. |
-| `wallReference` | `any` | Not documented. |
-| `faceAwayFromWall` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `offset` | `any` | Yes | Not documented. |
+| `wallReference` | `any` | Yes | Not documented. |
+| `faceAwayFromWall` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

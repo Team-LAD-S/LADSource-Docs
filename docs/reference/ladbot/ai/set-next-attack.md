@@ -21,10 +21,14 @@ function ENT:SetNextAttack(min, max)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `min` | `any` | Not documented. |
-| `max` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `min` | `any` | Yes | Not documented. |
+| `max` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

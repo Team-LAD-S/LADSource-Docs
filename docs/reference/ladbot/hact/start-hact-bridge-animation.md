@@ -21,11 +21,15 @@ function ENT:StartHactBridgeAnimation(bridgeName, bridgeEntry, animName)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `bridgeName` | `any` | Not documented. |
-| `bridgeEntry` | `any` | Not documented. |
-| `animName` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `bridgeName` | `any` | Yes | Not documented. |
+| `bridgeEntry` | `any` | Yes | Not documented. |
+| `animName` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

@@ -21,13 +21,17 @@ function ENT:ChargeAura(enable, SDRCleanupTime, SDRColor, SDRMaterial, destroyIn
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `enable` | `any` | Not documented. |
-| `SDRCleanupTime` | `any` | Not documented. |
-| `SDRColor` | `any` | Not documented. |
-| `SDRMaterial` | `any` | Not documented. |
-| `destroyInstant` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `enable` | `any` | Yes | Not documented. |
+| `SDRCleanupTime` | `any` | Yes | Not documented. |
+| `SDRColor` | `any` | Yes | Not documented. |
+| `SDRMaterial` | `any` | Yes | Not documented. |
+| `destroyInstant` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

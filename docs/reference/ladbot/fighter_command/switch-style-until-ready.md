@@ -21,12 +21,16 @@ function ENT:SwitchStyleUntilReady(id, force, onSuccess, retryDelay)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `id` | `any` | Not documented. |
-| `force` | `any` | Not documented. |
-| `onSuccess` | `any` | Not documented. |
-| `retryDelay` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `id` | `any` | Yes | Not documented. |
+| `force` | `any` | Yes | Not documented. |
+| `onSuccess` | `any` | Yes | Not documented. |
+| `retryDelay` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

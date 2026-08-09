@@ -21,12 +21,16 @@ function ENT:TriggerDialogue(ply, dialogue, id, subjects)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `ply` | `any` | Not documented. |
-| `dialogue` | `any` | Not documented. |
-| `id` | `any` | Not documented. |
-| `subjects` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `ply` | `any` | Yes | Not documented. |
+| `dialogue` | `any` | Yes | Not documented. |
+| `id` | `any` | Yes | Not documented. |
+| `subjects` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

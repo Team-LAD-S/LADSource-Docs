@@ -21,9 +21,13 @@ function ENT:OnPatrolUnreachable(pos)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `pos` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `pos` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

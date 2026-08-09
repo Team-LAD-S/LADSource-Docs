@@ -21,9 +21,13 @@ function ENT:OnCosmeticKnockoff(cosmetic)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `cosmetic` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `cosmetic` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

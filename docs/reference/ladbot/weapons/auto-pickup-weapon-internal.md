@@ -21,10 +21,14 @@ doesn't change style, 2nd argument does
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `v` | `any` | Not documented. |
-| `change` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `v` | `any` | Yes | Not documented. |
+| `change` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

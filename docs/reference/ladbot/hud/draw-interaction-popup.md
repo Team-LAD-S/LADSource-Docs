@@ -21,9 +21,13 @@ function ENT:DrawInteractionPopup(data)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `data` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `data` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

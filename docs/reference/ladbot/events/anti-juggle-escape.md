@@ -21,9 +21,13 @@ function ENT:AntiJuggleEscape(dmgdir)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `dmgdir` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `dmgdir` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

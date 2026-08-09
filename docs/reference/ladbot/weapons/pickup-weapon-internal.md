@@ -21,12 +21,16 @@ function ENT:PickupWeaponInternal(v, hiddenWeapon, broke, mvbound)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `v` | `any` | Not documented. |
-| `hiddenWeapon` | `any` | Not documented. |
-| `broke` | `any` | Not documented. |
-| `mvbound` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `v` | `any` | Yes | Not documented. |
+| `hiddenWeapon` | `any` | Yes | Not documented. |
+| `broke` | `any` | Yes | Not documented. |
+| `mvbound` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

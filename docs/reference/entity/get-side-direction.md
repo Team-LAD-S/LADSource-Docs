@@ -21,9 +21,13 @@ Retrieves the side for an entity
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `side` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `side` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

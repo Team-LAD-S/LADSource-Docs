@@ -22,9 +22,13 @@ Starts music early so it plays under the battle start animation.
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `directRecipient` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `directRecipient` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

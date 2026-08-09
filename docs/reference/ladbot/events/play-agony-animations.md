@@ -21,11 +21,15 @@ wtf is happening here
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `str` | `any` | Not documented. |
-| `bodypart` | `any` | Not documented. |
-| `bodyrng` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `str` | `any` | Yes | Not documented. |
+| `bodypart` | `any` | Yes | Not documented. |
+| `bodyrng` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

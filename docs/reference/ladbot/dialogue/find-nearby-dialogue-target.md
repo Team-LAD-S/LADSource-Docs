@@ -21,9 +21,13 @@ function ENT:FindNearbyDialogueTarget(radius)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `radius` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `radius` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

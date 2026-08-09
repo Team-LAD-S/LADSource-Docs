@@ -24,10 +24,14 @@ avoid operating on partially-removed entity state.
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `fighter` | `any` | Not documented. |
-| `checkEnd` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `fighter` | `any` | Yes | Not documented. |
+| `checkEnd` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

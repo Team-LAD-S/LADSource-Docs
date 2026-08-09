@@ -21,11 +21,15 @@ function ENT:CreateBodypart(cosmetic, model, scale)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `cosmetic` | `any` | Not documented. |
-| `model` | `any` | Not documented. |
-| `scale` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `cosmetic` | `any` | Yes | Not documented. |
+| `model` | `any` | Yes | Not documented. |
+| `scale` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

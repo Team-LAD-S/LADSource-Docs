@@ -21,9 +21,13 @@ function ENT:PrintNodeFollowUps(moveName)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `moveName` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `moveName` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

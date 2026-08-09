@@ -21,11 +21,15 @@ function ENT:PlayGuardingAnimations(cond, dmg, damageOverride)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `cond` | `any` | Not documented. |
-| `dmg` | `any` | Not documented. |
-| `damageOverride` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `cond` | `any` | Yes | Not documented. |
+| `dmg` | `any` | Yes | Not documented. |
+| `damageOverride` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

@@ -21,9 +21,13 @@ function ENT:InvalidateMovesetCache(ms)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `ms` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `ms` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

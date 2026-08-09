@@ -21,10 +21,14 @@ function ENT:StartDynamicIntroBattle(target, skipEarlySoundtrack)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `target` | `any` | Not documented. |
-| `skipEarlySoundtrack` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `target` | `any` | Yes | Not documented. |
+| `skipEarlySoundtrack` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

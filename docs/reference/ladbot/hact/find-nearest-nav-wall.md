@@ -21,10 +21,14 @@ function ENT:FindNearestNavWall(searchRadius, maxWallDist)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `searchRadius` | `any` | Not documented. |
-| `maxWallDist` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `searchRadius` | `any` | Yes | Not documented. |
+| `maxWallDist` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

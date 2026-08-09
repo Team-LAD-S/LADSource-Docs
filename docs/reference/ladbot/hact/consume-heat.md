@@ -21,9 +21,13 @@ function ENT:ConsumeHeat(curhact)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `curhact` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `curhact` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

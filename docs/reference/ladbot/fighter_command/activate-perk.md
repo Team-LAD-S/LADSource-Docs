@@ -21,10 +21,14 @@ function ENT:ActivatePerk(time, pwr)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `time` | `any` | Not documented. |
-| `pwr` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `time` | `any` | Yes | Not documented. |
+| `pwr` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

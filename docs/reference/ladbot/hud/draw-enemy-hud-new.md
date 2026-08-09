@@ -21,20 +21,24 @@ function ENT:DrawEnemyHUDNew(enemyhp, maxenemyhp,fightername,textfont, healthhei
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `enemyhp` | `any` | Not documented. |
-| `maxenemyhp` | `any` | Not documented. |
-| `fightername` | `any` | Not documented. |
-| `textfont` | `any` | Not documented. |
-| `healthheight` | `any` | Not documented. |
-| `isboss` | `any` | Not documented. |
-| `barheight` | `any` | Not documented. |
-| `hudspot` | `any` | Not documented. |
-| `entindex` | `any` | Not documented. |
-| `oldBarWidth` | `any` | Not documented. |
-| `oldShakeHP` | `any` | Not documented. |
-| `place` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `enemyhp` | `any` | Yes | Not documented. |
+| `maxenemyhp` | `any` | Yes | Not documented. |
+| `fightername` | `any` | Yes | Not documented. |
+| `textfont` | `any` | Yes | Not documented. |
+| `healthheight` | `any` | Yes | Not documented. |
+| `isboss` | `any` | Yes | Not documented. |
+| `barheight` | `any` | Yes | Not documented. |
+| `hudspot` | `any` | Yes | Not documented. |
+| `entindex` | `any` | Yes | Not documented. |
+| `oldBarWidth` | `any` | Yes | Not documented. |
+| `oldShakeHP` | `any` | Yes | Not documented. |
+| `place` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

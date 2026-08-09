@@ -21,9 +21,13 @@ function ENT:RecoverFast(tbl)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `tbl` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `tbl` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

@@ -21,10 +21,14 @@ function ENT:FindMatchingFollowUp(input, ply)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `input` | `any` | Not documented. |
-| `ply` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `input` | `any` | Yes | Not documented. |
+| `ply` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

@@ -21,15 +21,19 @@ function ENT:SetFighterMoveset(ms, hasSwitched, isWeaponMoveset, isHiddenWeapon,
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `ms` | `any` | Not documented. |
-| `hasSwitched` | `any` | Not documented. |
-| `isWeaponMoveset` | `any` | Not documented. |
-| `isHiddenWeapon` | `any` | Not documented. |
-| `stool` | `any` | Not documented. |
-| `grabsync` | `any` | Not documented. |
-| `skipSwitchAnim` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `ms` | `any` | Yes | Not documented. |
+| `hasSwitched` | `any` | Yes | Not documented. |
+| `isWeaponMoveset` | `any` | Yes | Not documented. |
+| `isHiddenWeapon` | `any` | Yes | Not documented. |
+| `stool` | `any` | Yes | Not documented. |
+| `grabsync` | `any` | Yes | Not documented. |
+| `skipSwitchAnim` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

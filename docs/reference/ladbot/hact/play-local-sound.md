@@ -21,10 +21,14 @@ function ENT:PlayLocalSound(path, volume)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `path` | `any` | Not documented. |
-| `volume` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `path` | `any` | Yes | Not documented. |
+| `volume` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

@@ -21,10 +21,14 @@ function ENT:PlayFaceAnim(animName, playBackRate)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `animName` | `any` | Not documented. |
-| `playBackRate` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `animName` | `any` | Yes | Not documented. |
+| `playBackRate` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

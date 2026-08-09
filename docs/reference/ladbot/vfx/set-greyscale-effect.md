@@ -21,9 +21,13 @@ function ENT:SetGreyscaleEffect(enable)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `enable` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `enable` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

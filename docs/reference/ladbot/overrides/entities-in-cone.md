@@ -21,14 +21,18 @@ function ENT:EntitiesInCone(angle, distance, disp, spotted, side, originEntity)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `angle` | `any` | Not documented. |
-| `distance` | `any` | Not documented. |
-| `disp` | `any` | Not documented. |
-| `spotted` | `any` | Not documented. |
-| `side` | `any` | Not documented. |
-| `originEntity` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `angle` | `any` | Yes | Not documented. |
+| `distance` | `any` | Yes | Not documented. |
+| `disp` | `any` | Yes | Not documented. |
+| `spotted` | `any` | Yes | Not documented. |
+| `side` | `any` | Yes | Not documented. |
+| `originEntity` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

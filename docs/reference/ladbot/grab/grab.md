@@ -21,12 +21,16 @@ function ENT:Grab(anim, data, animrate, AIFaceEnemyCycle)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `anim` | `any` | Not documented. |
-| `data` | `any` | Not documented. |
-| `animrate` | `any` | Not documented. |
-| `AIFaceEnemyCycle` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `anim` | `any` | Yes | Not documented. |
+| `data` | `any` | Yes | Not documented. |
+| `animrate` | `any` | Yes | Not documented. |
+| `AIFaceEnemyCycle` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

@@ -21,12 +21,16 @@ function ENT:SetHitReactionData(tbl)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `tbl` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `tbl` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events_anim.lua:560</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events_anim.lua:601</code>.</p>

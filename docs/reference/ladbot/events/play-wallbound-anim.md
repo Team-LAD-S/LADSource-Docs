@@ -21,12 +21,16 @@ oldest function ever (2023 february)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `anim` | `any` | Not documented. |
-| `dmg` | `any` | Not documented. |
-| `ragcycle` | `any` | Not documented. |
-| `ragdur` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `anim` | `any` | Yes | Not documented. |
+| `dmg` | `any` | Yes | Not documented. |
+| `ragcycle` | `any` | Yes | Not documented. |
+| `ragdur` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

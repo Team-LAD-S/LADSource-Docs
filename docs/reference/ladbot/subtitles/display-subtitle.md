@@ -21,11 +21,15 @@ function ENT:DisplaySubtitle(text, time, radius)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `text` | `any` | Not documented. |
-| `time` | `any` | Not documented. |
-| `radius` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `text` | `any` | Yes | Not documented. |
+| `time` | `any` | Yes | Not documented. |
+| `radius` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

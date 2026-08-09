@@ -21,9 +21,13 @@ function ENT:VFX_HandSpark(att)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `att` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `att` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

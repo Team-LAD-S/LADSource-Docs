@@ -21,13 +21,17 @@ function ENT:SetMovementAnimations(combat, walk, run, idle, guard)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `combat` | `any` | Not documented. |
-| `walk` | `any` | Not documented. |
-| `run` | `any` | Not documented. |
-| `idle` | `any` | Not documented. |
-| `guard` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `combat` | `any` | Yes | Not documented. |
+| `walk` | `any` | Yes | Not documented. |
+| `run` | `any` | Yes | Not documented. |
+| `idle` | `any` | Yes | Not documented. |
+| `guard` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

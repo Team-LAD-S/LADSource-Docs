@@ -21,10 +21,14 @@ function ENT:PlayMovementDirAnimation(tbl, animOptions)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `tbl` | `any` | Not documented. |
-| `animOptions` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `tbl` | `any` | Yes | Not documented. |
+| `animOptions` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

@@ -21,9 +21,13 @@ function ENT:CICO(callback)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `callback` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `callback` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

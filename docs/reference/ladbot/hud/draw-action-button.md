@@ -21,16 +21,20 @@ function ENT:DrawActionButton(actionName, keyLabel, centerX, centerY, iconW, ico
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `actionName` | `any` | Not documented. |
-| `keyLabel` | `any` | Not documented. |
-| `centerX` | `any` | Not documented. |
-| `centerY` | `any` | Not documented. |
-| `iconW` | `any` | Not documented. |
-| `iconH` | `any` | Not documented. |
-| `font` | `any` | Not documented. |
-| `alpha` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `actionName` | `any` | Yes | Not documented. |
+| `keyLabel` | `any` | Yes | Not documented. |
+| `centerX` | `any` | Yes | Not documented. |
+| `centerY` | `any` | Yes | Not documented. |
+| `iconW` | `any` | Yes | Not documented. |
+| `iconH` | `any` | Yes | Not documented. |
+| `font` | `any` | Yes | Not documented. |
+| `alpha` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

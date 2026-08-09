@@ -21,10 +21,14 @@ function ENT:_SwitchWBType(wbtype, ragdur)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `wbtype` | `any` | Not documented. |
-| `ragdur` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `wbtype` | `any` | Yes | Not documented. |
+| `ragdur` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

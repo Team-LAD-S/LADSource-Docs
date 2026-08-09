@@ -21,9 +21,13 @@ function ENT:SetBusy(busy)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `busy` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `busy` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

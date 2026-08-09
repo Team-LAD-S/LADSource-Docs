@@ -21,10 +21,14 @@ function ENT:PopHeat(hyperarmor, anim)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `hyperarmor` | `any` | Not documented. |
-| `anim` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `hyperarmor` | `any` | Yes | Not documented. |
+| `anim` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

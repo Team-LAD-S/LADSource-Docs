@@ -21,10 +21,14 @@ function ENT:AIWeaponThrowRoutine(enemy, cof)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `enemy` | `any` | Not documented. |
-| `cof` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `enemy` | `any` | Yes | Not documented. |
+| `cof` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

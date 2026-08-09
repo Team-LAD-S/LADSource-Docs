@@ -22,10 +22,14 @@ Returns true on success.
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `fighter` | `any` | Not documented. |
-| `battleID` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `fighter` | `any` | Yes | Not documented. |
+| `battleID` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

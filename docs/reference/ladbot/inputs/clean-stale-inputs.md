@@ -21,10 +21,14 @@ function ENT:CleanStaleInputs(now, bufferTime)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `now` | `any` | Not documented. |
-| `bufferTime` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `now` | `any` | Yes | Not documented. |
+| `bufferTime` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

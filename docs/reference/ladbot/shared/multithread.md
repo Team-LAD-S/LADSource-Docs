@@ -21,9 +21,13 @@ Trust me, this works, you just haven't seen it used all that much yet
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `funcs` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `funcs` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

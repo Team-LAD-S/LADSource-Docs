@@ -21,22 +21,26 @@ function ENT:Y0_DrawHeatBarSegment(barIdx, heat, lerpedHeat, heatBarMaxReached, 
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `barIdx` | `any` | Not documented. |
-| `heat` | `any` | Not documented. |
-| `lerpedHeat` | `any` | Not documented. |
-| `heatBarMaxReached` | `any` | Not documented. |
-| `heatbarcolor` | `any` | Not documented. |
-| `baseX` | `any` | Not documented. |
-| `y` | `any` | Not documented. |
-| `width` | `any` | Not documented. |
-| `height` | `any` | Not documented. |
-| `scaleW` | `any` | Not documented. |
-| `scaleH` | `any` | Not documented. |
-| `colorScale` | `any` | Not documented. |
-| `alpha` | `any` | Not documented. |
-| `totalBars` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `barIdx` | `any` | Yes | Not documented. |
+| `heat` | `any` | Yes | Not documented. |
+| `lerpedHeat` | `any` | Yes | Not documented. |
+| `heatBarMaxReached` | `any` | Yes | Not documented. |
+| `heatbarcolor` | `any` | Yes | Not documented. |
+| `baseX` | `any` | Yes | Not documented. |
+| `y` | `any` | Yes | Not documented. |
+| `width` | `any` | Yes | Not documented. |
+| `height` | `any` | Yes | Not documented. |
+| `scaleW` | `any` | Yes | Not documented. |
+| `scaleH` | `any` | Yes | Not documented. |
+| `colorScale` | `any` | Yes | Not documented. |
+| `alpha` | `any` | Yes | Not documented. |
+| `totalBars` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

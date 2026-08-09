@@ -21,9 +21,13 @@ override this function in your ladbot to make custom battle AI (when close to th
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `enemy` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `enemy` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

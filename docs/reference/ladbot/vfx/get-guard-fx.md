@@ -21,10 +21,14 @@ function ENT:GetGuardFX(attacker, attackData)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `attacker` | `any` | Not documented. |
-| `attackData` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `attacker` | `any` | Yes | Not documented. |
+| `attackData` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

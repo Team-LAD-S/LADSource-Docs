@@ -21,11 +21,15 @@ function ENT:OnDeath(dmg, delay, hitgroup)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `dmg` | `any` | Not documented. |
-| `delay` | `any` | Not documented. |
-| `hitgroup` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `dmg` | `any` | Yes | Not documented. |
+| `delay` | `any` | Yes | Not documented. |
+| `hitgroup` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

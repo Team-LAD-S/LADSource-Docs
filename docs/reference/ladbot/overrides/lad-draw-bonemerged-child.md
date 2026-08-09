@@ -21,10 +21,14 @@ function ENT:_LADDrawBonemergedChild(child, flags)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `child` | `any` | Not documented. |
-| `flags` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `child` | `any` | Yes | Not documented. |
+| `flags` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

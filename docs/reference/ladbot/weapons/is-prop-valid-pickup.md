@@ -21,9 +21,13 @@ function ENT:IsPropValidPickup(prop)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `prop` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `prop` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

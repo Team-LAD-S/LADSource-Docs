@@ -21,9 +21,13 @@ function ENT:ClimbLadderToTop(ladderNormal)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `ladderNormal` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `ladderNormal` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

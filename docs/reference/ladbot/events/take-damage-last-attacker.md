@@ -21,10 +21,14 @@ function ENT:TakeDamageLastAttacker(damage, type)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `damage` | `any` | Not documented. |
-| `type` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `damage` | `any` | Yes | Not documented. |
+| `type` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

@@ -21,11 +21,15 @@ check if the grabbed entity can be moved to the desired position
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `grabber` | `any` | Not documented. |
-| `grabbed` | `any` | Not documented. |
-| `offset` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `grabber` | `any` | Yes | Not documented. |
+| `grabbed` | `any` | Yes | Not documented. |
+| `offset` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

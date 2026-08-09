@@ -21,9 +21,13 @@ Loads and caches a soundtrack definition file from data_static. Returns { name, 
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `sdFile` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `sdFile` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

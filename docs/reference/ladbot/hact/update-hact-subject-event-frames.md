@@ -21,9 +21,13 @@ function ENT:UpdateHactSubjectEventFrames(frame)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `frame` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `frame` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

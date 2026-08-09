@@ -21,9 +21,13 @@ function ENT:LAD_HactEventFramesHasKey(key)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `key` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `key` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

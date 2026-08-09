@@ -21,13 +21,17 @@ function ENT:RefreshHactBridgeViewers(bridgeEntry, cameraDataPath, cameraFOVOpti
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `bridgeEntry` | `any` | Not documented. |
-| `cameraDataPath` | `any` | Not documented. |
-| `cameraFOVOptions` | `any` | Not documented. |
-| `frameProgressionPath` | `any` | Not documented. |
-| `fov` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `bridgeEntry` | `any` | Yes | Not documented. |
+| `cameraDataPath` | `any` | Yes | Not documented. |
+| `cameraFOVOptions` | `any` | Yes | Not documented. |
+| `frameProgressionPath` | `any` | Yes | Not documented. |
+| `fov` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

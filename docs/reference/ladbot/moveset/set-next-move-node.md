@@ -21,9 +21,13 @@ function ENT:SetNextMoveNode(nodeName)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `nodeName` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `nodeName` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

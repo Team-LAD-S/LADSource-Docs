@@ -21,9 +21,13 @@ function ENT:Draw(flags)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `flags` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `flags` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

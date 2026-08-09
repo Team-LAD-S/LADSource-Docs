@@ -21,9 +21,13 @@ Guarding related
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `hold` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `hold` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

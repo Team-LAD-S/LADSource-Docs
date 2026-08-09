@@ -21,11 +21,15 @@ function ENT:PlayBattleStartAnim(cam, target, fov)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `cam` | `any` | Not documented. |
-| `target` | `any` | Not documented. |
-| `fov` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `cam` | `any` | Yes | Not documented. |
+| `target` | `any` | Yes | Not documented. |
+| `fov` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

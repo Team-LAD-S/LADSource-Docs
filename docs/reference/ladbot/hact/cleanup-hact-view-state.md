@@ -21,9 +21,13 @@ function ENT:CleanupHactViewState(duration)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `duration` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `duration` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

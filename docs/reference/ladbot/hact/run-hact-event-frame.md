@@ -21,10 +21,14 @@ function ENT:RunHactEventFrame(entry, track)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `entry` | `any` | Not documented. |
-| `track` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `entry` | `any` | Yes | Not documented. |
+| `track` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

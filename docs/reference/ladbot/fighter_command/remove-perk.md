@@ -21,9 +21,13 @@ function ENT:RemovePerk(pwr)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `pwr` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `pwr` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

@@ -21,9 +21,13 @@ function ENT:RegenerateHealth(value)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `value` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `value` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

@@ -21,10 +21,14 @@ function ENT:Downed(str, fatal)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `str` | `any` | Not documented. |
-| `fatal` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `str` | `any` | Yes | Not documented. |
+| `fatal` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

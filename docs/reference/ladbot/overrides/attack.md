@@ -21,11 +21,15 @@ filters downed people
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `attack` | `any` | Not documented. |
-| `callback` | `any` | Not documented. |
-| `attacker` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `attack` | `any` | Yes | Not documented. |
+| `callback` | `any` | Yes | Not documented. |
+| `attacker` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

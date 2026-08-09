@@ -21,9 +21,13 @@ function ENT:GetHactCameraDataEntry(cameraAnims)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `cameraAnims` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `cameraAnims` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

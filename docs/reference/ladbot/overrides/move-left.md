@@ -21,10 +21,14 @@ function ENT:MoveLeft(dist, callback)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `dist` | `any` | Not documented. |
-| `callback` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `dist` | `any` | Yes | Not documented. |
+| `callback` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

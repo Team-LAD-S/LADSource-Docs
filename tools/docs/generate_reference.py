@@ -16,7 +16,10 @@ INCLUDE_RE = re.compile(r'DrGBase\.IncludeFile\(["\']([^"\']+\.lua)["\']\)')
 DOC_LINE_RE = re.compile(r"^\s*---(?!-)(.*)$")
 COMMENT_LINE_RE = re.compile(r"^\s*--(?!-|\[\[)(.*)$")
 TAG_RE = re.compile(r"^@(?P<name>[A-Za-z_]\w*)(?:\s+(?P<value>.*))?$")
-PARAM_RE = re.compile(r"^(?P<name>[A-Za-z_]\w*|\.\.\.)\s+(?P<type>\S+)(?:\s+(?P<description>.*))?$")
+PARAM_RE = re.compile(
+    r"^(?P<name>[A-Za-z_]\w*|\.\.\.)(?P<optional>\?)?\s+"
+    r"(?P<type>\S+)(?:\s+(?P<description>.*))?$"
+)
 FIELD_RE = re.compile(
     r"^(?P<parameter>[A-Za-z_]\w*)\."
     r"(?P<name>[A-Za-z_]\w*(?:\.[A-Za-z_]\w*)*)(?P<optional>\?)?\s+"
@@ -38,6 +41,7 @@ class Parameter:
     name: str
     type: str = "any"
     description: str = ""
+    optional: bool = False
     fields: list[TableField] = field(default_factory=list)
 
 
@@ -117,10 +121,13 @@ def parse_documentation(method: Method, doc_lines: list[str]) -> None:
         if tag == "realm" and value:
             method.realm = value.lower()
         elif tag == "param" and (match := PARAM_RE.match(value)):
+            description = match.group("description") or ""
             parameter = Parameter(
                 match.group("name"),
                 match.group("type"),
-                match.group("description") or "",
+                description,
+                bool(match.group("optional"))
+                or bool(re.search(r"\boptional\b", description, re.IGNORECASE)),
             )
             documented_parameters[parameter.name] = parameter
         elif tag == "field" and (match := FIELD_RE.match(value)):
@@ -302,13 +309,22 @@ def render_method(method: Method, repository_url: str, branch: str) -> list[str]
 
     output.extend(["## Parameters", ""])
     if method.parameters:
-        output.extend(["| Name | Type | Description |", "| --- | --- | --- |"])
+        output.extend(
+            [
+                '<div class="api-parameter-table" markdown>',
+                "",
+                "| Name | Type | Required | Description |",
+                "| --- | --- | :---: | --- |",
+            ]
+        )
         for parameter in method.parameters:
             output.append(
-                f"| `{markdown_cell(parameter.name)}` | `{markdown_cell(parameter.type)}` | "
+                f"| `{markdown_cell(parameter.name)}` | "
+                f"`{markdown_cell(parameter.type)}` | "
+                f"{'No' if parameter.optional else 'Yes'} | "
                 f"{markdown_cell(parameter.description) or 'Not documented.'} |"
             )
-        output.append("")
+        output.extend(["", "</div>", ""])
     else:
         output.extend(["This method takes no explicit arguments.", ""])
 
@@ -318,6 +334,8 @@ def render_method(method: Method, repository_url: str, branch: str) -> list[str]
         output.extend(
             [
                 f"### `{parameter.name}` table fields",
+                "",
+                '<div class="api-parameter-table api-parameter-fields" markdown>',
                 "",
                 "| Key | Type | Required | Description |",
                 "| --- | --- | :---: | --- |",
@@ -330,7 +348,7 @@ def render_method(method: Method, repository_url: str, branch: str) -> list[str]
                 f"{'No' if table_field.optional else 'Yes'} | "
                 f"{markdown_cell(table_field.description) or 'Not documented.'} |"
             )
-        output.append("")
+        output.extend(["", "</div>", ""])
 
     output.extend(["## Returns", ""])
     if method.returns:

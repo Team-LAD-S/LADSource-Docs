@@ -21,10 +21,14 @@ function ENT:SafeSetFlexWeight(flexName, weight)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `flexName` | `any` | Not documented. |
-| `weight` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `flexName` | `any` | Yes | Not documented. |
+| `weight` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

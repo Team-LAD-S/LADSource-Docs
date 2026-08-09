@@ -21,15 +21,19 @@ function ENT:CreateDynamicCosmetic(mdl, scale, attachment, pos, ang, noFade, thr
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `mdl` | `any` | Not documented. |
-| `scale` | `any` | Not documented. |
-| `attachment` | `any` | Not documented. |
-| `pos` | `any` | Not documented. |
-| `ang` | `any` | Not documented. |
-| `noFade` | `any` | Not documented. |
-| `threshold` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `mdl` | `any` | Yes | Not documented. |
+| `scale` | `any` | Yes | Not documented. |
+| `attachment` | `any` | Yes | Not documented. |
+| `pos` | `any` | Yes | Not documented. |
+| `ang` | `any` | Yes | Not documented. |
+| `noFade` | `any` | Yes | Not documented. |
+| `threshold` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

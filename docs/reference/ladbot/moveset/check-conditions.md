@@ -21,11 +21,15 @@ function ENT:CheckConditions(conditions, ply, input)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `conditions` | `any` | Not documented. |
-| `ply` | `any` | Not documented. |
-| `input` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `conditions` | `any` | Yes | Not documented. |
+| `ply` | `any` | Yes | Not documented. |
+| `input` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

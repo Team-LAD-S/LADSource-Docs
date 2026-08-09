@@ -21,9 +21,13 @@ Sends LAD_SoundtrackStop to the possessing player
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `ply` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `ply` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

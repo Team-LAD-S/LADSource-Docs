@@ -21,10 +21,14 @@ function ENT:GetHactFrameProgressionEntry(frameProgression, index)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `frameProgression` | `any` | Not documented. |
-| `index` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `frameProgression` | `any` | Yes | Not documented. |
+| `index` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

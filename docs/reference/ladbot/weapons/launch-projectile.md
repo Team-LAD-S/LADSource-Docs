@@ -21,14 +21,18 @@ function ENT:LaunchProjectile(projectile, startPos, speed, att, aim, options)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `projectile` | `any` | Not documented. |
-| `startPos` | `any` | Not documented. |
-| `speed` | `any` | Not documented. |
-| `att` | `any` | Not documented. |
-| `aim` | `any` | Not documented. |
-| `options` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `projectile` | `any` | Yes | Not documented. |
+| `startPos` | `any` | Yes | Not documented. |
+| `speed` | `any` | Yes | Not documented. |
+| `att` | `any` | Yes | Not documented. |
+| `aim` | `any` | Yes | Not documented. |
+| `options` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

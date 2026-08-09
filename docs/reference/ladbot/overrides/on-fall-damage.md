@@ -21,9 +21,13 @@ function ENT:OnFallDamage(speed)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `speed` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `speed` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

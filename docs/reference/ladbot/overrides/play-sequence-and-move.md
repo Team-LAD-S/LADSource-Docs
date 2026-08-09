@@ -21,11 +21,15 @@ function ENT:PlaySequenceAndMove(seq, options, callback)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `seq` | `any` | Not documented. |
-| `options` | `any` | Not documented. |
-| `callback` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `seq` | `any` | Yes | Not documented. |
+| `options` | `any` | Yes | Not documented. |
+| `callback` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

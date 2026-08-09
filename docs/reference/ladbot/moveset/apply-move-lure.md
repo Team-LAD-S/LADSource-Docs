@@ -21,13 +21,17 @@ function ENT:_ApplyMoveLure(move, moveName, capturedGen, nodeAnimRate, syncPos)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `move` | `any` | Not documented. |
-| `moveName` | `any` | Not documented. |
-| `capturedGen` | `any` | Not documented. |
-| `nodeAnimRate` | `any` | Not documented. |
-| `syncPos` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `move` | `any` | Yes | Not documented. |
+| `moveName` | `any` | Yes | Not documented. |
+| `capturedGen` | `any` | Yes | Not documented. |
+| `nodeAnimRate` | `any` | Yes | Not documented. |
+| `syncPos` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

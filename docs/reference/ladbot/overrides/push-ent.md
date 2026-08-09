@@ -21,10 +21,14 @@ function ENT:PushEnt(ent, force)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `ent` | `any` | Not documented. |
-| `force` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `ent` | `any` | Yes | Not documented. |
+| `force` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

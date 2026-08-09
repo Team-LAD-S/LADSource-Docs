@@ -21,9 +21,13 @@ function ENT:StandUp(str)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `str` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `str` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

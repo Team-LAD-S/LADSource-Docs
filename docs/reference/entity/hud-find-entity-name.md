@@ -21,9 +21,13 @@ function to find the name of an entity for HUD
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `entity` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `entity` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

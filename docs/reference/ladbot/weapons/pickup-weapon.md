@@ -21,9 +21,13 @@ function ENT:PickupWeapon(auto)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `auto` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `auto` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

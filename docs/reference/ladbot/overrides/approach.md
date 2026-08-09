@@ -21,10 +21,14 @@ function ENT:Approach(pos, nb)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `pos` | `any` | Not documented. |
-| `nb` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `pos` | `any` | Yes | Not documented. |
+| `nb` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

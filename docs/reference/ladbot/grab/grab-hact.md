@@ -21,9 +21,13 @@ function ENT:GrabHACT(hact)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `hact` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `hact` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

@@ -21,10 +21,14 @@ function ENT:LoadData(type, id)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `type` | `any` | Not documented. |
-| `id` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `type` | `any` | Yes | Not documented. |
+| `id` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

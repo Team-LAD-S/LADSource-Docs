@@ -26,12 +26,16 @@ and has no battle yet (e.g. endless boss intro).
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `ignoreCombatCheck` | `any` | Not documented. |
-| `skipIntro` | `any` | Not documented. |
-| `waitForIntro` | `any` | Not documented. |
-| `directRecipient` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `ignoreCombatCheck` | `any` | Yes | Not documented. |
+| `skipIntro` | `any` | Yes | Not documented. |
+| `waitForIntro` | `any` | Yes | Not documented. |
+| `directRecipient` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

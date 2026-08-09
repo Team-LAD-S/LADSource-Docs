@@ -21,9 +21,13 @@ function ENT:GetInputName(button)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `button` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `button` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

@@ -21,9 +21,13 @@ function ENT:EndHact(suppressEvents)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `suppressEvents` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `suppressEvents` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

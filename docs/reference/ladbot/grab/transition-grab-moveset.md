@@ -21,11 +21,15 @@ function ENT:TransitionGrabMoveset(newGrabMovesetName, syncAnim, syncOffset)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `newGrabMovesetName` | `any` | Not documented. |
-| `syncAnim` | `any` | Not documented. |
-| `syncOffset` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `newGrabMovesetName` | `any` | Yes | Not documented. |
+| `syncAnim` | `any` | Yes | Not documented. |
+| `syncOffset` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

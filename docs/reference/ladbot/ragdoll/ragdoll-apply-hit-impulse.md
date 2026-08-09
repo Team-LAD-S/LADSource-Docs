@@ -22,10 +22,14 @@ Used by ApplyAttackDamage to make the ragdoll react to incoming hits.
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `hitPos` | `any` | Not documented. |
-| `impulse` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `hitPos` | `any` | Yes | Not documented. |
+| `impulse` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

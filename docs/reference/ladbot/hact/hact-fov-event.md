@@ -21,11 +21,15 @@ function ENT:HactFOVEvent(targetFOV, startFrame, endFrame)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `targetFOV` | `any` | Not documented. |
-| `startFrame` | `any` | Not documented. |
-| `endFrame` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `targetFOV` | `any` | Yes | Not documented. |
+| `startFrame` | `any` | Yes | Not documented. |
+| `endFrame` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

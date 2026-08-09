@@ -21,10 +21,14 @@ function ENT:GetRelativeDirection(direction, nextbot)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `direction` | `any` | Not documented. |
-| `nextbot` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `direction` | `any` | Yes | Not documented. |
+| `nextbot` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

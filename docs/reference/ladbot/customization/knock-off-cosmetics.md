@@ -21,10 +21,14 @@ function ENT:KnockOffCosmetics(strength, direction)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `strength` | `any` | Not documented. |
-| `direction` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `strength` | `any` | Yes | Not documented. |
+| `direction` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

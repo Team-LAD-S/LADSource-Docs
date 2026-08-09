@@ -21,9 +21,13 @@ function ENT:SetAttackBone(bone)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `bone` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `bone` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

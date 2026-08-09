@@ -21,9 +21,13 @@ function ENT:_FindVoidRecoveryPos(origin)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `origin` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `origin` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

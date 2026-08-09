@@ -27,9 +27,13 @@ or nil if no suitable candidate passes all three filters:
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `dirSnapshot` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `dirSnapshot` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

@@ -21,11 +21,15 @@ function ENT:GoToWeapon(pos, tolerance, callback)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `pos` | `any` | Not documented. |
-| `tolerance` | `any` | Not documented. |
-| `callback` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `pos` | `any` | Yes | Not documented. |
+| `tolerance` | `any` | Yes | Not documented. |
+| `callback` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

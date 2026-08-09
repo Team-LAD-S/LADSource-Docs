@@ -21,10 +21,14 @@ function Entity:LADS_IsInRange(pos, range)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `pos` | `any` | Not documented. |
-| `range` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `pos` | `any` | Yes | Not documented. |
+| `range` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

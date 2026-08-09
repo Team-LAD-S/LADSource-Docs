@@ -21,9 +21,13 @@ function ENT:VoicebankExists(vb)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `vb` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `vb` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

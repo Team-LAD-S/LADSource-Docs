@@ -21,12 +21,16 @@ function ENT:LAD_DoScreenShake(amplitude, frequency, duration, radius)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `amplitude` | `any` | Not documented. |
-| `frequency` | `any` | Not documented. |
-| `duration` | `any` | Not documented. |
-| `radius` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `amplitude` | `any` | Yes | Not documented. |
+| `frequency` | `any` | Yes | Not documented. |
+| `duration` | `any` | Yes | Not documented. |
+| `radius` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

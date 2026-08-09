@@ -21,13 +21,17 @@ function ENT:UpdateStun(ent, defcond, stuncond, mult, dmg)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `ent` | `any` | Not documented. |
-| `defcond` | `any` | Not documented. |
-| `stuncond` | `any` | Not documented. |
-| `mult` | `any` | Not documented. |
-| `dmg` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `ent` | `any` | Yes | Not documented. |
+| `defcond` | `any` | Yes | Not documented. |
+| `stuncond` | `any` | Yes | Not documented. |
+| `mult` | `any` | Yes | Not documented. |
+| `dmg` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

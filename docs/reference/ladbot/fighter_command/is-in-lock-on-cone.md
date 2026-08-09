@@ -22,10 +22,14 @@ nextbot's own forward vector).
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `ent` | `any` | Not documented. |
-| `halfAngleDeg` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `ent` | `any` | Yes | Not documented. |
+| `halfAngleDeg` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

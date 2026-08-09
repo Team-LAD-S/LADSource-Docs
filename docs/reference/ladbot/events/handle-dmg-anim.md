@@ -21,16 +21,20 @@ function ENT:_HandleDMGAnim(status, anim, dmgdir, dmg, wallbound, wallboundtype,
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `status` | `any` | Not documented. |
-| `anim` | `any` | Not documented. |
-| `dmgdir` | `any` | Not documented. |
-| `dmg` | `any` | Not documented. |
-| `wallbound` | `any` | Not documented. |
-| `wallboundtype` | `any` | Not documented. |
-| `ragcycle` | `any` | Not documented. |
-| `ragdur` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `status` | `any` | Yes | Not documented. |
+| `anim` | `any` | Yes | Not documented. |
+| `dmgdir` | `any` | Yes | Not documented. |
+| `dmg` | `any` | Yes | Not documented. |
+| `wallbound` | `any` | Yes | Not documented. |
+| `wallboundtype` | `any` | Yes | Not documented. |
+| `ragcycle` | `any` | Yes | Not documented. |
+| `ragdur` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

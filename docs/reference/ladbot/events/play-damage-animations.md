@@ -21,11 +21,15 @@ we gotta play the anims themselves
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `cond` | `any` | Not documented. |
-| `dmg` | `any` | Not documented. |
-| `dmgdir` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `cond` | `any` | Yes | Not documented. |
+| `dmg` | `any` | Yes | Not documented. |
+| `dmgdir` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

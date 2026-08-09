@@ -21,10 +21,14 @@ function ENT:GetWallHactReferenceEntity(curhact, subjects)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `curhact` | `any` | Not documented. |
-| `subjects` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `curhact` | `any` | Yes | Not documented. |
+| `subjects` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

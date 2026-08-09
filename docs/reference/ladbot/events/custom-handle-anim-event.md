@@ -21,13 +21,17 @@ function ENT:CustomHandleAnimEvent(event, _, _, _, key)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `event` | `any` | Not documented. |
-| `_` | `any` | Not documented. |
-| `_` | `any` | Not documented. |
-| `_` | `any` | Not documented. |
-| `key` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `event` | `any` | Yes | Not documented. |
+| `_` | `any` | Yes | Not documented. |
+| `_` | `any` | Yes | Not documented. |
+| `_` | `any` | Yes | Not documented. |
+| `key` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

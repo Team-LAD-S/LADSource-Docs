@@ -21,15 +21,19 @@ function ENT:HandleHitReaction(attack, ent, dmg, damageOverride)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `attack` | `any` | Not documented. |
-| `ent` | `any` | Not documented. |
-| `dmg` | `any` | Not documented. |
-| `damageOverride` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `attack` | `any` | Yes | Not documented. |
+| `ent` | `any` | Yes | Not documented. |
+| `dmg` | `any` | Yes | Not documented. |
+| `damageOverride` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events_anim.lua:362</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events_anim.lua:403</code>.</p>

@@ -27,9 +27,13 @@ Call this from inside your hit-reaction cycle callback — orientation flags
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `ragdoll_time` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `ragdoll_time` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

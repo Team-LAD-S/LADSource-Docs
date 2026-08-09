@@ -23,7 +23,7 @@ The description uses lines beginning with `---`. Tags use `---@tag`.
 | Tag | Meaning |
 | --- | --- |
 | `---@realm server` | The method is server-only. `client` and `shared` are also accepted. |
-| `---@param name Type description` | Documents an argument. |
+| `---@param name Type description` | Documents a required argument. Add `?` after the name for an optional parameter. |
 | `---@field argument.key Type description` | Documents a required key accepted by a table argument. Add `?` after the key for an optional field. |
 | `---@return Type name description` | Documents a return value. The name is optional. |
 | `---@internal` | Marks an implementation detail that addon developers should not call. |
@@ -37,6 +37,15 @@ Lua itself and consumed by the documentation generator.
 Table fields are rendered in their own section on the method page. Prefix the
 field name with its argument name so the generator can associate the key with
 the correct table when a method accepts more than one table.
+
+Optional method parameters use the same `?` convention:
+
+```lua
+---@param target ent Required target entity.
+---@param skipAnimation? boolean Whether to skip the intro animation.
+function ENT:StartExample(target, skipAnimation)
+end
+```
 
 ```lua
 --- Configures an attack from an options table.

@@ -21,11 +21,15 @@ function ENT:_ProcessQueuedInputs(ply, now, bufferTime)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `ply` | `any` | Not documented. |
-| `now` | `any` | Not documented. |
-| `bufferTime` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `ply` | `any` | Yes | Not documented. |
+| `now` | `any` | Yes | Not documented. |
+| `bufferTime` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

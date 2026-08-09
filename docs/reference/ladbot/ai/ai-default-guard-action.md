@@ -21,9 +21,13 @@ function ENT:AIDefaultGuardAction(enemy)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `enemy` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `enemy` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

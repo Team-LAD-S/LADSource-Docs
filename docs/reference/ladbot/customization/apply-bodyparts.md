@@ -21,10 +21,14 @@ function ENT:ApplyBodyparts(partType, model)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `partType` | `any` | Not documented. |
-| `model` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `partType` | `any` | Yes | Not documented. |
+| `model` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

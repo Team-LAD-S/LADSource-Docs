@@ -21,10 +21,14 @@ function ENT:ResetNodeParams(fromMove, capturedGen)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `fromMove` | `any` | Not documented. |
-| `capturedGen` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `fromMove` | `any` | Yes | Not documented. |
+| `capturedGen` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

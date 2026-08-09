@@ -21,11 +21,15 @@ function ENT:_DownedStandup(part, dmg, dmgdir)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `part` | `any` | Not documented. |
-| `dmg` | `any` | Not documented. |
-| `dmgdir` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `part` | `any` | Yes | Not documented. |
+| `dmg` | `any` | Yes | Not documented. |
+| `dmgdir` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

@@ -21,9 +21,13 @@ function ENT:SetSolidLAD(solid)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `solid` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `solid` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

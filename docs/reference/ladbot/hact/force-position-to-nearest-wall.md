@@ -21,12 +21,16 @@ function ENT:ForcePositionToNearestWall(subjects, curhactOrRadius, wallCandidate
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `subjects` | `any` | Not documented. |
-| `curhactOrRadius` | `any` | Not documented. |
-| `wallCandidate` | `any` | Not documented. |
-| `maxWallDist` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `subjects` | `any` | Yes | Not documented. |
+| `curhactOrRadius` | `any` | Yes | Not documented. |
+| `wallCandidate` | `any` | Yes | Not documented. |
+| `maxWallDist` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

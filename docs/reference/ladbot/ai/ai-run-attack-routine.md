@@ -21,11 +21,15 @@ function ENT:AIRunAttackRoutine(enemy, mincof, cof)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `enemy` | `any` | Not documented. |
-| `mincof` | `any` | Not documented. |
-| `cof` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `enemy` | `any` | Yes | Not documented. |
+| `mincof` | `any` | Yes | Not documented. |
+| `cof` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

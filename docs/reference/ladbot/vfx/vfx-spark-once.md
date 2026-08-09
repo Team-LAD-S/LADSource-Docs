@@ -21,9 +21,13 @@ function ENT:VFX_SparkOnce(attachment)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `attachment` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `attachment` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

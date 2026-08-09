@@ -22,10 +22,14 @@ The dissolveID battle record is dissolved. All fighter._battleID values are upda
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `keepID` | `any` | Not documented. |
-| `dissolveID` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `keepID` | `any` | Yes | Not documented. |
+| `dissolveID` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

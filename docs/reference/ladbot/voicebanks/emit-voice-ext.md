@@ -21,12 +21,16 @@ play any voice for specific voicebank, if voicebank doesnt match, fallback. only
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `snd` | `any` | Not documented. |
-| `voicebank` | `any` | Not documented. |
-| `fallback` | `any` | Not documented. |
-| `fallback2` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `snd` | `any` | Yes | Not documented. |
+| `voicebank` | `any` | Yes | Not documented. |
+| `fallback` | `any` | Yes | Not documented. |
+| `fallback2` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

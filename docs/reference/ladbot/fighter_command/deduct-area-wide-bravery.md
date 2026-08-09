@@ -21,10 +21,14 @@ function ENT:DeductAreaWideBravery(deduct, radius)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `deduct` | `any` | Not documented. |
-| `radius` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `deduct` | `any` | Yes | Not documented. |
+| `radius` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

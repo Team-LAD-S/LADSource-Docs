@@ -21,11 +21,15 @@ function ENT:DispatchAttackTrails(p, moveName, animSeq)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `p` | `any` | Not documented. |
-| `moveName` | `any` | Not documented. |
-| `animSeq` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `p` | `any` | Yes | Not documented. |
+| `moveName` | `any` | Yes | Not documented. |
+| `animSeq` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

@@ -21,10 +21,14 @@ function ENT:UpdateHeatPopAura(color, turnOn)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `color` | `any` | Not documented. |
-| `turnOn` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `color` | `any` | Yes | Not documented. |
+| `turnOn` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

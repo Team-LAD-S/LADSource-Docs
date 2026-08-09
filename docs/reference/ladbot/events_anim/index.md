@@ -13,7 +13,7 @@ Methods defined in `lua/entities/lad_framework_base/events_anim.lua`.
 
 | Method | Summary |
 | --- | --- |
-| [`ENT:DoAttack`](do-attack.md) | Documentation pending. |
+| [`ENT:DoAttack`](do-attack.md) | Runs the attack code, also internally passes information to ENT:Attack(attack, callback, attacker) function from Overrides module. |
 | [`ENT:GetHitReactionData`](get-hit-reaction-data.md) | Documentation pending. |
 | [`ENT:HandleAnimEvent`](handle-anim-event.md) | gargantuan ass |
 | [`ENT:HandleHitReaction`](handle-hit-reaction.md) | Documentation pending. |

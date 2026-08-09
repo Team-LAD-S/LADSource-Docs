@@ -21,9 +21,13 @@ function ENT:TriggerStationaryDialogue(bot)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `bot` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `bot` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 

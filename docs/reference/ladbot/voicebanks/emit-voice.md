@@ -21,11 +21,15 @@ function ENT:EmitVoice(snd, fallback, id)
 
 ## Parameters
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `snd` | `any` | Not documented. |
-| `fallback` | `any` | Not documented. |
-| `id` | `any` | Not documented. |
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `snd` | `any` | Yes | Not documented. |
+| `fallback` | `any` | Yes | Not documented. |
+| `id` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 
