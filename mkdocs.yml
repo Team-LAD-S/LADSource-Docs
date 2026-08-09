@@ -36,7 +36,8 @@ theme:
     - content.code.copy
 
 plugins:
-  - search
+  - search:
+      separator: '[\s\-.:_()/]+'
 
 hooks:
   - hooks/navigation.py
