@@ -32,6 +32,8 @@ The description uses lines beginning with `---`. Tags use `---@tag`.
 | `---@field argument.key Type description` | Documents a required key accepted by a table argument. Add `?` after the key for an optional field. |
 | `---@return Type name description` | Documents a return value. The name is optional. |
 | `---@example Optional title` | Starts a multiline Lua example. Following documentation lines contain its code. Repeat the tag to add another example. |
+| `---@warning message` | Adds a warning admonition to the method page. Repeat the tag to add another warning. |
+| `---@bug message` | Documents a known bug in a bug admonition. Repeat the tag to add another bug. |
 | `---@internal` | Marks an implementation detail that addon developers should not call. |
 | `---@callback` | Marks a method intended to be overridden by a LADBot. |
 | `---@deprecated message` | Marks an obsolete method and explains what to use instead. |
@@ -78,6 +80,16 @@ title is useful when a method needs more than one example.
 ---    self.IsAttacking = false
 ---end)
 function ENT:CICO(callback)
+end
+```
+
+Warnings and known bugs can use a single line or continue onto following
+documentation lines until another tag begins:
+
+```lua
+---@warning Do not call this while another sequence owns the behavior coroutine.
+---@bug Callback errors are currently not propagated to the caller.
+function ENT:CoroutineExample(callback)
 end
 ```
 

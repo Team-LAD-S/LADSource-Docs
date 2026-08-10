@@ -74,6 +74,8 @@ class Method:
     parameters: list[Parameter] = field(default_factory=list)
     returns: list[ReturnValue] = field(default_factory=list)
     examples: list[Example] = field(default_factory=list)
+    warnings: list[str] = field(default_factory=list)
+    bugs: list[str] = field(default_factory=list)
     internal: bool = False
     callback: bool = False
     deprecated: str = ""
@@ -129,23 +131,35 @@ def parse_documentation(method: Method, doc_lines: list[str]) -> None:
     documented_parameters: dict[str, Parameter] = {}
     documented_fields: dict[str, list[TableField]] = defaultdict(list)
     current_example: Example | None = None
+    current_notice: tuple[list[str], int] | None = None
 
     for line in doc_lines:
         tag_match = TAG_RE.match(line)
         if not tag_match:
             if current_example is not None:
                 current_example.code += f"{line}\n"
+            elif current_notice is not None:
+                notices, notice_index = current_notice
+                notices[notice_index] += f"\n{line}"
             else:
                 descriptions.append(line)
             continue
         tag = tag_match.group("name").lower()
         value = (tag_match.group("value") or "").strip()
         if tag == "example":
+            current_notice = None
             current_example = Example(title=value)
             method.examples.append(current_example)
             continue
+        if tag in {"warning", "bug"}:
+            current_example = None
+            notices = method.warnings if tag == "warning" else method.bugs
+            notices.append(value)
+            current_notice = notices, len(notices) - 1
+            continue
 
         current_example = None
+        current_notice = None
         if tag == "realm" and value:
             method.realm = value.lower()
         elif tag == "param" and (match := PARAM_RE.match(value)):
@@ -184,6 +198,8 @@ def parse_documentation(method: Method, doc_lines: list[str]) -> None:
         for example in method.examples
         if example.code.strip()
     ]
+    method.warnings = [warning.strip() for warning in method.warnings if warning.strip()]
+    method.bugs = [bug.strip() for bug in method.bugs if bug.strip()]
     method.parameters = []
     for argument in method.arguments:
         parameter = documented_parameters.get(argument, Parameter(argument))
@@ -402,6 +418,16 @@ def render_method(
     )
     if method.deprecated:
         output.extend(["!!! warning \"Deprecated\"", "", f"    {method.deprecated}", ""])
+
+    for notice_type, title, notices in (
+        ("warning", "Warning", method.warnings),
+        ("bug", "Known bug", method.bugs),
+    ):
+        for notice in notices:
+            output.extend([f'!!! {notice_type} "{title}"', ""])
+            for line in notice.split("\n"):
+                output.append(f"    {line}" if line else "")
+            output.append("")
 
     if method.examples:
         example_title = "Example" if len(method.examples) == 1 else "Examples"

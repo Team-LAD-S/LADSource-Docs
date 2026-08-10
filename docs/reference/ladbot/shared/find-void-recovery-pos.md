@@ -36,4 +36,4 @@ Internal function used by ENT:RecoverFromVoid().
 | --- | --- |
 | `Vector?` | The position to recover to, or nil if no valid position is found. |
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:685</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:686</code>.</p>

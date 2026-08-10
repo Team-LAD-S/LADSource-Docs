@@ -39,4 +39,4 @@ ENT:CustomOnContact(ent) is called at the end of this function, allowing for add
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1099</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1100</code>.</p>

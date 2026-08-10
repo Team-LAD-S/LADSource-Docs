@@ -34,4 +34,4 @@ Prints debug information to the console if the developer mode is enabled. This i
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1380</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1381</code>.</p>

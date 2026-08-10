@@ -27,6 +27,10 @@ status: realm-server-client
     remains paused until the callback returns, after which the previous behavior
     coroutine is restored if another system has not already replaced it.
 
+    !!! warning "Warning"
+
+        If not properly terminated, CICO calls can stack on top of one another and resume execution in reverse order.
+
     ## Example { #server-example data-toc-label="Example" }
 
     ```lua
@@ -51,7 +55,7 @@ status: realm-server-client
 
     No return values are documented.
 
-    <p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:627</code>.</p>
+    <p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:628</code>.</p>
 
 === "Client"
 
@@ -85,4 +89,4 @@ status: realm-server-client
 
     No return values are documented.
 
-    <p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1559</code>.</p>
+    <p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1560</code>.</p>

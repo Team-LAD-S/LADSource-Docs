@@ -34,4 +34,4 @@ CICO and PlaySequenceAndMove wrapper for bump animations. Plays the specified bu
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1190</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1191</code>.</p>
