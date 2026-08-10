@@ -1,5 +1,6 @@
 ---
 title: "BattleManager:Merge"
+status: realm-server
 ---
 
 [Back to Battle Manager](index.md)

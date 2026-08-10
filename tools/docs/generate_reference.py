@@ -26,6 +26,10 @@ FIELD_RE = re.compile(
     r"(?P<type>\S+)(?:\s+(?P<description>.*))?$"
 )
 RETURN_RE = re.compile(r"^(?P<type>\S+)(?:\s+(?P<description>.*))?$")
+PLAIN_FUNCTION_RE = re.compile(
+    r"^\s*function\s+(?P<name>[A-Za-z_]\w*)\s*"
+    r"\((?P<arguments>[^)]*)\)"
+)
 
 
 @dataclass
@@ -52,6 +56,12 @@ class ReturnValue:
 
 
 @dataclass
+class Example:
+    title: str = ""
+    code: str = ""
+
+
+@dataclass
 class Method:
     name: str
     display_name: str
@@ -63,6 +73,7 @@ class Method:
     realm: str = "not documented"
     parameters: list[Parameter] = field(default_factory=list)
     returns: list[ReturnValue] = field(default_factory=list)
+    examples: list[Example] = field(default_factory=list)
     internal: bool = False
     callback: bool = False
     deprecated: str = ""
@@ -100,24 +111,41 @@ def extract_doc_block(lines: list[str], method_index: int) -> list[str]:
         match = DOC_LINE_RE.match(lines[index]) or COMMENT_LINE_RE.match(lines[index])
         if not match:
             break
-        block.append(match.group(1).lstrip())
+        content = match.group(1)
+        if content.startswith(" ") and not content.startswith("  "):
+            content = content[1:]
+        block.append(content)
         index -= 1
     block.reverse()
     return block
+
+
+def has_structured_doc_block(lines: list[str], method_index: int) -> bool:
+    return method_index > 0 and DOC_LINE_RE.match(lines[method_index - 1]) is not None
 
 
 def parse_documentation(method: Method, doc_lines: list[str]) -> None:
     descriptions: list[str] = []
     documented_parameters: dict[str, Parameter] = {}
     documented_fields: dict[str, list[TableField]] = defaultdict(list)
+    current_example: Example | None = None
 
     for line in doc_lines:
         tag_match = TAG_RE.match(line)
         if not tag_match:
-            descriptions.append(line)
+            if current_example is not None:
+                current_example.code += f"{line}\n"
+            else:
+                descriptions.append(line)
             continue
         tag = tag_match.group("name").lower()
         value = (tag_match.group("value") or "").strip()
+        if tag == "example":
+            current_example = Example(title=value)
+            method.examples.append(current_example)
+            continue
+
+        current_example = None
         if tag == "realm" and value:
             method.realm = value.lower()
         elif tag == "param" and (match := PARAM_RE.match(value)):
@@ -151,6 +179,11 @@ def parse_documentation(method: Method, doc_lines: list[str]) -> None:
             method.deprecated = value or "This method is deprecated."
 
     method.description = "\n".join(descriptions).strip()
+    method.examples = [
+        Example(example.title, example.code.strip("\n"))
+        for example in method.examples
+        if example.code.strip()
+    ]
     method.parameters = []
     for argument in method.arguments:
         parameter = documented_parameters.get(argument, Parameter(argument))
@@ -177,6 +210,7 @@ def parse_methods(
     receiver: str = "ENT",
     display_receiver: str | None = None,
     default_realm: str = "not documented",
+    include_documented_functions: bool = False,
 ) -> list[Method]:
     lines = read_lua_source(path).splitlines()
     direct_pattern, assigned_pattern = method_patterns(receiver)
@@ -203,15 +237,23 @@ def parse_methods(
             continue
 
         match = direct_pattern.match(line)
+        plain_function = False
         separator = match.group("separator") if match else "."
         if not match:
             match = assigned_pattern.match(line)
+        if (
+            not match
+            and include_documented_functions
+            and has_structured_doc_block(lines, index)
+        ):
+            match = PLAIN_FUNCTION_RE.match(line)
+            plain_function = match is not None
         if not match:
             continue
 
         name = match.group("name")
         raw_arguments = match.group("arguments").strip()
-        display_name = f"{display_receiver}{separator}{name}"
+        display_name = name if plain_function else f"{display_receiver}{separator}{name}"
         method = Method(
             name=name,
             display_name=display_name,
@@ -272,24 +314,77 @@ def method_page_slug(name: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", separated.casefold()).strip("-") or "method"
 
 
+def merged_realm_method_names(methods: list[Method]) -> set[str]:
+    methods_by_name: dict[str, list[Method]] = defaultdict(list)
+    for method in methods:
+        methods_by_name[method.display_name].append(method)
+
+    return {
+        display_name
+        for display_name, definitions in methods_by_name.items()
+        if len(definitions) == 2
+        and {method.realm for method in definitions} == {"server", "client"}
+    }
+
+
 def assign_method_pages(methods: list[Method]) -> None:
     base_slugs = [method_page_slug(method.name) for method in methods]
     duplicate_slugs = Counter(base_slugs)
+    merged_realm_names = merged_realm_method_names(methods)
+    realms_by_slug: dict[str, Counter[str]] = defaultdict(Counter)
+    for method, base_slug in zip(methods, base_slugs):
+        realms_by_slug[base_slug][method.realm] += 1
+
     for method, base_slug in zip(methods, base_slugs):
         duplicate = duplicate_slugs[base_slug] > 1
-        method.page_slug = f"{base_slug}-{method.source_line}" if duplicate else base_slug
-        method.navigation_title = (
-            f"{method.display_name} (line {method.source_line})"
-            if duplicate
-            else method.display_name
+        merged_realm_page = method.display_name in merged_realm_names
+        realm_identifies_duplicate = (
+            method.realm in {"server", "client", "shared"}
+            and realms_by_slug[base_slug][method.realm] == 1
         )
+        if merged_realm_page:
+            method.page_slug = base_slug
+        elif duplicate and realm_identifies_duplicate:
+            method.page_slug = f"{base_slug}-{method.realm}"
+        elif duplicate:
+            method.page_slug = f"{base_slug}-{method.source_line}"
+        else:
+            method.page_slug = base_slug
+        method.navigation_title = method.display_name
+        if duplicate and not merged_realm_page and not realm_identifies_duplicate:
+            method.navigation_title += f" (line {method.source_line})"
 
 
-def render_method(method: Method, repository_url: str, branch: str) -> list[str]:
-    output = [
-        f'<a id="{method.anchor}"></a>',
-        f"# `{method.display_name}` {{ .api-method-title }}",
-        "",
+def section_heading(title: str, id_prefix: str = "", level: int = 2) -> str:
+    marker = "#" * level
+    if not id_prefix:
+        return f"{marker} {title}"
+    anchor = re.sub(r"[^a-z0-9]+", "-", title.casefold()).strip("-")
+    toc_title = title.replace("`", "")
+    return (
+        f'{marker} {title} {{ #{id_prefix}-{anchor} '
+        f'data-toc-label="{toc_title}" }}'
+    )
+
+
+def render_method(
+    method: Method,
+    repository_url: str,
+    branch: str,
+    include_title: bool = True,
+    heading_id_prefix: str = "",
+) -> list[str]:
+    output: list[str] = []
+    if include_title:
+        output.extend(
+            [
+                f'<a id="{method.anchor}"></a>',
+                f"# `{method.display_name}` {{ .api-method-title }}",
+                "",
+            ]
+        )
+    output.extend(
+        [
         render_badges(method),
         "",
         '<div class="api-signature" markdown>',
@@ -303,11 +398,22 @@ def render_method(method: Method, repository_url: str, branch: str) -> list[str]
         method.description
         or "*Documentation pending. The signature and source location were generated automatically.*",
         "",
-    ]
+        ]
+    )
     if method.deprecated:
         output.extend(["!!! warning \"Deprecated\"", "", f"    {method.deprecated}", ""])
 
-    output.extend(["## Parameters", ""])
+    if method.examples:
+        example_title = "Example" if len(method.examples) == 1 else "Examples"
+        output.extend([section_heading(example_title, heading_id_prefix), ""])
+        for example in method.examples:
+            if example.title:
+                output.extend(
+                    [section_heading(example.title, heading_id_prefix, level=3), ""]
+                )
+            output.extend(["```lua", example.code, "```", ""])
+
+    output.extend([section_heading("Parameters", heading_id_prefix), ""])
     if method.parameters:
         output.extend(
             [
@@ -333,7 +439,11 @@ def render_method(method: Method, repository_url: str, branch: str) -> list[str]
             continue
         output.extend(
             [
-                f"### `{parameter.name}` table fields",
+                section_heading(
+                    f"`{parameter.name}` table fields",
+                    heading_id_prefix,
+                    level=3,
+                ),
                 "",
                 '<div class="api-parameter-table api-parameter-fields" markdown>',
                 "",
@@ -350,7 +460,7 @@ def render_method(method: Method, repository_url: str, branch: str) -> list[str]
             )
         output.extend(["", "</div>", ""])
 
-    output.extend(["## Returns", ""])
+    output.extend([section_heading("Returns", heading_id_prefix), ""])
     if method.returns:
         output.extend(["| Type | Description |", "| --- | --- |"])
         for return_value in method.returns:
@@ -373,21 +483,62 @@ def render_method(method: Method, repository_url: str, branch: str) -> list[str]
 
 
 def render_method_page(
-    method: Method,
+    methods: list[Method],
     module_name: str,
     repository_url: str,
     branch: str,
 ) -> str:
+    method = methods[0]
+    merged_realms = len(methods) > 1
     output = [
         "---",
         f"title: {json.dumps(method.navigation_title, ensure_ascii=False)}",
-        "---",
-        "",
-        f"[Back to {module_name}](index.md)",
-        "",
     ]
-    output.extend(render_method(method, repository_url, branch))
+    if merged_realms:
+        output.append("status: realm-server-client")
+    elif method.realm in {"server", "client", "shared"}:
+        output.append(f"status: realm-{method.realm}")
+    output.extend(
+        [
+            "---",
+            "",
+            f"[Back to {module_name}](index.md)",
+            "",
+        ]
+    )
+    if merged_realms:
+        output.extend(
+            [
+                f'<a id="{method.anchor}"></a>',
+                f"# `{method.display_name}` {{ .api-method-title }}",
+                "",
+            ]
+        )
+        realm_order = {"server": 0, "client": 1}
+        for realm_method in sorted(
+            methods, key=lambda item: realm_order.get(item.realm, 99)
+        ):
+            output.extend([f'=== "{realm_method.realm.title()}"', ""])
+            tab_content = render_method(
+                realm_method,
+                repository_url,
+                branch,
+                include_title=False,
+                heading_id_prefix=realm_method.realm,
+            )
+            for block in tab_content:
+                for line in block.split("\n"):
+                    output.append(f"    {line}" if line else "")
+    else:
+        output.extend(render_method(method, repository_url, branch))
     return "\n".join(output)
+
+
+def method_page_groups(methods: list[Method]) -> list[list[Method]]:
+    pages: dict[str, list[Method]] = {}
+    for method in methods:
+        pages.setdefault(method.page_slug, []).append(method)
+    return list(pages.values())
 
 
 def render_module_index(
@@ -450,7 +601,8 @@ def render_module_index(
             "| --- | --- |",
         ]
     )
-    for method in methods:
+    for page_methods in method_page_groups(methods):
+        method = page_methods[0]
         summary = markdown_cell(method.description) or "Documentation pending."
         output.append(
             f"| [`{method.display_name}`]({method.page_slug}.md) | {summary} |"
@@ -483,9 +635,15 @@ def write_method_section(
         encoding="utf-8",
         newline="\n",
     )
-    for method in methods:
+    for page_methods in method_page_groups(methods):
+        method = page_methods[0]
         (output_directory / f"{method.page_slug}.md").write_text(
-            render_method_page(method, section_title, repository_url, branch),
+            render_method_page(
+                page_methods,
+                section_title,
+                repository_url,
+                branch,
+            ),
             encoding="utf-8",
             newline="\n",
         )
@@ -544,7 +702,11 @@ def generate(
     manifest: list[dict[str, object]] = []
     ladbot_modules: list[tuple[Path, list[Method]]] = []
     for path in ordered_source_files(ladbot_source_directory):
-        methods = parse_methods(path, source_root)
+        methods = parse_methods(
+            path,
+            source_root,
+            include_documented_functions=True,
+        )
         methods.sort(key=method_sort_key)
         ladbot_modules.append((path, methods))
         write_method_section(

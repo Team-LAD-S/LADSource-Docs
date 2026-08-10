@@ -1,5 +1,6 @@
 ---
 title: "Entity:GetSideDirection"
+status: realm-shared
 ---
 
 [Back to Entity extensions](index.md)

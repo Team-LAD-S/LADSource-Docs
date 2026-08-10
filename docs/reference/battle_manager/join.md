@@ -1,5 +1,6 @@
 ---
 title: "BattleManager:Join"
+status: realm-server
 ---
 
 [Back to Battle Manager](index.md)

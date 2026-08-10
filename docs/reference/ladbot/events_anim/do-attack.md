@@ -1,5 +1,6 @@
 ---
 title: "ENT:DoAttack"
+status: realm-server
 ---
 
 [Back to Events Anim](index.md)

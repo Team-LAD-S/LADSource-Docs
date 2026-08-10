@@ -1,5 +1,6 @@
 ---
 title: "ENT:UpdateTransmitState"
+status: realm-server
 ---
 
 [Back to Shared](index.md)
@@ -7,7 +8,7 @@ title: "ENT:UpdateTransmitState"
 <a id="ent-updatetransmitstate"></a>
 # `ENT:UpdateTransmitState` { .api-method-title }
 
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--server">server</span><span class="api-badge api-badge--internal">internal</span></div>
 
 <div class="api-signature" markdown>
 
@@ -17,7 +18,7 @@ function ENT:UpdateTransmitState()
 
 </div>
 
-fixes the attachment point bullshit
+Called whenever the transmit state should be updated. Default GLua Entity function.
 
 ## Parameters
 
@@ -27,4 +28,4 @@ This method takes no explicit arguments.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:587</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:609</code>.</p>

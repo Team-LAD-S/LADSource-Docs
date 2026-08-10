@@ -1,5 +1,6 @@
 ---
 title: "BattleManager:Leave"
+status: realm-server
 ---
 
 [Back to Battle Manager](index.md)
@@ -19,8 +20,8 @@ function BattleManager:Leave(fighter, checkEnd)
 
 Remove a fighter from their current battle.
 checkEnd: pass true to immediately re-evaluate whether the battle should end
-(e.g. after a kill). Pass false during bulk cleanup (OnRemove) to
-avoid operating on partially-removed entity state.
+           (e.g. after a kill). Pass false during bulk cleanup (OnRemove) to
+           avoid operating on partially-removed entity state.
 
 ## Parameters
 

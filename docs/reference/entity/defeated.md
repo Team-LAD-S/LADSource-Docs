@@ -1,5 +1,6 @@
 ---
 title: "Entity:Defeated"
+status: realm-shared
 ---
 
 [Back to Entity extensions](index.md)

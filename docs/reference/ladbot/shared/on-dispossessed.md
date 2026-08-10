@@ -1,5 +1,6 @@
 ---
 title: "ENT:OnDispossessed"
+status: realm-server
 ---
 
 [Back to Shared](index.md)
@@ -7,7 +8,7 @@ title: "ENT:OnDispossessed"
 <a id="ent-ondispossessed"></a>
 # `ENT:OnDispossessed` { .api-method-title }
 
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--server">server</span><span class="api-badge api-badge--internal">internal</span></div>
 
 <div class="api-signature" markdown>
 
@@ -17,7 +18,8 @@ function ENT:OnDispossessed(ply)
 
 </div>
 
-*Documentation pending. The signature and source location were generated automatically.*
+Internal function called by DrGBase when the LADBot is dispossessed. Cleans up LADBot related stuff, namely
+Player Fighter, weapon info and soundtrack.
 
 ## Parameters
 
@@ -25,7 +27,7 @@ function ENT:OnDispossessed(ply)
 
 | Name | Type | Required | Description |
 | --- | --- | :---: | --- |
-| `ply` | `any` | Yes | Not documented. |
+| `ply` | `ent` | Yes | The player who dispossessed the LADBot. |
 
 </div>
 
@@ -33,4 +35,4 @@ function ENT:OnDispossessed(ply)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1238</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1317</code>.</p>

@@ -1,5 +1,6 @@
 ---
 title: "Entity:LADS_GetHullRangeTo"
+status: realm-shared
 ---
 
 [Back to Entity extensions](index.md)

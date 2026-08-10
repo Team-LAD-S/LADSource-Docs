@@ -1,18 +1,18 @@
 ---
-title: "ENT:OnAvoidEnemy"
+title: "ENT:OnPatrolUnreachable"
 ---
 
-[Back to Shared](index.md)
+[Back to AI](index.md)
 
-<a id="ent-onavoidenemy"></a>
-# `ENT:OnAvoidEnemy` { .api-method-title }
+<a id="ent-onpatrolunreachable"></a>
+# `ENT:OnPatrolUnreachable` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
 ```lua
-function ENT:OnAvoidEnemy(enemy)
+function ENT:OnPatrolUnreachable(pos)
 ```
 
 </div>
@@ -25,7 +25,7 @@ function ENT:OnAvoidEnemy(enemy)
 
 | Name | Type | Required | Description |
 | --- | --- | :---: | --- |
-| `enemy` | `any` | Yes | Not documented. |
+| `pos` | `any` | Yes | Not documented. |
 
 </div>
 
@@ -33,4 +33,4 @@ function ENT:OnAvoidEnemy(enemy)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1020</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ai.lua:1694</code>.</p>

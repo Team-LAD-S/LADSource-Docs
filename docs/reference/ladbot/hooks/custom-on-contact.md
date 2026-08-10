@@ -1,18 +1,18 @@
 ---
-title: "ENT:OnChaseEnemy"
+title: "ENT:CustomOnContact"
 ---
 
-[Back to Shared](index.md)
+[Back to Hooks](index.md)
 
-<a id="ent-onchaseenemy"></a>
-# `ENT:OnChaseEnemy` { .api-method-title }
+<a id="ent-customoncontact"></a>
+# `ENT:CustomOnContact` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
 ```lua
-function ENT:OnChaseEnemy(enemy)
+function ENT:CustomOnContact(ent)
 ```
 
 </div>
@@ -25,7 +25,7 @@ function ENT:OnChaseEnemy(enemy)
 
 | Name | Type | Required | Description |
 | --- | --- | :---: | --- |
-| `enemy` | `any` | Yes | Not documented. |
+| `ent` | `any` | Yes | Not documented. |
 
 </div>
 
@@ -33,4 +33,4 @@ function ENT:OnChaseEnemy(enemy)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1010</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hooks.lua:26</code>.</p>

@@ -1,5 +1,6 @@
 ---
 title: "ENT:CustomDraw"
+status: realm-client
 ---
 
 [Back to Shared](index.md)
@@ -7,7 +8,7 @@ title: "ENT:CustomDraw"
 <a id="ent-customdraw"></a>
 # `ENT:CustomDraw` { .api-method-title }
 
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--client">client</span><span class="api-badge api-badge--internal">internal</span></div>
 
 <div class="api-signature" markdown>
 
@@ -17,7 +18,7 @@ function ENT:CustomDraw()
 
 </div>
 
-*Documentation pending. The signature and source location were generated automatically.*
+Seems unused.
 
 ## Parameters
 
@@ -27,4 +28,4 @@ This method takes no explicit arguments.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1515</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1666</code>.</p>

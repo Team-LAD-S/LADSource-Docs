@@ -1,5 +1,6 @@
 ---
 title: "BattleManager:FindNearestBattle"
+status: realm-server
 ---
 
 [Back to Battle Manager](index.md)

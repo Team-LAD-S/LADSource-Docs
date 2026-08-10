@@ -1,5 +1,6 @@
 ---
 title: "ENT:OnSpawn"
+status: realm-server
 ---
 
 [Back to Shared](index.md)
@@ -7,7 +8,7 @@ title: "ENT:OnSpawn"
 <a id="ent-onspawn"></a>
 # `ENT:OnSpawn` { .api-method-title }
 
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--server">server</span></div>
 
 <div class="api-signature" markdown>
 
@@ -17,7 +18,7 @@ function ENT:OnSpawn()
 
 </div>
 
-Those hooks are called inside the coroutine
+Belongs to DrGBase, called when the LADBot is spawned. Can be overriden to add custom behavior.
 
 ## Parameters
 
@@ -27,4 +28,4 @@ This method takes no explicit arguments.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1134</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1204</code>.</p>

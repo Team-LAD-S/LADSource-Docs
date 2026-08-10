@@ -34,4 +34,4 @@ function ENT:CustomOnTakeDamage(dmg, hitgroup)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hooks.lua:40</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hooks.lua:42</code>.</p>

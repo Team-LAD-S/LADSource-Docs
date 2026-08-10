@@ -1,5 +1,6 @@
 ---
 title: "ENT:LoadData"
+status: realm-server
 ---
 
 [Back to Shared](index.md)
@@ -7,7 +8,7 @@ title: "ENT:LoadData"
 <a id="ent-loaddata"></a>
 # `ENT:LoadData` { .api-method-title }
 
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--server">server</span><span class="api-badge api-badge--internal">internal</span></div>
 
 <div class="api-signature" markdown>
 
@@ -17,7 +18,7 @@ function ENT:LoadData(type, id)
 
 </div>
 
-*Documentation pending. The signature and source location were generated automatically.*
+Loads a data asset.
 
 ## Parameters
 
@@ -25,13 +26,15 @@ function ENT:LoadData(type, id)
 
 | Name | Type | Required | Description |
 | --- | --- | :---: | --- |
-| `type` | `any` | Yes | Not documented. |
-| `id` | `any` | Yes | Not documented. |
+| `type` | `string` | Yes | Type of asset to load, accepts "moveset", "voicebank", "hact", "dialogue", or "item". |
+| `id` | `string` | Yes | File name of the asset to load. |
 
 </div>
 
 ## Returns
 
-No return values are documented.
+| Type | Description |
+| --- | --- |
+| `table` | The loaded asset data. |
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1361</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1480</code>.</p>

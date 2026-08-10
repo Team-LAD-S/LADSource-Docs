@@ -1,5 +1,6 @@
 ---
 title: "BattleManager:BattleCount"
+status: realm-server
 ---
 
 [Back to Battle Manager](index.md)

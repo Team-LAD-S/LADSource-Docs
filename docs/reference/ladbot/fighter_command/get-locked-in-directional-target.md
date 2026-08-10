@@ -19,11 +19,11 @@ function ENT:GetLockedInDirectionalTarget(dirSnapshot)
 
 Returns the best enemy candidate in the direction the possessor is pressing (WASD, 8-way),
 or nil if no suitable candidate passes all three filters:
-1. Edge-triggered: caller only invokes this on a direction change (see PossessionThink).
-2. Angular separation: candidate must be >20 degrees away from current target
-(avoids switching between enemies that are essentially overlapping from our POV).
-3. Hysteresis: candidate must outscore the current target by a margin of 0.15
-(avoids switching to a marginally better-aligned enemy in a tight cluster).
+   1. Edge-triggered: caller only invokes this on a direction change (see PossessionThink).
+   2. Angular separation: candidate must be >20 degrees away from current target
+      (avoids switching between enemies that are essentially overlapping from our POV).
+   3. Hysteresis: candidate must outscore the current target by a margin of 0.15
+      (avoids switching to a marginally better-aligned enemy in a tight cluster).
 
 ## Parameters
 

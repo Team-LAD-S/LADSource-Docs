@@ -3,12 +3,12 @@
 The reference covers LADBot methods, shared Entity extensions, and the
 server-side Battle Manager API.
 
-**541 methods** were detected across **28 files**.
-**72 methods** currently have descriptions.
+**542 methods** were detected across **28 files**.
+**102 methods** currently have descriptions.
 
 | API group | Methods | Description |
 | --- | ---: | --- |
-| [LADBot modules](ladbot/index.md) | 524 | Methods inherited from `lad_framework_base`. |
+| [LADBot modules](ladbot/index.md) | 525 | Methods inherited from `lad_framework_base`. |
 | [Entity extensions](entity/index.md) | 10 | Shared helpers available on all entities. |
 | [Battle Manager](battle_manager/index.md) | 7 | Server-side battle lifecycle management. |
 

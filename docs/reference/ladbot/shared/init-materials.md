@@ -1,5 +1,6 @@
 ---
 title: "ENT:_InitMaterials"
+status: realm-client
 ---
 
 [Back to Shared](index.md)
@@ -7,7 +8,7 @@ title: "ENT:_InitMaterials"
 <a id="ent-initmaterials"></a>
 # `ENT:_InitMaterials` { .api-method-title }
 
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+<div class="api-badges"><span class="api-badge api-badge--client">client</span><span class="api-badge api-badge--internal">internal</span></div>
 
 <div class="api-signature" markdown>
 
@@ -17,7 +18,8 @@ function ENT:_InitMaterials()
 
 </div>
 
-*Documentation pending. The signature and source location were generated automatically.*
+Prints a material list for the LADBot. Temporary.
+Called internally only.
 
 ## Parameters
 
@@ -27,4 +29,4 @@ This method takes no explicit arguments.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1488</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1630</code>.</p>

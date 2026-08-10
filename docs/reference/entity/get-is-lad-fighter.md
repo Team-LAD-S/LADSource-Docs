@@ -1,5 +1,6 @@
 ---
 title: "Entity:GetIsLADFighter"
+status: realm-server
 ---
 
 [Back to Entity extensions](index.md)

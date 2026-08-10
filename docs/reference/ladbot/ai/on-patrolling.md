@@ -1,18 +1,18 @@
 ---
-title: "ENT:CICO (line 591)"
+title: "ENT:OnPatrolling"
 ---
 
-[Back to Shared](index.md)
+[Back to AI](index.md)
 
-<a id="ent-cico"></a>
-# `ENT:CICO` { .api-method-title }
+<a id="ent-onpatrolling"></a>
+# `ENT:OnPatrolling` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
 ```lua
-function ENT:CICO(callback)
+function ENT:OnPatrolling(pos)
 ```
 
 </div>
@@ -25,7 +25,7 @@ function ENT:CICO(callback)
 
 | Name | Type | Required | Description |
 | --- | --- | :---: | --- |
-| `callback` | `any` | Yes | Not documented. |
+| `pos` | `any` | Yes | Not documented. |
 
 </div>
 
@@ -33,4 +33,4 @@ function ENT:CICO(callback)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:591</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ai.lua:1698</code>.</p>

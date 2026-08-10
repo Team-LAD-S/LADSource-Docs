@@ -1,5 +1,6 @@
 ---
 title: "ENT:ActivateCombat"
+status: realm-server
 ---
 
 [Back to Fighter Command](index.md)

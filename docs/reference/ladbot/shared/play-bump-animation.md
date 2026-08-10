@@ -1,5 +1,6 @@
 ---
 title: "ENT:PlayBumpAnimation"
+status: realm-server
 ---
 
 [Back to Shared](index.md)
@@ -7,7 +8,7 @@ title: "ENT:PlayBumpAnimation"
 <a id="ent-playbumpanimation"></a>
 # `ENT:PlayBumpAnimation` { .api-method-title }
 
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--server">server</span><span class="api-badge api-badge--internal">internal</span></div>
 
 <div class="api-signature" markdown>
 
@@ -17,7 +18,7 @@ function ENT:PlayBumpAnimation(anim)
 
 </div>
 
-*Documentation pending. The signature and source location were generated automatically.*
+CICO and PlaySequenceAndMove wrapper for bump animations. Plays the specified bump animation and sets self.IsBumped to true during the animation.
 
 ## Parameters
 
@@ -25,7 +26,7 @@ function ENT:PlayBumpAnimation(anim)
 
 | Name | Type | Required | Description |
 | --- | --- | :---: | --- |
-| `anim` | `any` | Yes | Not documented. |
+| `anim` | `string` | Yes | The name of the bump animation to play. |
 
 </div>
 
@@ -33,4 +34,4 @@ function ENT:PlayBumpAnimation(anim)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1101</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1190</code>.</p>

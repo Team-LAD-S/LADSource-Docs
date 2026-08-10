@@ -1,35 +1,5 @@
 [
   {
-    "name": "BumpAnim",
-    "display_name": "ENT:BumpAnim",
-    "signature": "function ENT:BumpAnim(ent)",
-    "arguments": [
-      "ent"
-    ],
-    "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 1047,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [
-      {
-        "name": "ent",
-        "type": "any",
-        "description": "",
-        "optional": false,
-        "fields": []
-      }
-    ],
-    "returns": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-bumpanim",
-    "page_slug": "bump-anim",
-    "navigation_title": "ENT:BumpAnim",
-    "api_group": "ladbot",
-    "reference_path": "reference/ladbot/shared/bump-anim.md"
-  },
-  {
     "name": "CICO",
     "display_name": "ENT:CICO",
     "signature": "function ENT:CICO(callback)",
@@ -37,27 +7,33 @@
       "callback"
     ],
     "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 591,
-    "description": "",
-    "realm": "not documented",
+    "source_line": 627,
+    "description": "Call In Coroutine Override (CICO), originally created by NextBot developer Roach.\nTemporarily replaces LADBot's normal behavior coroutine with a callback.\nThe callback may use yielding helpers such as PlaySequenceAndWait, allowing code\nto run sequentially before and after animations or other waits. Normal behavior\nremains paused until the callback returns, after which the previous behavior\ncoroutine is restored if another system has not already replaced it.",
+    "realm": "server",
     "parameters": [
       {
         "name": "callback",
-        "type": "any",
-        "description": "",
+        "type": "function",
+        "description": "Code to run inside the temporary behavior coroutine. Receives this LADBot as its only argument.",
         "optional": false,
         "fields": []
       }
     ],
     "returns": [],
+    "examples": [
+      {
+        "title": "",
+        "code": "self:CICO(function(self)\n    self._isWaving = true\n    self:PlaySequenceAndWait(\"waving_animation\")\n    self._isWaving = false\nend)"
+      }
+    ],
     "internal": false,
     "callback": false,
     "deprecated": "",
     "anchor": "ent-cico",
-    "page_slug": "cico-591",
-    "navigation_title": "ENT:CICO (line 591)",
+    "page_slug": "cico",
+    "navigation_title": "ENT:CICO",
     "api_group": "ladbot",
-    "reference_path": "reference/ladbot/shared/cico-591.md"
+    "reference_path": "reference/ladbot/shared/cico.md"
   },
   {
     "name": "CICO",
@@ -67,107 +43,28 @@
       "callback"
     ],
     "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 1433,
-    "description": "clientside CICO",
-    "realm": "not documented",
+    "source_line": 1559,
+    "description": "Client-side counterpart to Call In Coroutine Override (CICO).\nRuns a callback inside a temporary client behavior coroutine and restores\nthe previous behavior coroutine after the callback returns. Most addon code\nshould use the server implementation; this version exists for clientside\ncoroutine sequences.",
+    "realm": "client",
     "parameters": [
       {
         "name": "callback",
-        "type": "any",
-        "description": "",
+        "type": "function",
+        "description": "Code to run inside the temporary client behavior coroutine. Receives this LADBot as its only argument.",
         "optional": false,
         "fields": []
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-cico-1433",
-    "page_slug": "cico-1433",
-    "navigation_title": "ENT:CICO (line 1433)",
+    "anchor": "ent-cico-1559",
+    "page_slug": "cico",
+    "navigation_title": "ENT:CICO",
     "api_group": "ladbot",
-    "reference_path": "reference/ladbot/shared/cico-1433.md"
-  },
-  {
-    "name": "CreateDirectionCompass",
-    "display_name": "ENT:CreateDirectionCompass",
-    "signature": "function ENT:CreateDirectionCompass()",
-    "arguments": [],
-    "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 1349,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [],
-    "returns": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-createdirectioncompass",
-    "page_slug": "create-direction-compass",
-    "navigation_title": "ENT:CreateDirectionCompass",
-    "api_group": "ladbot",
-    "reference_path": "reference/ladbot/shared/create-direction-compass.md"
-  },
-  {
-    "name": "CustomDraw",
-    "display_name": "ENT:CustomDraw",
-    "signature": "function ENT:CustomDraw()",
-    "arguments": [],
-    "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 1515,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [],
-    "returns": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-customdraw",
-    "page_slug": "custom-draw",
-    "navigation_title": "ENT:CustomDraw",
-    "api_group": "ladbot",
-    "reference_path": "reference/ladbot/shared/custom-draw.md"
-  },
-  {
-    "name": "CustomInitialize",
-    "display_name": "ENT:CustomInitialize",
-    "signature": "function ENT:CustomInitialize()",
-    "arguments": [],
-    "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 242,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [],
-    "returns": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-custominitialize",
-    "page_slug": "custom-initialize-242",
-    "navigation_title": "ENT:CustomInitialize (line 242)",
-    "api_group": "ladbot",
-    "reference_path": "reference/ladbot/shared/custom-initialize-242.md"
-  },
-  {
-    "name": "CustomInitialize",
-    "display_name": "ENT:CustomInitialize",
-    "signature": "function ENT:CustomInitialize()",
-    "arguments": [],
-    "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 1480,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [],
-    "returns": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-custominitialize-1480",
-    "page_slug": "custom-initialize-1480",
-    "navigation_title": "ENT:CustomInitialize (line 1480)",
-    "api_group": "ladbot",
-    "reference_path": "reference/ladbot/shared/custom-initialize-1480.md"
+    "reference_path": "reference/ladbot/shared/cico.md"
   },
   {
     "name": "CustomThink",
@@ -175,117 +72,51 @@
     "signature": "function ENT:CustomThink()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 774,
-    "description": "",
-    "realm": "not documented",
+    "source_line": 1640,
+    "description": "Only calls self:_InitDebugText().\nCalled internally only.",
+    "realm": "client",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-customthink",
-    "page_slug": "custom-think-774",
-    "navigation_title": "ENT:CustomThink (line 774)",
+    "anchor": "ent-customthink-1640",
+    "page_slug": "custom-think",
+    "navigation_title": "ENT:CustomThink",
     "api_group": "ladbot",
-    "reference_path": "reference/ladbot/shared/custom-think-774.md"
+    "reference_path": "reference/ladbot/shared/custom-think.md"
   },
   {
-    "name": "CustomThink",
-    "display_name": "ENT:CustomThink",
-    "signature": "function ENT:CustomThink()",
-    "arguments": [],
-    "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 1495,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [],
-    "returns": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-customthink-1495",
-    "page_slug": "custom-think-1495",
-    "navigation_title": "ENT:CustomThink (line 1495)",
-    "api_group": "ladbot",
-    "reference_path": "reference/ladbot/shared/custom-think-1495.md"
-  },
-  {
-    "name": "DebugDrawCone",
-    "display_name": "ENT:DebugDrawCone",
-    "signature": "function ENT:DebugDrawCone(origin, direction, angle, range, segments, duration, color)",
+    "name": "devprint",
+    "display_name": "devprint",
+    "signature": "function devprint(string)",
     "arguments": [
-      "origin",
-      "direction",
-      "angle",
-      "range",
-      "segments",
-      "duration",
-      "color"
+      "string"
     ],
     "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 613,
-    "description": "",
-    "realm": "not documented",
+    "source_line": 1380,
+    "description": "Prints debug information to the console if the developer mode is enabled. This is basically a wrapper for print() and PrintTable().",
+    "realm": "server",
     "parameters": [
       {
-        "name": "origin",
-        "type": "any",
-        "description": "",
-        "optional": false,
-        "fields": []
-      },
-      {
-        "name": "direction",
-        "type": "any",
-        "description": "",
-        "optional": false,
-        "fields": []
-      },
-      {
-        "name": "angle",
-        "type": "any",
-        "description": "",
-        "optional": false,
-        "fields": []
-      },
-      {
-        "name": "range",
-        "type": "any",
-        "description": "",
-        "optional": false,
-        "fields": []
-      },
-      {
-        "name": "segments",
-        "type": "any",
-        "description": "",
-        "optional": false,
-        "fields": []
-      },
-      {
-        "name": "duration",
-        "type": "any",
-        "description": "",
-        "optional": false,
-        "fields": []
-      },
-      {
-        "name": "color",
-        "type": "any",
-        "description": "",
+        "name": "string",
+        "type": "string/table",
+        "description": "The string or table to print. If it's a table, it will be printed using PrintTable.",
         "optional": false,
         "fields": []
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-debugdrawcone",
-    "page_slug": "debug-draw-cone",
-    "navigation_title": "ENT:DebugDrawCone",
+    "anchor": "devprint",
+    "page_slug": "devprint",
+    "navigation_title": "devprint",
     "api_group": "ladbot",
-    "reference_path": "reference/ladbot/shared/debug-draw-cone.md"
+    "reference_path": "reference/ladbot/shared/devprint.md"
   },
   {
     "name": "GetPlayerColor",
@@ -293,11 +124,12 @@
     "signature": "function ENT:GetPlayerColor()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 1523,
-    "description": "",
-    "realm": "not documented",
+    "source_line": 1680,
+    "description": "Retrieves \"PlayerColor\" on a LADBot. For example, PlayerColor is used to color the suit on the Dummy model.",
+    "realm": "client",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -308,6 +140,42 @@
     "reference_path": "reference/ladbot/shared/get-player-color.md"
   },
   {
+    "name": "IsFrozenProp",
+    "display_name": "ENT:IsFrozenProp",
+    "signature": "function ENT:IsFrozenProp(ent)",
+    "arguments": [
+      "ent"
+    ],
+    "source_file": "lua/entities/lad_framework_base/shared.lua",
+    "source_line": 599,
+    "description": "Returns whether the given prop entity has motion disabled (i.e. frozen with Physgun).",
+    "realm": "server",
+    "parameters": [
+      {
+        "name": "ent",
+        "type": "ent",
+        "description": "The prop entity to check.",
+        "optional": false,
+        "fields": []
+      }
+    ],
+    "returns": [
+      {
+        "type": "boolean",
+        "description": "True if the prop is frozen, false otherwise."
+      }
+    ],
+    "examples": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-isfrozenprop",
+    "page_slug": "is-frozen-prop",
+    "navigation_title": "ENT:IsFrozenProp",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/shared/is-frozen-prop.md"
+  },
+  {
     "name": "IsPropLeftOrRight",
     "display_name": "ENT:IsPropLeftOrRight",
     "signature": "function ENT:IsPropLeftOrRight(prop)",
@@ -315,9 +183,9 @@
       "prop"
     ],
     "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 567,
-    "description": "",
-    "realm": "not documented",
+    "source_line": 575,
+    "description": "Returns whether the given prop entity is to the left or right side of a LADBot.\nUses the cross product of the forward vector and the vector to the prop to determine the side.",
+    "realm": "server",
     "parameters": [
       {
         "name": "prop",
@@ -327,7 +195,13 @@
         "fields": []
       }
     ],
-    "returns": [],
+    "returns": [
+      {
+        "type": "string",
+        "description": "\"_left\" if the prop is to the left, \"_right\" if the prop is to the right."
+      }
+    ],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -338,44 +212,6 @@
     "reference_path": "reference/ladbot/shared/is-prop-left-or-right.md"
   },
   {
-    "name": "LoadData",
-    "display_name": "ENT:LoadData",
-    "signature": "function ENT:LoadData(type, id)",
-    "arguments": [
-      "type",
-      "id"
-    ],
-    "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 1361,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [
-      {
-        "name": "type",
-        "type": "any",
-        "description": "",
-        "optional": false,
-        "fields": []
-      },
-      {
-        "name": "id",
-        "type": "any",
-        "description": "",
-        "optional": false,
-        "fields": []
-      }
-    ],
-    "returns": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-loaddata",
-    "page_slug": "load-data",
-    "navigation_title": "ENT:LoadData",
-    "api_group": "ladbot",
-    "reference_path": "reference/ladbot/shared/load-data.md"
-  },
-  {
     "name": "Multithread",
     "display_name": "ENT:Multithread",
     "signature": "function ENT:Multithread(funcs)",
@@ -383,19 +219,25 @@
       "funcs"
     ],
     "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 745,
-    "description": "Trust me, this works, you just haven't seen it used all that much yet",
-    "realm": "not documented",
+    "source_line": 822,
+    "description": "Cooperatively runs multiple callbacks as child coroutines and waits for all of them to finish.\nEach suspended callback is resumed once per update, allowing callbacks which yield to make progress\nalongside one another. This is not true parallel execution: a callback which never yields runs to\ncompletion before the next callback is resumed. Call this from a yieldable coroutine, such as a CICO\ncallback. Return values are discarded, and errors raised by callbacks are not propagated by the current\nimplementation.",
+    "realm": "server",
     "parameters": [
       {
         "name": "funcs",
-        "type": "any",
-        "description": "",
+        "type": "function[]",
+        "description": "An array of zero-argument callbacks to run cooperatively.",
         "optional": false,
         "fields": []
       }
     ],
     "returns": [],
+    "examples": [
+      {
+        "title": "",
+        "code": "self:CICO(function(self)\n    self:Multithread({\n        function()\n            self:PlaySequenceAndWait(\"animation_a\")\n        end,\n        function()\n            self:Wait(0.5)\n            self:EmitSound(\"buttons/button15.wav\")\n        end,\n    })\n\n    -- Both callbacks have finished here.\nend)"
+      }
+    ],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -406,66 +248,6 @@
     "reference_path": "reference/ladbot/shared/multithread.md"
   },
   {
-    "name": "OnAvoidEnemy",
-    "display_name": "ENT:OnAvoidEnemy",
-    "signature": "function ENT:OnAvoidEnemy(enemy)",
-    "arguments": [
-      "enemy"
-    ],
-    "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 1020,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [
-      {
-        "name": "enemy",
-        "type": "any",
-        "description": "",
-        "optional": false,
-        "fields": []
-      }
-    ],
-    "returns": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-onavoidenemy",
-    "page_slug": "on-avoid-enemy",
-    "navigation_title": "ENT:OnAvoidEnemy",
-    "api_group": "ladbot",
-    "reference_path": "reference/ladbot/shared/on-avoid-enemy.md"
-  },
-  {
-    "name": "OnChaseEnemy",
-    "display_name": "ENT:OnChaseEnemy",
-    "signature": "function ENT:OnChaseEnemy(enemy)",
-    "arguments": [
-      "enemy"
-    ],
-    "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 1010,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [
-      {
-        "name": "enemy",
-        "type": "any",
-        "description": "",
-        "optional": false,
-        "fields": []
-      }
-    ],
-    "returns": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-onchaseenemy",
-    "page_slug": "on-chase-enemy",
-    "navigation_title": "ENT:OnChaseEnemy",
-    "api_group": "ladbot",
-    "reference_path": "reference/ladbot/shared/on-chase-enemy.md"
-  },
-  {
     "name": "OnContact",
     "display_name": "ENT:OnContact",
     "signature": "function ENT:OnContact(ent)",
@@ -473,19 +255,20 @@
       "ent"
     ],
     "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 1022,
-    "description": "",
-    "realm": "not documented",
+    "source_line": 1099,
+    "description": "Belongs to DrGBase, code to run when the LADBot comes into contact with another entity.\n\nBy default currently checks if the entity is a LADBot and pushes it away, or pushes other entities away.\nAlso plays a bump animation if the entity is a LADBot and the LADBot is possessed and not in combat.\n\nENT:CustomOnContact(ent) is called at the end of this function, allowing for additional custom behavior.",
+    "realm": "server",
     "parameters": [
       {
         "name": "ent",
-        "type": "any",
-        "description": "",
+        "type": "ent",
+        "description": "The entity to check.",
         "optional": false,
         "fields": []
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -496,272 +279,17 @@
     "reference_path": "reference/ladbot/shared/on-contact.md"
   },
   {
-    "name": "OnDispossessed",
-    "display_name": "ENT:OnDispossessed",
-    "signature": "function ENT:OnDispossessed(ply)",
-    "arguments": [
-      "ply"
-    ],
-    "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 1238,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [
-      {
-        "name": "ply",
-        "type": "any",
-        "description": "",
-        "optional": false,
-        "fields": []
-      }
-    ],
-    "returns": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-ondispossessed",
-    "page_slug": "on-dispossessed",
-    "navigation_title": "ENT:OnDispossessed",
-    "api_group": "ladbot",
-    "reference_path": "reference/ladbot/shared/on-dispossessed.md"
-  },
-  {
-    "name": "OnDowned",
-    "display_name": "ENT:OnDowned",
-    "signature": "function ENT:OnDowned(dmg, hitgroup)",
-    "arguments": [
-      "dmg",
-      "hitgroup"
-    ],
-    "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 1147,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [
-      {
-        "name": "dmg",
-        "type": "any",
-        "description": "",
-        "optional": false,
-        "fields": []
-      },
-      {
-        "name": "hitgroup",
-        "type": "any",
-        "description": "",
-        "optional": false,
-        "fields": []
-      }
-    ],
-    "returns": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-ondowned",
-    "page_slug": "on-downed",
-    "navigation_title": "ENT:OnDowned",
-    "api_group": "ladbot",
-    "reference_path": "reference/ladbot/shared/on-downed.md"
-  },
-  {
-    "name": "OnFatalDamage",
-    "display_name": "ENT:OnFatalDamage",
-    "signature": "function ENT:OnFatalDamage(dmg, hitgroup)",
-    "arguments": [
-      "dmg",
-      "hitgroup"
-    ],
-    "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 1142,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [
-      {
-        "name": "dmg",
-        "type": "any",
-        "description": "",
-        "optional": false,
-        "fields": []
-      },
-      {
-        "name": "hitgroup",
-        "type": "any",
-        "description": "",
-        "optional": false,
-        "fields": []
-      }
-    ],
-    "returns": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-onfataldamage",
-    "page_slug": "on-fatal-damage",
-    "navigation_title": "ENT:OnFatalDamage",
-    "api_group": "ladbot",
-    "reference_path": "reference/ladbot/shared/on-fatal-damage.md"
-  },
-  {
-    "name": "OnIdle",
-    "display_name": "ENT:OnIdle",
-    "signature": "function ENT:OnIdle()",
-    "arguments": [],
-    "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 1118,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [],
-    "returns": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-onidle",
-    "page_slug": "on-idle",
-    "navigation_title": "ENT:OnIdle",
-    "api_group": "ladbot",
-    "reference_path": "reference/ladbot/shared/on-idle.md"
-  },
-  {
-    "name": "OnPatrolling",
-    "display_name": "ENT:OnPatrolling",
-    "signature": "function ENT:OnPatrolling(pos)",
-    "arguments": [
-      "pos"
-    ],
-    "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 1128,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [
-      {
-        "name": "pos",
-        "type": "any",
-        "description": "",
-        "optional": false,
-        "fields": []
-      }
-    ],
-    "returns": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-onpatrolling",
-    "page_slug": "on-patrolling",
-    "navigation_title": "ENT:OnPatrolling",
-    "api_group": "ladbot",
-    "reference_path": "reference/ladbot/shared/on-patrolling.md"
-  },
-  {
-    "name": "OnPatrolUnreachable",
-    "display_name": "ENT:OnPatrolUnreachable",
-    "signature": "function ENT:OnPatrolUnreachable(pos)",
-    "arguments": [
-      "pos"
-    ],
-    "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 1124,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [
-      {
-        "name": "pos",
-        "type": "any",
-        "description": "",
-        "optional": false,
-        "fields": []
-      }
-    ],
-    "returns": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-onpatrolunreachable",
-    "page_slug": "on-patrol-unreachable",
-    "navigation_title": "ENT:OnPatrolUnreachable",
-    "api_group": "ladbot",
-    "reference_path": "reference/ladbot/shared/on-patrol-unreachable.md"
-  },
-  {
-    "name": "OnReachedPatrol",
-    "display_name": "ENT:OnReachedPatrol",
-    "signature": "function ENT:OnReachedPatrol(pos)",
-    "arguments": [
-      "pos"
-    ],
-    "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 1113,
-    "description": "These hooks are called while the nextbot is patrolling (inside the coroutine)",
-    "realm": "not documented",
-    "parameters": [
-      {
-        "name": "pos",
-        "type": "any",
-        "description": "",
-        "optional": false,
-        "fields": []
-      }
-    ],
-    "returns": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-onreachedpatrol",
-    "page_slug": "on-reached-patrol",
-    "navigation_title": "ENT:OnReachedPatrol",
-    "api_group": "ladbot",
-    "reference_path": "reference/ladbot/shared/on-reached-patrol.md"
-  },
-  {
-    "name": "OnRemove",
-    "display_name": "ENT:OnRemove",
-    "signature": "function ENT:OnRemove()",
-    "arguments": [],
-    "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 1149,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [],
-    "returns": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-onremove",
-    "page_slug": "on-remove-1149",
-    "navigation_title": "ENT:OnRemove (line 1149)",
-    "api_group": "ladbot",
-    "reference_path": "reference/ladbot/shared/on-remove-1149.md"
-  },
-  {
-    "name": "OnRemove",
-    "display_name": "ENT:OnRemove",
-    "signature": "function ENT:OnRemove()",
-    "arguments": [],
-    "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 1500,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [],
-    "returns": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-onremove-1500",
-    "page_slug": "on-remove-1500",
-    "navigation_title": "ENT:OnRemove (line 1500)",
-    "api_group": "ladbot",
-    "reference_path": "reference/ladbot/shared/on-remove-1500.md"
-  },
-  {
     "name": "OnSpawn",
     "display_name": "ENT:OnSpawn",
     "signature": "function ENT:OnSpawn()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 1134,
-    "description": "Those hooks are called inside the coroutine",
-    "realm": "not documented",
+    "source_line": 1204,
+    "description": "Belongs to DrGBase, called when the LADBot is spawned. Can be overriden to add custom behavior.",
+    "realm": "server",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -772,162 +300,97 @@
     "reference_path": "reference/ladbot/shared/on-spawn.md"
   },
   {
-    "name": "OnTookDamage",
-    "display_name": "ENT:OnTookDamage",
-    "signature": "function ENT:OnTookDamage(dmg, hitgroup)",
+    "name": "switch",
+    "display_name": "switch",
+    "signature": "function switch(case, cases)",
     "arguments": [
-      "dmg",
-      "hitgroup"
+      "case",
+      "cases"
     ],
     "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 1145,
-    "description": "Called inside the coroutine",
-    "realm": "not documented",
+    "source_line": 1368,
+    "description": "Switch statement implementation for Lua.",
+    "realm": "server",
     "parameters": [
       {
-        "name": "dmg",
+        "name": "case",
         "type": "any",
-        "description": "",
+        "description": "The value to match against the cases.",
         "optional": false,
         "fields": []
       },
       {
-        "name": "hitgroup",
-        "type": "any",
-        "description": "",
+        "name": "cases",
+        "type": "table",
+        "description": "A table of case values and corresponding functions. The keys are the case values, and the values are functions to execute for each case.",
         "optional": false,
         "fields": []
       }
     ],
-    "returns": [],
+    "returns": [
+      {
+        "type": "any",
+        "description": "The return value of the executed function, or nil if no match is found and no default function is provided."
+      }
+    ],
+    "examples": [
+      {
+        "title": "",
+        "code": "switch(self._guardType, {\n\t[\"sude\"] = function()\n\t\treturn \"ladsource/y0/guard_sude/default_sude\"..math.random(1,2)..\".wav\"\n\tend,\n\t[\"metal\"] = function()\n\t\treturn \"ladsource/y0/guard_sude/metal\"..math.random(1,2)..\".wav\"\n\tend,\n\t[\"katana\"] = function()\n\t\tself:VFX_HandSpark()\n\t\treturn \"ladsource/y0/guard_sude/katana\"..math.random(1,2)..\".wav\"\n\tend,\n\t[\"bokuto\"] = function()\n\t\treturn \"ladsource/y0/guard_default/bokuto_default\"..math.random(1,2)..\".wav\"\n\tend,\n\t[\"bullet\"] = function()\n\t\tself:VFX_HandSpark()\n\t\treturn \"ladsource/y0/guard_sude/bullet\"..math.random(1,2)..\".wav\"\n\tend,\n\tdefault = function()\n\t\treturn \"ladsource/y0/guard_sude/default_sude\"..math.random(1,2)..\".wav\"\n\tend\n})"
+      }
+    ],
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-ontookdamage",
-    "page_slug": "on-took-damage",
-    "navigation_title": "ENT:OnTookDamage",
+    "anchor": "switch",
+    "page_slug": "switch",
+    "navigation_title": "switch",
     "api_group": "ladbot",
-    "reference_path": "reference/ladbot/shared/on-took-damage.md"
+    "reference_path": "reference/ladbot/shared/switch.md"
   },
   {
-    "name": "PlayBumpAnimation",
-    "display_name": "ENT:PlayBumpAnimation",
-    "signature": "function ENT:PlayBumpAnimation(anim)",
+    "name": "switch",
+    "display_name": "switch",
+    "signature": "function switch(case, cases)",
     "arguments": [
-      "anim"
+      "case",
+      "cases"
     ],
     "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 1101,
-    "description": "",
-    "realm": "not documented",
+    "source_line": 1576,
+    "description": "Client-side implementation of the Lua switch statement helper.",
+    "realm": "client",
     "parameters": [
       {
-        "name": "anim",
+        "name": "case",
         "type": "any",
-        "description": "",
+        "description": "The value to match against the cases.",
         "optional": false,
         "fields": []
-      }
-    ],
-    "returns": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-playbumpanimation",
-    "page_slug": "play-bump-animation",
-    "navigation_title": "ENT:PlayBumpAnimation",
-    "api_group": "ladbot",
-    "reference_path": "reference/ladbot/shared/play-bump-animation.md"
-  },
-  {
-    "name": "RecoverFromVoid",
-    "display_name": "ENT:RecoverFromVoid",
-    "signature": "function ENT:RecoverFromVoid()",
-    "arguments": [],
-    "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 730,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [],
-    "returns": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-recoverfromvoid",
-    "page_slug": "recover-from-void",
-    "navigation_title": "ENT:RecoverFromVoid",
-    "api_group": "ladbot",
-    "reference_path": "reference/ladbot/shared/recover-from-void.md"
-  },
-  {
-    "name": "SetNexbotColor",
-    "display_name": "ENT:SetNexbotColor",
-    "signature": "function ENT:SetNexbotColor()",
-    "arguments": [],
-    "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 1519,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [],
-    "returns": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-setnexbotcolor",
-    "page_slug": "set-nexbot-color",
-    "navigation_title": "ENT:SetNexbotColor",
-    "api_group": "ladbot",
-    "reference_path": "reference/ladbot/shared/set-nexbot-color.md"
-  },
-  {
-    "name": "ShouldIgnore",
-    "display_name": "ENT:ShouldIgnore",
-    "signature": "function ENT:ShouldIgnore(ent)",
-    "arguments": [
-      "ent"
-    ],
-    "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 1014,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [
+      },
       {
-        "name": "ent",
-        "type": "any",
-        "description": "",
+        "name": "cases",
+        "type": "table",
+        "description": "A table of case values and corresponding functions.",
         "optional": false,
         "fields": []
       }
     ],
-    "returns": [],
+    "returns": [
+      {
+        "type": "any",
+        "description": "The return value of the executed function, or nil if no matching or default case exists."
+      }
+    ],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-shouldignore",
-    "page_slug": "should-ignore",
-    "navigation_title": "ENT:ShouldIgnore",
+    "anchor": "switch-1576",
+    "page_slug": "switch",
+    "navigation_title": "switch",
     "api_group": "ladbot",
-    "reference_path": "reference/ladbot/shared/should-ignore.md"
-  },
-  {
-    "name": "UpdateTransmitState",
-    "display_name": "ENT:UpdateTransmitState",
-    "signature": "function ENT:UpdateTransmitState()",
-    "arguments": [],
-    "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 587,
-    "description": "fixes the attachment point bullshit",
-    "realm": "not documented",
-    "parameters": [],
-    "returns": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-updatetransmitstate",
-    "page_slug": "update-transmit-state",
-    "navigation_title": "ENT:UpdateTransmitState",
-    "api_group": "ladbot",
-    "reference_path": "reference/ladbot/shared/update-transmit-state.md"
+    "reference_path": "reference/ladbot/shared/switch.md"
   },
   {
     "name": "_FindVoidRecoveryPos",
@@ -937,19 +400,25 @@
       "origin"
     ],
     "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 636,
-    "description": "",
-    "realm": "not documented",
+    "source_line": 685,
+    "description": "Internal function used by ENT:RecoverFromVoid().",
+    "realm": "server",
     "parameters": [
       {
         "name": "origin",
-        "type": "any",
-        "description": "",
+        "type": "Vector",
+        "description": "The position to search for a recovery point.",
         "optional": false,
         "fields": []
       }
     ],
-    "returns": [],
+    "returns": [
+      {
+        "type": "Vector?",
+        "description": "The position to recover to, or nil if no valid position is found."
+      }
+    ],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -965,11 +434,12 @@
     "signature": "function ENT:_InitDebugText()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 1454,
-    "description": "",
-    "realm": "not documented",
+    "source_line": 1589,
+    "description": "Initializes 3D debug text for the LADBot, displaying information such as moveset, faction, voicebank, health, and heat.\nCalled internally only.",
+    "realm": "client",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -985,11 +455,12 @@
     "signature": "function ENT:_InitMaterials()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 1488,
-    "description": "",
-    "realm": "not documented",
+    "source_line": 1630,
+    "description": "Prints a material list for the LADBot. Temporary.\nCalled internally only.",
+    "realm": "client",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -1005,11 +476,17 @@
     "signature": "function ENT:_ShouldRecoverFromVoid()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/shared.lua",
-    "source_line": 688,
-    "description": "",
-    "realm": "not documented",
+    "source_line": 740,
+    "description": "Internal function used by ENT:RecoverFromVoid().",
+    "realm": "server",
     "parameters": [],
-    "returns": [],
+    "returns": [
+      {
+        "type": "boolean",
+        "description": "True if the LADBot should attempt to recover from being in the void, false otherwise."
+      }
+    ],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -1018,6 +495,432 @@
     "navigation_title": "ENT:_ShouldRecoverFromVoid",
     "api_group": "ladbot",
     "reference_path": "reference/ladbot/shared/should-recover-from-void.md"
+  },
+  {
+    "name": "BumpAnim",
+    "display_name": "ENT:BumpAnim",
+    "signature": "function ENT:BumpAnim(ent)",
+    "arguments": [
+      "ent"
+    ],
+    "source_file": "lua/entities/lad_framework_base/shared.lua",
+    "source_line": 1130,
+    "description": "Code handling what bump animations should play when the LADBot comes into contact with another entity.\n\nENT:OnBumpAnim(ent) is called at the end of this function, allowing for additional custom behavior.",
+    "realm": "server",
+    "parameters": [
+      {
+        "name": "ent",
+        "type": "ent",
+        "description": "The entity passed from OnContact which triggered the bump animation.",
+        "optional": false,
+        "fields": []
+      }
+    ],
+    "returns": [],
+    "examples": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-bumpanim",
+    "page_slug": "bump-anim",
+    "navigation_title": "ENT:BumpAnim",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/shared/bump-anim.md"
+  },
+  {
+    "name": "CreateDirectionCompass",
+    "display_name": "ENT:CreateDirectionCompass",
+    "signature": "function ENT:CreateDirectionCompass()",
+    "arguments": [],
+    "source_file": "lua/entities/lad_framework_base/shared.lua",
+    "source_line": 1462,
+    "description": "Creates a small invisible cube attached to the LADBot which can be used as a reference for direction. This is only used for debugging.",
+    "realm": "server",
+    "parameters": [],
+    "returns": [],
+    "examples": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-createdirectioncompass",
+    "page_slug": "create-direction-compass",
+    "navigation_title": "ENT:CreateDirectionCompass",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/shared/create-direction-compass.md"
+  },
+  {
+    "name": "CustomDraw",
+    "display_name": "ENT:CustomDraw",
+    "signature": "function ENT:CustomDraw()",
+    "arguments": [],
+    "source_file": "lua/entities/lad_framework_base/shared.lua",
+    "source_line": 1666,
+    "description": "Seems unused.",
+    "realm": "client",
+    "parameters": [],
+    "returns": [],
+    "examples": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-customdraw",
+    "page_slug": "custom-draw",
+    "navigation_title": "ENT:CustomDraw",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/shared/custom-draw.md"
+  },
+  {
+    "name": "CustomInitialize",
+    "display_name": "ENT:CustomInitialize",
+    "signature": "function ENT:CustomInitialize()",
+    "arguments": [],
+    "source_file": "lua/entities/lad_framework_base/shared.lua",
+    "source_line": 245,
+    "description": "Sets up the LADBot. Use ENT:CustomFighterInitialize() to set up custom variables and other stuff for your fighter.",
+    "realm": "server",
+    "parameters": [],
+    "returns": [],
+    "examples": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-custominitialize",
+    "page_slug": "custom-initialize",
+    "navigation_title": "ENT:CustomInitialize",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/shared/custom-initialize.md"
+  },
+  {
+    "name": "CustomInitialize",
+    "display_name": "ENT:CustomInitialize",
+    "signature": "function ENT:CustomInitialize()",
+    "arguments": [],
+    "source_file": "lua/entities/lad_framework_base/shared.lua",
+    "source_line": 1619,
+    "description": "Initializes the LADBot colors.\nCalled internally only.",
+    "realm": "client",
+    "parameters": [],
+    "returns": [],
+    "examples": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-custominitialize-1619",
+    "page_slug": "custom-initialize",
+    "navigation_title": "ENT:CustomInitialize",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/shared/custom-initialize.md"
+  },
+  {
+    "name": "CustomThink",
+    "display_name": "ENT:CustomThink",
+    "signature": "function ENT:CustomThink()",
+    "arguments": [],
+    "source_file": "lua/entities/lad_framework_base/shared.lua",
+    "source_line": 855,
+    "description": "Belongs to DrGBase, called every tick by the engine. Handles AI, HUD, and other internal logic.\nUse ENT:CustomFighterThink() to add custom logic for your fighter.",
+    "realm": "server",
+    "parameters": [],
+    "returns": [],
+    "examples": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-customthink",
+    "page_slug": "custom-think",
+    "navigation_title": "ENT:CustomThink",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/shared/custom-think.md"
+  },
+  {
+    "name": "DebugDrawCone",
+    "display_name": "ENT:DebugDrawCone",
+    "signature": "function ENT:DebugDrawCone(origin, direction, angle, range, segments, duration, color)",
+    "arguments": [
+      "origin",
+      "direction",
+      "angle",
+      "range",
+      "segments",
+      "duration",
+      "color"
+    ],
+    "source_file": "lua/entities/lad_framework_base/shared.lua",
+    "source_line": 659,
+    "description": "Draws a debug cone. Must enable `developer` mode to see the cone.",
+    "realm": "server",
+    "parameters": [
+      {
+        "name": "origin",
+        "type": "Vector",
+        "description": "The starting point of the cone.",
+        "optional": false,
+        "fields": []
+      },
+      {
+        "name": "direction",
+        "type": "Vector",
+        "description": "The direction the cone points.",
+        "optional": false,
+        "fields": []
+      },
+      {
+        "name": "angle",
+        "type": "number",
+        "description": "The angle of the cone.",
+        "optional": false,
+        "fields": []
+      },
+      {
+        "name": "range",
+        "type": "number",
+        "description": "The range of the cone.",
+        "optional": false,
+        "fields": []
+      },
+      {
+        "name": "segments",
+        "type": "number",
+        "description": "The number of segments to use for the cone, defaults to 16 if not specified.",
+        "optional": true,
+        "fields": []
+      },
+      {
+        "name": "duration",
+        "type": "number",
+        "description": "The duration (in seconds) to display the cone, defaults to 2 if not specified.",
+        "optional": true,
+        "fields": []
+      },
+      {
+        "name": "color",
+        "type": "Color(r,g,b,a?)",
+        "description": "The color of the cone.",
+        "optional": false,
+        "fields": []
+      }
+    ],
+    "returns": [],
+    "examples": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-debugdrawcone",
+    "page_slug": "debug-draw-cone",
+    "navigation_title": "ENT:DebugDrawCone",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/shared/debug-draw-cone.md"
+  },
+  {
+    "name": "LoadData",
+    "display_name": "ENT:LoadData",
+    "signature": "function ENT:LoadData(type, id)",
+    "arguments": [
+      "type",
+      "id"
+    ],
+    "source_file": "lua/entities/lad_framework_base/shared.lua",
+    "source_line": 1480,
+    "description": "Loads a data asset.",
+    "realm": "server",
+    "parameters": [
+      {
+        "name": "type",
+        "type": "string",
+        "description": "Type of asset to load, accepts \"moveset\", \"voicebank\", \"hact\", \"dialogue\", or \"item\".",
+        "optional": false,
+        "fields": []
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "description": "File name of the asset to load.",
+        "optional": false,
+        "fields": []
+      }
+    ],
+    "returns": [
+      {
+        "type": "table",
+        "description": "The loaded asset data."
+      }
+    ],
+    "examples": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-loaddata",
+    "page_slug": "load-data",
+    "navigation_title": "ENT:LoadData",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/shared/load-data.md"
+  },
+  {
+    "name": "OnDispossessed",
+    "display_name": "ENT:OnDispossessed",
+    "signature": "function ENT:OnDispossessed(ply)",
+    "arguments": [
+      "ply"
+    ],
+    "source_file": "lua/entities/lad_framework_base/shared.lua",
+    "source_line": 1317,
+    "description": "Internal function called by DrGBase when the LADBot is dispossessed. Cleans up LADBot related stuff, namely\nPlayer Fighter, weapon info and soundtrack.",
+    "realm": "server",
+    "parameters": [
+      {
+        "name": "ply",
+        "type": "ent",
+        "description": "The player who dispossessed the LADBot.",
+        "optional": false,
+        "fields": []
+      }
+    ],
+    "returns": [],
+    "examples": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-ondispossessed",
+    "page_slug": "on-dispossessed",
+    "navigation_title": "ENT:OnDispossessed",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/shared/on-dispossessed.md"
+  },
+  {
+    "name": "OnRemove",
+    "display_name": "ENT:OnRemove",
+    "signature": "function ENT:OnRemove()",
+    "arguments": [],
+    "source_file": "lua/entities/lad_framework_base/shared.lua",
+    "source_line": 1223,
+    "description": "Serverside clean up function. Called automatically by DrGBase, cleans up LADBot related stuff,\nuse ENT:CustomOnRemove() to clean up any additional things you may need.",
+    "realm": "server",
+    "parameters": [],
+    "returns": [],
+    "examples": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-onremove",
+    "page_slug": "on-remove",
+    "navigation_title": "ENT:OnRemove",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/shared/on-remove.md"
+  },
+  {
+    "name": "OnRemove",
+    "display_name": "ENT:OnRemove",
+    "signature": "function ENT:OnRemove()",
+    "arguments": [],
+    "source_file": "lua/entities/lad_framework_base/shared.lua",
+    "source_line": 1648,
+    "description": "Clientside clean up function. Called automatically by DrGBase.",
+    "realm": "client",
+    "parameters": [],
+    "returns": [],
+    "examples": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-onremove-1648",
+    "page_slug": "on-remove",
+    "navigation_title": "ENT:OnRemove",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/shared/on-remove.md"
+  },
+  {
+    "name": "PlayBumpAnimation",
+    "display_name": "ENT:PlayBumpAnimation",
+    "signature": "function ENT:PlayBumpAnimation(anim)",
+    "arguments": [
+      "anim"
+    ],
+    "source_file": "lua/entities/lad_framework_base/shared.lua",
+    "source_line": 1190,
+    "description": "CICO and PlaySequenceAndMove wrapper for bump animations. Plays the specified bump animation and sets self.IsBumped to true during the animation.",
+    "realm": "server",
+    "parameters": [
+      {
+        "name": "anim",
+        "type": "string",
+        "description": "The name of the bump animation to play.",
+        "optional": false,
+        "fields": []
+      }
+    ],
+    "returns": [],
+    "examples": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-playbumpanimation",
+    "page_slug": "play-bump-animation",
+    "navigation_title": "ENT:PlayBumpAnimation",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/shared/play-bump-animation.md"
+  },
+  {
+    "name": "RecoverFromVoid",
+    "display_name": "ENT:RecoverFromVoid",
+    "signature": "function ENT:RecoverFromVoid()",
+    "arguments": [],
+    "source_file": "lua/entities/lad_framework_base/shared.lua",
+    "source_line": 785,
+    "description": "More aggressive function which attempts to recover LADBot from out of bounds. Called internally by ENT:CustomThink().",
+    "realm": "server",
+    "parameters": [],
+    "returns": [],
+    "examples": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-recoverfromvoid",
+    "page_slug": "recover-from-void",
+    "navigation_title": "ENT:RecoverFromVoid",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/shared/recover-from-void.md"
+  },
+  {
+    "name": "SetNexbotColor",
+    "display_name": "ENT:SetNexbotColor",
+    "signature": "function ENT:SetNexbotColor()",
+    "arguments": [],
+    "source_file": "lua/entities/lad_framework_base/shared.lua",
+    "source_line": 1674,
+    "description": "Unimplemented/redundant, sets the color of the LADBot.\nCalled internally only.",
+    "realm": "client",
+    "parameters": [],
+    "returns": [],
+    "examples": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-setnexbotcolor",
+    "page_slug": "set-nexbot-color",
+    "navigation_title": "ENT:SetNexbotColor",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/shared/set-nexbot-color.md"
+  },
+  {
+    "name": "UpdateTransmitState",
+    "display_name": "ENT:UpdateTransmitState",
+    "signature": "function ENT:UpdateTransmitState()",
+    "arguments": [],
+    "source_file": "lua/entities/lad_framework_base/shared.lua",
+    "source_line": 609,
+    "description": "Called whenever the transmit state should be updated. Default GLua Entity function.",
+    "realm": "server",
+    "parameters": [],
+    "returns": [],
+    "examples": [],
+    "internal": true,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-updatetransmitstate",
+    "page_slug": "update-transmit-state",
+    "navigation_title": "ENT:UpdateTransmitState",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/shared/update-transmit-state.md"
   },
   {
     "name": "AIAttemptReload",
@@ -1030,6 +933,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -1060,6 +964,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -1080,6 +985,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -1110,6 +1016,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -1140,6 +1047,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -1170,6 +1078,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -1200,6 +1109,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -1230,6 +1140,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -1260,6 +1171,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -1290,6 +1202,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -1320,6 +1233,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -1350,6 +1264,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -1370,6 +1285,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -1400,6 +1316,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -1430,6 +1347,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -1460,6 +1378,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -1480,6 +1399,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -1510,6 +1430,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -1540,6 +1461,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -1578,6 +1500,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -1624,6 +1547,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -1670,6 +1594,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -1690,6 +1615,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -1720,6 +1646,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -1750,6 +1677,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -1796,6 +1724,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -1816,6 +1745,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -1854,6 +1784,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -1884,6 +1815,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -1914,6 +1846,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -1944,6 +1877,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -1974,6 +1908,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -1994,6 +1929,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -2014,6 +1950,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -2060,6 +1997,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -2106,6 +2044,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -2114,6 +2053,99 @@
     "navigation_title": "ENT:GoToWeapon",
     "api_group": "ladbot",
     "reference_path": "reference/ladbot/ai/go-to-weapon.md"
+  },
+  {
+    "name": "OnAvoidEnemy",
+    "display_name": "ENT:OnAvoidEnemy",
+    "signature": "function ENT:OnAvoidEnemy(enemy)",
+    "arguments": [
+      "enemy"
+    ],
+    "source_file": "lua/entities/lad_framework_base/ai.lua",
+    "source_line": 1672,
+    "description": "Belongs to DrGBase, whether the LADBot should avoid entity.\nCan be overriden to implement custom behavior.",
+    "realm": "server",
+    "parameters": [
+      {
+        "name": "enemy",
+        "type": "ent",
+        "description": "The enemy entity to check.",
+        "optional": false,
+        "fields": []
+      }
+    ],
+    "returns": [],
+    "examples": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-onavoidenemy",
+    "page_slug": "on-avoid-enemy",
+    "navigation_title": "ENT:OnAvoidEnemy",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/ai/on-avoid-enemy.md"
+  },
+  {
+    "name": "OnChaseEnemy",
+    "display_name": "ENT:OnChaseEnemy",
+    "signature": "function ENT:OnChaseEnemy(enemy)",
+    "arguments": [
+      "enemy"
+    ],
+    "source_file": "lua/entities/lad_framework_base/ai.lua",
+    "source_line": 1646,
+    "description": "Belongs to DrGBase, called when the LADBot is chasing an enemy (inside the coroutine).\nCan be overriden to implement custom behavior when the LADBot is chasing an enemy.\nBy default currently checks if the LADBot IsOverworldStationary() and returns true to stop chasing any other enemies.",
+    "realm": "server",
+    "parameters": [
+      {
+        "name": "enemy",
+        "type": "ent",
+        "description": "The enemy entity to check.",
+        "optional": false,
+        "fields": []
+      }
+    ],
+    "returns": [
+      {
+        "type": "boolean",
+        "description": "True if the LADBot should stop chasing the enemy, false otherwise."
+      }
+    ],
+    "examples": [
+      {
+        "title": "",
+        "code": "function ENT:OnChaseEnemy(enemy)\n\tif self:IsOverworldStationary() then return true end\nend"
+      }
+    ],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-onchaseenemy",
+    "page_slug": "on-chase-enemy",
+    "navigation_title": "ENT:OnChaseEnemy",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/ai/on-chase-enemy.md"
+  },
+  {
+    "name": "OnIdle",
+    "display_name": "ENT:OnIdle",
+    "signature": "function ENT:OnIdle()",
+    "arguments": [],
+    "source_file": "lua/entities/lad_framework_base/ai.lua",
+    "source_line": 1688,
+    "description": "Belongs to DrGBase, called after the LADBot successfully reaches its current patrol destination. (inside the coroutine).\nCan be overriden to implement custom behavior.\nBy default currently waits for 1 second before setting self._patrolling to false.",
+    "realm": "server",
+    "parameters": [],
+    "returns": [],
+    "examples": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-onidle",
+    "page_slug": "on-idle",
+    "navigation_title": "ENT:OnIdle",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/ai/on-idle.md"
   },
   {
     "name": "OnLastEnemy",
@@ -2136,6 +2168,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -2144,6 +2177,99 @@
     "navigation_title": "ENT:OnLastEnemy",
     "api_group": "ladbot",
     "reference_path": "reference/ladbot/ai/on-last-enemy.md"
+  },
+  {
+    "name": "OnPatrolling",
+    "display_name": "ENT:OnPatrolling",
+    "signature": "function ENT:OnPatrolling(pos)",
+    "arguments": [
+      "pos"
+    ],
+    "source_file": "lua/entities/lad_framework_base/ai.lua",
+    "source_line": 1698,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [
+      {
+        "name": "pos",
+        "type": "any",
+        "description": "",
+        "optional": false,
+        "fields": []
+      }
+    ],
+    "returns": [],
+    "examples": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-onpatrolling",
+    "page_slug": "on-patrolling",
+    "navigation_title": "ENT:OnPatrolling",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/ai/on-patrolling.md"
+  },
+  {
+    "name": "OnPatrolUnreachable",
+    "display_name": "ENT:OnPatrolUnreachable",
+    "signature": "function ENT:OnPatrolUnreachable(pos)",
+    "arguments": [
+      "pos"
+    ],
+    "source_file": "lua/entities/lad_framework_base/ai.lua",
+    "source_line": 1694,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [
+      {
+        "name": "pos",
+        "type": "any",
+        "description": "",
+        "optional": false,
+        "fields": []
+      }
+    ],
+    "returns": [],
+    "examples": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-onpatrolunreachable",
+    "page_slug": "on-patrol-unreachable",
+    "navigation_title": "ENT:OnPatrolUnreachable",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/ai/on-patrol-unreachable.md"
+  },
+  {
+    "name": "OnReachedPatrol",
+    "display_name": "ENT:OnReachedPatrol",
+    "signature": "function ENT:OnReachedPatrol(pos)",
+    "arguments": [
+      "pos"
+    ],
+    "source_file": "lua/entities/lad_framework_base/ai.lua",
+    "source_line": 1679,
+    "description": "Belongs to DrGBase, called after the LADBot successfully reaches its current patrol destination. (inside the coroutine).\nCan be overriden to implement custom behavior.\nBy default currently waits for 1 second before setting self._patrolling to false.",
+    "realm": "server",
+    "parameters": [
+      {
+        "name": "pos",
+        "type": "Vector",
+        "description": "The destination returned by the active patrol task and used for pathfinding. This is the intended patrol destination, not necessarily the LADBot's exact current position.",
+        "optional": false,
+        "fields": []
+      }
+    ],
+    "returns": [],
+    "examples": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-onreachedpatrol",
+    "page_slug": "on-reached-patrol",
+    "navigation_title": "ENT:OnReachedPatrol",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/ai/on-reached-patrol.md"
   },
   {
     "name": "ScanForNearestWallAndJump",
@@ -2156,6 +2282,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -2176,6 +2303,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -2214,6 +2342,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -2222,6 +2351,47 @@
     "navigation_title": "ENT:SetNextAttack",
     "api_group": "ladbot",
     "reference_path": "reference/ladbot/ai/set-next-attack.md"
+  },
+  {
+    "name": "ShouldIgnore",
+    "display_name": "ENT:ShouldIgnore",
+    "signature": "function ENT:ShouldIgnore(ent)",
+    "arguments": [
+      "ent"
+    ],
+    "source_file": "lua/entities/lad_framework_base/ai.lua",
+    "source_line": 1662,
+    "description": "Belongs to DrGBase, whether the LADBot should ignore an entity.\nCan be overriden to implement custom behavior.\nBy default currently checks if the LADBot should ignore other LADBots which are IsOverworldStationary().",
+    "realm": "server",
+    "parameters": [
+      {
+        "name": "ent",
+        "type": "any",
+        "description": "",
+        "optional": false,
+        "fields": []
+      }
+    ],
+    "returns": [
+      {
+        "type": "boolean",
+        "description": "True if the LADBot should ignore the entity, false otherwise."
+      }
+    ],
+    "examples": [
+      {
+        "title": "",
+        "code": "function ENT:ShouldIgnore(ent)\n\tif IsValid(ent) and ent:GetIsLADFighter() and ent:IsOverworldStationary() then\n\t\treturn true\n\tend\nend"
+      }
+    ],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-shouldignore",
+    "page_slug": "should-ignore",
+    "navigation_title": "ENT:ShouldIgnore",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/ai/should-ignore.md"
   },
   {
     "name": "IsInLongBattle",
@@ -2234,6 +2404,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -2280,6 +2451,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -2310,6 +2482,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -2348,6 +2521,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -2368,6 +2542,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -2406,6 +2581,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -2444,6 +2620,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -2464,6 +2641,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -2484,6 +2662,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -2504,6 +2683,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -2524,6 +2704,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -2544,6 +2725,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -2564,6 +2746,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -2584,6 +2767,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -2622,6 +2806,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -2652,6 +2837,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -2670,7 +2856,7 @@
     ],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
     "source_line": 582,
-    "description": "Returns the best enemy candidate in the direction the possessor is pressing (WASD, 8-way),\nor nil if no suitable candidate passes all three filters:\n1. Edge-triggered: caller only invokes this on a direction change (see PossessionThink).\n2. Angular separation: candidate must be >20 degrees away from current target\n(avoids switching between enemies that are essentially overlapping from our POV).\n3. Hysteresis: candidate must outscore the current target by a margin of 0.15\n(avoids switching to a marginally better-aligned enemy in a tight cluster).",
+    "description": "Returns the best enemy candidate in the direction the possessor is pressing (WASD, 8-way),\nor nil if no suitable candidate passes all three filters:\n   1. Edge-triggered: caller only invokes this on a direction change (see PossessionThink).\n   2. Angular separation: candidate must be >20 degrees away from current target\n      (avoids switching between enemies that are essentially overlapping from our POV).\n   3. Hysteresis: candidate must outscore the current target by a margin of 0.15\n      (avoids switching to a marginally better-aligned enemy in a tight cluster).",
     "realm": "not documented",
     "parameters": [
       {
@@ -2682,6 +2868,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -2702,6 +2889,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -2722,6 +2910,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -2742,6 +2931,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -2772,6 +2962,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -2792,6 +2983,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -2822,6 +3014,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -2860,6 +3053,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -2914,6 +3108,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -2934,6 +3129,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -2964,6 +3160,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -2994,6 +3191,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -3024,6 +3222,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -3044,6 +3243,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -3064,6 +3264,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -3084,6 +3285,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -3114,6 +3316,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -3134,6 +3337,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -3164,6 +3368,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -3194,6 +3399,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -3214,6 +3420,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -3234,6 +3441,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -3254,6 +3462,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -3274,6 +3483,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -3304,6 +3514,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -3366,6 +3577,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -3386,6 +3598,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -3406,6 +3619,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -3426,6 +3640,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -3464,6 +3679,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -3518,6 +3734,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -3548,6 +3765,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -3594,6 +3812,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -3614,6 +3833,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -3634,6 +3854,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -3654,6 +3875,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -3674,6 +3896,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -3728,6 +3951,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -3748,6 +3972,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -3778,6 +4003,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -3816,6 +4042,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -3854,6 +4081,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -3908,6 +4136,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -3938,6 +4167,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -3968,6 +4198,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -3998,6 +4229,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -4018,6 +4250,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -4064,6 +4297,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -4102,6 +4336,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -4132,6 +4367,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -4162,6 +4398,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -4192,6 +4429,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -4238,6 +4476,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -4258,6 +4497,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -4278,6 +4518,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -4298,6 +4539,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -4318,6 +4560,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -4348,6 +4591,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -4386,6 +4630,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -4424,6 +4669,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -4444,6 +4690,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -4464,6 +4711,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -4484,6 +4732,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -4504,6 +4753,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -4524,6 +4774,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -4544,6 +4795,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -4574,6 +4826,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -4612,6 +4865,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -4642,6 +4896,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -4672,6 +4927,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -4692,6 +4948,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -4722,6 +4979,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -4760,6 +5018,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -4790,6 +5049,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -4820,6 +5080,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -4858,6 +5119,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -4888,6 +5150,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -4966,6 +5229,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -4996,6 +5260,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -5034,6 +5299,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -5104,6 +5370,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -5158,6 +5425,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -5220,6 +5488,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -5266,6 +5535,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -5312,6 +5582,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -5358,6 +5629,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -5404,6 +5676,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -5434,6 +5707,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -5464,6 +5738,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -5494,6 +5769,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -5524,6 +5800,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -5544,6 +5821,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -5582,6 +5860,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -5612,6 +5891,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -5642,6 +5922,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -5680,6 +5961,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -5718,6 +6000,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -5738,6 +6021,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -5758,6 +6042,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -5788,6 +6073,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -5808,6 +6094,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -5828,6 +6115,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -5866,6 +6154,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -5904,6 +6193,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -5950,6 +6240,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -5970,6 +6261,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -6000,6 +6292,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -6020,6 +6313,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -6074,6 +6368,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -6094,6 +6389,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -6132,6 +6428,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -6178,6 +6475,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -6256,6 +6554,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -6294,6 +6593,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -6314,6 +6614,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -6334,6 +6635,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -6349,11 +6651,12 @@
     "signature": "function ENT:AbortHact()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 3173,
+    "source_line": 3166,
     "description": "Cleans up a mid-hact state when the activator dies before the hact finishes normally.\nWithout this, subjects remain stuck in IsInHact = true indefinitely.",
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -6384,6 +6687,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -6404,6 +6708,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -6422,7 +6727,7 @@
       "maxWallDist"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 2124,
+    "source_line": 2117,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -6442,6 +6747,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -6472,6 +6778,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -6502,6 +6809,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -6532,6 +6840,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -6547,11 +6856,12 @@
     "signature": "function ENT:DetectEnvironment()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 1602,
+    "source_line": 1595,
     "description": "",
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -6569,7 +6879,7 @@
       "suppressEvents"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 3122,
+    "source_line": 3115,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -6582,6 +6892,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -6602,6 +6913,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -6624,7 +6936,7 @@
       "qte"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 2521,
+    "source_line": 2514,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -6672,6 +6984,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -6690,7 +7003,7 @@
       "maxWallDist"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 1996,
+    "source_line": 1989,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -6710,6 +7023,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -6756,6 +7070,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -6776,7 +7091,7 @@
       "maxWallDist"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 2128,
+    "source_line": 2121,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -6810,6 +7125,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -6830,6 +7146,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -6850,6 +7167,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -6870,6 +7188,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -6890,6 +7209,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -6908,7 +7228,7 @@
       "maxWallDist"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 2109,
+    "source_line": 2102,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -6928,6 +7248,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -6946,7 +7267,7 @@
       "maxWallDist"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 2097,
+    "source_line": 2090,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -6966,6 +7287,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -6986,6 +7308,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -7016,6 +7339,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -7031,11 +7355,12 @@
     "signature": "function ENT:GetHactCamPos()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 3114,
+    "source_line": 3107,
     "description": "",
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -7074,6 +7399,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -7094,6 +7420,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -7114,6 +7441,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -7144,6 +7472,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -7164,6 +7493,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -7184,6 +7514,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -7204,6 +7535,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -7224,6 +7556,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -7244,6 +7577,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -7264,6 +7598,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -7284,6 +7619,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -7304,6 +7640,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -7324,6 +7661,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -7344,6 +7682,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -7364,6 +7703,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -7382,7 +7722,7 @@
       "wallReference"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 1927,
+    "source_line": 1920,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -7402,6 +7742,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -7420,7 +7761,7 @@
       "subjects"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 1882,
+    "source_line": 1875,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -7440,6 +7781,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -7455,11 +7797,12 @@
     "signature": "function ENT:HactBridge()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 2451,
+    "source_line": 2444,
     "description": "",
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -7477,7 +7820,7 @@
       "id"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 2397,
+    "source_line": 2390,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -7490,6 +7833,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -7520,6 +7864,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -7566,6 +7911,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -7596,6 +7942,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -7616,6 +7963,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -7624,36 +7972,6 @@
     "navigation_title": "ENT:HeatThink",
     "api_group": "ladbot",
     "reference_path": "reference/ladbot/hact/heat-think.md"
-  },
-  {
-    "name": "IsFrozenProp",
-    "display_name": "ENT:IsFrozenProp",
-    "signature": "function ENT:IsFrozenProp(ent)",
-    "arguments": [
-      "ent"
-    ],
-    "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 1595,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [
-      {
-        "name": "ent",
-        "type": "any",
-        "description": "",
-        "optional": false,
-        "fields": []
-      }
-    ],
-    "returns": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-isfrozenprop",
-    "page_slug": "is-frozen-prop",
-    "navigation_title": "ENT:IsFrozenProp",
-    "api_group": "ladbot",
-    "reference_path": "reference/ladbot/hact/is-frozen-prop.md"
   },
   {
     "name": "IsInRedHeat",
@@ -7666,6 +7984,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -7696,6 +8015,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -7716,6 +8036,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -7746,6 +8067,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -7776,6 +8098,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -7814,6 +8137,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -7832,7 +8156,7 @@
       "subjects"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 3270,
+    "source_line": 3263,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -7852,6 +8176,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -7890,6 +8215,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -7909,7 +8235,7 @@
       "faceAwayFromWall"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 1797,
+    "source_line": 1790,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -7936,6 +8262,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -7957,7 +8284,7 @@
       "fov"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 2273,
+    "source_line": 2266,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -7998,6 +8325,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -8018,6 +8346,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -8048,6 +8377,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -8078,6 +8408,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -8098,6 +8429,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -8136,6 +8468,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -8156,6 +8489,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -8274,6 +8608,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -8291,7 +8626,7 @@
       "id"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 2402,
+    "source_line": 2395,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -8304,6 +8639,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -8334,6 +8670,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -8353,7 +8690,7 @@
       "animName"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 2325,
+    "source_line": 2318,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -8380,6 +8717,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -8410,6 +8748,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -8430,6 +8769,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -8450,6 +8790,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -8470,6 +8811,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -8500,6 +8842,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -8515,11 +8858,12 @@
     "signature": "function ENT:UpdateHactFrameBridge()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 2257,
+    "source_line": 2250,
     "description": "",
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -8550,6 +8894,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -8570,6 +8915,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -8590,6 +8936,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -8628,6 +8975,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -8658,6 +9006,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -8688,6 +9037,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -8708,6 +9058,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -8770,6 +9121,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -8790,6 +9142,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -8810,6 +9163,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -8872,6 +9226,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -8934,6 +9289,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -8972,6 +9328,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -9010,6 +9367,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -9030,6 +9388,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -9068,6 +9427,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -9098,6 +9458,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -9128,6 +9489,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -9148,6 +9510,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -9168,6 +9531,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -9230,6 +9594,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -9268,6 +9633,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -9306,6 +9672,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -9344,6 +9711,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -9390,6 +9758,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -9410,6 +9779,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -9430,6 +9800,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -9450,6 +9821,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -9470,6 +9842,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -9508,6 +9881,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -9554,6 +9928,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -9600,6 +9975,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -9638,6 +10014,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -9740,6 +10117,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -9786,6 +10164,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -9806,6 +10185,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -9860,6 +10240,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -9880,6 +10261,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -9910,6 +10292,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -9940,6 +10323,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -9970,6 +10354,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -10000,6 +10385,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -10030,6 +10416,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -10060,6 +10447,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -10098,6 +10486,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -10160,6 +10549,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -10206,6 +10596,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -10292,6 +10683,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -10330,6 +10722,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -10350,6 +10743,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -10380,6 +10774,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -10400,6 +10795,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -10438,6 +10834,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -10458,6 +10855,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -10478,6 +10876,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -10741,6 +11140,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -10761,6 +11161,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -10823,6 +11224,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -10877,6 +11279,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -10923,6 +11326,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -10953,6 +11357,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -10983,6 +11388,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -11013,6 +11419,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -11051,6 +11458,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -11089,6 +11497,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -11109,6 +11518,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -11124,11 +11534,12 @@
     "signature": "function ENT:CustomAfterBattleStart()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/hooks.lua",
-    "source_line": 45,
+    "source_line": 47,
     "description": "",
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -11149,6 +11560,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -11164,11 +11576,12 @@
     "signature": "function ENT:CustomAfterStandingUp()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/hooks.lua",
-    "source_line": 34,
+    "source_line": 36,
     "description": "Inside CICO",
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -11186,7 +11599,7 @@
       "enemy"
     ],
     "source_file": "lua/entities/lad_framework_base/hooks.lua",
-    "source_line": 48,
+    "source_line": 50,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -11199,6 +11612,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -11214,11 +11628,12 @@
     "signature": "function ENT:CustomBeforeBattleStart()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/hooks.lua",
-    "source_line": 44,
+    "source_line": 46,
     "description": "",
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -11239,6 +11654,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -11254,11 +11670,12 @@
     "signature": "function ENT:CustomBeforeStandingUp()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/hooks.lua",
-    "source_line": 33,
+    "source_line": 35,
     "description": "Outside CICO",
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -11272,204 +11689,6 @@
     "name": "CustomBeforeTakeDamage",
     "display_name": "ENT:CustomBeforeTakeDamage",
     "signature": "function ENT:CustomBeforeTakeDamage(dmg, hitgroup)",
-    "arguments": [
-      "dmg",
-      "hitgroup"
-    ],
-    "source_file": "lua/entities/lad_framework_base/hooks.lua",
-    "source_line": 38,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [
-      {
-        "name": "dmg",
-        "type": "any",
-        "description": "",
-        "optional": false,
-        "fields": []
-      },
-      {
-        "name": "hitgroup",
-        "type": "any",
-        "description": "",
-        "optional": false,
-        "fields": []
-      }
-    ],
-    "returns": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-custombeforetakedamage",
-    "page_slug": "custom-before-take-damage",
-    "navigation_title": "ENT:CustomBeforeTakeDamage",
-    "api_group": "ladbot",
-    "reference_path": "reference/ladbot/hooks/custom-before-take-damage.md"
-  },
-  {
-    "name": "CustomDeathThink",
-    "display_name": "ENT:CustomDeathThink",
-    "signature": "function ENT:CustomDeathThink()",
-    "arguments": [],
-    "source_file": "lua/entities/lad_framework_base/hooks.lua",
-    "source_line": 13,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [],
-    "returns": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-customdeaththink",
-    "page_slug": "custom-death-think",
-    "navigation_title": "ENT:CustomDeathThink",
-    "api_group": "ladbot",
-    "reference_path": "reference/ladbot/hooks/custom-death-think.md"
-  },
-  {
-    "name": "CustomFighterInitialize",
-    "display_name": "ENT:CustomFighterInitialize",
-    "signature": "function ENT:CustomFighterInitialize()",
-    "arguments": [],
-    "source_file": "lua/entities/lad_framework_base/hooks.lua",
-    "source_line": 3,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [],
-    "returns": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-customfighterinitialize",
-    "page_slug": "custom-fighter-initialize",
-    "navigation_title": "ENT:CustomFighterInitialize",
-    "api_group": "ladbot",
-    "reference_path": "reference/ladbot/hooks/custom-fighter-initialize.md"
-  },
-  {
-    "name": "CustomFighterThink",
-    "display_name": "ENT:CustomFighterThink",
-    "signature": "function ENT:CustomFighterThink()",
-    "arguments": [],
-    "source_file": "lua/entities/lad_framework_base/hooks.lua",
-    "source_line": 15,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [],
-    "returns": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-customfighterthink",
-    "page_slug": "custom-fighter-think",
-    "navigation_title": "ENT:CustomFighterThink",
-    "api_group": "ladbot",
-    "reference_path": "reference/ladbot/hooks/custom-fighter-think.md"
-  },
-  {
-    "name": "CustomMidFighterInitialize",
-    "display_name": "ENT:CustomMidFighterInitialize",
-    "signature": "function ENT:CustomMidFighterInitialize()",
-    "arguments": [],
-    "source_file": "lua/entities/lad_framework_base/hooks.lua",
-    "source_line": 5,
-    "description": "this runs in the middle of CustomInitialize, redundant, needs rework",
-    "realm": "not documented",
-    "parameters": [],
-    "returns": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-custommidfighterinitialize",
-    "page_slug": "custom-mid-fighter-initialize",
-    "navigation_title": "ENT:CustomMidFighterInitialize",
-    "api_group": "ladbot",
-    "reference_path": "reference/ladbot/hooks/custom-mid-fighter-initialize.md"
-  },
-  {
-    "name": "CustomOnDeath",
-    "display_name": "ENT:CustomOnDeath",
-    "signature": "function ENT:CustomOnDeath()",
-    "arguments": [],
-    "source_file": "lua/entities/lad_framework_base/hooks.lua",
-    "source_line": 11,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [],
-    "returns": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-customondeath",
-    "page_slug": "custom-on-death",
-    "navigation_title": "ENT:CustomOnDeath",
-    "api_group": "ladbot",
-    "reference_path": "reference/ladbot/hooks/custom-on-death.md"
-  },
-  {
-    "name": "CustomOnLandOnGround",
-    "display_name": "ENT:CustomOnLandOnGround",
-    "signature": "function ENT:CustomOnLandOnGround()",
-    "arguments": [],
-    "source_file": "lua/entities/lad_framework_base/hooks.lua",
-    "source_line": 42,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [],
-    "returns": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-customonlandonground",
-    "page_slug": "custom-on-land-on-ground",
-    "navigation_title": "ENT:CustomOnLandOnGround",
-    "api_group": "ladbot",
-    "reference_path": "reference/ladbot/hooks/custom-on-land-on-ground.md"
-  },
-  {
-    "name": "CustomOnPossessed",
-    "display_name": "ENT:CustomOnPossessed",
-    "signature": "function ENT:CustomOnPossessed()",
-    "arguments": [],
-    "source_file": "lua/entities/lad_framework_base/hooks.lua",
-    "source_line": 17,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [],
-    "returns": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-customonpossessed",
-    "page_slug": "custom-on-possessed",
-    "navigation_title": "ENT:CustomOnPossessed",
-    "api_group": "ladbot",
-    "reference_path": "reference/ladbot/hooks/custom-on-possessed.md"
-  },
-  {
-    "name": "CustomOnRemove",
-    "display_name": "ENT:CustomOnRemove",
-    "signature": "function ENT:CustomOnRemove()",
-    "arguments": [],
-    "source_file": "lua/entities/lad_framework_base/hooks.lua",
-    "source_line": 7,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [],
-    "returns": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-customonremove",
-    "page_slug": "custom-on-remove",
-    "navigation_title": "ENT:CustomOnRemove",
-    "api_group": "ladbot",
-    "reference_path": "reference/ladbot/hooks/custom-on-remove.md"
-  },
-  {
-    "name": "CustomOnTakeDamage",
-    "display_name": "ENT:CustomOnTakeDamage",
-    "signature": "function ENT:CustomOnTakeDamage(dmg, hitgroup)",
     "arguments": [
       "dmg",
       "hitgroup"
@@ -11495,6 +11714,245 @@
       }
     ],
     "returns": [],
+    "examples": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-custombeforetakedamage",
+    "page_slug": "custom-before-take-damage",
+    "navigation_title": "ENT:CustomBeforeTakeDamage",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/hooks/custom-before-take-damage.md"
+  },
+  {
+    "name": "CustomDeathThink",
+    "display_name": "ENT:CustomDeathThink",
+    "signature": "function ENT:CustomDeathThink()",
+    "arguments": [],
+    "source_file": "lua/entities/lad_framework_base/hooks.lua",
+    "source_line": 13,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [],
+    "returns": [],
+    "examples": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-customdeaththink",
+    "page_slug": "custom-death-think",
+    "navigation_title": "ENT:CustomDeathThink",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/hooks/custom-death-think.md"
+  },
+  {
+    "name": "CustomFighterInitialize",
+    "display_name": "ENT:CustomFighterInitialize",
+    "signature": "function ENT:CustomFighterInitialize()",
+    "arguments": [],
+    "source_file": "lua/entities/lad_framework_base/hooks.lua",
+    "source_line": 3,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [],
+    "returns": [],
+    "examples": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-customfighterinitialize",
+    "page_slug": "custom-fighter-initialize",
+    "navigation_title": "ENT:CustomFighterInitialize",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/hooks/custom-fighter-initialize.md"
+  },
+  {
+    "name": "CustomFighterThink",
+    "display_name": "ENT:CustomFighterThink",
+    "signature": "function ENT:CustomFighterThink()",
+    "arguments": [],
+    "source_file": "lua/entities/lad_framework_base/hooks.lua",
+    "source_line": 15,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [],
+    "returns": [],
+    "examples": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-customfighterthink",
+    "page_slug": "custom-fighter-think",
+    "navigation_title": "ENT:CustomFighterThink",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/hooks/custom-fighter-think.md"
+  },
+  {
+    "name": "CustomMidFighterInitialize",
+    "display_name": "ENT:CustomMidFighterInitialize",
+    "signature": "function ENT:CustomMidFighterInitialize()",
+    "arguments": [],
+    "source_file": "lua/entities/lad_framework_base/hooks.lua",
+    "source_line": 5,
+    "description": "this runs in the middle of CustomInitialize, redundant, needs rework",
+    "realm": "not documented",
+    "parameters": [],
+    "returns": [],
+    "examples": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-custommidfighterinitialize",
+    "page_slug": "custom-mid-fighter-initialize",
+    "navigation_title": "ENT:CustomMidFighterInitialize",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/hooks/custom-mid-fighter-initialize.md"
+  },
+  {
+    "name": "CustomOnContact",
+    "display_name": "ENT:CustomOnContact",
+    "signature": "function ENT:CustomOnContact(ent)",
+    "arguments": [
+      "ent"
+    ],
+    "source_file": "lua/entities/lad_framework_base/hooks.lua",
+    "source_line": 26,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [
+      {
+        "name": "ent",
+        "type": "any",
+        "description": "",
+        "optional": false,
+        "fields": []
+      }
+    ],
+    "returns": [],
+    "examples": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-customoncontact",
+    "page_slug": "custom-on-contact",
+    "navigation_title": "ENT:CustomOnContact",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/hooks/custom-on-contact.md"
+  },
+  {
+    "name": "CustomOnDeath",
+    "display_name": "ENT:CustomOnDeath",
+    "signature": "function ENT:CustomOnDeath()",
+    "arguments": [],
+    "source_file": "lua/entities/lad_framework_base/hooks.lua",
+    "source_line": 11,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [],
+    "returns": [],
+    "examples": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-customondeath",
+    "page_slug": "custom-on-death",
+    "navigation_title": "ENT:CustomOnDeath",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/hooks/custom-on-death.md"
+  },
+  {
+    "name": "CustomOnLandOnGround",
+    "display_name": "ENT:CustomOnLandOnGround",
+    "signature": "function ENT:CustomOnLandOnGround()",
+    "arguments": [],
+    "source_file": "lua/entities/lad_framework_base/hooks.lua",
+    "source_line": 44,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [],
+    "returns": [],
+    "examples": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-customonlandonground",
+    "page_slug": "custom-on-land-on-ground",
+    "navigation_title": "ENT:CustomOnLandOnGround",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/hooks/custom-on-land-on-ground.md"
+  },
+  {
+    "name": "CustomOnPossessed",
+    "display_name": "ENT:CustomOnPossessed",
+    "signature": "function ENT:CustomOnPossessed()",
+    "arguments": [],
+    "source_file": "lua/entities/lad_framework_base/hooks.lua",
+    "source_line": 17,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [],
+    "returns": [],
+    "examples": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-customonpossessed",
+    "page_slug": "custom-on-possessed",
+    "navigation_title": "ENT:CustomOnPossessed",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/hooks/custom-on-possessed.md"
+  },
+  {
+    "name": "CustomOnRemove",
+    "display_name": "ENT:CustomOnRemove",
+    "signature": "function ENT:CustomOnRemove()",
+    "arguments": [],
+    "source_file": "lua/entities/lad_framework_base/hooks.lua",
+    "source_line": 7,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [],
+    "returns": [],
+    "examples": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-customonremove",
+    "page_slug": "custom-on-remove",
+    "navigation_title": "ENT:CustomOnRemove",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/hooks/custom-on-remove.md"
+  },
+  {
+    "name": "CustomOnTakeDamage",
+    "display_name": "ENT:CustomOnTakeDamage",
+    "signature": "function ENT:CustomOnTakeDamage(dmg, hitgroup)",
+    "arguments": [
+      "dmg",
+      "hitgroup"
+    ],
+    "source_file": "lua/entities/lad_framework_base/hooks.lua",
+    "source_line": 42,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [
+      {
+        "name": "dmg",
+        "type": "any",
+        "description": "",
+        "optional": false,
+        "fields": []
+      },
+      {
+        "name": "hitgroup",
+        "type": "any",
+        "description": "",
+        "optional": false,
+        "fields": []
+      }
+    ],
+    "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -11515,6 +11973,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -11530,11 +11989,12 @@
     "signature": "function ENT:OnActivateCombat()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/hooks.lua",
-    "source_line": 30,
+    "source_line": 32,
     "description": "",
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -11565,6 +12025,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -11582,7 +12043,7 @@
       "cosmetic"
     ],
     "source_file": "lua/entities/lad_framework_base/hooks.lua",
-    "source_line": 26,
+    "source_line": 28,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -11595,6 +12056,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -11610,11 +12072,12 @@
     "signature": "function ENT:OnDeactivateCombat()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/hooks.lua",
-    "source_line": 31,
+    "source_line": 33,
     "description": "",
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -11632,7 +12095,7 @@
       "wep"
     ],
     "source_file": "lua/entities/lad_framework_base/hooks.lua",
-    "source_line": 28,
+    "source_line": 30,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -11645,6 +12108,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -11660,11 +12124,12 @@
     "signature": "function ENT:SetupExclusiveMoveset()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/hooks.lua",
-    "source_line": 36,
+    "source_line": 38,
     "description": "",
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -11685,6 +12150,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -11705,6 +12171,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -11791,6 +12258,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -11811,6 +12279,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -11831,6 +12300,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -11851,6 +12321,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -11871,6 +12342,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -11989,6 +12461,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -12009,6 +12482,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -12039,6 +12513,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -12059,6 +12534,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -12079,6 +12555,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -12099,6 +12576,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -12119,6 +12597,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -12139,6 +12618,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -12159,6 +12639,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -12179,6 +12660,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -12199,6 +12681,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -12219,6 +12702,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -12249,6 +12733,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -12279,6 +12764,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -12397,6 +12883,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -12499,6 +12986,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -12537,6 +13025,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -12557,6 +13046,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -12577,6 +13067,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -12711,6 +13202,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -12757,6 +13249,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -12811,6 +13304,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -12831,6 +13325,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -12901,6 +13396,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -12931,6 +13427,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -12961,6 +13458,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -13023,6 +13521,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -13043,6 +13542,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -13063,6 +13563,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -13093,6 +13594,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -13113,6 +13615,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -13131,7 +13634,7 @@
     ],
     "source_file": "lua/entities/lad_framework_base/soundtrack.lua",
     "source_line": 107,
-    "description": "Returns a list of all Player recipients for this entity's soundtrack events.\nIncludes own possessor (if possessed and satisfies combatCheck) plus possessors of\nall other possessed fighters currently in the same battle.\nselfIgnoreCombat = true skips the FighterInCombat check for self only\n(used during battle-start anim where FighterInCombat is not yet set).",
+    "description": "Returns a list of all Player recipients for this entity's soundtrack events.\nIncludes own possessor (if possessed and satisfies combatCheck) plus possessors of\nall other possessed fighters currently in the same battle.\nselfIgnoreCombat = true skips the FighterInCombat check for self only\n                    (used during battle-start anim where FighterInCombat is not yet set).",
     "realm": "not documented",
     "parameters": [
       {
@@ -13143,6 +13646,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -13173,6 +13677,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -13227,6 +13732,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -13257,6 +13763,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -13277,6 +13784,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -13307,6 +13815,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -13327,6 +13836,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -13347,6 +13857,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -13377,6 +13888,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -13397,6 +13909,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -13417,6 +13930,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -13437,6 +13951,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -13467,6 +13982,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -13537,6 +14053,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -13575,6 +14092,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -13621,6 +14139,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -13651,6 +14170,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -13671,6 +14191,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -13691,6 +14212,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -13711,6 +14233,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -13731,6 +14254,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -13761,6 +14285,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -13831,6 +14356,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -13851,6 +14377,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -13881,6 +14408,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -13901,6 +14429,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -13921,6 +14450,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -13941,6 +14471,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -13961,6 +14492,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -13981,6 +14513,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -14019,6 +14552,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -14057,6 +14591,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -14095,6 +14630,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -14133,6 +14669,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -14163,6 +14700,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -14193,6 +14731,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -14223,6 +14762,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -14243,6 +14783,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -14263,6 +14804,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -14283,6 +14825,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -14329,6 +14872,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -14375,6 +14919,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -14421,6 +14966,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -14441,6 +14987,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -14479,6 +15026,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -14499,6 +15047,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -14519,6 +15068,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -14539,6 +15089,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -14559,6 +15110,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -14579,6 +15131,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -14599,6 +15152,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -14619,6 +15173,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -14639,6 +15194,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -14659,6 +15215,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -14697,6 +15254,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": true,
     "callback": false,
     "deprecated": "",
@@ -14759,6 +15317,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -14821,6 +15380,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -14915,6 +15475,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -14961,6 +15522,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -15007,6 +15569,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -15053,6 +15616,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -15115,6 +15679,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -15153,6 +15718,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -15199,6 +15765,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -15229,6 +15796,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -15259,6 +15827,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -15289,6 +15858,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -15319,6 +15889,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -15349,6 +15920,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -15379,6 +15951,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -15409,6 +15982,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -15455,6 +16029,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -15475,6 +16050,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -15505,6 +16081,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -15525,6 +16102,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -15545,6 +16123,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -15565,6 +16144,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -15585,6 +16165,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -15615,6 +16196,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -15669,6 +16251,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -15731,6 +16314,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -15761,6 +16345,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -15791,6 +16376,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -15811,6 +16397,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -15857,6 +16444,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -15895,6 +16483,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -15925,6 +16514,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -15963,6 +16553,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -15993,6 +16584,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -16023,6 +16615,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -16053,6 +16646,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -16123,6 +16717,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -16185,6 +16780,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -16223,6 +16819,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -16253,6 +16850,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -16273,6 +16871,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -16293,6 +16892,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -16313,6 +16913,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -16343,6 +16944,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -16363,6 +16965,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -16393,6 +16996,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -16463,6 +17067,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -16493,6 +17098,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -16547,6 +17153,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -16577,6 +17184,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -16615,6 +17223,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -16635,6 +17244,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -16673,6 +17283,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -16703,6 +17314,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -16723,6 +17335,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -16743,6 +17356,7 @@
     "realm": "not documented",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -16773,6 +17387,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -16803,6 +17418,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -16849,6 +17465,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -16869,6 +17486,7 @@
     "realm": "shared",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -16889,6 +17507,7 @@
     "realm": "shared",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -16914,6 +17533,7 @@
         "description": "IsLADFighter."
       }
     ],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -16944,6 +17564,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -16974,6 +17595,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -17004,6 +17626,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -17034,6 +17657,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -17064,6 +17688,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -17134,6 +17759,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -17172,6 +17798,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -17192,6 +17819,7 @@
     "realm": "server",
     "parameters": [],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -17222,6 +17850,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -17241,7 +17870,7 @@
     ],
     "source_file": "lua/lad_framework/battle_manager.lua",
     "source_line": 140,
-    "description": "Create a new battle from a list of participant entities. Returns the battle ID.\nAll listed fighters receive _battleID = <id> immediately so that ActivateCombat\n(which may fire later inside a CICO coroutine) can find the existing battle.\nopts (optional table): { endless = true } — battle never declares victory/defeat;\nCheckBattleEnd returns early so the record stays alive for the next wave.",
+    "description": "Create a new battle from a list of participant entities. Returns the battle ID.\nAll listed fighters receive _battleID = <id> immediately so that ActivateCombat\n(which may fire later inside a CICO coroutine) can find the existing battle.\nopts (optional table): { endless = true } — battle never declares victory/defeat;\n   CheckBattleEnd returns early so the record stays alive for the next wave.",
     "realm": "server",
     "parameters": [
       {
@@ -17260,6 +17889,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -17298,6 +17928,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -17336,6 +17967,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -17355,7 +17987,7 @@
     ],
     "source_file": "lua/lad_framework/battle_manager.lua",
     "source_line": 230,
-    "description": "Remove a fighter from their current battle.\ncheckEnd: pass true to immediately re-evaluate whether the battle should end\n(e.g. after a kill). Pass false during bulk cleanup (OnRemove) to\navoid operating on partially-removed entity state.",
+    "description": "Remove a fighter from their current battle.\ncheckEnd: pass true to immediately re-evaluate whether the battle should end\n           (e.g. after a kill). Pass false during bulk cleanup (OnRemove) to\n           avoid operating on partially-removed entity state.",
     "realm": "server",
     "parameters": [
       {
@@ -17374,6 +18006,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",
@@ -17412,6 +18045,7 @@
       }
     ],
     "returns": [],
+    "examples": [],
     "internal": false,
     "callback": false,
     "deprecated": "",

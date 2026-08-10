@@ -26,6 +26,7 @@ Methods defined in `lua/entities/lad_framework_base/hooks.lua`.
 | [`ENT:CustomFighterInitialize`](custom-fighter-initialize.md) | Documentation pending. |
 | [`ENT:CustomFighterThink`](custom-fighter-think.md) | Documentation pending. |
 | [`ENT:CustomMidFighterInitialize`](custom-mid-fighter-initialize.md) | this runs in the middle of CustomInitialize, redundant, needs rework |
+| [`ENT:CustomOnContact`](custom-on-contact.md) | Documentation pending. |
 | [`ENT:CustomOnDeath`](custom-on-death.md) | Documentation pending. |
 | [`ENT:CustomOnLandOnGround`](custom-on-land-on-ground.md) | Documentation pending. |
 | [`ENT:CustomOnPossessed`](custom-on-possessed.md) | Documentation pending. |

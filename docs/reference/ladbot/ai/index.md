@@ -49,9 +49,16 @@ Methods defined in `lua/entities/lad_framework_base/ai.lua`.
 | [`ENT:GetSwayNextAttack`](get-sway-next-attack.md) | Documentation pending. |
 | [`ENT:GoToWall`](go-to-wall.md) | Documentation pending. |
 | [`ENT:GoToWeapon`](go-to-weapon.md) | Documentation pending. |
+| [`ENT:OnAvoidEnemy`](on-avoid-enemy.md) | Belongs to DrGBase, whether the LADBot should avoid entity. Can be overriden to implement custom behavior. |
+| [`ENT:OnChaseEnemy`](on-chase-enemy.md) | Belongs to DrGBase, called when the LADBot is chasing an enemy (inside the coroutine). Can be overriden to implement custom behavior when the LADBot is chasing an enemy. By default currently checks if the LADBot IsOverworldStationary() and returns true to stop chasing any other enemies. |
+| [`ENT:OnIdle`](on-idle.md) | Belongs to DrGBase, called after the LADBot successfully reaches its current patrol destination. (inside the coroutine). Can be overriden to implement custom behavior. By default currently waits for 1 second before setting self._patrolling to false. |
 | [`ENT:OnLastEnemy`](on-last-enemy.md) | Documentation pending. |
+| [`ENT:OnPatrolling`](on-patrolling.md) | Documentation pending. |
+| [`ENT:OnPatrolUnreachable`](on-patrol-unreachable.md) | Documentation pending. |
+| [`ENT:OnReachedPatrol`](on-reached-patrol.md) | Belongs to DrGBase, called after the LADBot successfully reaches its current patrol destination. (inside the coroutine). Can be overriden to implement custom behavior. By default currently waits for 1 second before setting self._patrolling to false. |
 | [`ENT:ScanForNearestWallAndJump`](scan-for-nearest-wall-and-jump.md) | Documentation pending. |
 | [`ENT:ScanForNearestWeaponAndMove`](scan-for-nearest-weapon-and-move.md) | Documentation pending. |
 | [`ENT:SetNextAttack`](set-next-attack.md) | Documentation pending. |
+| [`ENT:ShouldIgnore`](should-ignore.md) | Belongs to DrGBase, whether the LADBot should ignore an entity. Can be overriden to implement custom behavior. By default currently checks if the LADBot should ignore other LADBots which are IsOverworldStationary(). |
 
 </div>

@@ -21,7 +21,7 @@ Returns a list of all Player recipients for this entity's soundtrack events.
 Includes own possessor (if possessed and satisfies combatCheck) plus possessors of
 all other possessed fighters currently in the same battle.
 selfIgnoreCombat = true skips the FighterInCombat check for self only
-(used during battle-start anim where FighterInCombat is not yet set).
+                    (used during battle-start anim where FighterInCombat is not yet set).
 
 ## Parameters
 

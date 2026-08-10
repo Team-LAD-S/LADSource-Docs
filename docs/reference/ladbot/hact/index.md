@@ -59,7 +59,6 @@ Methods defined in `lua/entities/lad_framework_base/hact.lua`.
 | [`ENT:HactFOVEvent`](hact-fov-event.md) | Documentation pending. |
 | [`ENT:HeatPopBehavior`](heat-pop-behavior.md) | Documentation pending. |
 | [`ENT:HeatThink`](heat-think.md) | Documentation pending. |
-| [`ENT:IsFrozenProp`](is-frozen-prop.md) | Documentation pending. |
 | [`ENT:IsInRedHeat`](is-in-red-heat.md) | Documentation pending. |
 | [`ENT:LAD_HactEventFramesHasKey`](lad-hact-event-frames-has-key.md) | Documentation pending. |
 | [`ENT:LAD_HactEventFramesUseDamageEvents`](lad-hact-event-frames-use-damage-events.md) | Documentation pending. |

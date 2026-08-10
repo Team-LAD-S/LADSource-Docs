@@ -1,5 +1,6 @@
 ---
 title: "Entity:LADS_IsInCone"
+status: realm-shared
 ---
 
 [Back to Entity extensions](index.md)

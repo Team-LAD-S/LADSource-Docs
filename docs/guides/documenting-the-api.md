@@ -4,6 +4,11 @@ The API generator reads documentation comments immediately above LADBot `ENT`
 methods, shared Entity metatable methods in `meta.lua`, and Battle Manager
 methods in `battle_manager.lua`.
 
+Documented, non-local functions declared with `function Name(...)` inside a
+LADBot module are also included on that module's reference page. They must have
+a structured `---` documentation block; ordinary comments and `local function`
+helpers are ignored.
+
 ## Example
 
 ```lua
@@ -26,6 +31,7 @@ The description uses lines beginning with `---`. Tags use `---@tag`.
 | `---@param name Type description` | Documents a required argument. Add `?` after the name for an optional parameter. |
 | `---@field argument.key Type description` | Documents a required key accepted by a table argument. Add `?` after the key for an optional field. |
 | `---@return Type name description` | Documents a return value. The name is optional. |
+| `---@example Optional title` | Starts a multiline Lua example. Following documentation lines contain its code. Repeat the tag to add another example. |
 | `---@internal` | Marks an implementation detail that addon developers should not call. |
 | `---@callback` | Marks a method intended to be overridden by a LADBot. |
 | `---@deprecated message` | Marks an obsolete method and explains what to use instead. |
@@ -55,6 +61,23 @@ end
 ---@field options.ignoreGuard? boolean Whether the attack bypasses guarding.
 function ENT:ConfigureAttack(options)
     -- Implementation
+end
+```
+
+Examples are written last in the documentation block. Every documentation line
+after `---@example` is treated as Lua code until another tag begins. An optional
+title is useful when a method needs more than one example.
+
+```lua
+--- Runs state changes in sequence around an animation.
+---@realm server
+---@example Playing an animation
+---self:CICO(function(self)
+---    self.IsAttacking = true
+---    self:PlaySequenceAndWait("attack_animation")
+---    self.IsAttacking = false
+---end)
+function ENT:CICO(callback)
 end
 ```
 

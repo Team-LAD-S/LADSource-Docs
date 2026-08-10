@@ -1,5 +1,6 @@
 ---
 title: "ENT:_FindVoidRecoveryPos"
+status: realm-server
 ---
 
 [Back to Shared](index.md)
@@ -7,7 +8,7 @@ title: "ENT:_FindVoidRecoveryPos"
 <a id="ent-findvoidrecoverypos"></a>
 # `ENT:_FindVoidRecoveryPos` { .api-method-title }
 
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+<div class="api-badges"><span class="api-badge api-badge--server">server</span><span class="api-badge api-badge--internal">internal</span></div>
 
 <div class="api-signature" markdown>
 
@@ -17,7 +18,7 @@ function ENT:_FindVoidRecoveryPos(origin)
 
 </div>
 
-*Documentation pending. The signature and source location were generated automatically.*
+Internal function used by ENT:RecoverFromVoid().
 
 ## Parameters
 
@@ -25,12 +26,14 @@ function ENT:_FindVoidRecoveryPos(origin)
 
 | Name | Type | Required | Description |
 | --- | --- | :---: | --- |
-| `origin` | `any` | Yes | Not documented. |
+| `origin` | `Vector` | Yes | The position to search for a recovery point. |
 
 </div>
 
 ## Returns
 
-No return values are documented.
+| Type | Description |
+| --- | --- |
+| `Vector?` | The position to recover to, or nil if no valid position is found. |
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:636</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:685</code>.</p>

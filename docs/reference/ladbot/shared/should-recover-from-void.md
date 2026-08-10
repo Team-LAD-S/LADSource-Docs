@@ -1,5 +1,6 @@
 ---
 title: "ENT:_ShouldRecoverFromVoid"
+status: realm-server
 ---
 
 [Back to Shared](index.md)
@@ -7,7 +8,7 @@ title: "ENT:_ShouldRecoverFromVoid"
 <a id="ent-shouldrecoverfromvoid"></a>
 # `ENT:_ShouldRecoverFromVoid` { .api-method-title }
 
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
+<div class="api-badges"><span class="api-badge api-badge--server">server</span><span class="api-badge api-badge--internal">internal</span></div>
 
 <div class="api-signature" markdown>
 
@@ -17,7 +18,7 @@ function ENT:_ShouldRecoverFromVoid()
 
 </div>
 
-*Documentation pending. The signature and source location were generated automatically.*
+Internal function used by ENT:RecoverFromVoid().
 
 ## Parameters
 
@@ -25,6 +26,8 @@ This method takes no explicit arguments.
 
 ## Returns
 
-No return values are documented.
+| Type | Description |
+| --- | --- |
+| `boolean` | True if the LADBot should attempt to recover from being in the void, false otherwise. |
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:688</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:740</code>.</p>

@@ -34,4 +34,4 @@ function ENT:CanForcePositionToNearestWall(curhactOrRadius, maxWallDist)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hact.lua:2124</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hact.lua:2117</code>.</p>

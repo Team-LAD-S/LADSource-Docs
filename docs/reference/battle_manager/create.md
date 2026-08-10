@@ -1,5 +1,6 @@
 ---
 title: "BattleManager:Create"
+status: realm-server
 ---
 
 [Back to Battle Manager](index.md)
@@ -21,7 +22,7 @@ Create a new battle from a list of participant entities. Returns the battle ID.
 All listed fighters receive _battleID = <id> immediately so that ActivateCombat
 (which may fire later inside a CICO coroutine) can find the existing battle.
 opts (optional table): { endless = true } — battle never declares victory/defeat;
-CheckBattleEnd returns early so the record stays alive for the next wave.
+   CheckBattleEnd returns early so the record stays alive for the next wave.
 
 ## Parameters
 

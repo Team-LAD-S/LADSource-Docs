@@ -33,4 +33,4 @@ function ENT:OnCosmeticKnockoff(cosmetic)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hooks.lua:26</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hooks.lua:28</code>.</p>

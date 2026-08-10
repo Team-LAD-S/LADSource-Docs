@@ -1,5 +1,6 @@
 ---
 title: "ENT:IsPropLeftOrRight"
+status: realm-server
 ---
 
 [Back to Shared](index.md)
@@ -7,7 +8,7 @@ title: "ENT:IsPropLeftOrRight"
 <a id="ent-ispropleftorright"></a>
 # `ENT:IsPropLeftOrRight` { .api-method-title }
 
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--server">server</span></div>
 
 <div class="api-signature" markdown>
 
@@ -17,7 +18,8 @@ function ENT:IsPropLeftOrRight(prop)
 
 </div>
 
-*Documentation pending. The signature and source location were generated automatically.*
+Returns whether the given prop entity is to the left or right side of a LADBot.
+Uses the cross product of the forward vector and the vector to the prop to determine the side.
 
 ## Parameters
 
@@ -31,6 +33,8 @@ function ENT:IsPropLeftOrRight(prop)
 
 ## Returns
 
-No return values are documented.
+| Type | Description |
+| --- | --- |
+| `string` | "_left" if the prop is to the left, "_right" if the prop is to the right. |
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:567</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:575</code>.</p>

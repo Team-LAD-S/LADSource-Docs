@@ -21,24 +21,20 @@ SECTION_TITLES = {
 
 
 def on_nav(nav, config, files):
-    method_order = load_method_order(config)
+    method_metadata = load_method_metadata(config)
     for item in nav.items:
-        format_navigation(item, method_order)
+        format_navigation(item, method_metadata)
     return nav
 
 
-def load_method_order(config):
+def load_method_metadata(config):
     manifest_path = Path(config.docs_dir) / "reference" / "api-index.json"
     if not manifest_path.is_file():
         return {}
 
     records = json.loads(manifest_path.read_text(encoding="utf-8"))
     return {
-        record["reference_path"].replace("\\", "/"): (
-            bool(record["internal"]),
-            record["name"].casefold(),
-            int(record["source_line"]),
-        )
+        record["reference_path"].replace("\\", "/"): record
         for record in records
         if record.get("reference_path")
     }
@@ -50,7 +46,11 @@ def source_path(item):
     return str(path).replace("\\", "/") if path else ""
 
 
-def format_navigation(item, method_order):
+def method_sort_key(record):
+    return bool(record["internal"]), record["name"].casefold(), int(record["source_line"])
+
+
+def format_navigation(item, method_metadata):
     if isinstance(item, Section):
         normalized = item.title.casefold()
         if normalized in SECTION_TITLES:
@@ -63,12 +63,14 @@ def format_navigation(item, method_order):
 
     children = getattr(item, "children", None) or []
     for child in children:
-        format_navigation(child, method_order)
+        format_navigation(child, method_metadata)
 
-    method_pages = [child for child in children if source_path(child) in method_order]
+    method_pages = [child for child in children if source_path(child) in method_metadata]
     if not method_pages:
         return
 
-    other_pages = [child for child in children if source_path(child) not in method_order]
-    method_pages.sort(key=lambda child: method_order[source_path(child)])
+    other_pages = [child for child in children if source_path(child) not in method_metadata]
+    method_pages.sort(
+        key=lambda child: method_sort_key(method_metadata[source_path(child)])
+    )
     children[:] = other_pages + method_pages

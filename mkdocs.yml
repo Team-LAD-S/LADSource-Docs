@@ -51,6 +51,8 @@ markdown_extensions:
       anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   - toc:
       permalink: true
 
@@ -59,5 +61,14 @@ extra_css:
 
 extra_javascript:
   - javascripts/module-table-sort.js
+  - javascripts/preserve-sidebar-scroll.js
+  - javascripts/realm-tab-toc.js
+
+extra:
+  status:
+    realm-server: Server realm
+    realm-client: Client realm
+    realm-shared: Shared realm
+    realm-server-client: Server and client realms
 
 copyright: Copyright &copy; Team LADS. LADSource codebase is licensed under GPL-3.0.

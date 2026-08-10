@@ -1,5 +1,6 @@
 ---
 title: "ENT:DebugDrawCone"
+status: realm-server
 ---
 
 [Back to Shared](index.md)
@@ -7,7 +8,7 @@ title: "ENT:DebugDrawCone"
 <a id="ent-debugdrawcone"></a>
 # `ENT:DebugDrawCone` { .api-method-title }
 
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--server">server</span><span class="api-badge api-badge--internal">internal</span></div>
 
 <div class="api-signature" markdown>
 
@@ -17,7 +18,7 @@ function ENT:DebugDrawCone(origin, direction, angle, range, segments, duration, 
 
 </div>
 
-*Documentation pending. The signature and source location were generated automatically.*
+Draws a debug cone. Must enable `developer` mode to see the cone.
 
 ## Parameters
 
@@ -25,13 +26,13 @@ function ENT:DebugDrawCone(origin, direction, angle, range, segments, duration, 
 
 | Name | Type | Required | Description |
 | --- | --- | :---: | --- |
-| `origin` | `any` | Yes | Not documented. |
-| `direction` | `any` | Yes | Not documented. |
-| `angle` | `any` | Yes | Not documented. |
-| `range` | `any` | Yes | Not documented. |
-| `segments` | `any` | Yes | Not documented. |
-| `duration` | `any` | Yes | Not documented. |
-| `color` | `any` | Yes | Not documented. |
+| `origin` | `Vector` | Yes | The starting point of the cone. |
+| `direction` | `Vector` | Yes | The direction the cone points. |
+| `angle` | `number` | Yes | The angle of the cone. |
+| `range` | `number` | Yes | The range of the cone. |
+| `segments` | `number` | No | The number of segments to use for the cone, defaults to 16 if not specified. |
+| `duration` | `number` | No | The duration (in seconds) to display the cone, defaults to 2 if not specified. |
+| `color` | `Color(r,g,b,a?)` | Yes | The color of the cone. |
 
 </div>
 
@@ -39,4 +40,4 @@ function ENT:DebugDrawCone(origin, direction, angle, range, segments, duration, 
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:613</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:659</code>.</p>

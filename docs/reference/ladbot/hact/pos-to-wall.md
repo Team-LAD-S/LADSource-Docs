@@ -35,4 +35,4 @@ function ENT:PosToWall(offset, wallReference, faceAwayFromWall)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hact.lua:1797</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hact.lua:1790</code>.</p>
