@@ -33,4 +33,4 @@ function ENT:EndHact(suppressEvents)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hact.lua:3115</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hact.lua:3151</code>.</p>

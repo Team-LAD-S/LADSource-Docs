@@ -18,7 +18,7 @@ function ENT:DisplaySubtitle(text, time, radius)
 
 </div>
 
-Yakuza Cutscene type subtitle text, called by LADBot and networked to to all possessed LADBots in a radius.
+Yakuza Cutscene type subtitle text, called by LADBot and networked to all possessed LADBots in a radius.
 
 ## Parameters
 
