@@ -75,6 +75,8 @@ status: realm-server-client
     should use the server implementation; this version exists for clientside
     coroutine sequences.
 
+    Not recommended to use, will probably be deprecated in the future.
+
     ## Parameters { #client-parameters data-toc-label="Parameters" }
 
     <div class="api-parameter-table" markdown>
@@ -89,4 +91,4 @@ status: realm-server-client
 
     No return values are documented.
 
-    <p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1560</code>.</p>
+    <p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1562</code>.</p>

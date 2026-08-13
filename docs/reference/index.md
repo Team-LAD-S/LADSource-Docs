@@ -4,7 +4,7 @@ The reference covers LADBot methods, shared Entity extensions, and the
 server-side Battle Manager API.
 
 **542 methods** were detected across **28 files**.
-**102 methods** currently have descriptions.
+**103 methods** currently have descriptions.
 
 | API group | Methods | Description |
 | --- | ---: | --- |

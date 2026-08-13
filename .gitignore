@@ -2,4 +2,3 @@ site/
 .venv-docs/
 __pycache__/
 *.pyc
-update_ref.ps1

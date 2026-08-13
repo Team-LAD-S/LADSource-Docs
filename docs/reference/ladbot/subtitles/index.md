@@ -13,6 +13,6 @@ Methods defined in `lua/entities/lad_framework_base/subtitles.lua`.
 
 | Method | Summary |
 | --- | --- |
-| [`ENT:DisplaySubtitle`](display-subtitle.md) | Documentation pending. |
+| [`ENT:DisplaySubtitle`](display-subtitle.md) | Yakuza Cutscene type subtitle text, called by LADBot and networked to to all possessed LADBots in a radius. |
 
 </div>

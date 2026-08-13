@@ -1,5 +1,6 @@
 ---
 title: "ENT:DisplaySubtitle"
+status: realm-server
 ---
 
 [Back to Subtitles](index.md)
@@ -7,7 +8,7 @@ title: "ENT:DisplaySubtitle"
 <a id="ent-displaysubtitle"></a>
 # `ENT:DisplaySubtitle` { .api-method-title }
 
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--server">server</span></div>
 
 <div class="api-signature" markdown>
 
@@ -17,7 +18,7 @@ function ENT:DisplaySubtitle(text, time, radius)
 
 </div>
 
-*Documentation pending. The signature and source location were generated automatically.*
+Yakuza Cutscene type subtitle text, called by LADBot and networked to to all possessed LADBots in a radius.
 
 ## Parameters
 
@@ -25,9 +26,9 @@ function ENT:DisplaySubtitle(text, time, radius)
 
 | Name | Type | Required | Description |
 | --- | --- | :---: | --- |
-| `text` | `any` | Yes | Not documented. |
-| `time` | `any` | Yes | Not documented. |
-| `radius` | `any` | Yes | Not documented. |
+| `text` | `string` | Yes | The subtitle text to display. |
+| `time` | `number` | Yes | The duration to display the subtitle. |
+| `radius` | `number` | Yes | The radius in which to display the subtitle. |
 
 </div>
 
@@ -35,4 +36,4 @@ function ENT:DisplaySubtitle(text, time, radius)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/subtitles.lua:18</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/subtitles.lua:23</code>.</p>
