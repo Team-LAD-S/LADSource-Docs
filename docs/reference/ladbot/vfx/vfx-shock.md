@@ -1,5 +1,6 @@
 ---
 title: "ENT:VFX_Shock"
+status: realm-server
 ---
 
 [Back to VFX](index.md)
@@ -7,7 +8,7 @@ title: "ENT:VFX_Shock"
 <a id="ent-vfx-shock"></a>
 # `ENT:VFX_Shock` { .api-method-title }
 
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--server">server</span></div>
 
 <div class="api-signature" markdown>
 
@@ -17,7 +18,7 @@ function ENT:VFX_Shock(count)
 
 </div>
 
-*Documentation pending. The signature and source location were generated automatically.*
+Triggers a simple "Tesla" visual effect from HL2
 
 ## Parameters
 
@@ -25,7 +26,7 @@ function ENT:VFX_Shock(count)
 
 | Name | Type | Required | Description |
 | --- | --- | :---: | --- |
-| `count` | `any` | Yes | Not documented. |
+| `count` | `int` | Yes | The number of times the effect is to repeat before terminating |
 
 </div>
 
@@ -33,4 +34,4 @@ function ENT:VFX_Shock(count)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:25</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:28</code>.</p>

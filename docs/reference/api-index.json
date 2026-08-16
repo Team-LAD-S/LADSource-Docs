@@ -12916,7 +12916,7 @@
     "signature": "function ENT:DisplayItemNotification()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/hud.lua",
-    "source_line": 3974,
+    "source_line": 4028,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -13051,7 +13051,7 @@
     "signature": "function ENT:DrawDebugHUD()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/hud.lua",
-    "source_line": 3615,
+    "source_line": 3669,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -13074,7 +13074,7 @@
     "signature": "function ENT:DrawDialoguePrompt()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/hud.lua",
-    "source_line": 3494,
+    "source_line": 3535,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -13405,6 +13405,29 @@
     "navigation_title": "ENT:DynamicIntroHUD",
     "api_group": "ladbot",
     "reference_path": "reference/ladbot/hud/dynamic-intro-hud.md"
+  },
+  {
+    "name": "FindNearbyWarpPoint",
+    "display_name": "ENT:FindNearbyWarpPoint",
+    "signature": "function ENT:FindNearbyWarpPoint()",
+    "arguments": [],
+    "source_file": "lua/entities/lad_framework_base/hud.lua",
+    "source_line": 3494,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [],
+    "returns": [],
+    "examples": [],
+    "warnings": [],
+    "bugs": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-findnearbywarppoint",
+    "page_slug": "find-nearby-warp-point",
+    "navigation_title": "ENT:FindNearbyWarpPoint",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/hud/find-nearby-warp-point.md"
   },
   {
     "name": "HUDDetectAllies",
@@ -13837,7 +13860,7 @@
     "signature": "function ENT:PossessionHUD()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/hud.lua",
-    "source_line": 3521,
+    "source_line": 3575,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -16199,6 +16222,222 @@
     "reference_path": "reference/ladbot/overrides/lad-draw-bonemerged-child.md"
   },
   {
+    "name": "EnableLimbFlash",
+    "display_name": "ENT:EnableLimbFlash",
+    "signature": "function ENT:EnableLimbFlash(enable, AttachmentBone, radius, material, additive)",
+    "arguments": [
+      "enable",
+      "AttachmentBone",
+      "radius",
+      "material",
+      "additive"
+    ],
+    "source_file": "lua/entities/lad_framework_base/vfx.lua",
+    "source_line": 170,
+    "description": "Serverside caller for the Aura effect around specific limbs. Used internally by many functions in `moveset.lua` but can also be used externally where required.",
+    "realm": "server",
+    "parameters": [
+      {
+        "name": "enable",
+        "type": "bool",
+        "description": "Sets the effect active. This calls the clientside function of the same name that sets up a render hook with the invisible limbflash material.",
+        "optional": false,
+        "fields": []
+      },
+      {
+        "name": "AttachmentBone",
+        "type": "int",
+        "description": "The ID of the attachment you want to attach the controller (point_flesh_effect_target) to. Linked to the Var of the same name in `moveset.lua`.",
+        "optional": false,
+        "fields": []
+      },
+      {
+        "name": "radius",
+        "type": "float",
+        "description": "The radius of the controller. Linked to the Var of the same name in `moveset.lua`, parsed to string because we are dealing with a keyvalue.",
+        "optional": false,
+        "fields": []
+      },
+      {
+        "name": "material",
+        "type": "string",
+        "description": "The path to the material you want to use in place of the default one in a limbflash call. Linked to the Var of the same name in `moveset.lua`.",
+        "optional": false,
+        "fields": []
+      },
+      {
+        "name": "additive",
+        "type": "bool",
+        "description": "True by default. Set to false and the interior of the limbflash effect will be made pitch black.",
+        "optional": true,
+        "fields": []
+      }
+    ],
+    "returns": [],
+    "examples": [],
+    "warnings": [
+      "This function is not garbage collected. You must set `enable` to false in order to properly destroy it, otherwise it'll persist until entity deletion."
+    ],
+    "bugs": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-enablelimbflash",
+    "page_slug": "enable-limb-flash",
+    "navigation_title": "ENT:EnableLimbFlash",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/vfx/enable-limb-flash.md"
+  },
+  {
+    "name": "GetGuardFX",
+    "display_name": "ENT:GetGuardFX",
+    "signature": "function ENT:GetGuardFX(attacker, attackData)",
+    "arguments": [
+      "attacker",
+      "attackData"
+    ],
+    "source_file": "lua/entities/lad_framework_base/vfx.lua",
+    "source_line": 307,
+    "description": "Serverside caller that fires back to LAD:Source's internal events system to assert which sound is required if guarding against specific attacks with something specific in hand.",
+    "realm": "server",
+    "parameters": [
+      {
+        "name": "attacker",
+        "type": "ent",
+        "description": "The entity that is currently attacking us and we need to assert it to figure out what sound we need to fire based on what we are holding and what they are holding.",
+        "optional": false,
+        "fields": []
+      },
+      {
+        "name": "attackData",
+        "type": "table",
+        "description": "The table that contains data about this specific attack being applied to us. (Refer to `events_anim.lua` for the full table used here.)",
+        "optional": false,
+        "fields": []
+      }
+    ],
+    "returns": [
+      {
+        "type": "sound",
+        "description": "The path to the sound that is to be played based on what you are holding and what you are being attacked with."
+      }
+    ],
+    "examples": [],
+    "warnings": [
+      "It is reccommended never to use this as it is an internal function. Instead, rely on passing \"GuardSound\" in the actual weapon's table."
+    ],
+    "bugs": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-getguardfx",
+    "page_slug": "get-guard-fx",
+    "navigation_title": "ENT:GetGuardFX",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/vfx/get-guard-fx.md"
+  },
+  {
+    "name": "SetGreyscaleEffect",
+    "display_name": "ENT:SetGreyscaleEffect",
+    "signature": "function ENT:SetGreyscaleEffect(enable)",
+    "arguments": [
+      "enable"
+    ],
+    "source_file": "lua/entities/lad_framework_base/vfx.lua",
+    "source_line": 749,
+    "description": "Serverside caller that makes everything, excluding the Player's current fighter, black and white.",
+    "realm": "server",
+    "parameters": [
+      {
+        "name": "enable",
+        "type": "bool",
+        "description": "Trigger this effect. Setting it to false disables it.",
+        "optional": false,
+        "fields": []
+      }
+    ],
+    "returns": [],
+    "examples": [],
+    "warnings": [
+      "This function has no safeguards that disable it automatically. You must, under all circumstances, make a call that disables the greyscale effect after you're done using it. Otherwise, everything will stay black and white unless you dispossess the fighter or remove it."
+    ],
+    "bugs": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-setgreyscaleeffect",
+    "page_slug": "set-greyscale-effect",
+    "navigation_title": "ENT:SetGreyscaleEffect",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/vfx/set-greyscale-effect.md"
+  },
+  {
+    "name": "VFX_Shock",
+    "display_name": "ENT:VFX_Shock",
+    "signature": "function ENT:VFX_Shock(count)",
+    "arguments": [
+      "count"
+    ],
+    "source_file": "lua/entities/lad_framework_base/vfx.lua",
+    "source_line": 28,
+    "description": "Triggers a simple \"Tesla\" visual effect from HL2",
+    "realm": "server",
+    "parameters": [
+      {
+        "name": "count",
+        "type": "int",
+        "description": "The number of times the effect is to repeat before terminating",
+        "optional": false,
+        "fields": []
+      }
+    ],
+    "returns": [],
+    "examples": [],
+    "warnings": [],
+    "bugs": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-vfx-shock",
+    "page_slug": "vfx-shock",
+    "navigation_title": "ENT:VFX_Shock",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/vfx/vfx-shock.md"
+  },
+  {
+    "name": "VFX_SparkOnce",
+    "display_name": "ENT:VFX_SparkOnce",
+    "signature": "function ENT:VFX_SparkOnce(attachment)",
+    "arguments": [
+      "attachment"
+    ],
+    "source_file": "lua/entities/lad_framework_base/vfx.lua",
+    "source_line": 60,
+    "description": "Triggers a simple \"Sparks\" visual effect from HL2",
+    "realm": "server",
+    "parameters": [
+      {
+        "name": "attachment",
+        "type": "int",
+        "description": "Attachment ID for where to attach the effect.",
+        "optional": false,
+        "fields": []
+      }
+    ],
+    "returns": [],
+    "examples": [],
+    "warnings": [],
+    "bugs": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-vfx-sparkonce",
+    "page_slug": "vfx-spark-once",
+    "navigation_title": "ENT:VFX_SparkOnce",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/vfx/vfx-spark-once.md"
+  },
+  {
     "name": "ChargeAura",
     "display_name": "ENT:ChargeAura",
     "signature": "function ENT:ChargeAura(enable, SDRCleanupTime, SDRColor, SDRMaterial, destroyInstant)",
@@ -16210,43 +16449,43 @@
       "destroyInstant"
     ],
     "source_file": "lua/entities/lad_framework_base/vfx.lua",
-    "source_line": 100,
-    "description": "",
-    "realm": "not documented",
+    "source_line": 123,
+    "description": "Serverside caller for the Aura effect used when charging attacks.",
+    "realm": "server",
     "parameters": [
       {
         "name": "enable",
-        "type": "any",
-        "description": "",
+        "type": "bool",
+        "description": "Sets the effect active.",
         "optional": false,
         "fields": []
       },
       {
         "name": "SDRCleanupTime",
-        "type": "any",
-        "description": "",
+        "type": "float",
+        "description": "The base amount of time before the SlowDownRate is forced to reset to 0. Linked to the Var of the same name in `moveset.lua`.",
         "optional": false,
         "fields": []
       },
       {
         "name": "SDRColor",
-        "type": "any",
-        "description": "",
+        "type": "color",
+        "description": "The actual color of the Charge Aura. Linked to the Var of the same name in `moveset.lua`.",
         "optional": false,
         "fields": []
       },
       {
         "name": "SDRMaterial",
-        "type": "any",
-        "description": "",
+        "type": "string",
+        "description": "The path to the material you want to use in place of the default one in a Charge Aura call. Linked to the Var of the same name in `moveset.lua`.",
         "optional": false,
         "fields": []
       },
       {
         "name": "destroyInstant",
-        "type": "any",
-        "description": "",
-        "optional": false,
+        "type": "bool",
+        "description": "Immediately cut off the Charge Aura effect instead of doing a fade out. Not mapped to anything but can be called from the function if need be.",
+        "optional": true,
         "fields": []
       }
     ],
@@ -16254,7 +16493,7 @@
     "examples": [],
     "warnings": [],
     "bugs": [],
-    "internal": false,
+    "internal": true,
     "callback": false,
     "deprecated": "",
     "anchor": "ent-chargeaura",
@@ -16275,22 +16514,22 @@
       "NoBlurPass"
     ],
     "source_file": "lua/entities/lad_framework_base/vfx.lua",
-    "source_line": 701,
-    "description": "",
-    "realm": "not documented",
+    "source_line": 793,
+    "description": "Serverside caller for the AfterImage system. Used by moveset properties to apply the after image effect to certain moves.",
+    "realm": "server",
     "parameters": [
       {
         "name": "color",
-        "type": "any",
-        "description": "",
+        "type": "Color(R,G,B)",
+        "description": "The color of the AfterImage.",
         "optional": false,
         "fields": []
       },
       {
         "name": "mat",
-        "type": "any",
-        "description": "",
-        "optional": false,
+        "type": "string",
+        "description": "Path to the material you want this after image to use. If a material was applied by the Material Tool to this model, it will use that by default, however this can also override that for the specific after image.",
+        "optional": true,
         "fields": []
       },
       {
@@ -16302,16 +16541,16 @@
       },
       {
         "name": "drawChildOnly",
-        "type": "any",
-        "description": "",
-        "optional": false,
+        "type": "bool",
+        "description": "Only draw parented children to a model in this after image instance.",
+        "optional": true,
         "fields": []
       },
       {
         "name": "NoBlurPass",
-        "type": "any",
-        "description": "",
-        "optional": false,
+        "type": "bool",
+        "description": "Don't apply a blur effect to the model, if enabled.",
+        "optional": true,
         "fields": []
       }
     ],
@@ -16319,7 +16558,7 @@
     "examples": [],
     "warnings": [],
     "bugs": [],
-    "internal": false,
+    "internal": true,
     "callback": false,
     "deprecated": "",
     "anchor": "ent-createafterimage",
@@ -16344,9 +16583,9 @@
       "Res"
     ],
     "source_file": "lua/entities/lad_framework_base/vfx.lua",
-    "source_line": 648,
-    "description": "",
-    "realm": "not documented",
+    "source_line": 723,
+    "description": "An old remainant of the early trails system that served as a proof of concept.",
+    "realm": "server",
     "parameters": [
       {
         "name": "attachment_ID",
@@ -16416,9 +16655,9 @@
     "examples": [],
     "warnings": [],
     "bugs": [],
-    "internal": false,
+    "internal": true,
     "callback": false,
-    "deprecated": "",
+    "deprecated": "Has been entirely replaced by VFX_MeshTrail, use that instead. This function will be removed in a later update.",
     "anchor": "ent-createpibtrail",
     "page_slug": "create-pib-trail",
     "navigation_title": "ENT:CreatePibTrail",
@@ -16435,28 +16674,28 @@
       "animSeq"
     ],
     "source_file": "lua/entities/lad_framework_base/vfx.lua",
-    "source_line": 394,
-    "description": "",
-    "realm": "not documented",
+    "source_line": 452,
+    "description": "Serverside tracker that dispatches active MeshTrails to their intended entities and bones.",
+    "realm": "server",
     "parameters": [
       {
         "name": "p",
-        "type": "any",
-        "description": "",
+        "type": "table",
+        "description": "The MeshTrail that is to be constructed. This uses the same table referenced by VFX_MeshTrail, however this function retrieves it from the current attack's properties in `moveset.lua`.",
         "optional": false,
         "fields": []
       },
       {
         "name": "moveName",
-        "type": "any",
-        "description": "",
+        "type": "string",
+        "description": "The name of the current move that this AttackTrail/MeshTrail is to be dispatched to.",
         "optional": false,
         "fields": []
       },
       {
         "name": "animSeq",
-        "type": "any",
-        "description": "",
+        "type": "string",
+        "description": "The ID of the animation sequence that is playing right now, used to retrieve the cycle when the AttackTrail should be instanced.",
         "optional": false,
         "fields": []
       }
@@ -16465,7 +16704,7 @@
     "examples": [],
     "warnings": [],
     "bugs": [],
-    "internal": false,
+    "internal": true,
     "callback": false,
     "deprecated": "",
     "anchor": "ent-dispatchattacktrails",
@@ -16484,28 +16723,28 @@
       "animSeq"
     ],
     "source_file": "lua/entities/lad_framework_base/vfx.lua",
-    "source_line": 557,
-    "description": "",
-    "realm": "not documented",
+    "source_line": 628,
+    "description": "Serverside tracker that dispatches active LimbFlashes to their intended entities and bones.",
+    "realm": "server",
     "parameters": [
       {
         "name": "move",
-        "type": "any",
-        "description": "",
+        "type": "table",
+        "description": "The current move that is being played inside a Node. The function uses this to assert the properties of the LimbFlash.",
         "optional": false,
         "fields": []
       },
       {
         "name": "moveName",
-        "type": "any",
-        "description": "",
+        "type": "string",
+        "description": "The name of the current move that this LimbFlash is to be dispatched to.",
         "optional": false,
         "fields": []
       },
       {
         "name": "animSeq",
-        "type": "any",
-        "description": "",
+        "type": "int",
+        "description": "ID of the animation sequence that this LimbFlash is tied to. Used to assert its start and end cycles.",
         "optional": false,
         "fields": []
       }
@@ -16514,7 +16753,7 @@
     "examples": [],
     "warnings": [],
     "bugs": [],
-    "internal": false,
+    "internal": true,
     "callback": false,
     "deprecated": "",
     "anchor": "ent-dispatchlimbflashes",
@@ -16533,28 +16772,28 @@
       "animSeq"
     ],
     "source_file": "lua/entities/lad_framework_base/vfx.lua",
-    "source_line": 485,
-    "description": "",
-    "realm": "not documented",
+    "source_line": 550,
+    "description": "Serverside tracker that dispatches active ParticleTrails to their intended entities and bones.\nThe system makes use of the ParticleTrail table which has its own unique parameters. This is passed via `moveset.lua`.",
+    "realm": "server",
     "parameters": [
       {
         "name": "move",
-        "type": "any",
-        "description": "",
+        "type": "table",
+        "description": "The current move that is being played inside a Node. The function uses this to assert the properties of the ParticleTrail.",
         "optional": false,
         "fields": []
       },
       {
         "name": "moveName",
-        "type": "any",
-        "description": "",
+        "type": "string",
+        "description": "The name of the current move that this AttackTrail/MeshTrail is to be dispatched to.",
         "optional": false,
         "fields": []
       },
       {
         "name": "animSeq",
-        "type": "any",
-        "description": "",
+        "type": "int",
+        "description": "ID of the animation sequence that this particle is tied to. Used to assert its start and end cycles.",
         "optional": false,
         "fields": []
       }
@@ -16563,7 +16802,7 @@
     "examples": [],
     "warnings": [],
     "bugs": [],
-    "internal": false,
+    "internal": true,
     "callback": false,
     "deprecated": "",
     "anchor": "ent-dispatchparticletrails",
@@ -16571,112 +16810,6 @@
     "navigation_title": "ENT:DispatchParticleTrails",
     "api_group": "ladbot",
     "reference_path": "reference/ladbot/vfx/dispatch-particle-trails.md"
-  },
-  {
-    "name": "EnableLimbFlash",
-    "display_name": "ENT:EnableLimbFlash",
-    "signature": "function ENT:EnableLimbFlash(enable, AttachmentBone, radius, material, additive)",
-    "arguments": [
-      "enable",
-      "AttachmentBone",
-      "radius",
-      "material",
-      "additive"
-    ],
-    "source_file": "lua/entities/lad_framework_base/vfx.lua",
-    "source_line": 139,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [
-      {
-        "name": "enable",
-        "type": "any",
-        "description": "",
-        "optional": false,
-        "fields": []
-      },
-      {
-        "name": "AttachmentBone",
-        "type": "any",
-        "description": "",
-        "optional": false,
-        "fields": []
-      },
-      {
-        "name": "radius",
-        "type": "any",
-        "description": "",
-        "optional": false,
-        "fields": []
-      },
-      {
-        "name": "material",
-        "type": "any",
-        "description": "",
-        "optional": false,
-        "fields": []
-      },
-      {
-        "name": "additive",
-        "type": "any",
-        "description": "",
-        "optional": false,
-        "fields": []
-      }
-    ],
-    "returns": [],
-    "examples": [],
-    "warnings": [],
-    "bugs": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-enablelimbflash",
-    "page_slug": "enable-limb-flash",
-    "navigation_title": "ENT:EnableLimbFlash",
-    "api_group": "ladbot",
-    "reference_path": "reference/ladbot/vfx/enable-limb-flash.md"
-  },
-  {
-    "name": "GetGuardFX",
-    "display_name": "ENT:GetGuardFX",
-    "signature": "function ENT:GetGuardFX(attacker, attackData)",
-    "arguments": [
-      "attacker",
-      "attackData"
-    ],
-    "source_file": "lua/entities/lad_framework_base/vfx.lua",
-    "source_line": 255,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [
-      {
-        "name": "attacker",
-        "type": "any",
-        "description": "",
-        "optional": false,
-        "fields": []
-      },
-      {
-        "name": "attackData",
-        "type": "any",
-        "description": "",
-        "optional": false,
-        "fields": []
-      }
-    ],
-    "returns": [],
-    "examples": [],
-    "warnings": [],
-    "bugs": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-getguardfx",
-    "page_slug": "get-guard-fx",
-    "navigation_title": "ENT:GetGuardFX",
-    "api_group": "ladbot",
-    "reference_path": "reference/ladbot/vfx/get-guard-fx.md"
   },
   {
     "name": "HeatAura",
@@ -16688,28 +16821,28 @@
       "destroyInstant"
     ],
     "source_file": "lua/entities/lad_framework_base/vfx.lua",
-    "source_line": 678,
-    "description": "",
-    "realm": "not documented",
+    "source_line": 763,
+    "description": "Serverside caller for the HeatAura system. Relies on the provided moveset in order to create a particle instance of the heat aura.",
+    "realm": "server",
     "parameters": [
       {
         "name": "enable",
-        "type": "any",
-        "description": "",
+        "type": "bool",
+        "description": "Trigger this effect. Setting it to false disables it.",
         "optional": false,
         "fields": []
       },
       {
         "name": "color",
-        "type": "any",
-        "description": "",
+        "type": "Color(R,G,B)",
+        "description": "The color of the heat aura. If the heat aura particle has a controlpoint remapped for coloring, this will apply to it to the particle as well.",
         "optional": false,
         "fields": []
       },
       {
         "name": "destroyInstant",
-        "type": "any",
-        "description": "",
+        "type": "bool",
+        "description": "Immediately delete the heat aura particles without letting them linger.",
         "optional": false,
         "fields": []
       }
@@ -16718,7 +16851,7 @@
     "examples": [],
     "warnings": [],
     "bugs": [],
-    "internal": false,
+    "internal": true,
     "callback": false,
     "deprecated": "",
     "anchor": "ent-heataura",
@@ -16728,39 +16861,6 @@
     "reference_path": "reference/ladbot/vfx/heat-aura.md"
   },
   {
-    "name": "SetGreyscaleEffect",
-    "display_name": "ENT:SetGreyscaleEffect",
-    "signature": "function ENT:SetGreyscaleEffect(enable)",
-    "arguments": [
-      "enable"
-    ],
-    "source_file": "lua/entities/lad_framework_base/vfx.lua",
-    "source_line": 670,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [
-      {
-        "name": "enable",
-        "type": "any",
-        "description": "",
-        "optional": false,
-        "fields": []
-      }
-    ],
-    "returns": [],
-    "examples": [],
-    "warnings": [],
-    "bugs": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-setgreyscaleeffect",
-    "page_slug": "set-greyscale-effect",
-    "navigation_title": "ENT:SetGreyscaleEffect",
-    "api_group": "ladbot",
-    "reference_path": "reference/ladbot/vfx/set-greyscale-effect.md"
-  },
-  {
     "name": "VFX_EjectShell",
     "display_name": "ENT:VFX_EjectShell",
     "signature": "function ENT:VFX_EjectShell(bulletVFX)",
@@ -16768,23 +16868,36 @@
       "bulletVFX"
     ],
     "source_file": "lua/entities/lad_framework_base/vfx.lua",
-    "source_line": 214,
-    "description": "",
-    "realm": "not documented",
+    "source_line": 251,
+    "description": "Creates the bullet shell cartrage at the specified position on an object. Used Internally.",
+    "realm": "server",
     "parameters": [
       {
         "name": "bulletVFX",
-        "type": "any",
-        "description": "",
+        "type": "table",
+        "description": "Data used by the function to create a bullet shell at the specified point.",
         "optional": false,
-        "fields": []
+        "fields": [
+          {
+            "name": "ShellEjectPos",
+            "type": "string",
+            "description": "The attachment name where the bullet is to be ejected from.",
+            "optional": false
+          },
+          {
+            "name": "Shell",
+            "type": "string",
+            "description": "The name of the effect you want to use. Falls back to `\"ShellEject\"`.",
+            "optional": false
+          }
+        ]
       }
     ],
     "returns": [],
     "examples": [],
     "warnings": [],
     "bugs": [],
-    "internal": false,
+    "internal": true,
     "callback": false,
     "deprecated": "",
     "anchor": "ent-vfx-ejectshell",
@@ -16801,14 +16914,14 @@
       "att"
     ],
     "source_file": "lua/entities/lad_framework_base/vfx.lua",
-    "source_line": 247,
-    "description": "",
-    "realm": "not documented",
+    "source_line": 293,
+    "description": "Same as `VFX_SparkOnce`.",
+    "realm": "server",
     "parameters": [
       {
         "name": "att",
-        "type": "any",
-        "description": "",
+        "type": "int",
+        "description": "The attachment ID to use.",
         "optional": false,
         "fields": []
       }
@@ -16817,7 +16930,7 @@
     "examples": [],
     "warnings": [],
     "bugs": [],
-    "internal": false,
+    "internal": true,
     "callback": false,
     "deprecated": "",
     "anchor": "ent-vfx-handspark",
@@ -16834,23 +16947,54 @@
       "cfg"
     ],
     "source_file": "lua/entities/lad_framework_base/vfx.lua",
-    "source_line": 77,
-    "description": "",
-    "realm": "not documented",
+    "source_line": 92,
+    "description": "Serverside caller for the MeshTrail system.",
+    "realm": "server",
     "parameters": [
       {
         "name": "cfg",
-        "type": "any",
-        "description": "",
+        "type": "table",
+        "description": "A table containing all the data needed to render individual ribbons for a mesh trail.",
         "optional": false,
-        "fields": []
+        "fields": [
+          {
+            "name": "lifetime",
+            "type": "float",
+            "description": "The total amount of time a trail can live after being instanced by a node (in seconds).",
+            "optional": false
+          },
+          {
+            "name": "trailtime",
+            "type": "float",
+            "description": "The time it takes for a trail ribbon to catch up to itself on the V-axis.",
+            "optional": false
+          },
+          {
+            "name": "start",
+            "type": "string",
+            "description": "The starting point for the trail, can be a bone or an attachment. Preferably use a bone.",
+            "optional": false
+          },
+          {
+            "name": "endpoint",
+            "type": "string/vector",
+            "description": "The end point for the trail, can be a bone attachment, or a Vector. Preferably use a bone.",
+            "optional": false
+          },
+          {
+            "name": "endIsVec",
+            "type": "bool",
+            "description": "Used internally if a vector is passed in the CFG table's endpoint field, tells the system to use that Vector(X,Y,Z) as the end point for the trail.",
+            "optional": false
+          }
+        ]
       }
     ],
     "returns": [],
     "examples": [],
     "warnings": [],
     "bugs": [],
-    "internal": false,
+    "internal": true,
     "callback": false,
     "deprecated": "",
     "anchor": "ent-vfx-meshtrail",
@@ -16860,72 +17004,6 @@
     "reference_path": "reference/ladbot/vfx/vfx-mesh-trail.md"
   },
   {
-    "name": "VFX_Shock",
-    "display_name": "ENT:VFX_Shock",
-    "signature": "function ENT:VFX_Shock(count)",
-    "arguments": [
-      "count"
-    ],
-    "source_file": "lua/entities/lad_framework_base/vfx.lua",
-    "source_line": 25,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [
-      {
-        "name": "count",
-        "type": "any",
-        "description": "",
-        "optional": false,
-        "fields": []
-      }
-    ],
-    "returns": [],
-    "examples": [],
-    "warnings": [],
-    "bugs": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-vfx-shock",
-    "page_slug": "vfx-shock",
-    "navigation_title": "ENT:VFX_Shock",
-    "api_group": "ladbot",
-    "reference_path": "reference/ladbot/vfx/vfx-shock.md"
-  },
-  {
-    "name": "VFX_SparkOnce",
-    "display_name": "ENT:VFX_SparkOnce",
-    "signature": "function ENT:VFX_SparkOnce(attachment)",
-    "arguments": [
-      "attachment"
-    ],
-    "source_file": "lua/entities/lad_framework_base/vfx.lua",
-    "source_line": 54,
-    "description": "",
-    "realm": "not documented",
-    "parameters": [
-      {
-        "name": "attachment",
-        "type": "any",
-        "description": "",
-        "optional": false,
-        "fields": []
-      }
-    ],
-    "returns": [],
-    "examples": [],
-    "warnings": [],
-    "bugs": [],
-    "internal": false,
-    "callback": false,
-    "deprecated": "",
-    "anchor": "ent-vfx-sparkonce",
-    "page_slug": "vfx-spark-once",
-    "navigation_title": "ENT:VFX_SparkOnce",
-    "api_group": "ladbot",
-    "reference_path": "reference/ladbot/vfx/vfx-spark-once.md"
-  },
-  {
     "name": "VFX_WeaponSpark",
     "display_name": "ENT:VFX_WeaponSpark",
     "signature": "function ENT:VFX_WeaponSpark(slot)",
@@ -16933,9 +17011,9 @@
       "slot"
     ],
     "source_file": "lua/entities/lad_framework_base/vfx.lua",
-    "source_line": 228,
-    "description": "",
-    "realm": "not documented",
+    "source_line": 270,
+    "description": "Same as `VFX_SparkOnce`, but this confines it to a weapon slot.",
+    "realm": "server",
     "parameters": [
       {
         "name": "slot",
@@ -16947,9 +17025,11 @@
     ],
     "returns": [],
     "examples": [],
-    "warnings": [],
+    "warnings": [
+      "Will fail silently if there's no active weapon in the slot."
+    ],
     "bugs": [],
-    "internal": false,
+    "internal": true,
     "callback": false,
     "deprecated": "",
     "anchor": "ent-vfx-weaponspark",

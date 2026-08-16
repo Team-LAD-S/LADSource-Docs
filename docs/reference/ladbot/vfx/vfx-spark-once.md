@@ -1,5 +1,6 @@
 ---
 title: "ENT:VFX_SparkOnce"
+status: realm-server
 ---
 
 [Back to VFX](index.md)
@@ -7,7 +8,7 @@ title: "ENT:VFX_SparkOnce"
 <a id="ent-vfx-sparkonce"></a>
 # `ENT:VFX_SparkOnce` { .api-method-title }
 
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--server">server</span></div>
 
 <div class="api-signature" markdown>
 
@@ -17,7 +18,7 @@ function ENT:VFX_SparkOnce(attachment)
 
 </div>
 
-*Documentation pending. The signature and source location were generated automatically.*
+Triggers a simple "Sparks" visual effect from HL2
 
 ## Parameters
 
@@ -25,7 +26,7 @@ function ENT:VFX_SparkOnce(attachment)
 
 | Name | Type | Required | Description |
 | --- | --- | :---: | --- |
-| `attachment` | `any` | Yes | Not documented. |
+| `attachment` | `int` | Yes | Attachment ID for where to attach the effect. |
 
 </div>
 
@@ -33,4 +34,4 @@ function ENT:VFX_SparkOnce(attachment)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:54</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:60</code>.</p>

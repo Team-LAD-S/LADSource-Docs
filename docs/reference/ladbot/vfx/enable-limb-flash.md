@@ -1,5 +1,6 @@
 ---
 title: "ENT:EnableLimbFlash"
+status: realm-server
 ---
 
 [Back to VFX](index.md)
@@ -7,7 +8,7 @@ title: "ENT:EnableLimbFlash"
 <a id="ent-enablelimbflash"></a>
 # `ENT:EnableLimbFlash` { .api-method-title }
 
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--server">server</span></div>
 
 <div class="api-signature" markdown>
 
@@ -17,7 +18,11 @@ function ENT:EnableLimbFlash(enable, AttachmentBone, radius, material, additive)
 
 </div>
 
-*Documentation pending. The signature and source location were generated automatically.*
+Serverside caller for the Aura effect around specific limbs. Used internally by many functions in `moveset.lua` but can also be used externally where required.
+
+!!! warning "Warning"
+
+    This function is not garbage collected. You must set `enable` to false in order to properly destroy it, otherwise it'll persist until entity deletion.
 
 ## Parameters
 
@@ -25,11 +30,11 @@ function ENT:EnableLimbFlash(enable, AttachmentBone, radius, material, additive)
 
 | Name | Type | Required | Description |
 | --- | --- | :---: | --- |
-| `enable` | `any` | Yes | Not documented. |
-| `AttachmentBone` | `any` | Yes | Not documented. |
-| `radius` | `any` | Yes | Not documented. |
-| `material` | `any` | Yes | Not documented. |
-| `additive` | `any` | Yes | Not documented. |
+| `enable` | `bool` | Yes | Sets the effect active. This calls the clientside function of the same name that sets up a render hook with the invisible limbflash material. |
+| `AttachmentBone` | `int` | Yes | The ID of the attachment you want to attach the controller (point_flesh_effect_target) to. Linked to the Var of the same name in `moveset.lua`. |
+| `radius` | `float` | Yes | The radius of the controller. Linked to the Var of the same name in `moveset.lua`, parsed to string because we are dealing with a keyvalue. |
+| `material` | `string` | Yes | The path to the material you want to use in place of the default one in a limbflash call. Linked to the Var of the same name in `moveset.lua`. |
+| `additive` | `bool` | No | True by default. Set to false and the interior of the limbflash effect will be made pitch black. |
 
 </div>
 
@@ -37,4 +42,4 @@ function ENT:EnableLimbFlash(enable, AttachmentBone, radius, material, additive)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:139</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:170</code>.</p>

@@ -1,5 +1,6 @@
 ---
 title: "ENT:CreatePibTrail"
+status: realm-server
 ---
 
 [Back to VFX](index.md)
@@ -7,7 +8,7 @@ title: "ENT:CreatePibTrail"
 <a id="ent-createpibtrail"></a>
 # `ENT:CreatePibTrail` { .api-method-title }
 
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--server">server</span><span class="api-badge api-badge--internal">internal</span><span class="api-badge api-badge--deprecated">deprecated</span></div>
 
 <div class="api-signature" markdown>
 
@@ -17,7 +18,11 @@ function ENT:CreatePibTrail(attachment_ID, Color_Table, Is_it_Additive, start_Wi
 
 </div>
 
-*Documentation pending. The signature and source location were generated automatically.*
+An old remainant of the early trails system that served as a proof of concept.
+
+!!! warning "Deprecated"
+
+    Has been entirely replaced by VFX_MeshTrail, use that instead. This function will be removed in a later update.
 
 ## Parameters
 
@@ -41,4 +46,4 @@ function ENT:CreatePibTrail(attachment_ID, Color_Table, Is_it_Additive, start_Wi
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:648</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:723</code>.</p>

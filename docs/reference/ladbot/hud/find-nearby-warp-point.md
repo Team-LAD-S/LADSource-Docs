@@ -1,18 +1,18 @@
 ---
-title: "ENT:DisplayItemNotification"
+title: "ENT:FindNearbyWarpPoint"
 ---
 
 [Back to HUD](index.md)
 
-<a id="ent-displayitemnotification"></a>
-# `ENT:DisplayItemNotification` { .api-method-title }
+<a id="ent-findnearbywarppoint"></a>
+# `ENT:FindNearbyWarpPoint` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
 ```lua
-function ENT:DisplayItemNotification()
+function ENT:FindNearbyWarpPoint()
 ```
 
 </div>
@@ -27,4 +27,4 @@ This method takes no explicit arguments.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hud.lua:4028</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hud.lua:3494</code>.</p>

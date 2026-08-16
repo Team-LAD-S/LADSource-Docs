@@ -1,5 +1,6 @@
 ---
 title: "ENT:DispatchAttackTrails"
+status: realm-server
 ---
 
 [Back to VFX](index.md)
@@ -7,7 +8,7 @@ title: "ENT:DispatchAttackTrails"
 <a id="ent-dispatchattacktrails"></a>
 # `ENT:DispatchAttackTrails` { .api-method-title }
 
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--server">server</span><span class="api-badge api-badge--internal">internal</span></div>
 
 <div class="api-signature" markdown>
 
@@ -17,7 +18,7 @@ function ENT:DispatchAttackTrails(p, moveName, animSeq)
 
 </div>
 
-*Documentation pending. The signature and source location were generated automatically.*
+Serverside tracker that dispatches active MeshTrails to their intended entities and bones.
 
 ## Parameters
 
@@ -25,9 +26,9 @@ function ENT:DispatchAttackTrails(p, moveName, animSeq)
 
 | Name | Type | Required | Description |
 | --- | --- | :---: | --- |
-| `p` | `any` | Yes | Not documented. |
-| `moveName` | `any` | Yes | Not documented. |
-| `animSeq` | `any` | Yes | Not documented. |
+| `p` | `table` | Yes | The MeshTrail that is to be constructed. This uses the same table referenced by VFX_MeshTrail, however this function retrieves it from the current attack's properties in `moveset.lua`. |
+| `moveName` | `string` | Yes | The name of the current move that this AttackTrail/MeshTrail is to be dispatched to. |
+| `animSeq` | `string` | Yes | The ID of the animation sequence that is playing right now, used to retrieve the cycle when the AttackTrail should be instanced. |
 
 </div>
 
@@ -35,4 +36,4 @@ function ENT:DispatchAttackTrails(p, moveName, animSeq)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:394</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:452</code>.</p>

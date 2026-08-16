@@ -28,6 +28,7 @@ Methods defined in `lua/entities/lad_framework_base/hud.lua`.
 | [`ENT:DrawQTEPrompt`](draw-qte-prompt.md) | Documentation pending. |
 | [`ENT:DrawWeaponInfo`](draw-weapon-info.md) | Documentation pending. |
 | [`ENT:DynamicIntroHUD`](dynamic-intro-hud.md) | Documentation pending. |
+| [`ENT:FindNearbyWarpPoint`](find-nearby-warp-point.md) | Documentation pending. |
 | [`ENT:HUDDetectAllies`](hud-detect-allies.md) | Documentation pending. |
 | [`ENT:HUDDetectBoss`](hud-detect-boss.md) | Documentation pending. |
 | [`ENT:HUDDetectCommon`](hud-detect-common.md) | Documentation pending. |

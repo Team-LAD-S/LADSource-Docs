@@ -1,5 +1,6 @@
 ---
 title: "ENT:VFX_HandSpark"
+status: realm-server
 ---
 
 [Back to VFX](index.md)
@@ -7,7 +8,7 @@ title: "ENT:VFX_HandSpark"
 <a id="ent-vfx-handspark"></a>
 # `ENT:VFX_HandSpark` { .api-method-title }
 
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--server">server</span><span class="api-badge api-badge--internal">internal</span></div>
 
 <div class="api-signature" markdown>
 
@@ -17,7 +18,7 @@ function ENT:VFX_HandSpark(att)
 
 </div>
 
-*Documentation pending. The signature and source location were generated automatically.*
+Same as `VFX_SparkOnce`.
 
 ## Parameters
 
@@ -25,7 +26,7 @@ function ENT:VFX_HandSpark(att)
 
 | Name | Type | Required | Description |
 | --- | --- | :---: | --- |
-| `att` | `any` | Yes | Not documented. |
+| `att` | `int` | Yes | The attachment ID to use. |
 
 </div>
 
@@ -33,4 +34,4 @@ function ENT:VFX_HandSpark(att)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:247</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:293</code>.</p>

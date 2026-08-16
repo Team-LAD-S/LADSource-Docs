@@ -1,5 +1,6 @@
 ---
 title: "ENT:SetGreyscaleEffect"
+status: realm-server
 ---
 
 [Back to VFX](index.md)
@@ -7,7 +8,7 @@ title: "ENT:SetGreyscaleEffect"
 <a id="ent-setgreyscaleeffect"></a>
 # `ENT:SetGreyscaleEffect` { .api-method-title }
 
-<div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
+<div class="api-badges"><span class="api-badge api-badge--server">server</span></div>
 
 <div class="api-signature" markdown>
 
@@ -17,7 +18,11 @@ function ENT:SetGreyscaleEffect(enable)
 
 </div>
 
-*Documentation pending. The signature and source location were generated automatically.*
+Serverside caller that makes everything, excluding the Player's current fighter, black and white.
+
+!!! warning "Warning"
+
+    This function has no safeguards that disable it automatically. You must, under all circumstances, make a call that disables the greyscale effect after you're done using it. Otherwise, everything will stay black and white unless you dispossess the fighter or remove it.
 
 ## Parameters
 
@@ -25,7 +30,7 @@ function ENT:SetGreyscaleEffect(enable)
 
 | Name | Type | Required | Description |
 | --- | --- | :---: | --- |
-| `enable` | `any` | Yes | Not documented. |
+| `enable` | `bool` | Yes | Trigger this effect. Setting it to false disables it. |
 
 </div>
 
@@ -33,4 +38,4 @@ function ENT:SetGreyscaleEffect(enable)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:670</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:749</code>.</p>

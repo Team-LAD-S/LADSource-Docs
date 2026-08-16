@@ -3,7 +3,7 @@
 Methods inherited from `lad_framework_base`, grouped by the Lua module
 that defines them.
 
-**525 methods** were detected across **26 modules**.
+**526 methods** were detected across **26 modules**.
 
 <div class="api-module-list" markdown>
 
@@ -20,7 +20,7 @@ that defines them.
 | [Grab](grab/index.md) | 18 | `lua/entities/lad_framework_base/grab.lua` |
 | [HACT](hact/index.md) | 76 | `lua/entities/lad_framework_base/hact.lua` |
 | [Hooks](hooks/index.md) | 26 | `lua/entities/lad_framework_base/hooks.lua` |
-| [HUD](hud/index.md) | 27 | `lua/entities/lad_framework_base/hud.lua` |
+| [HUD](hud/index.md) | 28 | `lua/entities/lad_framework_base/hud.lua` |
 | [Inputs](inputs/index.md) | 13 | `lua/entities/lad_framework_base/inputs.lua` |
 | [Inventory](inventory/index.md) | 2 | `lua/entities/lad_framework_base/inventory.lua` |
 | [Movement](movement/index.md) | 5 | `lua/entities/lad_framework_base/movement.lua` |
