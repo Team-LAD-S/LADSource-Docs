@@ -33,4 +33,4 @@ function ENT:AttackEntity(ent)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/overrides.lua:1782</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/overrides.lua:1851</code>.</p>

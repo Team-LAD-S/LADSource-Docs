@@ -13,6 +13,7 @@ Methods defined in `lua/entities/lad_framework_base/weapons.lua`.
 
 | Method | Summary |
 | --- | --- |
+| [`ENT:AddHiddenWeaponToInventory`](add-hidden-weapon-to-inventory.md) | Documentation pending. |
 | [`ENT:AttachTempWeapon`](attach-temp-weapon.md) | Documentation pending. |
 | [`ENT:AutoPickupWeaponInternal`](auto-pickup-weapon-internal.md) | doesn't change style, 2nd argument does |
 | [`ENT:ClearWeaponInfo`](clear-weapon-info.md) | Documentation pending. |

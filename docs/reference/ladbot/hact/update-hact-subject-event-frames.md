@@ -33,4 +33,4 @@ function ENT:UpdateHactSubjectEventFrames(frame)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hact.lua:858</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hact.lua:1124</code>.</p>

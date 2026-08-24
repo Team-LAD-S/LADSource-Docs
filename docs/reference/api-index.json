@@ -2770,7 +2770,7 @@
       "pwr"
     ],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 1294,
+    "source_line": 1295,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -2808,7 +2808,7 @@
     "signature": "function ENT:BecomeConfused()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 920,
+    "source_line": 921,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -2831,7 +2831,7 @@
     "signature": "function ENT:BecomePissed()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 964,
+    "source_line": 965,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -2854,7 +2854,7 @@
     "signature": "function ENT:BecomeScared()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 947,
+    "source_line": 948,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -2877,7 +2877,7 @@
     "signature": "function ENT:CancelGuard()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 1063,
+    "source_line": 1064,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -2900,7 +2900,7 @@
     "signature": "function ENT:CeaseMovementRates()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 1261,
+    "source_line": 1262,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -2946,7 +2946,7 @@
     "signature": "function ENT:DeactivateCombat()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 864,
+    "source_line": 865,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -2972,7 +2972,7 @@
       "radius"
     ],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 933,
+    "source_line": 934,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -3099,7 +3099,7 @@
     "signature": "function ENT:GetMovementDirection()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 1363,
+    "source_line": 1364,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -3147,7 +3147,7 @@
       "isAI"
     ],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 999,
+    "source_line": 1000,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -3332,7 +3332,7 @@
     "signature": "function ENT:OnIdleEnemy()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 1157,
+    "source_line": 1158,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -3357,7 +3357,7 @@
       "enemy"
     ],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 1118,
+    "source_line": 1119,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -3423,7 +3423,7 @@
       "enemy"
     ],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 1079,
+    "source_line": 1080,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -3454,7 +3454,7 @@
     "signature": "function ENT:OnWaterLevelChange()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 1337,
+    "source_line": 1338,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -3556,7 +3556,7 @@
     "signature": "function ENT:PredictNextPosition()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 1356,
+    "source_line": 1357,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -3614,7 +3614,7 @@
       "pwr"
     ],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 1323,
+    "source_line": 1324,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -3645,7 +3645,7 @@
     "signature": "function ENT:ResetDownedState()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 1211,
+    "source_line": 1212,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -3668,7 +3668,7 @@
     "signature": "function ENT:ResetMovementAnimations()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 1195,
+    "source_line": 1196,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -3691,7 +3691,7 @@
     "signature": "function ENT:ResetRates()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 1253,
+    "source_line": 1254,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -3739,7 +3739,7 @@
       "value"
     ],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 1285,
+    "source_line": 1286,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -3776,7 +3776,7 @@
       "guard"
     ],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 1225,
+    "source_line": 1226,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -3858,7 +3858,7 @@
     "signature": "function ENT:ShouldRun()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 1164,
+    "source_line": 1165,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -3881,7 +3881,7 @@
     "signature": "function ENT:SootheAnger()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 992,
+    "source_line": 993,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -4004,7 +4004,7 @@
       "ha"
     ],
     "source_file": "lua/entities/lad_framework_base/fighter_command.lua",
-    "source_line": 1275,
+    "source_line": 1276,
     "description": "for use in CICO",
     "realm": "not documented",
     "parameters": [
@@ -7073,7 +7073,7 @@
     "signature": "function ENT:AbortHact()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 3202,
+    "source_line": 3492,
     "description": "Cleans up a mid-hact state when the activator dies before the hact finishes normally.\nWithout this, subjects remain stuck in IsInHact = true indefinitely.",
     "realm": "not documented",
     "parameters": [],
@@ -7098,7 +7098,7 @@
       "var"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 1319,
+    "source_line": 1590,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -7129,7 +7129,7 @@
     "signature": "function ENT:CacheAvailableHacts()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 1502,
+    "source_line": 1773,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -7155,7 +7155,7 @@
       "maxWallDist"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 2153,
+    "source_line": 2424,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -7195,7 +7195,7 @@
       "duration"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 1189,
+    "source_line": 1459,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -7228,7 +7228,7 @@
       "curhact"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 1552,
+    "source_line": 1823,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -7261,7 +7261,7 @@
       "var"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 1329,
+    "source_line": 1600,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -7292,7 +7292,7 @@
     "signature": "function ENT:DetectEnvironment()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 1631,
+    "source_line": 1902,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -7317,7 +7317,7 @@
       "suppressEvents"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 3151,
+    "source_line": 3430,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -7348,7 +7348,7 @@
     "signature": "function ENT:EndHactViews()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 1159,
+    "source_line": 1429,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -7378,7 +7378,7 @@
       "qte"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 2550,
+    "source_line": 2824,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -7447,7 +7447,7 @@
       "maxWallDist"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 2025,
+    "source_line": 2296,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -7489,7 +7489,7 @@
       "bbMax"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 1568,
+    "source_line": 1839,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -7539,7 +7539,7 @@
       "maxWallDist"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 2157,
+    "source_line": 2428,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -7591,7 +7591,7 @@
     "signature": "function ENT:GetAvailableHactActions()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 1525,
+    "source_line": 1796,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -7686,7 +7686,7 @@
       "maxWallDist"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 2138,
+    "source_line": 2409,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -7727,7 +7727,7 @@
       "maxWallDist"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 2126,
+    "source_line": 2397,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -7765,7 +7765,7 @@
     "signature": "function ENT:GetHact()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 1349,
+    "source_line": 1620,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -7790,7 +7790,7 @@
       "cameraAnims"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 969,
+    "source_line": 1235,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -7821,7 +7821,7 @@
     "signature": "function ENT:GetHactCamPos()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 3143,
+    "source_line": 3422,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -7847,7 +7847,7 @@
       "index"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 1004,
+    "source_line": 1270,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -7885,7 +7885,7 @@
     "signature": "function ENT:GetHeat()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 1345,
+    "source_line": 1616,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -7987,7 +7987,7 @@
     "signature": "function ENT:GetMaxHeat()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 1389,
+    "source_line": 1660,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -8220,7 +8220,7 @@
       "wallReference"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 1956,
+    "source_line": 2227,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -8261,7 +8261,7 @@
       "subjects"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 1911,
+    "source_line": 2182,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -8299,7 +8299,7 @@
     "signature": "function ENT:HactBridge()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 2480,
+    "source_line": 2754,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -8324,7 +8324,7 @@
       "id"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 2426,
+    "source_line": 2700,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -8357,7 +8357,7 @@
       "hact"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 396,
+    "source_line": 658,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -8392,7 +8392,7 @@
       "endFrame"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 1203,
+    "source_line": 1473,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -8439,7 +8439,7 @@
       "time"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 1437,
+    "source_line": 1708,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -8470,7 +8470,7 @@
     "signature": "function ENT:HeatThink()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 1228,
+    "source_line": 1498,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -8518,7 +8518,7 @@
       "key"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 761,
+    "source_line": 1023,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -8549,7 +8549,7 @@
     "signature": "function ENT:LAD_HactEventFramesUseDamageEvents()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 753,
+    "source_line": 1015,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -8574,7 +8574,7 @@
       "key"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 774,
+    "source_line": 1036,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -8607,7 +8607,7 @@
       "enemy"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 1559,
+    "source_line": 1830,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -8641,7 +8641,7 @@
       "volume"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 1380,
+    "source_line": 1651,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -8682,7 +8682,7 @@
       "subjects"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 3299,
+    "source_line": 3589,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -8723,7 +8723,7 @@
       "anim"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 1397,
+    "source_line": 1668,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -8765,7 +8765,7 @@
       "faceAwayFromWall"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 1826,
+    "source_line": 2097,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -8816,7 +8816,7 @@
       "fov"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 2302,
+    "source_line": 2573,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -8875,7 +8875,7 @@
     "signature": "function ENT:RemoveHeatAura()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 1313,
+    "source_line": 1584,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -8900,7 +8900,7 @@
       "frame"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 781,
+    "source_line": 1043,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -8933,7 +8933,7 @@
       "duration"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 1171,
+    "source_line": 1441,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -8964,7 +8964,7 @@
     "signature": "function ENT:ResetHeatDecayTimers()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 1376,
+    "source_line": 1647,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -8990,7 +8990,7 @@
       "track"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 787,
+    "source_line": 1049,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -9028,7 +9028,7 @@
     "signature": "function ENT:ScanAndExecuteHacts()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 1451,
+    "source_line": 1722,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -9064,7 +9064,7 @@
       "frameProgressionPath"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 1122,
+    "source_line": 1391,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -9174,7 +9174,7 @@
       "id"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 2431,
+    "source_line": 2705,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -9207,7 +9207,7 @@
       "var"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 1335,
+    "source_line": 1606,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -9242,7 +9242,7 @@
       "animName"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 2354,
+    "source_line": 2628,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -9289,7 +9289,7 @@
       "path"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 919,
+    "source_line": 1185,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -9320,7 +9320,7 @@
     "signature": "function ENT:StartHeatDecayTimer()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 1357,
+    "source_line": 1628,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -9343,7 +9343,7 @@
     "signature": "function ENT:StopHactFrameProgression()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 888,
+    "source_line": 1154,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -9391,7 +9391,7 @@
       "frameOverride"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 805,
+    "source_line": 1069,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -9422,7 +9422,7 @@
     "signature": "function ENT:UpdateHactFrameBridge()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 2286,
+    "source_line": 2557,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -9447,7 +9447,7 @@
       "frame"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 858,
+    "source_line": 1124,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -9478,7 +9478,7 @@
     "signature": "function ENT:UpdateHeatAura()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 1288,
+    "source_line": 1558,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -9501,7 +9501,7 @@
     "signature": "function ENT:UpdateHeatHUD()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 1462,
+    "source_line": 1733,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -9527,7 +9527,7 @@
       "turnOn"
     ],
     "source_file": "lua/entities/lad_framework_base/hact.lua",
-    "source_line": 1294,
+    "source_line": 1564,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -9719,7 +9719,7 @@
     "signature": "function ENT:CheckJuggleState()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/events.lua",
-    "source_line": 3265,
+    "source_line": 3267,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -9742,7 +9742,7 @@
     "signature": "function ENT:CheckWallboundState()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/events.lua",
-    "source_line": 3273,
+    "source_line": 3275,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -9771,7 +9771,7 @@
       "skin"
     ],
     "source_file": "lua/entities/lad_framework_base/events.lua",
-    "source_line": 2879,
+    "source_line": 2881,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -9898,7 +9898,7 @@
       "dmg"
     ],
     "source_file": "lua/entities/lad_framework_base/events.lua",
-    "source_line": 3250,
+    "source_line": 3252,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -9977,7 +9977,7 @@
     "signature": "function ENT:DeathThink()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/events.lua",
-    "source_line": 3686,
+    "source_line": 3692,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -10043,7 +10043,7 @@
       "obj"
     ],
     "source_file": "lua/entities/lad_framework_base/events.lua",
-    "source_line": 2895,
+    "source_line": 2897,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -10107,7 +10107,7 @@
     "signature": "function ENT:GetSyncAttacker()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/events.lua",
-    "source_line": 3233,
+    "source_line": 3235,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -10130,7 +10130,7 @@
     "signature": "function ENT:GetSyncVictim()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/events.lua",
-    "source_line": 3241,
+    "source_line": 3243,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -10159,7 +10159,7 @@
       "key"
     ],
     "source_file": "lua/entities/lad_framework_base/events.lua",
-    "source_line": 3744,
+    "source_line": 3750,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -10221,7 +10221,7 @@
       "attacker"
     ],
     "source_file": "lua/entities/lad_framework_base/events.lua",
-    "source_line": 3341,
+    "source_line": 3343,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -10262,7 +10262,7 @@
       "dmg"
     ],
     "source_file": "lua/entities/lad_framework_base/events.lua",
-    "source_line": 3252,
+    "source_line": 3254,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -10345,7 +10345,7 @@
       "hitgroup"
     ],
     "source_file": "lua/entities/lad_framework_base/events.lua",
-    "source_line": 3593,
+    "source_line": 3599,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -10390,7 +10390,7 @@
     "signature": "function ENT:OnIgnite()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/events.lua",
-    "source_line": 2870,
+    "source_line": 2872,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -10413,7 +10413,7 @@
     "signature": "function ENT:OnLandOnGround()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/events.lua",
-    "source_line": 3309,
+    "source_line": 3311,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -10436,7 +10436,7 @@
     "signature": "function ENT:OnLeaveGround()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/events.lua",
-    "source_line": 3281,
+    "source_line": 3283,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -10624,7 +10624,7 @@
       "dmgdir"
     ],
     "source_file": "lua/entities/lad_framework_base/events.lua",
-    "source_line": 3551,
+    "source_line": 3553,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -10673,7 +10673,7 @@
       "ragdur"
     ],
     "source_file": "lua/entities/lad_framework_base/events.lua",
-    "source_line": 3031,
+    "source_line": 3033,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -10896,7 +10896,7 @@
     "signature": "function ENT:ResetSyncEnts()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/events.lua",
-    "source_line": 3245,
+    "source_line": 3247,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -10921,7 +10921,7 @@
       "key"
     ],
     "source_file": "lua/entities/lad_framework_base/events.lua",
-    "source_line": 3260,
+    "source_line": 3262,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -10954,7 +10954,7 @@
       "key"
     ],
     "source_file": "lua/entities/lad_framework_base/events.lua",
-    "source_line": 3256,
+    "source_line": 3258,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -10987,7 +10987,7 @@
       "solid"
     ],
     "source_file": "lua/entities/lad_framework_base/events.lua",
-    "source_line": 3715,
+    "source_line": 3721,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -11020,7 +11020,7 @@
       "ent"
     ],
     "source_file": "lua/entities/lad_framework_base/events.lua",
-    "source_line": 3229,
+    "source_line": 3231,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -11053,7 +11053,7 @@
       "ent"
     ],
     "source_file": "lua/entities/lad_framework_base/events.lua",
-    "source_line": 3237,
+    "source_line": 3239,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -11120,7 +11120,7 @@
       "type"
     ],
     "source_file": "lua/entities/lad_framework_base/events.lua",
-    "source_line": 3727,
+    "source_line": 3733,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -11164,7 +11164,7 @@
       "dmg"
     ],
     "source_file": "lua/entities/lad_framework_base/events.lua",
-    "source_line": 2907,
+    "source_line": 2909,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -11227,7 +11227,7 @@
       "dmgdir"
     ],
     "source_file": "lua/entities/lad_framework_base/events.lua",
-    "source_line": 2794,
+    "source_line": 2796,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -11983,7 +11983,7 @@
       "attacker"
     ],
     "source_file": "lua/entities/lad_framework_base/events_anim.lua",
-    "source_line": 1489,
+    "source_line": 1500,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -14815,7 +14815,7 @@
     "signature": "function ENT:SetCommonFighterName()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/names.lua",
-    "source_line": 235,
+    "source_line": 236,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -14840,7 +14840,7 @@
       "n"
     ],
     "source_file": "lua/entities/lad_framework_base/names.lua",
-    "source_line": 244,
+    "source_line": 245,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -14878,7 +14878,7 @@
       "trace"
     ],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 452,
+    "source_line": 462,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -14947,7 +14947,7 @@
       "nb"
     ],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 1467,
+    "source_line": 1536,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -14989,7 +14989,7 @@
       "attacker"
     ],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 207,
+    "source_line": 217,
     "description": "filters downed people",
     "realm": "not documented",
     "parameters": [
@@ -15036,7 +15036,7 @@
       "ent"
     ],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 1782,
+    "source_line": 1851,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -15067,7 +15067,7 @@
     "signature": "function ENT:BehaveStart()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 1536,
+    "source_line": 1605,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -15090,7 +15090,7 @@
     "signature": "function ENT:BehaveUpdate()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 1586,
+    "source_line": 1655,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -15136,7 +15136,7 @@
     "signature": "function ENT:CustomInitialize()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 138,
+    "source_line": 153,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -15161,7 +15161,7 @@
       "flags"
     ],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 1878,
+    "source_line": 1947,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -15199,7 +15199,7 @@
       "originEntity"
     ],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 394,
+    "source_line": 404,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -15265,7 +15265,7 @@
     "signature": "function ENT:FaceEnemy()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 175,
+    "source_line": 185,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -15290,7 +15290,7 @@
       "pos"
     ],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 170,
+    "source_line": 180,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -15321,7 +15321,7 @@
     "signature": "function ENT:FixCollisions()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 160,
+    "source_line": 175,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -15339,12 +15339,35 @@
     "reference_path": "reference/ladbot/overrides/fix-collisions.md"
   },
   {
+    "name": "GetConfiguredCollisionBounds",
+    "display_name": "ENT:GetConfiguredCollisionBounds",
+    "signature": "function ENT:GetConfiguredCollisionBounds()",
+    "arguments": [],
+    "source_file": "lua/entities/lad_framework_base/overrides.lua",
+    "source_line": 77,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [],
+    "returns": [],
+    "examples": [],
+    "warnings": [],
+    "bugs": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-getconfiguredcollisionbounds",
+    "page_slug": "get-configured-collision-bounds",
+    "navigation_title": "ENT:GetConfiguredCollisionBounds",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/overrides/get-configured-collision-bounds.md"
+  },
+  {
     "name": "GetRenderAngles",
     "display_name": "ENT:GetRenderAngles",
     "signature": "function ENT:GetRenderAngles()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 1929,
+    "source_line": 1998,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -15367,7 +15390,7 @@
     "signature": "function ENT:GetRenderOrigin()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 1922,
+    "source_line": 1991,
     "description": "Return our client-predicted position for rendering instead of the network-interpolated\norigin.  GetPos() (hitboxes/physics) is never touched — only the visual draw position\nis overridden.  During non-PSAW states _LAD_predictedPos is nil so it falls back to\nthe normal GetPos() path.",
     "realm": "not documented",
     "parameters": [],
@@ -15390,7 +15413,7 @@
     "signature": "function ENT:HandleEnemy()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 1660,
+    "source_line": 1729,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -15413,7 +15436,7 @@
     "signature": "function ENT:Initialize()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 65,
+    "source_line": 85,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -15439,7 +15462,7 @@
       "callback"
     ],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 1491,
+    "source_line": 1560,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -15480,7 +15503,7 @@
       "callback"
     ],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 1476,
+    "source_line": 1545,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -15521,7 +15544,7 @@
       "callback"
     ],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 1521,
+    "source_line": 1590,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -15562,7 +15585,7 @@
       "callback"
     ],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 1506,
+    "source_line": 1575,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -15602,7 +15625,7 @@
       "speed"
     ],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 611,
+    "source_line": 621,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -15635,7 +15658,7 @@
       "dmg"
     ],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 516,
+    "source_line": 526,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -15668,7 +15691,7 @@
       "dmg"
     ],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 637,
+    "source_line": 647,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -15699,7 +15722,7 @@
     "signature": "function ENT:OnRemove()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 1915,
+    "source_line": 1984,
     "description": "Weak keys handle GC cleanup, but CallOnRemove fires before GC so explicit nil is cleaner.",
     "realm": "not documented",
     "parameters": [],
@@ -15722,7 +15745,7 @@
     "signature": "function ENT:OnUpdateAnimation()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 982,
+    "source_line": 999,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -15745,7 +15768,7 @@
     "signature": "function ENT:Patrol()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 1721,
+    "source_line": 1790,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -15772,7 +15795,7 @@
       "callback"
     ],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 1432,
+    "source_line": 1501,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -15821,7 +15844,7 @@
       "callback"
     ],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 1066,
+    "source_line": 1127,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -15870,7 +15893,7 @@
       "callback"
     ],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 992,
+    "source_line": 1009,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -15915,7 +15938,7 @@
     "signature": "function ENT:PossessorView()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 1186,
+    "source_line": 1255,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -15933,16 +15956,16 @@
     "reference_path": "reference/ladbot/overrides/possessor-view.md"
   },
   {
-    "name": "PushEnt",
-    "display_name": "ENT:PushEnt",
-    "signature": "function ENT:PushEnt(ent, force)",
+    "name": "PushAwayFromEntity",
+    "display_name": "ENT:PushAwayFromEntity",
+    "signature": "function ENT:PushAwayFromEntity(ent, force)",
     "arguments": [
       "ent",
       "force"
     ],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 801,
-    "description": "",
+    "source_line": 813,
+    "description": "Unlike DrGBase's PushEntity(), this moves the fighter calling the function away\nfrom ent. PushEntity() applies velocity/force to ent instead.",
     "realm": "not documented",
     "parameters": [
       {
@@ -15967,11 +15990,52 @@
     "internal": false,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-pushent",
-    "page_slug": "push-ent",
-    "navigation_title": "ENT:PushEnt",
+    "anchor": "ent-pushawayfromentity",
+    "page_slug": "push-away-from-entity",
+    "navigation_title": "ENT:PushAwayFromEntity",
     "api_group": "ladbot",
-    "reference_path": "reference/ladbot/overrides/push-ent.md"
+    "reference_path": "reference/ladbot/overrides/push-away-from-entity.md"
+  },
+  {
+    "name": "SetGameplayCollisionBounds",
+    "display_name": "ENT:SetGameplayCollisionBounds",
+    "signature": "function ENT:SetGameplayCollisionBounds(mins, maxs)",
+    "arguments": [
+      "mins",
+      "maxs"
+    ],
+    "source_file": "lua/entities/lad_framework_base/overrides.lua",
+    "source_line": 68,
+    "description": "SetCollisionBounds is affected by ModelScale on anim/NextBot entities. Keep\nfighter navigation bounds in gameplay units so a larger visual model does not\ngrow an OBB corner into nearby map geometry when the AI turns in place.",
+    "realm": "not documented",
+    "parameters": [
+      {
+        "name": "mins",
+        "type": "any",
+        "description": "",
+        "optional": false,
+        "fields": []
+      },
+      {
+        "name": "maxs",
+        "type": "any",
+        "description": "",
+        "optional": false,
+        "fields": []
+      }
+    ],
+    "returns": [],
+    "examples": [],
+    "warnings": [],
+    "bugs": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-setgameplaycollisionbounds",
+    "page_slug": "set-gameplay-collision-bounds",
+    "navigation_title": "ENT:SetGameplayCollisionBounds",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/overrides/set-gameplay-collision-bounds.md"
   },
   {
     "name": "SetupDataTables",
@@ -15979,7 +16043,7 @@
     "signature": "function ENT:SetupDataTables()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 139,
+    "source_line": 154,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -16002,7 +16066,7 @@
     "signature": "function ENT:Think()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 1341,
+    "source_line": 1410,
     "description": "ENT:Think() override (source: drgbase_nextbot/shared.lua)\nEliminates 10-12 redundant CurTime() C calls per tick by caching one value at the top.\nIn the medium-delay block, reuses self._DrGBaseWaterLevel (already maintained at 20Hz by\nthe short-delay block) instead of calling WaterLevel() a second time per 0.1s interval.",
     "realm": "not documented",
     "parameters": [],
@@ -16025,7 +16089,7 @@
     "signature": "function ENT:UpdateAnimation()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 920,
+    "source_line": 937,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -16048,7 +16112,7 @@
     "signature": "function ENT:UpdateEnemy()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 1747,
+    "source_line": 1816,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -16071,7 +16135,7 @@
     "signature": "function ENT:_BaseInitialize()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 137,
+    "source_line": 152,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -16083,10 +16147,10 @@
     "callback": false,
     "deprecated": "",
     "anchor": "ent-baseinitialize",
-    "page_slug": "base-initialize-137",
-    "navigation_title": "ENT:_BaseInitialize (line 137)",
+    "page_slug": "base-initialize-152",
+    "navigation_title": "ENT:_BaseInitialize (line 152)",
     "api_group": "ladbot",
-    "reference_path": "reference/ladbot/overrides/base-initialize-137.md"
+    "reference_path": "reference/ladbot/overrides/base-initialize-152.md"
   },
   {
     "name": "_BaseInitialize",
@@ -16094,7 +16158,7 @@
     "signature": "function ENT:_BaseInitialize()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 1910,
+    "source_line": 1979,
     "description": "_BaseInitialize is an empty stub in DRGBase called after _InitModules() completes,\nso all internal fields (_DrGBaseSequenceEvents etc.) are already set up by the time\nthis runs.  Overriding Initialize() directly would skip _InitModules() entirely.",
     "realm": "not documented",
     "parameters": [],
@@ -16105,11 +16169,11 @@
     "internal": true,
     "callback": false,
     "deprecated": "",
-    "anchor": "ent-baseinitialize-1910",
-    "page_slug": "base-initialize-1910",
-    "navigation_title": "ENT:_BaseInitialize (line 1910)",
+    "anchor": "ent-baseinitialize-1979",
+    "page_slug": "base-initialize-1979",
+    "navigation_title": "ENT:_BaseInitialize (line 1979)",
     "api_group": "ladbot",
-    "reference_path": "reference/ladbot/overrides/base-initialize-1910.md"
+    "reference_path": "reference/ladbot/overrides/base-initialize-1979.md"
   },
   {
     "name": "_HandleLandOnGround",
@@ -16117,7 +16181,7 @@
     "signature": "function ENT:_HandleLandOnGround()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 592,
+    "source_line": 602,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -16140,7 +16204,7 @@
     "signature": "function ENT:_HandleLeaveGround()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 616,
+    "source_line": 626,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -16163,7 +16227,7 @@
     "signature": "function ENT:_InitModules()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 142,
+    "source_line": 157,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -16189,7 +16253,7 @@
       "flags"
     ],
     "source_file": "lua/entities/lad_framework_base/overrides.lua",
-    "source_line": 1858,
+    "source_line": 1927,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -17480,6 +17544,29 @@
     "reference_path": "reference/ladbot/inventory/generate-item-id.md"
   },
   {
+    "name": "AddHiddenWeaponToInventory",
+    "display_name": "ENT:AddHiddenWeaponToInventory",
+    "signature": "function ENT:AddHiddenWeaponToInventory()",
+    "arguments": [],
+    "source_file": "lua/entities/lad_framework_base/weapons.lua",
+    "source_line": 1152,
+    "description": "",
+    "realm": "not documented",
+    "parameters": [],
+    "returns": [],
+    "examples": [],
+    "warnings": [],
+    "bugs": [],
+    "internal": false,
+    "callback": false,
+    "deprecated": "",
+    "anchor": "ent-addhiddenweapontoinventory",
+    "page_slug": "add-hidden-weapon-to-inventory",
+    "navigation_title": "ENT:AddHiddenWeaponToInventory",
+    "api_group": "ladbot",
+    "reference_path": "reference/ladbot/weapons/add-hidden-weapon-to-inventory.md"
+  },
+  {
     "name": "AttachTempWeapon",
     "display_name": "ENT:AttachTempWeapon",
     "signature": "function ENT:AttachTempWeapon(attach, model, attachmentName)",
@@ -17489,7 +17576,7 @@
       "attachmentName"
     ],
     "source_file": "lua/entities/lad_framework_base/weapons.lua",
-    "source_line": 1418,
+    "source_line": 1448,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -17577,7 +17664,7 @@
       "force"
     ],
     "source_file": "lua/entities/lad_framework_base/weapons.lua",
-    "source_line": 1247,
+    "source_line": 1277,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -17651,7 +17738,7 @@
       "obj"
     ],
     "source_file": "lua/entities/lad_framework_base/weapons.lua",
-    "source_line": 1131,
+    "source_line": 1132,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -17684,7 +17771,7 @@
       "v"
     ],
     "source_file": "lua/entities/lad_framework_base/weapons.lua",
-    "source_line": 1151,
+    "source_line": 1181,
     "description": "need to deprecate this probably",
     "realm": "not documented",
     "parameters": [
@@ -17717,7 +17804,7 @@
       "v"
     ],
     "source_file": "lua/entities/lad_framework_base/weapons.lua",
-    "source_line": 1165,
+    "source_line": 1195,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -17755,7 +17842,7 @@
       "direction"
     ],
     "source_file": "lua/entities/lad_framework_base/weapons.lua",
-    "source_line": 919,
+    "source_line": 920,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -17827,7 +17914,7 @@
       "direction"
     ],
     "source_file": "lua/entities/lad_framework_base/weapons.lua",
-    "source_line": 1268,
+    "source_line": 1298,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -17889,7 +17976,7 @@
       "cico"
     ],
     "source_file": "lua/entities/lad_framework_base/weapons.lua",
-    "source_line": 843,
+    "source_line": 844,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -18031,7 +18118,7 @@
       "id"
     ],
     "source_file": "lua/entities/lad_framework_base/weapons.lua",
-    "source_line": 832,
+    "source_line": 833,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -18062,7 +18149,7 @@
     "signature": "function ENT:GetWeaponClass()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/weapons.lua",
-    "source_line": 1750,
+    "source_line": 1780,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -18125,7 +18212,7 @@
       "options"
     ],
     "source_file": "lua/entities/lad_framework_base/weapons.lua",
-    "source_line": 1383,
+    "source_line": 1413,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -18355,7 +18442,7 @@
     "signature": "function ENT:SetHiddenWeapon()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/weapons.lua",
-    "source_line": 1143,
+    "source_line": 1144,
     "description": "",
     "realm": "not documented",
     "parameters": [],
@@ -18421,7 +18508,7 @@
       "slot"
     ],
     "source_file": "lua/entities/lad_framework_base/weapons.lua",
-    "source_line": 1471,
+    "source_line": 1501,
     "description": "",
     "realm": "not documented",
     "parameters": [
@@ -18452,7 +18539,7 @@
     "signature": "function ENT:StashWeapon()",
     "arguments": [],
     "source_file": "lua/entities/lad_framework_base/weapons.lua",
-    "source_line": 788,
+    "source_line": 796,
     "description": "",
     "realm": "not documented",
     "parameters": [],

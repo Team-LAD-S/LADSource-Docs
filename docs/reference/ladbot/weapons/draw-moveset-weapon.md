@@ -33,4 +33,4 @@ function ENT:DrawMovesetWeapon(v)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/weapons.lua:1165</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/weapons.lua:1195</code>.</p>

@@ -35,4 +35,4 @@ function ENT:AttachTempWeapon(attach, model, attachmentName)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/weapons.lua:1418</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/weapons.lua:1448</code>.</p>

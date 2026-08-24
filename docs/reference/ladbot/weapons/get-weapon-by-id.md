@@ -33,4 +33,4 @@ function ENT:GetWeaponByID(id)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/weapons.lua:832</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/weapons.lua:833</code>.</p>

@@ -38,4 +38,4 @@ function ENT:LaunchProjectile(projectile, startPos, speed, att, aim, options)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/weapons.lua:1383</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/weapons.lua:1413</code>.</p>

@@ -34,4 +34,4 @@ function ENT:MoveRight(dist, callback)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/overrides.lua:1506</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/overrides.lua:1575</code>.</p>

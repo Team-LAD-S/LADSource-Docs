@@ -1,23 +1,24 @@
 ---
-title: "ENT:PushEnt"
+title: "ENT:PushAwayFromEntity"
 ---
 
 [Back to Overrides](index.md)
 
-<a id="ent-pushent"></a>
-# `ENT:PushEnt` { .api-method-title }
+<a id="ent-pushawayfromentity"></a>
+# `ENT:PushAwayFromEntity` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
 ```lua
-function ENT:PushEnt(ent, force)
+function ENT:PushAwayFromEntity(ent, force)
 ```
 
 </div>
 
-*Documentation pending. The signature and source location were generated automatically.*
+Unlike DrGBase's PushEntity(), this moves the fighter calling the function away
+from ent. PushEntity() applies velocity/force to ent instead.
 
 ## Parameters
 
@@ -34,4 +35,4 @@ function ENT:PushEnt(ent, force)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/overrides.lua:801</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/overrides.lua:813</code>.</p>

@@ -1,18 +1,18 @@
 ---
-title: "ENT:BecomeConfused"
+title: "ENT:GetConfiguredCollisionBounds"
 ---
 
-[Back to Fighter Command](index.md)
+[Back to Overrides](index.md)
 
-<a id="ent-becomeconfused"></a>
-# `ENT:BecomeConfused` { .api-method-title }
+<a id="ent-getconfiguredcollisionbounds"></a>
+# `ENT:GetConfiguredCollisionBounds` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
 ```lua
-function ENT:BecomeConfused()
+function ENT:GetConfiguredCollisionBounds()
 ```
 
 </div>
@@ -27,4 +27,4 @@ This method takes no explicit arguments.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:921</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/overrides.lua:77</code>.</p>

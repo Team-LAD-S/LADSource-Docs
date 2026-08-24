@@ -33,4 +33,4 @@ function ENT:SetCustomCommonFighterName(n)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/names.lua:244</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/names.lua:245</code>.</p>

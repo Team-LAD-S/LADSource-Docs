@@ -33,4 +33,4 @@ function ENT:DisposeWeaponSetPos(obj)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/weapons.lua:1131</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/weapons.lua:1132</code>.</p>

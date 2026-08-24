@@ -38,4 +38,4 @@ function ENT:ApplyAttackDamage(hit, ent, dmg, attack, origin, trace)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/overrides.lua:452</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/overrides.lua:462</code>.</p>

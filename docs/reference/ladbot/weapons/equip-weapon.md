@@ -34,4 +34,4 @@ function ENT:EquipWeapon(id, cico)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/weapons.lua:843</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/weapons.lua:844</code>.</p>

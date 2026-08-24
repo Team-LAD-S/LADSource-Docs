@@ -3,7 +3,7 @@
 Methods inherited from `lad_framework_base`, grouped by the Lua module
 that defines them.
 
-**526 methods** were detected across **26 modules**.
+**529 methods** were detected across **26 modules**.
 
 <div class="api-module-list" markdown>
 
@@ -26,7 +26,7 @@ that defines them.
 | [Movement](movement/index.md) | 5 | `lua/entities/lad_framework_base/movement.lua` |
 | [Moveset](moveset/index.md) | 42 | `lua/entities/lad_framework_base/moveset.lua` |
 | [Names](names/index.md) | 2 | `lua/entities/lad_framework_base/names.lua` |
-| [Overrides](overrides/index.md) | 42 | `lua/entities/lad_framework_base/overrides.lua` |
+| [Overrides](overrides/index.md) | 44 | `lua/entities/lad_framework_base/overrides.lua` |
 | [Prompts](prompts/index.md) | 2 | `lua/entities/lad_framework_base/prompts.lua` |
 | [Ragdoll](ragdoll/index.md) | 6 | `lua/entities/lad_framework_base/ragdoll.lua` |
 | [Shared](shared/index.md) | 31 | `lua/entities/lad_framework_base/shared.lua` |
@@ -34,6 +34,6 @@ that defines them.
 | [Subtitles](subtitles/index.md) | 1 | `lua/entities/lad_framework_base/subtitles.lua` |
 | [VFX](vfx/index.md) | 16 | `lua/entities/lad_framework_base/vfx.lua` |
 | [Voicebanks](voicebanks/index.md) | 6 | `lua/entities/lad_framework_base/voicebanks.lua` |
-| [Weapons](weapons/index.md) | 30 | `lua/entities/lad_framework_base/weapons.lua` |
+| [Weapons](weapons/index.md) | 31 | `lua/entities/lad_framework_base/weapons.lua` |
 
 </div>

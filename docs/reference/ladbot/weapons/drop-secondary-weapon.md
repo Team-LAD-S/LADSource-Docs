@@ -37,4 +37,4 @@ function ENT:DropSecondaryWeapon(throw, broken, delete, velocity, direction)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/weapons.lua:1268</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/weapons.lua:1298</code>.</p>

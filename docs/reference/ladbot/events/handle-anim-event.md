@@ -37,4 +37,4 @@ function ENT:HandleAnimEvent(event, _, _, _, key)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:3744</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:3750</code>.</p>

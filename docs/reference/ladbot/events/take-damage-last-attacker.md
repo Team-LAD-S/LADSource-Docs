@@ -34,4 +34,4 @@ function ENT:TakeDamageLastAttacker(damage, type)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:3727</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:3733</code>.</p>

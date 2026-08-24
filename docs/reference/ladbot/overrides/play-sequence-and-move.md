@@ -35,4 +35,4 @@ function ENT:PlaySequenceAndMove(seq, options, callback)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/overrides.lua:1066</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/overrides.lua:1127</code>.</p>

@@ -34,4 +34,4 @@ function ENT:GetForcePositionToWallSearchParams(curhactOrRadius, maxWallDist)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hact.lua:2126</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hact.lua:2397</code>.</p>

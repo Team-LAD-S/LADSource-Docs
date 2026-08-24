@@ -33,4 +33,4 @@ function ENT:RemovePerk(pwr)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:1323</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:1324</code>.</p>

@@ -38,4 +38,4 @@ function ENT:EntitiesInCone(angle, distance, disp, spotted, side, originEntity)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/overrides.lua:394</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/overrides.lua:404</code>.</p>

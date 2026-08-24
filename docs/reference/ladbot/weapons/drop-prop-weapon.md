@@ -38,4 +38,4 @@ function ENT:DropPropWeapon(throw, broken, hactbreak, delete, velocity, directio
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/weapons.lua:919</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/weapons.lua:920</code>.</p>

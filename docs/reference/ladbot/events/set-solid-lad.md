@@ -33,4 +33,4 @@ function ENT:SetSolidLAD(solid)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:3715</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:3721</code>.</p>

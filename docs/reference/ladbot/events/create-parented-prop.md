@@ -37,4 +37,4 @@ function ENT:CreateParentedProp(mdl, attach, pos, ang, skin)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:2879</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:2881</code>.</p>

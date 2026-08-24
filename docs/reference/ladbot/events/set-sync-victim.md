@@ -33,4 +33,4 @@ function ENT:SetSyncVictim(ent)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:3237</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:3239</code>.</p>

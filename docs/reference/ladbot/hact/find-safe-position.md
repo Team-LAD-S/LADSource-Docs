@@ -35,4 +35,4 @@ function ENT:FindSafePosition(origin, bbMin, bbMax)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hact.lua:1568</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hact.lua:1839</code>.</p>
