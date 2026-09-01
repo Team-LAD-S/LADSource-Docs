@@ -35,4 +35,4 @@ function ENT:_ApplyMoveProperties(move, moveName, nodeAnimRate)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1217</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1310</code>.</p>

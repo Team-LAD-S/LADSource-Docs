@@ -34,4 +34,4 @@ function ENT:ExecuteMove(moveName, options)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1043</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1133</code>.</p>

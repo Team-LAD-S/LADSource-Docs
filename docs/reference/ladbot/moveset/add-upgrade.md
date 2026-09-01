@@ -33,4 +33,4 @@ function ENT:AddUpgrade(upgrade)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:2022</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:2120</code>.</p>

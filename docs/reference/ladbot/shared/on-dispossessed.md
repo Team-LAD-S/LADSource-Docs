@@ -35,4 +35,4 @@ Player Fighter, weapon info and soundtrack.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1318</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1325</code>.</p>

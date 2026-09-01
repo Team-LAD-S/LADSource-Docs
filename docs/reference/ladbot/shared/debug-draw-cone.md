@@ -40,4 +40,4 @@ Draws a debug cone. Must enable `developer` mode to see the cone.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:660</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:667</code>.</p>

@@ -52,7 +52,7 @@ Methods defined in `lua/entities/lad_framework_base/overrides.lua`.
 | [`ENT:UpdateAnimation`](update-animation.md) | Documentation pending. |
 | [`ENT:UpdateEnemy`](update-enemy.md) | Documentation pending. |
 | [`ENT:_BaseInitialize`](base-initialize-152.md) | Documentation pending. |
-| [`ENT:_BaseInitialize`](base-initialize-1979.md) | _BaseInitialize is an empty stub in DRGBase called after _InitModules() completes, so all internal fields (_DrGBaseSequenceEvents etc.) are already set up by the time this runs.  Overriding Initialize() directly would skip _InitModules() entirely. |
+| [`ENT:_BaseInitialize`](base-initialize-2003.md) | _BaseInitialize is an empty stub in DRGBase called after _InitModules() completes, so all internal fields (_DrGBaseSequenceEvents etc.) are already set up by the time this runs.  Overriding Initialize() directly would skip _InitModules() entirely. |
 | [`ENT:_HandleLandOnGround`](handle-land-on-ground.md) | Documentation pending. |
 | [`ENT:_HandleLeaveGround`](handle-leave-ground.md) | Documentation pending. |
 | [`ENT:_InitModules`](init-modules.md) | Documentation pending. |

@@ -30,4 +30,4 @@ This method takes no explicit arguments.
 | --- | --- |
 | `boolean` | True if the LADBot should attempt to recover from being in the void, false otherwise. |
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:741</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:748</code>.</p>

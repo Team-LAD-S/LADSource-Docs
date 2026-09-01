@@ -33,4 +33,4 @@ function ENT:_CleanupDynamicSlowDown(completed)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1960</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:2058</code>.</p>

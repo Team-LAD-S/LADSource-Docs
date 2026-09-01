@@ -47,7 +47,6 @@ Methods defined in `lua/entities/lad_framework_base/fighter_command.lua`.
 | [`ENT:ResetDownedState`](reset-downed-state.md) | Documentation pending. |
 | [`ENT:ResetMovementAnimations`](reset-movement-animations.md) | Documentation pending. |
 | [`ENT:ResetRates`](reset-rates.md) | Documentation pending. |
-| [`ENT:SetCommonFighterMoveset`](set-common-fighter-moveset.md) | Documentation pending. |
 | [`ENT:SetHyperArmor`](set-hyper-armor.md) | Documentation pending. |
 | [`ENT:SetMovementAnimations`](set-movement-animations.md) | Documentation pending. |
 | [`ENT:SetupKeybinds`](setup-keybinds.md) | Documentation pending. |

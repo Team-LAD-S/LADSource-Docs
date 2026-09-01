@@ -35,4 +35,4 @@ function ENT:PlayGuardingAnimations(cond, dmg, damageOverride)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:1218</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:1219</code>.</p>

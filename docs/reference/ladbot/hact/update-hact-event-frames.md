@@ -33,4 +33,4 @@ function ENT:UpdateHactEventFrames(frameOverride)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hact.lua:1069</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hact.lua:1080</code>.</p>

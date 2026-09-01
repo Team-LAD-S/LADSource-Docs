@@ -40,4 +40,4 @@ function ENT:_HandleDMGAnim(status, anim, dmgdir, dmg, wallbound, wallboundtype,
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:2631</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:2632</code>.</p>

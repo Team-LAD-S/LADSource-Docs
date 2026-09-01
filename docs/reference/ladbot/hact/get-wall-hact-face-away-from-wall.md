@@ -34,4 +34,4 @@ function ENT:GetWallHactFaceAwayFromWall(curhact, wallReference)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hact.lua:2227</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hact.lua:2238</code>.</p>

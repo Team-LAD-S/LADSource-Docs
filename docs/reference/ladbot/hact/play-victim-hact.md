@@ -34,4 +34,4 @@ function ENT:PlayVictimHact(hact, subjects)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hact.lua:3589</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hact.lua:3610</code>.</p>

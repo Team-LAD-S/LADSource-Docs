@@ -37,4 +37,4 @@ function ENT:_ApplyMoveLure(move, moveName, capturedGen, nodeAnimRate, syncPos)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1668</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1764</code>.</p>

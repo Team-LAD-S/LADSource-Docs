@@ -35,4 +35,4 @@ function ENT:PlayBattleStartAnim(cam, target, fov)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/battle.lua:176</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/battle.lua:183</code>.</p>

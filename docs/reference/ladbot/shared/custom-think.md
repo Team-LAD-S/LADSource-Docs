@@ -5,7 +5,7 @@ status: realm-server-client
 
 [Back to Shared](index.md)
 
-<a id="ent-customthink-1643"></a>
+<a id="ent-customthink-1650"></a>
 # `ENT:CustomThink` { .api-method-title }
 
 === "Server"
@@ -31,7 +31,7 @@ status: realm-server-client
 
     No return values are documented.
 
-    <p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:856</code>.</p>
+    <p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:863</code>.</p>
 
 === "Client"
 
@@ -56,4 +56,4 @@ status: realm-server-client
 
     No return values are documented.
 
-    <p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1643</code>.</p>
+    <p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1650</code>.</p>

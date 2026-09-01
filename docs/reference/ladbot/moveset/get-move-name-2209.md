@@ -1,18 +1,18 @@
 ---
-title: "ENT:SetCommonFighterMoveset"
+title: "ENT:GetMoveName (line 2209)"
 ---
 
-[Back to Fighter Command](index.md)
+[Back to Moveset](index.md)
 
-<a id="ent-setcommonfightermoveset"></a>
-# `ENT:SetCommonFighterMoveset` { .api-method-title }
+<a id="ent-getmovename-2209"></a>
+# `ENT:GetMoveName` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
 ```lua
-function ENT:SetCommonFighterMoveset()
+function ENT:GetMoveName()
 ```
 
 </div>
@@ -27,4 +27,4 @@ This method takes no explicit arguments.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:679</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:2209</code>.</p>

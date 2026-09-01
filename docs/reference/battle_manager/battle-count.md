@@ -28,4 +28,4 @@ This method takes no explicit arguments.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/lad_framework/battle_manager.lua:504</code>.</p>
+<p class="api-source">Defined in <code>lua/lad_framework/battle_manager.lua:510</code>.</p>

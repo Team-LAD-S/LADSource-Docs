@@ -34,4 +34,4 @@ function ENT:PlayMovementDirAnimation(tbl, animOptions)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:2054</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:2152</code>.</p>

@@ -35,4 +35,4 @@ function ENT:_ApplyMoveSyncHit(move, syncPos, syncAng)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1686</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1782</code>.</p>

@@ -37,4 +37,4 @@ Loads a data asset.
 | --- | --- |
 | `table` | The loaded asset data. |
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1481</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1488</code>.</p>

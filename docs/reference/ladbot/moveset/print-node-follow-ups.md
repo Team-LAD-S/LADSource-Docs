@@ -33,4 +33,4 @@ function ENT:PrintNodeFollowUps(moveName)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1719</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1815</code>.</p>

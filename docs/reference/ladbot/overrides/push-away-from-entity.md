@@ -35,4 +35,4 @@ from ent. PushEntity() applies velocity/force to ent instead.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/overrides.lua:813</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/overrides.lua:821</code>.</p>

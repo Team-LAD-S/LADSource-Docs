@@ -36,4 +36,4 @@ Returns nil if none is found.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/lad_framework/battle_manager.lua:484</code>.</p>
+<p class="api-source">Defined in <code>lua/lad_framework/battle_manager.lua:490</code>.</p>

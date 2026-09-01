@@ -35,4 +35,4 @@ function ENT:OnDeath(dmg, delay, hitgroup)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:3599</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:3600</code>.</p>

@@ -66,7 +66,7 @@ status: realm-server-client
     | --- | --- |
     | `any` | The return value of the executed function, or nil if no match is found and no default function is provided. |
 
-    <p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1369</code>.</p>
+    <p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1376</code>.</p>
 
 === "Client"
 
@@ -99,4 +99,4 @@ status: realm-server-client
     | --- | --- |
     | `any` | The return value of the executed function, or nil if no matching or default case exists. |
 
-    <p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1579</code>.</p>
+    <p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1586</code>.</p>

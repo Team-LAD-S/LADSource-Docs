@@ -35,4 +35,4 @@ wtf is happening here
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:251</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:252</code>.</p>

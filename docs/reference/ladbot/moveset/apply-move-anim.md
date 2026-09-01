@@ -38,4 +38,4 @@ function ENT:_ApplyMoveAnim(move, moveName, capturedGen, nodeAnimRate, AIFaceCyc
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1529</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1623</code>.</p>

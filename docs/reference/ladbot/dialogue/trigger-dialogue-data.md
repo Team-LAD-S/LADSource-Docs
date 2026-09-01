@@ -37,4 +37,4 @@ Starts a dialogue from an in-memory table instead of a JSON file.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/dialogue.lua:236</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/dialogue.lua:241</code>.</p>

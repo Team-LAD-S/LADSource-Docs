@@ -36,4 +36,4 @@ oldest function ever (2023 february)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:461</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:462</code>.</p>

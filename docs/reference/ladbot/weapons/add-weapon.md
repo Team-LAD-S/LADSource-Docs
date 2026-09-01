@@ -1,18 +1,18 @@
 ---
-title: "ENT:SetBusy"
+title: "ENT:AddWeapon"
 ---
 
-[Back to Moveset](index.md)
+[Back to Weapons](index.md)
 
-<a id="ent-setbusy"></a>
-# `ENT:SetBusy` { .api-method-title }
+<a id="ent-addweapon"></a>
+# `ENT:AddWeapon` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
 ```lua
-function ENT:SetBusy(busy)
+function ENT:AddWeapon(weapon, data)
 ```
 
 </div>
@@ -25,7 +25,8 @@ function ENT:SetBusy(busy)
 
 | Name | Type | Required | Description |
 | --- | --- | :---: | --- |
-| `busy` | `any` | Yes | Not documented. |
+| `weapon` | `any` | Yes | Not documented. |
+| `data` | `any` | Yes | Not documented. |
 
 </div>
 
@@ -33,4 +34,4 @@ function ENT:SetBusy(busy)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:230</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/weapons.lua:788</code>.</p>

@@ -37,4 +37,4 @@ function ENT:CheckGuardBreakBeforeDamage(cond, dmg, dmgdir, bypassFlinch, damage
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:1187</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:1188</code>.</p>

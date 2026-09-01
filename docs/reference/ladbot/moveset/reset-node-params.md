@@ -34,4 +34,4 @@ function ENT:ResetNodeParams(fromMove, capturedGen)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1835</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1931</code>.</p>

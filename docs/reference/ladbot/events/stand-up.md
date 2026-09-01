@@ -33,4 +33,4 @@ function ENT:StandUp(str)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:179</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:180</code>.</p>

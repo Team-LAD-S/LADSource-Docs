@@ -36,4 +36,4 @@ Dissolves the battle record once everyone has left.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/lad_framework/battle_manager.lua:264</code>.</p>
+<p class="api-source">Defined in <code>lua/lad_framework/battle_manager.lua:270</code>.</p>

@@ -34,4 +34,4 @@ function ENT:HandleBulletDamage(dmg, attacker)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:3343</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:3344</code>.</p>

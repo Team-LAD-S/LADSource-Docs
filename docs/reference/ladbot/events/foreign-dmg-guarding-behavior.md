@@ -33,4 +33,4 @@ function ENT:ForeignDMGGuardingBehavior(dmg)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:725</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:726</code>.</p>

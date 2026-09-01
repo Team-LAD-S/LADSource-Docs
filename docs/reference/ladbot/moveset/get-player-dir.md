@@ -33,4 +33,4 @@ function ENT:GetPlayerDir(ply)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:105</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:182</code>.</p>

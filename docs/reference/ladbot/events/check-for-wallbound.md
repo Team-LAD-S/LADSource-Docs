@@ -27,4 +27,4 @@ This method takes no explicit arguments.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:293</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:294</code>.</p>

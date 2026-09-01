@@ -36,4 +36,4 @@ ENT:OnBumpAnim(ent) is called at the end of this function, allowing for addition
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1131</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1138</code>.</p>

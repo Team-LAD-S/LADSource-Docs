@@ -35,4 +35,4 @@ function ENT:_ApplyMoveSway(move, moveName, capturedGen)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1614</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1710</code>.</p>

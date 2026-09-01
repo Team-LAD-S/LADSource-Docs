@@ -34,4 +34,4 @@ function ENT:GetRelativeDirection(direction, nextbot)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:79</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:156</code>.</p>

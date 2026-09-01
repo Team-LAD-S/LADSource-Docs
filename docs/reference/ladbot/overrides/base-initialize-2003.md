@@ -1,10 +1,10 @@
 ---
-title: "ENT:_BaseInitialize (line 1979)"
+title: "ENT:_BaseInitialize (line 2003)"
 ---
 
 [Back to Overrides](index.md)
 
-<a id="ent-baseinitialize-1979"></a>
+<a id="ent-baseinitialize-2003"></a>
 # `ENT:_BaseInitialize` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span><span class="api-badge api-badge--internal">internal</span></div>
@@ -29,4 +29,4 @@ This method takes no explicit arguments.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/overrides.lua:1979</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/overrides.lua:2003</code>.</p>

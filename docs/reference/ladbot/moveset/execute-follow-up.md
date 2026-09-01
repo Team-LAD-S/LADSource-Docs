@@ -33,4 +33,4 @@ function ENT:ExecuteFollowUp(moveToExecute)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1017</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:1107</code>.</p>

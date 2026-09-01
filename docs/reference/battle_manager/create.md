@@ -39,4 +39,4 @@ opts (optional table): { endless = true } — battle never declares victory/defe
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/lad_framework/battle_manager.lua:140</code>.</p>
+<p class="api-source">Defined in <code>lua/lad_framework/battle_manager.lua:146</code>.</p>

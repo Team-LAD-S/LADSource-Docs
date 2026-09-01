@@ -33,4 +33,4 @@ function ENT:SetHeat(var)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hact.lua:1606</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hact.lua:1617</code>.</p>

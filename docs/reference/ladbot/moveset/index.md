@@ -23,12 +23,13 @@ Methods defined in `lua/entities/lad_framework_base/moveset.lua`.
 | [`ENT:ExecuteFollowUp`](execute-follow-up.md) | Documentation pending. |
 | [`ENT:ExecuteMove`](execute-move.md) | Documentation pending. |
 | [`ENT:FindMatchingFollowUp`](find-matching-follow-up.md) | Documentation pending. |
+| [`ENT:GetActiveCounterWindow`](get-active-counter-window.md) | Returns the CounterWindows entry which is currently open for this fighter's selected attack animation. Each entry opens at Cycle and is consumed by the next attack event, allowing one animation to expose several separate windows. |
 | [`ENT:GetCurrentAnimCycle`](get-current-anim-cycle.md) | Documentation pending. |
 | [`ENT:GetCurrentMoveNode`](get-current-move-node.md) | Documentation pending. |
-| [`ENT:GetMoveName`](get-move-name-2046.md) | Documentation pending. |
-| [`ENT:GetMoveName`](get-move-name-2111.md) | Documentation pending. |
-| [`ENT:GetMoveset`](get-moveset-2042.md) | Documentation pending. |
-| [`ENT:GetMoveset`](get-moveset-2121.md) | Documentation pending. |
+| [`ENT:GetMoveName`](get-move-name-2144.md) | Documentation pending. |
+| [`ENT:GetMoveName`](get-move-name-2209.md) | Documentation pending. |
+| [`ENT:GetMoveset`](get-moveset-2140.md) | Documentation pending. |
+| [`ENT:GetMoveset`](get-moveset-2219.md) | Documentation pending. |
 | [`ENT:GetPlayerDir`](get-player-dir.md) | Documentation pending. |
 | [`ENT:GetRelativeDirection`](get-relative-direction.md) | Documentation pending. |
 | [`ENT:GetUpgrade`](get-upgrade.md) | Documentation pending. |
@@ -43,6 +44,7 @@ Methods defined in `lua/entities/lad_framework_base/moveset.lua`.
 | [`ENT:SetFighterMoveset`](set-fighter-moveset.md) | Documentation pending. |
 | [`ENT:SetNextMoveNode`](set-next-move-node.md) | Documentation pending. |
 | [`ENT:SwayNoded`](sway-noded.md) | Documentation pending. |
+| [`ENT:UpdateCounterWindowDebug`](update-counter-window-debug.md) | Documentation pending. |
 | [`ENT:_ApplyMoveAnim`](apply-move-anim.md) | Documentation pending. |
 | [`ENT:_ApplyMoveAnimBlend`](apply-move-anim-blend.md) | Documentation pending. |
 | [`ENT:_ApplyMoveLure`](apply-move-lure.md) | Documentation pending. |

@@ -35,4 +35,4 @@ we gotta play the anims themselves
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:1398</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:1399</code>.</p>

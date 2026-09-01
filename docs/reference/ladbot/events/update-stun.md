@@ -37,4 +37,4 @@ function ENT:UpdateStun(ent, defcond, stuncond, mult, dmg)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:2909</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:2910</code>.</p>

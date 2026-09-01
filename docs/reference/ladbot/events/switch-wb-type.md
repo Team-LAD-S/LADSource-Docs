@@ -34,4 +34,4 @@ function ENT:_SwitchWBType(wbtype, ragdur)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:2448</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:2449</code>.</p>

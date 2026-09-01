@@ -36,4 +36,4 @@ Returns true on success.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/lad_framework/battle_manager.lua:175</code>.</p>
+<p class="api-source">Defined in <code>lua/lad_framework/battle_manager.lua:181</code>.</p>

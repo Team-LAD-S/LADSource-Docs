@@ -37,4 +37,4 @@ function ENT:RefreshHactBridgeViewers(bridgeEntry, cameraDataPath, cameraFOVOpti
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hact.lua:2573</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hact.lua:2584</code>.</p>

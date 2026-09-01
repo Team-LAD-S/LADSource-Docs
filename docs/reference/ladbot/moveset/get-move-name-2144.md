@@ -1,10 +1,10 @@
 ---
-title: "ENT:GetMoveName (line 2111)"
+title: "ENT:GetMoveName (line 2144)"
 ---
 
 [Back to Moveset](index.md)
 
-<a id="ent-getmovename-2111"></a>
+<a id="ent-getmovename"></a>
 # `ENT:GetMoveName` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
@@ -27,4 +27,4 @@ This method takes no explicit arguments.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:2111</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:2144</code>.</p>

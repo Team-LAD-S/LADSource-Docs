@@ -36,4 +36,4 @@ The dissolveID battle record is dissolved. All fighter._battleID values are upda
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/lad_framework/battle_manager.lua:196</code>.</p>
+<p class="api-source">Defined in <code>lua/lad_framework/battle_manager.lua:202</code>.</p>

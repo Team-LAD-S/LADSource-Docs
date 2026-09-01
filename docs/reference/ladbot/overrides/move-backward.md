@@ -34,4 +34,4 @@ function ENT:MoveBackward(dist, callback)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/overrides.lua:1560</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/overrides.lua:1568</code>.</p>

@@ -33,4 +33,4 @@ function ENT:OnPossessed(ply)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:690</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:679</code>.</p>

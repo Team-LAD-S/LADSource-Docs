@@ -38,4 +38,4 @@ checkEnd: pass true to immediately re-evaluate whether the battle should end
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/lad_framework/battle_manager.lua:230</code>.</p>
+<p class="api-source">Defined in <code>lua/lad_framework/battle_manager.lua:236</code>.</p>

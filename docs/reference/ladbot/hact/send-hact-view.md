@@ -44,4 +44,4 @@ function ENT:SendHactView(ply, ent, subjects, hactcam, fov, fps, dontHideEnts, s
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hact.lua:1391</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hact.lua:1402</code>.</p>

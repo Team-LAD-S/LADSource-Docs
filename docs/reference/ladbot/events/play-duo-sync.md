@@ -42,4 +42,4 @@ function ENT:PlayDuoSync(ent, sync, sync1, offset, ang, CanWallboundSync1, grabs
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:3033</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:3034</code>.</p>

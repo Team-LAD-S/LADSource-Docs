@@ -33,4 +33,4 @@ function ENT:AlignToSlope(reset)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:2496</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:2497</code>.</p>

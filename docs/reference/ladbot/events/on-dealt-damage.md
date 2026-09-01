@@ -34,4 +34,4 @@ the beautiful damage feedback.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:869</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:870</code>.</p>

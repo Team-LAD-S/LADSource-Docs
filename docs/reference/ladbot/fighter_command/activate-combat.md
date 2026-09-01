@@ -35,4 +35,4 @@ Activates combat of a LADBot that this function is ran on.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:778</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:767</code>.</p>
