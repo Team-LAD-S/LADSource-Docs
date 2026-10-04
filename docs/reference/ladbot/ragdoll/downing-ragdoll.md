@@ -12,7 +12,7 @@ title: "ENT:DowningRagdoll"
 <div class="api-signature" markdown>
 
 ```lua
-function ENT:DowningRagdoll(ragdoll_time)
+function ENT:DowningRagdoll(ragdoll_time, rootVelocityMultiplier)
 ```
 
 </div>
@@ -32,6 +32,7 @@ Call this from inside your hit-reaction cycle callback — orientation flags
 | Name | Type | Required | Description |
 | --- | --- | :---: | --- |
 | `ragdoll_time` | `any` | Yes | Not documented. |
+| `rootVelocityMultiplier` | `any` | Yes | Not documented. |
 
 </div>
 
@@ -39,4 +40,4 @@ Call this from inside your hit-reaction cycle callback — orientation flags
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ragdoll.lua:292</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ragdoll.lua:295</code>.</p>

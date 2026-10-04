@@ -35,4 +35,4 @@ Pass directRecipient (Player) when the entity is not yet in a battle and not pos
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/soundtrack.lua:218</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/soundtrack.lua:211</code>.</p>

@@ -34,4 +34,4 @@ function ENT:KnockOffCosmetics(strength, direction)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/customization.lua:61</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/customization.lua:54</code>.</p>

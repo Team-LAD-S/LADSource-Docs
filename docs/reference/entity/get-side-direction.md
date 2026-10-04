@@ -34,4 +34,4 @@ Retrieves the side for an entity
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/lad_framework/meta.lua:42</code>.</p>
+<p class="api-source">Defined in <code>lua/lad_framework/meta.lua:45</code>.</p>

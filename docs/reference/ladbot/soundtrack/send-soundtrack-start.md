@@ -41,4 +41,4 @@ and has no battle yet (e.g. endless boss intro).
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/soundtrack.lua:144</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/soundtrack.lua:137</code>.</p>

@@ -30,7 +30,7 @@ status: realm-server-client
 
     No return values are documented.
 
-    <p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:245</code>.</p>
+    <p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:312</code>.</p>
 
 === "Client"
 
@@ -55,4 +55,4 @@ status: realm-server-client
 
     No return values are documented.
 
-    <p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1629</code>.</p>
+    <p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1741</code>.</p>

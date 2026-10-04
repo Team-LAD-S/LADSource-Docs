@@ -34,4 +34,4 @@ doesn't change style, 2nd argument does
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/weapons.lua:312</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/weapons.lua:289</code>.</p>

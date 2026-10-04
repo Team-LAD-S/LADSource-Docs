@@ -35,4 +35,4 @@ function ENT:GoToWeapon(pos, tolerance, callback)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ai.lua:1499</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ai.lua:1510</code>.</p>

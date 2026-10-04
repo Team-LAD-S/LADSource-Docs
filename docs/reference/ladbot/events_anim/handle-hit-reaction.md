@@ -36,4 +36,4 @@ function ENT:HandleHitReaction(attack, ent, dmg, damageOverride)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events_anim.lua:403</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events_anim.lua:396</code>.</p>

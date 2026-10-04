@@ -15,10 +15,14 @@ Methods defined in `lua/entities/lad_framework_base/hact.lua`.
 | --- | --- |
 | [`ENT:AbortHact`](abort-hact.md) | Cleans up a mid-hact state when the activator dies before the hact finishes normally. Without this, subjects remain stuck in IsInHact = true indefinitely. |
 | [`ENT:AddHeat`](add-heat.md) | Documentation pending. |
+| [`ENT:BeginHactBridgeBlend`](begin-hact-bridge-blend.md) | Documentation pending. |
+| [`ENT:BeginHactFrameProgressionSequence`](begin-hact-frame-progression-sequence.md) | Documentation pending. |
 | [`ENT:CacheAvailableHacts`](cache-available-hacts.md) | Documentation pending. |
 | [`ENT:CanForcePositionToNearestWall`](can-force-position-to-nearest-wall.md) | Documentation pending. |
+| [`ENT:CanUseHactSubjects`](can-use-hact-subjects.md) | Documentation pending. |
 | [`ENT:CleanupHactViewState`](cleanup-hact-view-state.md) | Documentation pending. |
 | [`ENT:ConsumeHeat`](consume-heat.md) | Documentation pending. |
+| [`ENT:CreateHactPathAssets`](create-hact-path-assets.md) | Documentation pending. |
 | [`ENT:DeductHeat`](deduct-heat.md) | Documentation pending. |
 | [`ENT:DetectEnvironment`](detect-environment.md) | Documentation pending. |
 | [`ENT:EndHact`](end-hact.md) | Documentation pending. |
@@ -58,6 +62,7 @@ Methods defined in `lua/entities/lad_framework_base/hact.lua`.
 | [`ENT:HactExists`](hact-exists.md) | Documentation pending. |
 | [`ENT:HactFOVEvent`](hact-fov-event.md) | Documentation pending. |
 | [`ENT:HeatPopBehavior`](heat-pop-behavior.md) | Documentation pending. |
+| [`ENT:HeatPopRecoveryThink`](heat-pop-recovery-think.md) | Runs outside the behaviour coroutine: an interrupted callback cannot prevent recovery. Also covers fighters overriding HeatPopBehavior directly. |
 | [`ENT:HeatThink`](heat-think.md) | Documentation pending. |
 | [`ENT:IsInRedHeat`](is-in-red-heat.md) | Documentation pending. |
 | [`ENT:LAD_HactEventFramesHasKey`](lad-hact-event-frames-has-key.md) | Documentation pending. |
@@ -68,7 +73,9 @@ Methods defined in `lua/entities/lad_framework_base/hact.lua`.
 | [`ENT:PlayVictimHact`](play-victim-hact.md) | Documentation pending. |
 | [`ENT:PopHeat`](pop-heat.md) | Documentation pending. |
 | [`ENT:PosToWall`](pos-to-wall.md) | Documentation pending. |
+| [`ENT:PrepareHactEventFrameBatch`](prepare-hact-event-frame-batch.md) | Documentation pending. |
 | [`ENT:RefreshHactBridgeViewers`](refresh-hact-bridge-viewers.md) | Documentation pending. |
+| [`ENT:RemoveHactPathAssets`](remove-hact-path-assets.md) | Documentation pending. |
 | [`ENT:RemoveHeatAura`](remove-heat-aura.md) | Documentation pending. |
 | [`ENT:ResetHactEventFrames`](reset-hact-event-frames.md) | Documentation pending. |
 | [`ENT:ResetHactViewFOV`](reset-hact-view-fov.md) | Documentation pending. |
@@ -85,6 +92,7 @@ Methods defined in `lua/entities/lad_framework_base/hact.lua`.
 | [`ENT:SyncHeatNetworkVars`](sync-heat-network-vars.md) | Documentation pending. |
 | [`ENT:UpdateHactEventFrames`](update-hact-event-frames.md) | Documentation pending. |
 | [`ENT:UpdateHactFrameBridge`](update-hact-frame-bridge.md) | Documentation pending. |
+| [`ENT:UpdateHactFrameProgressionClock`](update-hact-frame-progression-clock.md) | Documentation pending. |
 | [`ENT:UpdateHactSubjectEventFrames`](update-hact-subject-event-frames.md) | Documentation pending. |
 | [`ENT:UpdateHeatAura`](update-heat-aura.md) | Documentation pending. |
 | [`ENT:UpdateHeatHUD`](update-heat-hud.md) | Documentation pending. |

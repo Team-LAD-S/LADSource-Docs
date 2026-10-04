@@ -33,4 +33,4 @@ function ENT:TriggerStationaryDialogue(bot)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/dialogue.lua:83</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/dialogue.lua:76</code>.</p>

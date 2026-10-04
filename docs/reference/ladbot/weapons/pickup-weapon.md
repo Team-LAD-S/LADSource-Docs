@@ -33,4 +33,4 @@ function ENT:PickupWeapon(auto)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/weapons.lua:529</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/weapons.lua:552</code>.</p>

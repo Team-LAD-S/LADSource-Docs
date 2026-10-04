@@ -1,18 +1,18 @@
 ---
-title: "ENT:GetMoveset (line 2140)"
+title: "ENT:UpdateNeutralWalkRunTransition"
 ---
 
-[Back to Moveset](index.md)
+[Back to Overrides](index.md)
 
-<a id="ent-getmoveset"></a>
-# `ENT:GetMoveset` { .api-method-title }
+<a id="ent-updateneutralwalkruntransition"></a>
+# `ENT:UpdateNeutralWalkRunTransition` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
 ```lua
-function ENT:GetMoveset()
+function ENT:UpdateNeutralWalkRunTransition()
 ```
 
 </div>
@@ -27,4 +27,4 @@ This method takes no explicit arguments.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:2140</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/overrides.lua:921</code>.</p>

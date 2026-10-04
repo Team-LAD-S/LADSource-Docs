@@ -26,6 +26,7 @@ status: realm-server-client
     to run sequentially before and after animations or other waits. Normal behavior
     remains paused until the callback returns, after which the previous behavior
     coroutine is restored if another system has not already replaced it.
+    Nested calls are scheduled separately; completed return threads are skipped.
 
     !!! warning "Warning"
 
@@ -55,7 +56,7 @@ status: realm-server-client
 
     No return values are documented.
 
-    <p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:628</code>.</p>
+    <p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:702</code>.</p>
 
 === "Client"
 
@@ -91,4 +92,4 @@ status: realm-server-client
 
     No return values are documented.
 
-    <p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1569</code>.</p>
+    <p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1676</code>.</p>

@@ -33,4 +33,4 @@ function ENT:GetInputName(button)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/inputs.lua:201</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/inputs.lua:244</code>.</p>

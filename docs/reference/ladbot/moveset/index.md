@@ -14,7 +14,9 @@ Methods defined in `lua/entities/lad_framework_base/moveset.lua`.
 | Method | Summary |
 | --- | --- |
 | [`ENT:AddUpgrade`](add-upgrade.md) | Documentation pending. |
+| [`ENT:ApplySwayAssistMovement`](apply-sway-assist-movement.md) | Documentation pending. |
 | [`ENT:CacheNodeFollowUps`](cache-node-follow-ups.md) | Documentation pending. |
+| [`ENT:CanExecuteMove`](can-execute-move.md) | Documentation pending. |
 | [`ENT:CheckConditions`](check-conditions.md) | Documentation pending. |
 | [`ENT:CheckCustomConditions`](check-custom-conditions.md) | Documentation pending. |
 | [`ENT:CheckIFrameState`](check-i-frame-state.md) | Documentation pending. |
@@ -26,20 +28,25 @@ Methods defined in `lua/entities/lad_framework_base/moveset.lua`.
 | [`ENT:GetActiveCounterWindow`](get-active-counter-window.md) | Returns the CounterWindows entry which is currently open for this fighter's selected attack animation. Each entry opens at Cycle and is consumed by the next attack event, allowing one animation to expose several separate windows. |
 | [`ENT:GetCurrentAnimCycle`](get-current-anim-cycle.md) | Documentation pending. |
 | [`ENT:GetCurrentMoveNode`](get-current-move-node.md) | Documentation pending. |
-| [`ENT:GetMoveName`](get-move-name-2144.md) | Documentation pending. |
-| [`ENT:GetMoveName`](get-move-name-2209.md) | Documentation pending. |
-| [`ENT:GetMoveset`](get-moveset-2140.md) | Documentation pending. |
-| [`ENT:GetMoveset`](get-moveset-2219.md) | Documentation pending. |
+| [`ENT:GetMoveName`](get-move-name-2193.md) | Documentation pending. |
+| [`ENT:GetMoveName`](get-move-name-2456.md) | Documentation pending. |
+| [`ENT:GetMoveset`](get-moveset-2189.md) | Documentation pending. |
+| [`ENT:GetMoveset`](get-moveset-2466.md) | Documentation pending. |
 | [`ENT:GetPlayerDir`](get-player-dir.md) | Documentation pending. |
 | [`ENT:GetRelativeDirection`](get-relative-direction.md) | Documentation pending. |
 | [`ENT:GetUpgrade`](get-upgrade.md) | Documentation pending. |
 | [`ENT:InvalidateMovesetCache`](invalidate-moveset-cache.md) | Documentation pending. |
+| [`ENT:IsActiveSway`](is-active-sway.md) | Keep state tied to this animation/node; interrupted coroutines must not leave another fighter blind or clear a replacement sway's state. |
+| [`ENT:IsSwayLockProtected`](is-sway-lock-protected.md) | Documentation pending. |
+| [`ENT:IsSwayTrackingBlocked`](is-sway-tracking-blocked.md) | Documentation pending. |
 | [`ENT:MovesetEventThink`](moveset-event-think.md) | Documentation pending. |
 | [`ENT:MovesetExists`](moveset-exists.md) | Documentation pending. |
 | [`ENT:PlayMovementDirAnimation`](play-movement-dir-animation.md) | Documentation pending. |
+| [`ENT:PrepareSwayAssist`](prepare-sway-assist.md) | Documentation pending. |
 | [`ENT:PrintNodeFollowUps`](print-node-follow-ups.md) | Documentation pending. |
 | [`ENT:RecoverFast`](recover-fast.md) | Documentation pending. |
 | [`ENT:ResetNodeParams`](reset-node-params.md) | Documentation pending. |
+| [`ENT:ResolveDefensiveSwayDirection`](resolve-defensive-sway-direction.md) | Resolve AI defensive sways at playback time. Possessed fighters keep their movement-key direction, even when dodging toward an attack. Attack-tagged directional animations keep their authored slot. |
 | [`ENT:SetBusy`](set-busy.md) | Documentation pending. |
 | [`ENT:SetFighterMoveset`](set-fighter-moveset.md) | Documentation pending. |
 | [`ENT:SetNextMoveNode`](set-next-move-node.md) | Documentation pending. |
@@ -55,6 +62,7 @@ Methods defined in `lua/entities/lad_framework_base/moveset.lua`.
 | [`ENT:_ApplyMoveTags`](apply-move-tags.md) | Documentation pending. |
 | [`ENT:_CleanupDynamicSlowDown`](cleanup-dynamic-slow-down.md) | Documentation pending. |
 | [`ENT:_CleanupNodeSounds`](cleanup-node-sounds.md) | Documentation pending. |
+| [`ENT:_ClearLure`](clear-lure.md) | Documentation pending. |
 | [`ENT:_GetCachedMovesetData`](get-cached-moveset-data.md) | Documentation pending. |
 | [`ENT:_StartDynamicSlowDown`](start-dynamic-slow-down.md) | Documentation pending. |
 

@@ -34,4 +34,4 @@ function ENT:CleanStaleInputs(now, bufferTime)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/inputs.lua:503</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/inputs.lua:565</code>.</p>

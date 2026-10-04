@@ -48,4 +48,4 @@ end
 | --- | --- |
 | `boolean` | True if the LADBot should ignore the entity, false otherwise. |
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ai.lua:1662</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ai.lua:1679</code>.</p>

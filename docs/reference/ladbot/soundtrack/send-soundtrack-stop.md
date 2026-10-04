@@ -33,4 +33,4 @@ Sends LAD_SoundtrackStop to the possessing player
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/soundtrack.lua:177</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/soundtrack.lua:170</code>.</p>

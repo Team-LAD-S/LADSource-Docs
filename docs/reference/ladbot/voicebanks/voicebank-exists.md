@@ -33,4 +33,4 @@ function ENT:VoicebankExists(vb)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/voicebanks.lua:88</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/voicebanks.lua:81</code>.</p>

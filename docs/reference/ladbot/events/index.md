@@ -15,6 +15,7 @@ Methods defined in `lua/entities/lad_framework_base/events.lua`.
 | --- | --- |
 | [`ENT:AlignToSlope`](align-to-slope.md) | Documentation pending. |
 | [`ENT:AntiJuggleEscape`](anti-juggle-escape.md) | Documentation pending. |
+| [`ENT:CanGuardBulletImpact`](can-guard-bullet-impact.md) | Documentation pending. |
 | [`ENT:CheckForWallbound`](check-for-wallbound.md) | this is only supposed to be ran inside PSAM otherwise how the hell you gonna check fo that |
 | [`ENT:CheckGuardBreakBeforeDamage`](check-guard-break-before-damage.md) | Documentation pending. |
 | [`ENT:CheckJuggleState`](check-juggle-state.md) | Documentation pending. |
@@ -31,6 +32,8 @@ Methods defined in `lua/entities/lad_framework_base/events.lua`.
 | [`ENT:GetSyncVictim`](get-sync-victim.md) | Documentation pending. |
 | [`ENT:HandleAnimEvent`](handle-anim-event.md) | Documentation pending. |
 | [`ENT:HandleBulletDamage`](handle-bullet-damage.md) | Documentation pending. |
+| [`ENT:ImpactTrace`](impact-trace.md) | Returning true prevents Source's normal bullet impact effect from placing blood particles/decals on a fighter that successfully guarded the shot. |
+| [`ENT:IsBulletGuardHit`](is-bullet-guard-hit.md) | Keep the clientside Source impact effect in sync with the authoritative serverside guard state. |
 | [`ENT:Juggle`](juggle.md) | Documentation pending. |
 | [`ENT:OnDealtDamage`](on-dealt-damage.md) | the beautiful damage feedback. |
 | [`ENT:OnDeath`](on-death.md) | Documentation pending. |
@@ -39,6 +42,7 @@ Methods defined in `lua/entities/lad_framework_base/events.lua`.
 | [`ENT:OnLeaveGround`](on-leave-ground.md) | Documentation pending. |
 | [`ENT:OnStairs`](on-stairs.md) | Documentation pending. |
 | [`ENT:OnTakeDamage`](on-take-damage.md) | called outside the coroutine |
+| [`ENT:OnTraceAttack`](on-trace-attack.md) | Source generates character blood separately from LAD's damage feedback. Suppress it at the victim for the duration of a guarded trace, then restore the fighter's configured blood type after the bullet stack has completed. |
 | [`ENT:PlayAgonyAnimations`](play-agony-animations.md) | wtf is happening here |
 | [`ENT:PlayDamageAnimations`](play-damage-animations.md) | we gotta play the anims themselves |
 | [`ENT:PlayDeathAnimations`](play-death-animations.md) | Documentation pending. |
@@ -54,6 +58,7 @@ Methods defined in `lua/entities/lad_framework_base/events.lua`.
 | [`ENT:SetSyncVictim`](set-sync-victim.md) | Documentation pending. |
 | [`ENT:StandUp`](stand-up.md) | Documentation pending. |
 | [`ENT:TakeDamageLastAttacker`](take-damage-last-attacker.md) | Documentation pending. |
+| [`ENT:UpdateBulletGuardImpactState`](update-bullet-guard-impact-state.md) | Documentation pending. |
 | [`ENT:UpdateStun`](update-stun.md) | Documentation pending. |
 | [`ENT:_DownedStandup`](downed-standup.md) | Documentation pending. |
 | [`ENT:_HandleDMGAnim`](handle-dmg-anim.md) | Documentation pending. |

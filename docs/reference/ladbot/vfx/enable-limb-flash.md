@@ -42,4 +42,4 @@ Serverside caller for the Aura effect around specific limbs. Used internally by 
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:170</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:164</code>.</p>

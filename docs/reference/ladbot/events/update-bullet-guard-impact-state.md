@@ -1,18 +1,18 @@
 ---
-title: "ENT:GetMoveset (line 2219)"
+title: "ENT:UpdateBulletGuardImpactState"
 ---
 
-[Back to Moveset](index.md)
+[Back to Events](index.md)
 
-<a id="ent-getmoveset-2219"></a>
-# `ENT:GetMoveset` { .api-method-title }
+<a id="ent-updatebulletguardimpactstate"></a>
+# `ENT:UpdateBulletGuardImpactState` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
 ```lua
-function ENT:GetMoveset()
+function ENT:UpdateBulletGuardImpactState()
 ```
 
 </div>
@@ -27,4 +27,4 @@ This method takes no explicit arguments.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:2219</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events.lua:77</code>.</p>

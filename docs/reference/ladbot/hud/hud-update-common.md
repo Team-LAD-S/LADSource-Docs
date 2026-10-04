@@ -33,4 +33,4 @@ function ENT:HUDUpdateCommon(entity)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hud.lua:217</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hud.lua:210</code>.</p>

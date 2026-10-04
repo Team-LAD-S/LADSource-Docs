@@ -33,4 +33,4 @@ function ENT:HUDDynamicTitleCard(target)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hud.lua:441</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hud.lua:434</code>.</p>

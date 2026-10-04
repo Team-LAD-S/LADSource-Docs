@@ -34,4 +34,4 @@ function ENT:GrabResist(anim, offset)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/grab.lua:803</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/grab.lua:814</code>.</p>

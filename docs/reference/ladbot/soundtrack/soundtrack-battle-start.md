@@ -34,4 +34,4 @@ Starts music early so it plays under the battle start animation.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/soundtrack.lua:209</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/soundtrack.lua:202</code>.</p>

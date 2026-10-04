@@ -33,4 +33,4 @@ function ENT:AIDefaultGuardAttack(enemy)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ai.lua:1338</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ai.lua:1347</code>.</p>

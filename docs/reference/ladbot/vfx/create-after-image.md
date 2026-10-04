@@ -38,4 +38,4 @@ Serverside caller for the AfterImage system. Used by moveset properties to apply
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:793</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:911</code>.</p>

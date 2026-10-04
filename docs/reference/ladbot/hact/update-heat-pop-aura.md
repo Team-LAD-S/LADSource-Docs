@@ -12,7 +12,7 @@ title: "ENT:UpdateHeatPopAura"
 <div class="api-signature" markdown>
 
 ```lua
-function ENT:UpdateHeatPopAura(color, turnOn)
+function ENT:UpdateHeatPopAura(color, turnOn, material)
 ```
 
 </div>
@@ -27,6 +27,7 @@ function ENT:UpdateHeatPopAura(color, turnOn)
 | --- | --- | :---: | --- |
 | `color` | `any` | Yes | Not documented. |
 | `turnOn` | `any` | Yes | Not documented. |
+| `material` | `any` | Yes | Not documented. |
 
 </div>
 
@@ -34,4 +35,4 @@ function ENT:UpdateHeatPopAura(color, turnOn)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hact.lua:1575</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hact.lua:1797</code>.</p>

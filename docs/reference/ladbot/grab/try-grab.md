@@ -34,4 +34,4 @@ function ENT:TryGrab(ent, dmg)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/grab.lua:72</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/grab.lua:64</code>.</p>

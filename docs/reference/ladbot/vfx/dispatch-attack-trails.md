@@ -36,4 +36,4 @@ Serverside tracker that dispatches active MeshTrails to their intended entities 
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:452</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:457</code>.</p>

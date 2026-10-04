@@ -34,4 +34,4 @@ function ENT:HandleInputRelease(ply, button)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/inputs.lua:356</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/inputs.lua:413</code>.</p>

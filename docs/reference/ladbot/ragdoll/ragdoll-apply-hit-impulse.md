@@ -35,4 +35,4 @@ Used by ApplyAttackDamage to make the ragdoll react to incoming hits.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ragdoll.lua:559</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ragdoll.lua:564</code>.</p>

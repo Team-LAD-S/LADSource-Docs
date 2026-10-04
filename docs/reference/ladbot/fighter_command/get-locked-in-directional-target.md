@@ -39,4 +39,4 @@ or nil if no suitable candidate passes all three filters:
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:582</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:599</code>.</p>

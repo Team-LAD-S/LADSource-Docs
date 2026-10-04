@@ -48,4 +48,4 @@ Serverside caller for the MeshTrail system.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:92</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:86</code>.</p>

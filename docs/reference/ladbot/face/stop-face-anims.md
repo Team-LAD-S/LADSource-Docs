@@ -1,18 +1,18 @@
 ---
-title: "ENT:GetMoveName (line 2209)"
+title: "ENT:StopFaceAnims"
 ---
 
-[Back to Moveset](index.md)
+[Back to Face](index.md)
 
-<a id="ent-getmovename-2209"></a>
-# `ENT:GetMoveName` { .api-method-title }
+<a id="ent-stopfaceanims"></a>
+# `ENT:StopFaceAnims` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
 ```lua
-function ENT:GetMoveName()
+function ENT:StopFaceAnims()
 ```
 
 </div>
@@ -27,4 +27,4 @@ This method takes no explicit arguments.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:2209</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/face.lua:58</code>.</p>

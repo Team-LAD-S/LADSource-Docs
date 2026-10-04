@@ -46,4 +46,4 @@ An old remainant of the early trails system that served as a proof of concept.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:723</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:728</code>.</p>

@@ -33,4 +33,4 @@ function ENT:SetStationaryOverworldEnabled(enabled)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/dialogue.lua:27</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/dialogue.lua:20</code>.</p>

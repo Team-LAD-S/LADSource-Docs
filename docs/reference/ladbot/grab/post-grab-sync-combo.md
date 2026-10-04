@@ -33,4 +33,4 @@ function ENT:_PostGrabSyncCombo(target)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/grab.lua:560</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/grab.lua:569</code>.</p>

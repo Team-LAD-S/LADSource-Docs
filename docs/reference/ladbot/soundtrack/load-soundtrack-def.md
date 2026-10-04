@@ -33,4 +33,4 @@ Loads and caches a soundtrack definition file from data_static. Returns { name, 
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/soundtrack.lua:91</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/soundtrack.lua:84</code>.</p>

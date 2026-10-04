@@ -40,4 +40,4 @@ function ENT:DrawActionButton(actionName, keyLabel, centerX, centerY, iconW, ico
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hud.lua:2130</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hud.lua:2123</code>.</p>

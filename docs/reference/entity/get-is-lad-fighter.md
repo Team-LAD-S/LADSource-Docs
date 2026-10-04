@@ -30,4 +30,4 @@ This method takes no explicit arguments.
 | --- | --- |
 | `boolean` | IsLADFighter. |
 
-<p class="api-source">Defined in <code>lua/lad_framework/meta.lua:88</code>.</p>
+<p class="api-source">Defined in <code>lua/lad_framework/meta.lua:91</code>.</p>

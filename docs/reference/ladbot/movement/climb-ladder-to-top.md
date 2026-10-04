@@ -33,4 +33,4 @@ function ENT:ClimbLadderToTop(ladderNormal)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/movement.lua:291</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/movement.lua:472</code>.</p>

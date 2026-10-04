@@ -34,4 +34,4 @@ function ENT:PlayFaceAnim(animName, playBackRate)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/face.lua:25</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/face.lua:20</code>.</p>

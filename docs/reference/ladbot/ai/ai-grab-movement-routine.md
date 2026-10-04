@@ -33,4 +33,4 @@ function ENT:AIGrabMovementRoutine(enemy)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ai.lua:699</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ai.lua:692</code>.</p>

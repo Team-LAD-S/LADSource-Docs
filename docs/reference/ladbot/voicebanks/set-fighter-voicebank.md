@@ -33,4 +33,4 @@ function ENT:SetFighterVoicebank(vb)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/voicebanks.lua:54</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/voicebanks.lua:47</code>.</p>

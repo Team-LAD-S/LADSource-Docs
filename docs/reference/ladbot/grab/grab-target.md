@@ -36,4 +36,4 @@ function ENT:GrabTarget(target, grab, dmg, dmgdir)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/grab.lua:221</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/grab.lua:217</code>.</p>

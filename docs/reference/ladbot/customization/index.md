@@ -17,6 +17,7 @@ Methods defined in `lua/entities/lad_framework_base/customization.lua`.
 | [`ENT:CreateBodypart`](create-bodypart.md) | Documentation pending. |
 | [`ENT:CreateDynamicCosmetic`](create-dynamic-cosmetic.md) | Documentation pending. |
 | [`ENT:KnockOffCosmetics`](knock-off-cosmetics.md) | Documentation pending. |
+| [`ENT:SetCosmeticPlayerColor`](set-cosmetic-player-color.md) | Sets a cosmetic's networked $color2 tint. Without a palette it inherits this fighter's tint. |
 | [`ENT:SetLightingOrigin`](set-lighting-origin.md) | Documentation pending. |
 | [`ENT:SetupValveBiped`](setup-valve-biped.md) | Documentation pending. |
 

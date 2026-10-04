@@ -12,7 +12,7 @@ title: "ENT:SetHitReactionData"
 <div class="api-signature" markdown>
 
 ```lua
-function ENT:SetHitReactionData(tbl)
+function ENT:SetHitReactionData(tbl, attacker, dmg)
 ```
 
 </div>
@@ -26,6 +26,8 @@ function ENT:SetHitReactionData(tbl)
 | Name | Type | Required | Description |
 | --- | --- | :---: | --- |
 | `tbl` | `any` | Yes | Not documented. |
+| `attacker` | `any` | Yes | Not documented. |
+| `dmg` | `any` | Yes | Not documented. |
 
 </div>
 
@@ -33,4 +35,4 @@ function ENT:SetHitReactionData(tbl)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events_anim.lua:601</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events_anim.lua:594</code>.</p>

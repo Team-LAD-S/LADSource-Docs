@@ -1,6 +1,6 @@
 ---
 title: "ENT:GetPlayerColor"
-status: realm-client
+status: realm-shared
 ---
 
 [Back to Shared](index.md)
@@ -8,7 +8,7 @@ status: realm-client
 <a id="ent-getplayercolor"></a>
 # `ENT:GetPlayerColor` { .api-method-title }
 
-<div class="api-badges"><span class="api-badge api-badge--client">client</span></div>
+<div class="api-badges"><span class="api-badge api-badge--shared">shared</span></div>
 
 <div class="api-signature" markdown>
 
@@ -18,7 +18,7 @@ function ENT:GetPlayerColor()
 
 </div>
 
-Retrieves "PlayerColor" on a LADBot. For example, PlayerColor is used to color the suit on the Dummy model.
+Retrieves the current networked $color2 tint.
 
 ## Parameters
 
@@ -26,6 +26,8 @@ This method takes no explicit arguments.
 
 ## Returns
 
-No return values are documented.
+| Type | Description |
+| --- | --- |
+| `Vector` | playerColor A normalized RGB vector. |
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:1690</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:259</code>.</p>

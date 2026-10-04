@@ -37,4 +37,4 @@ selfIgnoreCombat = true skips the FighterInCombat check for self only
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/soundtrack.lua:107</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/soundtrack.lua:100</code>.</p>

@@ -50,7 +50,6 @@ Methods defined in `lua/entities/lad_framework_base/fighter_command.lua`.
 | [`ENT:SetHyperArmor`](set-hyper-armor.md) | Documentation pending. |
 | [`ENT:SetMovementAnimations`](set-movement-animations.md) | Documentation pending. |
 | [`ENT:SetupKeybinds`](setup-keybinds.md) | Documentation pending. |
-| [`ENT:ShouldRun`](should-run.md) | Documentation pending. |
 | [`ENT:SootheAnger`](soothe-anger.md) | Documentation pending. |
 | [`ENT:SwitchStyle`](switch-style.md) | Documentation pending. |
 | [`ENT:SwitchStyleUntilReady`](switch-style-until-ready.md) | Documentation pending. |

@@ -38,4 +38,4 @@ Same as `VFX_SparkOnce`, but this confines it to a weapon slot.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:270</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:264</code>.</p>

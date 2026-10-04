@@ -45,4 +45,4 @@ Creates the bullet shell cartrage at the specified position on an object. Used I
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:251</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:245</code>.</p>

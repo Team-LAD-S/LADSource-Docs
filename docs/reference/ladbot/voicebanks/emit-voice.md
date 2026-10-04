@@ -35,4 +35,4 @@ function ENT:EmitVoice(snd, fallback, id)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/voicebanks.lua:92</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/voicebanks.lua:85</code>.</p>

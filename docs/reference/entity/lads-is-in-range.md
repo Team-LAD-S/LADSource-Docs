@@ -35,4 +35,4 @@ function Entity:LADS_IsInRange(pos, range)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/lad_framework/meta.lua:70</code>.</p>
+<p class="api-source">Defined in <code>lua/lad_framework/meta.lua:73</code>.</p>

@@ -34,4 +34,4 @@ Triggers a simple "Tesla" visual effect from HL2
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:28</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:22</code>.</p>

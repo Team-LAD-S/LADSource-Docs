@@ -33,4 +33,4 @@ function ENT:GetButtonForAction(actionName)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/inputs.lua:209</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/inputs.lua:252</code>.</p>

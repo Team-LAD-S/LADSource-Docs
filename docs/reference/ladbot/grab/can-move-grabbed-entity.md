@@ -35,4 +35,4 @@ check if the grabbed entity can be moved to the desired position
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/grab.lua:107</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/grab.lua:103</code>.</p>

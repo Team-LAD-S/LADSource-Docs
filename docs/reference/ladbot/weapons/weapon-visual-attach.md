@@ -35,4 +35,4 @@ function ENT:WeaponVisualAttach(v, auto, att)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/weapons.lua:394</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/weapons.lua:409</code>.</p>

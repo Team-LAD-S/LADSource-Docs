@@ -36,4 +36,4 @@ Serverside tracker that dispatches active LimbFlashes to their intended entities
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:628</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:633</code>.</p>

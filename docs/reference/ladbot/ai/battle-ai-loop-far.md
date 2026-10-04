@@ -33,4 +33,4 @@ override this function in your ladbot to make custom battle AI (when farther awa
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ai.lua:526</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ai.lua:519</code>.</p>

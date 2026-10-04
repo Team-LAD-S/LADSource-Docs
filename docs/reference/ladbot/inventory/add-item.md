@@ -33,4 +33,4 @@ function ENT:AddItem(item)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/inventory.lua:24</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/inventory.lua:17</code>.</p>

@@ -36,4 +36,4 @@ By default currently waits for 1 second before setting self._patrolling to false
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ai.lua:1679</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ai.lua:1696</code>.</p>

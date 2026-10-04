@@ -13,15 +13,18 @@ Methods defined in `lua/entities/lad_framework_base/shared.lua`.
 
 | Method | Summary |
 | --- | --- |
-| [`ENT:CICO`](cico.md) | Call In Coroutine Override (CICO), originally created by NextBot developer Roach. Temporarily replaces LADBot's normal behavior coroutine with a callback. The callback may use yielding helpers such as PlaySequenceAndWait, allowing code to run sequentially before and after animations or other waits. Normal behavior remains paused until the callback returns, after which the previous behavior coroutine is restored if another system has not already replaced it. |
+| [`ENT:CICO`](cico.md) | Call In Coroutine Override (CICO), originally created by NextBot developer Roach. Temporarily replaces LADBot's normal behavior coroutine with a callback. The callback may use yielding helpers such as PlaySequenceAndWait, allowing code to run sequentially before and after animations or other waits. Normal behavior remains paused until the callback returns, after which the previous behavior coroutine is restored if another system has not already replaced it. Nested calls are scheduled separately; completed return threads are skipped. |
 | [`ENT:CustomThink`](custom-think.md) | Only calls self:_InitDebugText(). Called internally only. |
 | [`devprint`](devprint.md) | Prints debug information to the console if the developer mode is enabled. This is basically a wrapper for print() and PrintTable(). |
-| [`ENT:GetPlayerColor`](get-player-color.md) | Retrieves "PlayerColor" on a LADBot. For example, PlayerColor is used to color the suit on the Dummy model. |
-| [`ENT:IsFrozenProp`](is-frozen-prop.md) | Returns whether the given prop entity has motion disabled (i.e. frozen with Physgun). |
+| [`ENT:GetPlayerColor`](get-player-color.md) | Retrieves the current networked $color2 tint. |
+| [`ENT:IsFrozenProp`](is-frozen-prop.md) | Returns whether the prop has motion disabled or is a prop_dynamic with VPhysics collision. |
 | [`ENT:IsPropLeftOrRight`](is-prop-left-or-right.md) | Returns whether the given prop entity is to the left or right side of a LADBot. Uses the cross product of the forward vector and the vector to the prop to determine the side. |
 | [`ENT:Multithread`](multithread.md) | Cooperatively runs multiple callbacks as child coroutines and waits for all of them to finish. Each suspended callback is resumed once per update, allowing callbacks which yield to make progress alongside one another. This is not true parallel execution: a callback which never yields runs to completion before the next callback is resumed. Call this from a yieldable coroutine, such as a CICO callback. Return values are discarded, and errors raised by callbacks are not propagated by the current implementation. |
 | [`ENT:OnContact`](on-contact.md) | Belongs to DrGBase, code to run when the LADBot comes into contact with another entity.  By default currently checks if the entity is a LADBot and pushes it away, or pushes other entities away. Also plays a bump animation if the entity is a LADBot and the LADBot is possessed and not in combat.  ENT:CustomOnContact(ent) is called at the end of this function, allowing for additional custom behavior. |
 | [`ENT:OnSpawn`](on-spawn.md) | Belongs to DrGBase, called when the LADBot is spawned. Can be overriden to add custom behavior. |
+| [`ENT:PickPlayerColor`](pick-player-color.md) | Chooses a color from a palette. A palette may be a registered palette name, a function returning a Color/Vector, a list of Color/Vector values, or one Color/Vector value. |
+| [`ENT:SetPlayerColor`](set-player-color.md) | Sets the $color2 tint used by models with a PlayerColor material proxy. Call this on the server when the color needs to be shared with every client. |
+| [`ENT:SetRandomPlayerColor`](set-random-player-color.md) | Chooses from a palette and networks the result to every client. |
 | [`switch`](switch.md) | Switch statement implementation for Lua. |
 | [`ENT:_FindVoidRecoveryPos`](find-void-recovery-pos.md) | Internal function used by ENT:RecoverFromVoid(). |
 | [`ENT:_InitDebugText`](init-debug-text.md) | Initializes 3D debug text for the LADBot, displaying information such as moveset, faction, voicebank, health, and heat. Called internally only. |

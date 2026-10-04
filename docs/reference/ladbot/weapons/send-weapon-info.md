@@ -34,4 +34,4 @@ function ENT:SendWeaponInfo(weapon, slot)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/weapons.lua:460</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/weapons.lua:488</code>.</p>

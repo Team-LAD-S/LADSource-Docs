@@ -18,7 +18,7 @@ function ENT:IsFrozenProp(ent)
 
 </div>
 
-Returns whether the given prop entity has motion disabled (i.e. frozen with Physgun).
+Returns whether the prop has motion disabled or is a prop_dynamic with VPhysics collision.
 
 ## Parameters
 
@@ -36,4 +36,4 @@ Returns whether the given prop entity has motion disabled (i.e. frozen with Phys
 | --- | --- |
 | `boolean` | True if the prop is frozen, false otherwise. |
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:599</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:671</code>.</p>

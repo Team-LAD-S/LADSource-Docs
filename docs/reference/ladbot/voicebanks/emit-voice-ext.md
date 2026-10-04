@@ -36,4 +36,4 @@ play any voice for specific voicebank, if voicebank doesnt match, fallback. only
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/voicebanks.lua:141</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/voicebanks.lua:134</code>.</p>

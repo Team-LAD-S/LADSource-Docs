@@ -27,7 +27,7 @@ Serverside caller for the HeatAura system. Relies on the provided moveset in ord
 | Name | Type | Required | Description |
 | --- | --- | :---: | --- |
 | `enable` | `bool` | Yes | Trigger this effect. Setting it to false disables it. |
-| `color` | `Color(R,G,B)` | Yes | The color of the heat aura. If the heat aura particle has a controlpoint remapped for coloring, this will apply to it to the particle as well. |
+| `color` | `Color(R,G,B)` | Yes | The color of the heat aura. If the heat aura particle has a controlpoint remapped for coloring, this will apply to it to the particle as well. If omitted, the fighter's cached color is used. |
 | `destroyInstant` | `bool` | Yes | Immediately delete the heat aura particles without letting them linger. |
 
 </div>
@@ -36,4 +36,4 @@ Serverside caller for the HeatAura system. Relies on the provided moveset in ord
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:763</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:821</code>.</p>

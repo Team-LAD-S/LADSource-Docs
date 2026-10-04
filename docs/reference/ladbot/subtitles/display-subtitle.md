@@ -36,4 +36,4 @@ Yakuza Cutscene type subtitle text, called by LADBot and networked to all posses
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/subtitles.lua:23</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/subtitles.lua:16</code>.</p>

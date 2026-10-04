@@ -38,4 +38,4 @@ Serverside caller that makes everything, excluding the Player's current fighter,
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:749</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:807</code>.</p>

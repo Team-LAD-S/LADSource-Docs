@@ -54,8 +54,8 @@ Runs the attack code, also internally passes information to ENT:Attack(attack, c
 | `Bone` | `string` | No | TBD |
 | `Delay` | `number` | No | Delay before the attack code runs, defaults to 0 if not specified. |
 | `Side` | `string` | No | Side of the attack, accepts "front", "back", "left", "right", defaults to "front" if not specified. |
-| `Knockback` | `number` | No | Knockback force of the attack which affects regular NPCs, defaults to a math.random(120, 140) if not specified. |
-| `KnockbackUp` | `number` | No | Knockback upwards force of the attack which affects regular NPCs, defaults to 10 if not specified. |
+| `Knockback` | `number` | No | Knockback force of the attack. Values below 200 preserve a LAD fighter reaction's authored root motion; defaults to a math.random(120, 140) if not specified. |
+| `KnockbackUp` | `number` | No | Upward knockback force for regular NPCs, defaults to 10 if not specified. |
 | `DamageBuddha` | `boolean` | No | Attack doesn't kill the target, even if damage is greater than their health, defaults to false if not specified. |
 | `Wallbounce` | `boolean` | No | TBD |
 | `WallbounceReaction` | `boolean` | No | TBD |
@@ -81,4 +81,4 @@ Runs the attack code, also internally passes information to ENT:Attack(attack, c
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events_anim.lua:150</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events_anim.lua:143</code>.</p>

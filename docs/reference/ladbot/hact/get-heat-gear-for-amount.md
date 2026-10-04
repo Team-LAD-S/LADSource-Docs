@@ -33,4 +33,4 @@ function ENT:GetHeatGearForAmount(heat)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hact.lua:96</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hact.lua:89</code>.</p>

@@ -15,5 +15,6 @@ Methods defined in `lua/entities/lad_framework_base/face.lua`.
 | --- | --- |
 | [`ENT:PlayFaceAnim`](play-face-anim.md) | Documentation pending. |
 | [`ENT:SafeSetFlexWeight`](safe-set-flex-weight.md) | Documentation pending. |
+| [`ENT:StopFaceAnims`](stop-face-anims.md) | Documentation pending. |
 
 </div>

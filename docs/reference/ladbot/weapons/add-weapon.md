@@ -34,4 +34,4 @@ function ENT:AddWeapon(weapon, data)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/weapons.lua:788</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/weapons.lua:795</code>.</p>

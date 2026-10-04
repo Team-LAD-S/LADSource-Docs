@@ -35,4 +35,4 @@ function ENT:AIManageTauntAnger(enemy, cof, ftype)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ai.lua:614</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ai.lua:607</code>.</p>

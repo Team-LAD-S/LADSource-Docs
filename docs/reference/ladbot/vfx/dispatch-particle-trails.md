@@ -37,4 +37,4 @@ The system makes use of the ParticleTrail table which has its own unique paramet
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:550</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:555</code>.</p>

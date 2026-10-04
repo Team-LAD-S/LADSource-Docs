@@ -12,7 +12,7 @@ title: "ENT:DrawMovesetWeapon"
 <div class="api-signature" markdown>
 
 ```lua
-function ENT:DrawMovesetWeapon(v)
+function ENT:DrawMovesetWeapon(v, immediate)
 ```
 
 </div>
@@ -26,6 +26,7 @@ function ENT:DrawMovesetWeapon(v)
 | Name | Type | Required | Description |
 | --- | --- | :---: | --- |
 | `v` | `any` | Yes | Not documented. |
+| `immediate` | `any` | Yes | Not documented. |
 
 </div>
 
@@ -33,4 +34,4 @@ function ENT:DrawMovesetWeapon(v)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/weapons.lua:1195</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/weapons.lua:1197</code>.</p>

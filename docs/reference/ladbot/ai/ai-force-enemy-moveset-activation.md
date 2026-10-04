@@ -33,4 +33,4 @@ function ENT:AIForceEnemyMovesetActivation(enemy)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ai.lua:648</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ai.lua:641</code>.</p>

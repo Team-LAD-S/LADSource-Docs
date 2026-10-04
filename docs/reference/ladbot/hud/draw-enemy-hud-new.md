@@ -44,4 +44,4 @@ function ENT:DrawEnemyHUDNew(enemyhp, maxenemyhp,fightername,textfont, healthhei
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hud.lua:1339</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hud.lua:1332</code>.</p>

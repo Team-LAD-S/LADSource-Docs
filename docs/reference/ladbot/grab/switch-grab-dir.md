@@ -27,4 +27,4 @@ This method takes no explicit arguments.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/grab.lua:404</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/grab.lua:410</code>.</p>

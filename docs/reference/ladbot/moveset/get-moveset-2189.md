@@ -1,18 +1,18 @@
 ---
-title: "ENT:ShouldRun"
+title: "ENT:GetMoveset (line 2189)"
 ---
 
-[Back to Fighter Command](index.md)
+[Back to Moveset](index.md)
 
-<a id="ent-shouldrun"></a>
-# `ENT:ShouldRun` { .api-method-title }
+<a id="ent-getmoveset"></a>
+# `ENT:GetMoveset` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
 ```lua
-function ENT:ShouldRun()
+function ENT:GetMoveset()
 ```
 
 </div>
@@ -27,4 +27,4 @@ This method takes no explicit arguments.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:1158</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:2189</code>.</p>

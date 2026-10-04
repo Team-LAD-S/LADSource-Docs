@@ -12,7 +12,7 @@ title: "ENT:_SpawnVelocityRagdoll"
 <div class="api-signature" markdown>
 
 ```lua
-function ENT:_SpawnVelocityRagdoll()
+function ENT:_SpawnVelocityRagdoll(rootVelocityMultiplier)
 ```
 
 </div>
@@ -23,10 +23,16 @@ Returns the ragdoll entity (or nil on failure).
 
 ## Parameters
 
-This method takes no explicit arguments.
+<div class="api-parameter-table" markdown>
+
+| Name | Type | Required | Description |
+| --- | --- | :---: | --- |
+| `rootVelocityMultiplier` | `any` | Yes | Not documented. |
+
+</div>
 
 ## Returns
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ragdoll.lua:83</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ragdoll.lua:76</code>.</p>

@@ -33,4 +33,4 @@ function ENT:ResetGrabMoveset(target)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/grab.lua:836</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/grab.lua:847</code>.</p>

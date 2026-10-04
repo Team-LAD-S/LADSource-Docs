@@ -46,4 +46,4 @@ end
 | --- | --- |
 | `boolean` | True if the LADBot should stop chasing the enemy, false otherwise. |
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ai.lua:1646</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ai.lua:1663</code>.</p>

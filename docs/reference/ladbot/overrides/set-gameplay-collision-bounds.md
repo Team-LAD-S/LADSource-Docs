@@ -36,4 +36,4 @@ grow an OBB corner into nearby map geometry when the AI turns in place.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/overrides.lua:68</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/overrides.lua:176</code>.</p>

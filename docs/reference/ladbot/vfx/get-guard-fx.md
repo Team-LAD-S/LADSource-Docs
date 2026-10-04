@@ -41,4 +41,4 @@ Serverside caller that fires back to LAD:Source's internal events system to asse
 | --- | --- |
 | `sound` | The path to the sound that is to be played based on what you are holding and what you are being attacked with. |
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:307</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:301</code>.</p>

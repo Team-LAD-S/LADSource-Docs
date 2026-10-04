@@ -35,4 +35,4 @@ function ENT:_ProcessQueuedInputs(ply, now, bufferTime)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/inputs.lua:425</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/inputs.lua:487</code>.</p>

@@ -33,4 +33,4 @@ function ENT:SetBusy(busy)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:230</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:223</code>.</p>

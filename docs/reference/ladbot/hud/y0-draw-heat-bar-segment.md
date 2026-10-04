@@ -46,4 +46,4 @@ function ENT:Y0_DrawHeatBarSegment(barIdx, heat, lerpedHeat, heatBarMaxReached, 
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hud.lua:2769</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hud.lua:2762</code>.</p>

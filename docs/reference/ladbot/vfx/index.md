@@ -15,6 +15,8 @@ Methods defined in `lua/entities/lad_framework_base/vfx.lua`.
 | --- | --- |
 | [`ENT:EnableLimbFlash`](enable-limb-flash.md) | Serverside caller for the Aura effect around specific limbs. Used internally by many functions in `moveset.lua` but can also be used externally where required. |
 | [`ENT:GetGuardFX`](get-guard-fx.md) | Serverside caller that fires back to LAD:Source's internal events system to assert which sound is required if guarding against specific attacks with something specific in hand. |
+| [`ENT:HactAttackVortex`](hact-attack-vortex.md) | Serverside caller for the HactAttackVortex effect, creates "flowdust" around the specified limb. |
+| [`ENT:PlayBulletGuardFX`](play-bullet-guard-fx.md) | Plays the standard guard feedback for a successfully blocked bullet. GetGuardFX also dispatches the correct hand/weapon spark for the guard type. |
 | [`ENT:SetGreyscaleEffect`](set-greyscale-effect.md) | Serverside caller that makes everything, excluding the Player's current fighter, black and white. |
 | [`ENT:VFX_Shock`](vfx-shock.md) | Triggers a simple "Tesla" visual effect from HL2 |
 | [`ENT:VFX_SparkOnce`](vfx-spark-once.md) | Triggers a simple "Sparks" visual effect from HL2 |

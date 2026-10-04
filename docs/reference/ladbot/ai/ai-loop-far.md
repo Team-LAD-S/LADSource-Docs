@@ -33,4 +33,4 @@ function ENT:AILoopFar(enemy)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ai.lua:405</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ai.lua:398</code>.</p>

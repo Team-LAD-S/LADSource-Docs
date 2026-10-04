@@ -15,6 +15,7 @@ Methods defined in `lua/entities/lad_framework_base/weapons.lua`.
 | --- | --- |
 | [`ENT:AddHiddenWeaponToInventory`](add-hidden-weapon-to-inventory.md) | Documentation pending. |
 | [`ENT:AddWeapon`](add-weapon.md) | Documentation pending. |
+| [`ENT:ApplyWeaponHandPose`](apply-weapon-hand-pose.md) | Documentation pending. |
 | [`ENT:AttachTempWeapon`](attach-temp-weapon.md) | Documentation pending. |
 | [`ENT:AutoPickupWeaponInternal`](auto-pickup-weapon-internal.md) | doesn't change style, 2nd argument does |
 | [`ENT:ClearWeaponInfo`](clear-weapon-info.md) | Documentation pending. |
@@ -41,6 +42,7 @@ Methods defined in `lua/entities/lad_framework_base/weapons.lua`.
 | [`ENT:SetWeaponDurability`](set-weapon-durability.md) | Documentation pending. |
 | [`ENT:ShootWeapon`](shoot-weapon.md) | Documentation pending. |
 | [`ENT:StashWeapon`](stash-weapon.md) | Documentation pending. |
+| [`ENT:StopWeaponHandPose`](stop-weapon-hand-pose.md) | Documentation pending. |
 | [`ENT:ThrowWeapon`](throw-weapon.md) | Documentation pending. |
 | [`ENT:UpdateWeaponAttachment`](update-weapon-attachment.md) | Documentation pending. |
 | [`ENT:Weapon2VisualAttach`](weapon2-visual-attach.md) | Documentation pending. |

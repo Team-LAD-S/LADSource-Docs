@@ -33,4 +33,4 @@ function ENT:AIDefaultRecoverFast(enemy)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ai.lua:1362</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ai.lua:1371</code>.</p>

@@ -38,4 +38,4 @@ only to be used for hacts
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/voicebanks.lua:174</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/voicebanks.lua:167</code>.</p>

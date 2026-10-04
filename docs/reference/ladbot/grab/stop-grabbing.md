@@ -33,4 +33,4 @@ function ENT:StopGrabbing(target)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/grab.lua:487</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/grab.lua:496</code>.</p>

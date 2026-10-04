@@ -34,4 +34,4 @@ function Entity:LADS_GetHullRangeSquaredTo(pos)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/lad_framework/meta.lua:79</code>.</p>
+<p class="api-source">Defined in <code>lua/lad_framework/meta.lua:82</code>.</p>

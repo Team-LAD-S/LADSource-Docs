@@ -34,4 +34,4 @@ Triggers a simple "Sparks" visual effect from HL2
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:60</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:54</code>.</p>

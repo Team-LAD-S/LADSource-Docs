@@ -33,4 +33,4 @@ function ENT:AIFaceEnemy(enemy)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ai.lua:671</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ai.lua:664</code>.</p>

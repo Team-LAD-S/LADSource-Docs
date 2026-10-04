@@ -34,4 +34,4 @@ function ENT:SwitchStyle(id, force)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:301</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:294</code>.</p>

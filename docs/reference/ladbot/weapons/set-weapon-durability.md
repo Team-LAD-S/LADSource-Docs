@@ -34,4 +34,4 @@ function ENT:SetWeaponDurability(dur, slot)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/weapons.lua:603</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/weapons.lua:622</code>.</p>

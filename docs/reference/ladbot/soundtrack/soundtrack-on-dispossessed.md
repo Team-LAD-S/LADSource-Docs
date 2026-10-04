@@ -33,4 +33,4 @@ Called by OnDispossessed in shared.lua (not a public hook)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/soundtrack.lua:326</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/soundtrack.lua:319</code>.</p>

@@ -35,4 +35,4 @@ nextbot's own forward vector).
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:538</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/fighter_command.lua:555</code>.</p>

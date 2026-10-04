@@ -27,4 +27,4 @@ This method takes no explicit arguments.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hact.lua:105</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hact.lua:98</code>.</p>

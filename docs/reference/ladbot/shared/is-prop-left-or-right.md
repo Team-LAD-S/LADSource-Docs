@@ -37,4 +37,4 @@ Uses the cross product of the forward vector and the vector to the prop to deter
 | --- | --- |
 | `string` | "_left" if the prop is to the left, "_right" if the prop is to the right. |
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:575</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/shared.lua:647</code>.</p>

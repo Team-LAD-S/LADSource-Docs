@@ -44,4 +44,4 @@ function ENT:Kiwami_DrawHeatChunk(heat, lerpedHeat, heatMin, heatValue, isRedHea
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hud.lua:2817</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hud.lua:2810</code>.</p>

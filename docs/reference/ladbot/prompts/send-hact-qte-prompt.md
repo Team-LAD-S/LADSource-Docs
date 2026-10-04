@@ -37,4 +37,4 @@ function ENT:SendHactQTEPrompt(key, duration, aiSuccessRate, spam, spamreq)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/prompts.lua:96</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/prompts.lua:89</code>.</p>

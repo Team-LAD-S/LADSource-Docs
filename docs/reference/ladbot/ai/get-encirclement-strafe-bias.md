@@ -33,4 +33,4 @@ function ENT:GetEncirclementStrafeBias(enemy)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ai.lua:871</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ai.lua:880</code>.</p>

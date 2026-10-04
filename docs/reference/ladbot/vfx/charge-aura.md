@@ -38,4 +38,4 @@ Serverside caller for the Aura effect used when charging attacks.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:123</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/vfx.lua:117</code>.</p>

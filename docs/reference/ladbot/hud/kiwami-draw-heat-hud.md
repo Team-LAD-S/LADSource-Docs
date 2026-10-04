@@ -42,4 +42,4 @@ function ENT:Kiwami_DrawHeatHUD(heat, lerpedHeat, blueHeatBars, redHeatBars, blu
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hud.lua:2866</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/hud.lua:2859</code>.</p>

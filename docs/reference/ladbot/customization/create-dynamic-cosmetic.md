@@ -39,4 +39,4 @@ function ENT:CreateDynamicCosmetic(mdl, scale, attachment, pos, ang, noFade, thr
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/customization.lua:34</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/customization.lua:27</code>.</p>

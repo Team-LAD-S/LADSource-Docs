@@ -33,4 +33,4 @@ function ENT:AINodeExecute(nodeType)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ai.lua:322</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ai.lua:315</code>.</p>

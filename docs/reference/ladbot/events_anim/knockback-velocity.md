@@ -33,4 +33,4 @@ function ENT:KnockbackVelocity(ent)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events_anim.lua:105</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/events_anim.lua:98</code>.</p>

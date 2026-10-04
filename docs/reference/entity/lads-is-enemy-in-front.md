@@ -34,4 +34,4 @@ function Entity:LADS_IsEnemyInFront(enemy)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/lad_framework/meta.lua:100</code>.</p>
+<p class="api-source">Defined in <code>lua/lad_framework/meta.lua:103</code>.</p>

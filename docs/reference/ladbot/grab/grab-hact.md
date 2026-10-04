@@ -33,4 +33,4 @@ function ENT:GrabHACT(hact)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/grab.lua:99</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/grab.lua:91</code>.</p>

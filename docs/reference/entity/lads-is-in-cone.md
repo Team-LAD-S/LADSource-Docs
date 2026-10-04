@@ -39,4 +39,4 @@ function Entity:LADS_IsInCone(ent, angle, distance, side, origin, direction)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/lad_framework/meta.lua:61</code>.</p>
+<p class="api-source">Defined in <code>lua/lad_framework/meta.lua:64</code>.</p>

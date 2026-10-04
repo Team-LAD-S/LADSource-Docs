@@ -1,18 +1,18 @@
 ---
-title: "ENT:GetRenderAngles"
+title: "ENT:GetMoveset (line 2466)"
 ---
 
-[Back to Overrides](index.md)
+[Back to Moveset](index.md)
 
-<a id="ent-getrenderangles"></a>
-# `ENT:GetRenderAngles` { .api-method-title }
+<a id="ent-getmoveset-2466"></a>
+# `ENT:GetMoveset` { .api-method-title }
 
 <div class="api-badges"><span class="api-badge api-badge--not-documented">not documented</span></div>
 
 <div class="api-signature" markdown>
 
 ```lua
-function ENT:GetRenderAngles()
+function ENT:GetMoveset()
 ```
 
 </div>
@@ -27,4 +27,4 @@ This method takes no explicit arguments.
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/overrides.lua:2022</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/moveset.lua:2466</code>.</p>

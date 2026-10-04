@@ -33,4 +33,4 @@ function ENT:AIDefaultSwayGuardRoutine(enemy)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ai.lua:764</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ai.lua:757</code>.</p>

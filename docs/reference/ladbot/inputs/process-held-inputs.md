@@ -34,4 +34,4 @@ function ENT:_ProcessHeldInputs(ply, now)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/inputs.lua:456</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/inputs.lua:518</code>.</p>

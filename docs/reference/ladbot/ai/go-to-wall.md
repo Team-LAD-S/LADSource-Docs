@@ -35,4 +35,4 @@ function ENT:GoToWall(pos, tolerance, callback)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ai.lua:1585</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/ai.lua:1602</code>.</p>

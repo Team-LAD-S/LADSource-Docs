@@ -36,4 +36,4 @@ function ENT:PossessionControls(f, b, r, l)
 
 No return values are documented.
 
-<p class="api-source">Defined in <code>lua/entities/lad_framework_base/movement.lua:16</code>.</p>
+<p class="api-source">Defined in <code>lua/entities/lad_framework_base/movement.lua:118</code>.</p>
