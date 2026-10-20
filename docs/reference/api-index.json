@@ -17321,37 +17321,38 @@
   {
     "name": "EnableLimbFlash",
     "display_name": "ENT:EnableLimbFlash",
-    "signature": "function ENT:EnableLimbFlash(enable, AttachmentBone, radius, material, additive)",
+    "signature": "function ENT:EnableLimbFlash(enable, AttachmentBone, radius, material, additive, colorBlend)",
     "arguments": [
       "enable",
       "AttachmentBone",
       "radius",
       "material",
-      "additive"
+      "additive",
+      "colorBlend"
     ],
     "source_file": "lua/entities/lad_framework_base/vfx.lua",
-    "source_line": 164,
-    "description": "Serverside caller for the Aura effect around specific limbs. Used internally by many functions in `moveset.lua` but can also be used externally where required.",
+    "source_line": 183,
+    "description": "Serverside caller for the LimbFlash effect around a specific bone. Used internally by moveset properties and can also be called externally.",
     "realm": "server",
     "parameters": [
       {
         "name": "enable",
         "type": "bool",
-        "description": "Sets the effect active. This calls the clientside function of the same name that sets up a render hook with the invisible limbflash material.",
+        "description": "Enables or updates the sphere for the bone. Set to `false` to free its sphere slot.",
         "optional": false,
         "fields": []
       },
       {
         "name": "AttachmentBone",
-        "type": "int",
-        "description": "The ID of the attachment you want to attach the controller (point_flesh_effect_target) to. Linked to the Var of the same name in `moveset.lua`.",
+        "type": "string/int",
+        "description": "The bone name or ID to center the sphere on.",
         "optional": false,
         "fields": []
       },
       {
         "name": "radius",
         "type": "float",
-        "description": "The radius of the controller. Linked to the Var of the same name in `moveset.lua`, parsed to string because we are dealing with a keyvalue.",
+        "description": "The sphere radius in model units.",
         "optional": false,
         "fields": []
       },
@@ -17366,6 +17367,13 @@
         "name": "additive",
         "type": "bool",
         "description": "True by default. Set to false and the interior of the limbflash effect will be made pitch black.",
+        "optional": true,
+        "fields": []
+      },
+      {
+        "name": "colorBlend",
+        "type": "number",
+        "description": "Blend from black to the material's `$LFColor`, from `0` to `1`. Defaults to `1`.",
         "optional": true,
         "fields": []
       }
